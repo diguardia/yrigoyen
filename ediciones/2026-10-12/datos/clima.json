@@ -1,0 +1,81 @@
+{
+  "lugar": "Los Cocos",
+  "corte": "2026-10-12T13:04:35Z",
+  "fuente": "Open-Meteo (modelo best_match)",
+  "dias": [
+    {
+      "fecha": "2026-10-12",
+      "codigo_wmo": 51,
+      "max": 11.3,
+      "min": 7.8,
+      "precip_mm": 2,
+      "prob_precip": 73,
+      "viento_kmh": 13.3,
+      "rafagas_kmh": 28.8
+    },
+    {
+      "fecha": "2026-10-13",
+      "codigo_wmo": 95,
+      "max": 13.8,
+      "min": 7.8,
+      "precip_mm": 8.7,
+      "prob_precip": 94,
+      "viento_kmh": 12.3,
+      "rafagas_kmh": 26.6
+    },
+    {
+      "fecha": "2026-10-14",
+      "codigo_wmo": 55,
+      "max": 13.3,
+      "min": 8.2,
+      "precip_mm": 8.4,
+      "prob_precip": 93,
+      "viento_kmh": 8.7,
+      "rafagas_kmh": 20.9
+    },
+    {
+      "fecha": "2026-10-15",
+      "codigo_wmo": 81,
+      "max": 14.5,
+      "min": 8.4,
+      "precip_mm": 6.8,
+      "prob_precip": 95,
+      "viento_kmh": 12.1,
+      "rafagas_kmh": 26.6
+    }
+  ],
+  "previos": [
+    {
+      "fecha": "2026-10-09",
+      "codigo_wmo": 81,
+      "max": 10.5,
+      "min": 6.4,
+      "precip_mm": 8.2,
+      "prob_precip": 100,
+      "viento_kmh": 21,
+      "rafagas_kmh": 41.8
+    },
+    {
+      "fecha": "2026-10-10",
+      "codigo_wmo": 53,
+      "max": 13.2,
+      "min": 6.2,
+      "precip_mm": 0.7,
+      "prob_precip": 94,
+      "viento_kmh": 14.6,
+      "rafagas_kmh": 34.2
+    },
+    {
+      "fecha": "2026-10-11",
+      "codigo_wmo": 80,
+      "max": 12,
+      "min": 7.6,
+      "precip_mm": 5.5,
+      "prob_precip": 49,
+      "viento_kmh": 11.8,
+      "rafagas_kmh": 30.2
+    }
+  ],
+  "cambio_brusco": "sin cambio brusco: la semana sigue fría para octubre, con máximas de 11° a 15° y mínimas de 8° todos los días, igual que los tres días previos (máximas de 10,5° a 13°).",
+  "alertas": "El Sistema Integrado Provincial de Alertas difundió el domingo 11 a las 16 un aviso vigente hasta el martes 13 a las 22 por tormentas localmente fuertes con abundante agua en poco tiempo, ráfagas, granizo y actividad eléctrica en sectores serranos, con posibles crecidas repentinas de ríos y arroyos. Fuente: El Doce y Capilla Noticias (11/10), que citan el informe del Observatorio Hidrometeorológico de Córdoba."
+}

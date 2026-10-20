@@ -1,0 +1,206 @@
+{
+  "nombre": "El Diario de Yrigoyen",
+  "lugar": "Los Cocos, Córdoba",
+  "zona_horaria": "America/Argentina/Cordoba",
+  "cierre_por_defecto": {
+    "dia": "sabado",
+    "hora": "08:00"
+  },
+  "ventana_frescura_horas": 36,
+  "numero_inicial": {
+    "numero": 1,
+    "fecha": "2026-09-19"
+  },
+  "papel": {
+    "actual": "A4",
+    "formatos": {
+      "A4": {
+        "ancho_mm": 210,
+        "alto_mm": 297,
+        "margen_mm": 10,
+        "columnas_max": 3
+      },
+      "A3": {
+        "ancho_mm": 297,
+        "alto_mm": 420,
+        "margen_mm": 14,
+        "columnas_max": 5
+      },
+      "Legal": {
+        "ancho_mm": 215.9,
+        "alto_mm": 355.6,
+        "margen_mm": 12,
+        "columnas_max": 3
+      }
+    },
+    "color": "monocromo",
+    "doble_faz": false
+  },
+  "paginas": {
+    "min": 6,
+    "max": 8,
+    "por_defecto": 8
+  },
+  "tipografia": {
+    "cuerpo_pt": {
+      "min": 8.5,
+      "por_defecto": 9.25,
+      "max": 10
+    },
+    "interlineado_min": 1.2,
+    "paso_ajuste_pt": 0.25,
+    "serif": "Georgia, Cambria, 'Times New Roman', serif",
+    "sans": "'Segoe UI', Calibri, Arial, sans-serif"
+  },
+  "densidad": {
+    "ocupacion_min": 0.8,
+    "ocupacion_max": 0.92,
+    "mayor_rectangulo_vacio_max": 0.18,
+    "ocupacion_min_por_pagina": {
+      "finanzas": 0.74
+    },
+    "nota": "Los gráficos de líneas tienen aire por diseño; la página de finanzas admite menor ocupación medida en celdas."
+  },
+  "mapa_paginas": [
+    {
+      "pagina": 1,
+      "nombre": "portada",
+      "secciones": [
+        "portada"
+      ]
+    },
+    {
+      "pagina": 2,
+      "nombre": "actualidad",
+      "secciones": [
+        "nacional",
+        "economia"
+      ]
+    },
+    {
+      "pagina": 3,
+      "nombre": "cordoba_mundo",
+      "secciones": [
+        "cordoba",
+        "punilla",
+        "los_cocos",
+        "mundo",
+        "buena_noticia"
+      ]
+    },
+    {
+      "pagina": 4,
+      "nombre": "tecnologia",
+      "secciones": [
+        "tecnologia"
+      ]
+    },
+    {
+      "pagina": 5,
+      "nombre": "educacion_ciencia",
+      "secciones": [
+        "upc",
+        "educacion",
+        "ciencia"
+      ]
+    },
+    {
+      "pagina": 6,
+      "nombre": "finanzas",
+      "secciones": [
+        "finanzas",
+        "glosario"
+      ]
+    },
+    {
+      "pagina": 7,
+      "nombre": "boca",
+      "secciones": [
+        "boca"
+      ]
+    },
+    {
+      "pagina": 8,
+      "nombre": "contratapa",
+      "secciones": [
+        "disco",
+        "microrelato",
+        "poesia",
+        "clima",
+        "fe_de_erratas",
+        "fuentes"
+      ]
+    }
+  ],
+  "orden_recorte": [
+    "humor",
+    "ciencia_segunda",
+    "mundo",
+    "cultura_adicional",
+    "breves_menores",
+    "educacion_general",
+    "cordoba_adicional",
+    "tecnologia_menor"
+  ],
+  "nunca_recortar": [
+    "portada",
+    "principal",
+    "boca",
+    "clima",
+    "finanzas",
+    "disco",
+    "microrelato",
+    "poesia",
+    "glosario",
+    "fe_de_erratas"
+  ],
+  "glosario": {
+    "min": 3,
+    "max": 4
+  },
+  "activos": [
+    {
+      "simbolo": "BTC",
+      "nombre": "Bitcoin",
+      "coingecko_id": "bitcoin"
+    },
+    {
+      "simbolo": "ETH",
+      "nombre": "Ethereum",
+      "coingecko_id": "ethereum"
+    },
+    {
+      "simbolo": "BNB",
+      "nombre": "BNB",
+      "coingecko_id": "binancecoin"
+    },
+    {
+      "simbolo": "0G",
+      "nombre": "0G",
+      "coingecko_id": "zero-gravity",
+      "verificado": "2026-10-12",
+      "nota": "Proyecto 0G Labs (IA + blockchain, data availability). No confundir con W0G, ST0G ni A0G."
+    }
+  ],
+  "clima": {
+    "lugar": "Los Cocos",
+    "latitud": -30.92548,
+    "longitud": -64.50251,
+    "altitud_m": 1179,
+    "dias_pronostico": 4,
+    "dias_previos": 3,
+    "cambio_brusco_grados": 6
+  },
+  "boca": {
+    "espn_team_id": 5,
+    "liga_espn": "arg.1",
+    "copa_argentina_espn": "arg.copa"
+  },
+  "impresora": {
+    "nombre": "HP Laser wifi",
+    "modelo": "HP Laser 107w",
+    "papel": "A4",
+    "color": false,
+    "script_red": "scripts/ensure-hp107w-wifi.ps1"
+  }
+}

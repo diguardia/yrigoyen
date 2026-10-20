@@ -1,0 +1,313 @@
+{
+  "tema": "tecnologia_ciencia",
+  "consultado_el": "2026-10-12T10:05:00-03:00",
+  "notas": [
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Claude Haiku 5.5: el modelo chico de Anthropic baja 75% el precio y suma control de esfuerzo",
+      "bajada": "Anthropic publicó el 7 de octubre un Haiku con ventana de 1M tokens, parámetro effort y precios escalonados por tamaño de prompt; los benchmarks son autoinformados.",
+      "cuerpo": "El 7 de octubre de 2026 Anthropic lanzó Claude Haiku 5.5 (id de API claude-haiku-5-5), que pasó a ser el Haiku por defecto en la API y quedó disponible el mismo día en AWS, Google Cloud, Azure, GitHub Copilot (planes Pro, Pro+, Max, Business y Enterprise) y Claude Code 2.1.293. El precio es de USD 0,10 por millón de tokens de entrada y 0,50 de salida para prompts de hasta 100K tokens, y 0,50/2,50 por encima de ese umbral; la lectura de caché cuesta 0,01/0,05. Contra Haiku 4.5 (1/5) la empresa calcula una baja promedio del 75%, pero aclara en una nota al pie que es 90% para prompts cortos y 50% para los largos, y advierte que el tokenizador nuevo consume algo más de tokens por tarea, así que el ahorro real depende de la distribución de tamaños de cada carga. Es el primer Haiku con parámetro effort (niveles Low a Max), y según el changelog de Claude Code sólo admite 'adaptive thinking', lo que rompió el conteo de tokens detrás de algunos gateways hasta el parche 2.1.296. Los benchmarks publicados son de Anthropic, sin verificación independiente: OSWorld 2.1 (subconjunto offline) 72,4% contra 15,7% de Haiku 4.5, 48,9% de GPT-6 Luna y 83,9% de Sonnet 5.5; Terminal-Bench 4.0 39,2% contra 0,0 / 16,4 / 70,6; GDPval-AA v2.1 1620 Elo contra 735 / 1437 / 1840. La propia página reconoce que Sonnet 5.5 y Opus 5.5 siguen siendo mejores para coding agéntico complejo y ubica a Haiku 5.5 en tareas acotadas: compactación, resúmenes y subagentes. Para un SaaS que automatiza clasificación de tickets, extracción de comprobantes o enrutamiento, el salto de precio y la ventana de 1M cambian la cuenta frente a Haiku 4.5, aunque conviene medir con el tokenizador nuevo antes de proyectar costos. En el mismo anuncio Anthropic redujo la lectura de caché de Sonnet 5.5 de 0,20 a 0,10 por millón.",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 4,
+      "datos_clave": [
+        "Modelo: claude-haiku-5-5, lanzado 2026-10-07; default Haiku en la API de Anthropic",
+        "Precio: USD 0,10/0,50 por Mtok hasta 100K de prompt; 0,50/2,50 por encima; caché lectura 0,01/0,05",
+        "Ventana de contexto 1M tokens (según changelog de Claude Code 2.1.293; la página del producto no lo indica)",
+        "Primer Haiku con parámetro effort; sólo adaptive thinking",
+        "Benchmarks autoinformados: OSWorld 2.1 offline 72,4%; Terminal-Bench 4.0 39,2%; GDPval-AA v2.1 1620 Elo; HLE sin herramientas 45,9%",
+        "Tokenizador nuevo: consume algo más de tokens por tarea que Haiku 4.5",
+        "Disponible en AWS, Google Cloud, Azure y GitHub Copilot desde el 7/10"
+      ],
+      "fuentes": [
+        {"url": "https://www.anthropic.com/claude-haiku-5-5", "medio": "Anthropic", "titulo": "Claude Haiku 5.5", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:41:00-03:00"},
+        {"url": "https://code.claude.com/docs/en/changelog", "medio": "Claude Code Docs (Anthropic)", "titulo": "Claude Code changelog (2.1.290–2.1.296)", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:27:00-03:00"},
+        {"url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/", "medio": "GitHub Changelog", "titulo": "GitHub Copilot weekly releases — October 5", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:34:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La ventana de 1M tokens surge del changelog de Claude Code, no de la página del producto. El puntaje independiente de Artificial Analysis (43 en su Intelligence Index a esfuerzo máximo, y un bug de sobre-rechazo que deprime AutomationBench) proviene de un resumen de terceros que no pude abrir; no lo tomo por verificado. La afirmación de que temperature/top_p/top_k devuelven error 400 es de un medio secundario no verificado."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Mistral Large 4: un MoE de 1 billón de parámetros entrenado en Europa, con pesos prometidos para fin de mes",
+      "bajada": "Mistral abrió el 6 de octubre la preview de 'le Chonk', con 52B parámetros activos y benchmarks preliminares que la propia empresa califica de incompletos.",
+      "cuerpo": "El 6 de octubre de 2026 Mistral AI publicó Mistral Large 4 (ML4, apodado 'le Chonk') en preview pública vía API en Mistral Studio, a USD 1,36 por millón de tokens de entrada y 4,18 de salida. Es un mixture-of-experts de alrededor de 1 billón de parámetros totales (1,05T en la documentación) con 52B activos por token según el blog, aunque las primeras coberturas citaron 49B y la cifra sigue sin conciliarse; es multimodal nativo (imagen de entrada, texto de salida), fue entrenado desde cero en 3.800 GPUs Grace Blackwell en centros de datos europeos y cubre más de 160 idiomas. Mistral promete los pesos abiertos para fin de octubre, pero no publicó la licencia ni la ventana de contexto en el anuncio. Los benchmarks son de la empresa y explícitamente preliminares (la corrida de RL 'todavía está en vuelo'): 61,7% en DeepSWE v1.1, 28,3% en Terminal-Bench 4, 59,9% en AutomationBench, 93% de los 40 desafíos de Cybench y 82% en una prueba de reproducir-y-parchear vulnerabilidades, donde sostiene que Claude Opus 5.5 y GPT-6 Astra puntúan cerca de cero por rehusar la tarea. Las comparaciones se hacen casi siempre contra modelos abiertos (DeepSeek V4 Pro, Qwen3.8 Max, Kimi K3, GLM-5.3); en la evaluación humana de código de Surge AI, ML4 obtuvo 3,74 sobre 5 frente a 4,22 de Claude Opus 5, y en el índice de Artificial Analysis citado por terceros alcanza 38 (Large 3 tenía 9). Como referencia, el Terminal-Bench 4 de 28,3% queda por debajo del 39,2% que Anthropic reporta para Haiku 5.5, con la salvedad de que son corridas distintas. El acceso 'cyber-capable' con moderación reducida se limita a socios verificados y autoridades estatales durante el red-teaming. Para un equipo que evalúa inferencia soberana o on-premise, el valor del anuncio se concreta recién cuando aparezcan los pesos, la licencia y evaluaciones de terceros.",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 3,
+      "datos_clave": [
+        "Mistral Large 4 (ML4), preview pública 2026-10-06 en Mistral Studio; precio USD 1,36/4,18 por Mtok",
+        "MoE ~1T parámetros totales (1,05T en docs), 52B activos según el blog (coberturas iniciales: 49B)",
+        "Entrenado en 3.800 GPUs NVIDIA Grace Blackwell en datacenters europeos; 160+ idiomas",
+        "Pesos abiertos prometidos para fin de octubre; licencia y ventana de contexto no publicadas",
+        "Benchmarks preliminares autoinformados: DeepSWE v1.1 61,7%; Terminal-Bench 4 28,3%; Cybench 93%; AutomationBench 59,9%",
+        "Artificial Analysis Intelligence Index 38 (vs. 9 de Large 3), citado por terceros",
+        "Contexto financiero: Serie D de EUR 3.000 millones cerrada en septiembre"
+      ],
+      "fuentes": [
+        {"url": "https://mistral.ai/news/mistral-large-4", "medio": "Mistral AI", "titulo": "Introducing Mistral Large 4", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:27:00-03:00"},
+        {"url": "https://aiweekly.co/alerts/mistral-previews-1t-param-open-weight-large-4-le-chonk", "medio": "AI Weekly", "titulo": "Mistral Previews 1T-Param Open-Weight Large 4 'Le Chonk'", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:50:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Parámetros activos: 52B (blog) vs. 49B (coberturas iniciales). GPUs de entrenamiento: 3.800 (blog) vs. 4.000 (CNBC según AI Weekly). La ventana de contexto de 1M que circula en trackers no figura en el anuncio. El puntaje de Artificial Analysis lo cita AI Weekly vía Simon Willison; no abrí la fuente original."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Semana de endurecimiento en los agentes de código: hooks fail-closed en Claude Code, sandbox GA en Copilot y worktrees gestionados en Codex",
+      "bajada": "Entre el 5 y el 10 de octubre, Anthropic, OpenAI y GitHub publicaron versiones que convergen en lo mismo: menos permisos implícitos y más control de lo que un repositorio puede activar.",
+      "cuerpo": "Claude Code publicó siete versiones entre el 5 y el 9 de octubre (2.1.290 a 2.1.296). La 2.1.295 agregó onFailure: \"block\" para hooks de comando y HTTP: si el hook no arranca, expira o sale con código inesperado, la acción se bloquea en lugar de pasar; la 2.1.294 corrigió hooks de tipo prompt/agent que permitían lo que debían bloquear. La 2.1.290 impidió que los settings del repositorio (.claude/settings.json) activen Claude in Chrome o desactiven adjuntos, y la 2.1.292 cerró un bypass del prompt de permisos para lecturas por rutas UNC de red. En MCP, las conexiones stdio y los conectores de claude.ai negocian por defecto la versión de protocolo 2026-07-28, el tope de descripciones de herramientas sube de 2.048 a 4.096 caracteres (16.384 vía tool search) y se agregó autoCompactWindow para que un subagente compacte antes que la conversación principal. OpenAI publicó Codex CLI 0.161.0 el 7 de octubre, que hace a GPT-6.1 Sol el modelo por defecto en los catálogos bundled y Amazon Bedrock, suma /mcp login para autenticarse en servidores MCP desde la terminal y cambia el sandbox para que una escalada de escritura aprobada mantenga las lecturas denegadas y las restricciones de red; la 0.162.0 del 8 de octubre agrega herramientas para crear y listar worktrees de Git gestionados, apply_patch que preserva CRLF y un instalador PowerShell firmado para Windows. GitHub, por su parte, declaró GA el 7 de octubre el sandboxing local de Copilot en CLI, app y VS Code (Agent Host), que limita el acceso del agente a archivos, red y credenciales sin costo adicional, y permitió usar cuentas distintas para la licencia de Copilot y para los repositorios. El patrón es claro para quien administra equipos: la superficie de ataque ya no es sólo el modelo sino la configuración que viaja en el repo, y los tres fabricantes están moviendo el default a 'denegar salvo aprobación explícita'. Para equipos .NET en Windows, el instalador firmado y la preservación de CRLF en Codex resuelven fricciones concretas de diffs y políticas de ejecución.",
+      "fecha_acontecimiento": "2026-10-08",
+      "importancia": 4,
+      "datos_clave": [
+        "Claude Code 2.1.290 (5/10) a 2.1.296 (9/10); onFailure: \"block\" en 2.1.295; fix de seguridad rutas UNC en 2.1.292",
+        "Settings de repositorio ya no pueden activar Claude in Chrome ni desactivar adjuntos (2.1.290)",
+        "MCP: protocolo 2026-07-28 por defecto; descripciones de tools 2.048 -> 4.096 caracteres",
+        "Codex CLI 0.161.0 (7/10): GPT-6.1 Sol default en catálogos bundled/Bedrock; /mcp login; sandbox conserva lecturas denegadas y red al escalar escritura",
+        "Codex CLI 0.162.0 (8/10): worktrees Git gestionados, apply_patch con CRLF, instalador PowerShell firmado; 0.162.1 (9/10) corrige crash de TUI",
+        "GitHub Copilot: sandboxing local GA (7/10) en CLI, app y VS Code; cuentas separadas para licencia y repos"
+      ],
+      "fuentes": [
+        {"url": "https://code.claude.com/docs/en/changelog", "medio": "Claude Code Docs (Anthropic)", "titulo": "Claude Code changelog", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:27:00-03:00"},
+        {"url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0", "medio": "GitHub / openai/codex", "titulo": "Release rust-v0.161.0", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://github.com/openai/codex/releases", "medio": "GitHub / openai/codex", "titulo": "Releases (0.162.0, 0.162.1)", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:27:00-03:00"},
+        {"url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/", "medio": "GitHub Changelog", "titulo": "GitHub Copilot weekly releases — October 5", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:34:00-03:00"},
+        {"url": "https://dev.to/aicoding-guide/this-week-in-claude-code-codex-and-gemini-cli-week-of-october-11-2026-2k6d", "medio": "DEV Community (aicoding-guide)", "titulo": "This week in Claude Code, Codex and Gemini CLI (week of October 11, 2026)", "fecha_publicacion": "2026-10-10", "consultado": "2026-10-12T09:27:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "analisis",
+      "incertidumbres": "GPT-6.1 Sol fue lanzado el 29 de septiembre (fuera de la ventana); aquí sólo se registra su adopción como default en Codex. La fecha '07 Oct' de la release 0.161.0 no muestra año en la página, pero el contexto es 2026. No verifiqué la función 'computer use' de Copilot CLI que mencionan terceros; no aparece en el changelog oficial consultado."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Azure SQL retira Always Encrypted con enclaves Intel SGX: hay un año para migrar a VBS o a Confidential VMs",
+      "bajada": "Microsoft anunció el 7 de octubre que el 31 de octubre de 2027 deja de funcionar el enclave por hardware de la serie DC; lo que queda (VBS) no tiene atestación ni aislamiento del host.",
+      "cuerpo": "El 7 de octubre de 2026 el blog de Azure SQL anunció que Azure SQL Database retira la funcionalidad de enclaves Intel SGX para Always Encrypted el 31 de octubre de 2027. Los enclaves SGX sólo existen en la configuración de hardware DC-series (núcleos físicos, máximo 40 vCores, sin serverless), y la documentación de Microsoft Learn, actualizada el 1 de octubre, agrega que después de esa fecha Azure moverá automáticamente cualquier base que siga en DC-series a un tier standard-series y le habilitará enclaves VBS. La diferencia no es cosmética: SGX con Microsoft Azure Attestation protege contra atacantes con acceso de administrador del sistema operativo, mientras que VBS (basado en el hipervisor de Windows) no soporta atestación y, según los propios docs, no protege contra cuentas privilegiadas que operen desde el host ni contra la sustitución del binario del enclave. Microsoft recomienda VBS cuando el objetivo es ocultar datos a DBAs e insiders de la propia organización, y SQL Server en Azure Confidential VMs si se necesita aislamiento equivalente a SGX. La migración implica cambiar el tier, quitar la URL de atestación de las cadenas de conexión y actualizar drivers; VBS está disponible en todas las regiones salvo Jio India Central. Para un ERP SaaS multi-tenant que usa Always Encrypted con enclaves para columnas sensibles (CUIT, sueldos, cuentas bancarias) y lo declara en contratos o auditorías, el punto no es técnico sino de modelo de amenaza: hay que revisar qué se prometió al cliente y si VBS lo cumple, o presupuestar Confidential VMs, que sacan la base del modelo PaaS.",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 4,
+      "datos_clave": [
+        "Anuncio: blog Azure SQL, 2026-10-07; retiro efectivo 2027-10-31",
+        "Afecta Always Encrypted con enclaves Intel SGX, exclusivo de hardware DC-series (vCore)",
+        "Tras la fecha, Azure migra automáticamente las bases DC-series a standard-series y habilita VBS",
+        "VBS: sin atestación, sin protección frente a cuentas privilegiadas del host; disponible en todas las regiones salvo Jio India Central",
+        "Alternativa con aislamiento equivalente: SQL Server en Azure Confidential VMs",
+        "Cambios en aplicaciones: tier, cadena de conexión (URL de atestación) y drivers"
+      ],
+      "fuentes": [
+        {"url": "https://techcommunity.microsoft.com/blog/azuresqlblog/azure-sql-database-is-retiring-always-encrypted-with-intel-sgx-enclaves/4556565", "medio": "Microsoft Tech Community – Azure SQL Blog", "titulo": "Azure SQL Database is retiring Always Encrypted with Intel SGX enclaves", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:27:00-03:00"},
+        {"url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/always-encrypted-enclaves-plan", "medio": "Microsoft Learn", "titulo": "Plan for Secure Enclaves - Azure SQL Database", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://redmondmag.com/blogs/redmond-dispatch/2026/10/microsoft-sets-2027-retirement-date-for-intel-sgx.aspx", "medio": "Redmond Magazine", "titulo": "Microsoft Sets 2027 Retirement Date for Intel SGX", "fecha_publicacion": "2026-10-08", "consultado": "2026-10-12T09:41:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El cuerpo del post del blog no se pudo leer completo (sólo título y fecha en el listado); el detalle del retiro y la migración automática proviene de la página de Microsoft Learn y de extractos del post citados por buscadores y por Redmond Magazine (que no pude abrir). La fecha exacta del artículo de Redmond es aproximada."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "CVE-2026-21589: lectura de archivos sin autenticación en ocho productos Atlassian, explotada a dos horas del PoC",
+      "bajada": "Atlassian publicó el aviso el 5 de octubre; watchTowr mostró el 6 cómo escalar a admin de Jira vía Crowd y el 7 ya había explotación en honeypots y en el KEV de VulnCheck.",
+      "cuerpo": "El 5 de octubre de 2026 Atlassian publicó el aviso de CVE-2026-21589, una vulnerabilidad de acceso arbitrario a archivos sin autenticación que afecta a Bitbucket, Confluence, Jira Software, Jira Service Management, Bamboo y Crowd Data Center, además de Crucible y Fisheye; la calificó Critical con CVSS 4.0 de 9,3 (vector AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:H/SA:H), aclarando que es su evaluación interna. El atacante puede leer archivos dentro del directorio raíz de la aplicación web si conoce el nombre y la ruta exactos; no permite listar directorios. El 6 de octubre watchTowr ubicó la causa en la biblioteca compartida atlassian-plugins-webresource, cuya lógica de rutas permite eludir las protecciones contra path traversal, y demostró una cadena: leer crowd.properties en un Jira integrado con Crowd, obtener las credenciales de aplicación y usarlas para crear o modificar usuarios y privilegios hasta llegar a administrador. El 7 de octubre VulnCheck sumó el CVE a su KEV por explotación contra Bamboo Data Center, y la red de honeypots de Previdian registró intentos a menos de dos horas de publicado el PoC; circula además una plantilla de Nuclei. Al 8 de octubre no figuraba en el KEV de CISA. Las versiones corregidas son Bitbucket 9.4.26/10.2.8/10.5.1, Confluence 9.2.26/10.2.19, Jira Software 9.12.40/10.3.26/11.3.12, JSM 5.12.40/10.3.26/11.3.12, Bamboo 10.2.24/12.1.12, Crowd 6.3.7/7.0.3/7.1.7/7.2.4 y Crucible/Fisheye 4.9.15; Atlassian ya no publica parches binarios, así que la única vía es actualizar. Como mitigación transitoria propone sacar las instancias de internet, una regla regex en WAF/proxy (probando variantes URL-encoded), RewriteValve de Tomcat o una regla en urlrewrite.xml para Bitbucket. Atlassian Cloud no está afectado. Atlassian dice que no puede determinar si una instancia fue comprometida, lo que obliga a revisar logs. La lección para cualquier SaaS que exponga una app web: un 'simple' file read se convierte en toma de control cuando hay archivos de configuración con credenciales dentro del webroot, y la ventana entre aviso y explotación masiva ya se mide en horas.",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 4,
+      "datos_clave": [
+        "CVE-2026-21589; aviso de Atlassian 2026-10-05; CVSS 4.0 9,3 (evaluación interna)",
+        "Productos: Bitbucket, Confluence, Jira Software, JSM, Bamboo, Crowd (Data Center), Crucible, Fisheye; Cloud no afectado",
+        "Causa raíz (watchTowr, 6/10): biblioteca compartida atlassian-plugins-webresource; bypass de path traversal",
+        "Cadena a admin: lectura de crowd.properties en Jira integrado con Crowd",
+        "Explotación: VulnCheck KEV 2026-10-07 (Bamboo DC); honeypots Previdian a <2 h del PoC; plantilla Nuclei",
+        "Fixes: Confluence 9.2.26/10.2.19; Jira 9.12.40/10.3.26/11.3.12; Bitbucket 9.4.26/10.2.8/10.5.1; Bamboo 10.2.24/12.1.12; Crowd 6.3.7/7.0.3/7.1.7/7.2.4; Crucible/Fisheye 4.9.15",
+        "No estaba en el KEV de CISA al 8/10"
+      ],
+      "fuentes": [
+        {"url": "https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html", "medio": "Atlassian Security Advisories", "titulo": "CVE-2026-21589 - Arbitrary File Access Vulnerability Impacts Multiple Products", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:41:00-03:00"},
+        {"url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/", "medio": "BleepingComputer", "titulo": "Hackers exploit critical Atlassian flaw after public PoC release", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.infosecurity-magazine.com/news/critical-vulnerability-atlassian/", "medio": "Infosecurity Magazine", "titulo": "Critical Flaw in Multiple Atlassian Products Exploited in the Wild", "fecha_publicacion": "2026-10-08", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/", "medio": "watchTowr Labs", "titulo": "Atlassian Jira, Confluence and more pre-auth arbitrary file read (CVE-2026-21589)", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:35:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La cifra de 158 intentos desde 26 IPs al 7/10 aparece en un blog comercial y no la verifiqué. El informe de watchTowr no lo abrí directamente; su contenido se toma de BleepingComputer e Infosecurity Magazine. No confirmé si CISA incorporó el CVE a su KEV después del 8/10."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Google compra 890 MW de 'uprates' nucleares a Constellation: la energía, no el chip, marca el ritmo de la IA",
+      "bajada": "El acuerdo del 6 de octubre financia USD 4.300 millones en mejoras a 11 reactores existentes en PJM; el primer megavatio nuevo llega en 2028 y el total en 2032.",
+      "cuerpo": "El 6 de octubre de 2026 Google y Constellation Energy anunciaron un contrato de compra de energía (PPA) a 20 años que respalda más de USD 4.300 millones de inversión de Constellation en 'uprates' (repotenciaciones) de 11 unidades nucleares en seis sitios de Illinois, Pensilvania y Nueva Jersey, dentro de la red de PJM Interconnection. Las mejoras (turbinas, generadores de vapor, sistemas de control digital) agregan 890 MW de capacidad nueva sin construir reactores: Constellation espera el primer uprate en línea en 2028 y Google dice que los 890 MW estarán operativos antes de fin de 2032. El paquete incluye un segundo contrato de 15 años por 2.700 MW de la flota existente, que no agrega capacidad, con lo que el total contratado llega a 3.590 MW, más un acuerdo de cinco años por el cual Constellation adopta Google Cloud y Gemini Enterprise para selección de sitios, gestión de paradas y despacho. El precio de la energía no se divulgó. Las empresas presentan el acuerdo como respuesta a la propuesta 'Bring Your Own Power' de PJM, que exige que la capacidad sea 'nueva y no reempaquetada' y cuya aprobación por FERC seguía pendiente al 7 de octubre; según Power Magazine, Constellation no confirmó la lista de sitios ni cómo se reparten los 890 MW entre unidades, y es dudoso cuánto de eso cuenta para la meta 2030 del DOE. La semana anterior AWS había cerrado con la misma Constellation 690 MW de Calvert Cliffs (unos 190 MW de uprate), con lo que los uprates comprometidos de la empresa rondan 1.080 MW. Para dimensionar: 890 MW equivalen a un campus de IA de tamaño medio, y aun con el dinero de un hiperescalador tardan de dos a seis años en materializarse; de ahí la frase de Google de que 'el megavatio nuevo más rápido suele ser el de la infraestructura existente'. Para quien depende de Azure o Google Cloud en regiones con restricciones de capacidad, la curva de energía es hoy un mejor predictor de disponibilidad de GPUs que los anuncios de chips.",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 3,
+      "datos_clave": [
+        "Anuncio 2026-10-06; PPA a 20 años Google–Constellation; 890 MW de uprates en 11 unidades, 6 sitios (IL, PA, NJ), red PJM",
+        "Inversión de Constellation: > USD 4.300 millones; primer uprate 2028; todos antes de fin de 2032",
+        "Contrato adicional a 15 años por 2.700 MW de flota existente (sin capacidad nueva); total 3.590 MW",
+        "Acuerdo tecnológico a 5 años: Google Cloud y Gemini Enterprise en Constellation",
+        "Precio no divulgado; empleo declarado: 4.400 puestos sostenidos y ~7.200 de construcción",
+        "Contexto: propuesta BYONC de PJM pendiente en FERC (docket ER26-3515-000) al 7/10; AWS–Constellation 690 MW en Calvert Cliffs la semana previa"
+      ],
+      "fuentes": [
+        {"url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/", "medio": "POWER Magazine", "titulo": "Google Deal Backs 890 MW of Constellation Nuclear Uprates at 11 PJM Reactors", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://siliconangle.com/2026/10/06/google-goes-nuclear-to-power-its-ai-data-centers-committing-to-purchase-890-megawatts-of-energy-from-constellation", "medio": "SiliconANGLE", "titulo": "Google goes nuclear to power its AI data centers, committing to purchase 890 megawatts of energy from Constellation", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:41:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No pude abrir el blog de Google ni el comunicado de Constellation; todo proviene de dos medios especializados que los citan. La lista de sitios (Braidwood, Byron, LaSalle, Quad Cities, Limerick, Salem) es una inferencia de Nuclear Newswire reproducida por Power Magazine, no confirmada por Constellation. Las cifras de empleo son declaraciones de Google."
+    },
+    {
+      "seccion": "ciencia",
+      "titulo_sugerido": "Nobel de Medicina 2026 para la optogenética: Deisseroth, Hegemann y Nagel",
+      "bajada": "El 5 de octubre la Asamblea Nobel del Karolinska premió los descubrimientos sobre canales iónicos activados por luz que permiten encender o apagar neuronas individuales en un cerebro vivo.",
+      "cuerpo": "El 5 de octubre de 2026 la Asamblea Nobel del Karolinska Institutet otorgó el Premio Nobel de Fisiología o Medicina, en partes iguales, a Karl Deisseroth (54, Stanford, bioingeniería y psiquiatría), Peter Hegemann (71, Universidad Humboldt de Berlín) y Georg Nagel (73, Universidad de Würzburg) 'por los descubrimientos sobre canales iónicos activados por luz y la optogenética'. Según la cronología difundida por la Asamblea y reproducida por Reuters y AP, Hegemann estudiaba a comienzos de los noventa cómo el alga Chlamydomonas responde a la luz en medio milisegundo y postuló que una sola proteína captaba la luz y funcionaba como canal iónico; Nagel lo verificó expresando genes del alga en ovocitos de rana y así se identificó la canalrodopsina-2, un canal que se abre con luz. En 2003 publicaron que esa proteína, introducida en células humanas y de hámster, genera corrientes eléctricas al iluminarla; en 2005 Deisseroth la usó en neuronas de rata en Stanford y luego en cerebros de ratones vivos, y en 2006 el método recibió el nombre de optogenética. Thomas Perlmann, secretario de la Asamblea, resumió que la técnica permite encender o apagar la actividad de neuronas individuales en un cerebro vivo y que se usa en laboratorios de todo el mundo. Entre las aplicaciones clínicas mencionadas hay ensayos para restaurar visión en retinitis pigmentosa insertando una proteína fotosensible en la retina y propuestas de implantes cocleares que estimulan el nervio auditivo con luz. Las fuentes consultadas no detallan límites; conviene tener presente, como contexto general y no como dato del comité, que el uso clínico exige entregar el gen al tejido (en general con vectores virales) y hacer llegar la luz, lo que hoy restringe la aplicación en humanos a órganos accesibles como la retina. El premio son 12 millones de coronas suecas (unos USD 1,2 millones) repartidos en tercios.",
+      "fecha_acontecimiento": "2026-10-05",
+      "importancia": 4,
+      "datos_clave": [
+        "Anuncio 2026-10-05, Asamblea Nobel del Karolinska Institutet; tres laureados en partes iguales",
+        "Karl Deisseroth (54, Stanford), Peter Hegemann (71, Humboldt Berlín), Georg Nagel (73, Würzburg)",
+        "Motivo: 'discoveries concerning light-gated ion channels and optogenetics'",
+        "Hitos: hipótesis en Chlamydomonas (años 90), canalrodopsina-2 en ovocitos de rana, 2003 expresión en células de mamífero, 2005 neuronas de rata, 2006 nombre 'optogenética'",
+        "Aplicaciones citadas: ensayos clínicos en retinitis pigmentosa; implantes cocleares ópticos",
+        "Premio: 12 millones SEK (~USD 1,2 millones)"
+      ],
+      "fuentes": [
+        {"url": "https://www.stlpr.org/npr/2026-10-05/nobel-medicine-prize-goes-to-3-scientists-for-research-into-brain-activity", "medio": "AP vía NPR / St. Louis Public Radio", "titulo": "Nobel medicine prize goes to 3 scientists for research into brain activity", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.khaleejtimes.com/world/german-us-scientists-win-nobel-medicine-prize-optogenetics", "medio": "Reuters vía Khaleej Times", "titulo": "German, US scientists win Nobel medicine prize for work on optogenetics", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://www.nobelprize.org/prizes/medicine/2026/summary/", "medio": "NobelPrize.org", "titulo": "Nobel Prize in Physiology or Medicine 2026 – Summary", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:22:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El sitio nobelprize.org devolvió 403 al intentar abrir el comunicado y el PDF de información científica; la cita oficial y la cronología se tomaron de Reuters y AP, que la reproducen. Las fuentes discrepan sobre la década inicial del trabajo de Hegemann (años 90 vs. 2000). El párrafo sobre límites clínicos es contexto general del redactor, no afirmación del comité."
+    },
+    {
+      "seccion": "ciencia",
+      "titulo_sugerido": "Nobel de Física 2026 para Francis Halzen, el arquitecto de IceCube",
+      "bajada": "La Real Academia Sueca premió el 6 de octubre, sin compartir, al físico de Wisconsin–Madison que convirtió un kilómetro cúbico de hielo antártico en detector de neutrinos cósmicos.",
+      "cuerpo": "El 6 de octubre de 2026 la Real Academia Sueca de Ciencias otorgó el Premio Nobel de Física a Francis Halzen, físico belga-estadounidense de 82 años, Vilas Research Professor y Gregory Breit Professor en la Universidad de Wisconsin–Madison e investigador principal del IceCube Neutrino Observatory, 'por contribuciones decisivas al Observatorio de Neutrinos IceCube y el descubrimiento de neutrinos de alta energía de origen astrofísico'. Es el único laureado y recibe íntegros los 12 millones de coronas. Halzen propuso en 1988 usar el hielo transparente bajo el Polo Sur como medio de detección: los neutrinos, sin carga y con masa casi nula, atraviesan la Tierra y sólo rara vez interactúan; cuando lo hacen en el hielo producen destellos que registran sensores enterrados a unos 2.500 metros, blindados así de rayos cósmicos y radiación. El observatorio, financiado por la National Science Foundation y operado por una colaboración de más de 400 científicos de 14 países liderada desde el Wisconsin IceCube Particle Astrophysics Center, publicó en 2013 la primera evidencia de neutrinos de alta energía provenientes de fuera de nuestra galaxia. La integrante del comité Eva Olsson dijo que Halzen comprendió que el hielo del Polo Sur podía detectar estos 'mensajeros del cosmos' y que con ello se abrió la puerta a galaxias distantes; el presidente del comité, Mark Pearce, destacó el liderazgo de un equipo internacional de investigadores e ingenieros que entregó 'un instrumento fantástico'. Halzen contó a AP que desde 2013 se consideraba candidato con una chance anual de uno en veinte y que la mayor sorpresa fue que el detector funcionara, porque durante años se consideró 'una idea simpática que nunca iba a andar'. Las fuentes consultadas no incluyen las magnitudes técnicas del instrumento ni los resultados posteriores (fuente puntual TXS 0506+056, plano galáctico), por lo que se omiten aquí.",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 4,
+      "datos_clave": [
+        "Anuncio 2026-10-06, Real Academia Sueca de Ciencias; laureado único",
+        "Francis Halzen, 82, belga-estadounidense; UW–Madison (Vilas Research Professor, Gregory Breit Professor); PI de IceCube",
+        "Motivo: 'decisive contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin'",
+        "IceCube: Antártida, sensores a ~2.500 m de profundidad, financiado por NSF, >400 científicos de 14 países; propuesta original 1988; primera evidencia de neutrinos cósmicos 2013",
+        "Premio: 12 millones SEK completos"
+      ],
+      "fuentes": [
+        {"url": "https://dailymaverick.co.za/article/2026-10-06-francis-halzen-wins-2026-nobel-prize-in-physics", "medio": "Reuters vía Daily Maverick", "titulo": "Francis Halzen wins 2026 Nobel Prize in Physics", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.aljazeera.com/news/2026/10/6/francis-halzen-wins-nobel-prize-in-physics-for-work-on-ghost-particles", "medio": "Al Jazeera", "titulo": "Francis Halzen wins Nobel Prize in Physics for work on 'ghost particles'", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://fox11online.com/news/state/francis-halzen-nobel-prize-physics-university-wisconsin-madison-neutrinos-cosmic-particles-icecube-observatory-antarctica", "medio": "AP vía FOX 11 (Wisconsin)", "titulo": "UW-Madison physicist wins Nobel Prize for work on rare cosmic particles", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:58:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "nobelprize.org no se pudo abrir (403); la cita oficial proviene de Reuters/AP. Las magnitudes habituales de IceCube (1 km³ instrumentado, 5.160 módulos ópticos, 86 cuerdas) no aparecen en las fuentes consultadas y por eso no se incluyen en el cuerpo. La cita de Mark Pearce surge de un resumen de búsqueda (UW/AP), no de un artículo abierto directamente."
+    },
+    {
+      "seccion": "ciencia",
+      "titulo_sugerido": "Nobel de Química 2026: Kagan y Soai, o cómo una impureza quiral se amplifica hasta la pureza",
+      "bajada": "La Academia premió el 7 de octubre el descubrimiento de efectos no lineales y autocatálisis en síntesis asimétrica, con implicancias para la industria farmacéutica y el origen de la homoquiralidad de la vida.",
+      "cuerpo": "El 7 de octubre de 2026 la Real Academia Sueca de Ciencias otorgó el Nobel de Química a Henri B. Kagan (Francia) y Kenso Soai (Japón, 76 años, profesor emérito de la Universidad de Ciencias de Tokio) 'por el descubrimiento de efectos no lineales y autocatálisis en síntesis orgánica asimétrica'. Muchas moléculas biológicas y farmacéuticas existen en dos formas especulares (enantiómeros) y la vida usa casi exclusivamente una; obtener sólo una de ellas en el laboratorio es el problema central de la síntesis asimétrica. Hasta mediados de los ochenta se asumía que la pureza enantiomérica del producto no podía superar la del catalizador quiral usado para fabricarlo; en 1986 Kagan demostró y explicó teóricamente los efectos no lineales, por los cuales el exceso enantiomérico del producto puede exceder el del auxiliar quiral. Soai llevó la idea al extremo con la reacción que lleva su nombre, descrita en 1995: la adición de un dialquilzinc a un aldehído en la que el propio producto actúa como catalizador de su formación (autocatálisis asimétrica), de modo que un desequilibrio minúsculo entre enantiómeros se amplifica en ciclos sucesivos hasta un producto casi puro; según la cobertura, en 2003 mostró que la reacción puede partir de un desequilibrio prácticamente nulo. El material de divulgación de la Academia subraya que estos hallazgos son 'enormemente importantes' para quienes diseñan reacciones usadas, por ejemplo, en manufactura farmacéutica, y que la autocatálisis asimétrica demuestra que la homoquiralidad de la vida pudo surgir espontáneamente de una asimetría inicial diminuta. Las fuentes consultadas no discuten límites; como contexto general, la reacción de Soai sigue siendo un caso casi único de autocatálisis asimétrica eficiente, lo que acota su uso directo en producción. El premio, 12 millones de coronas, se reparte entre ambos.",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 3,
+      "datos_clave": [
+        "Anuncio 2026-10-07, Real Academia Sueca de Ciencias",
+        "Henri B. Kagan (Francia) y Kenso Soai (Japón, 76, emérito Tokyo University of Science)",
+        "Motivo: 'for the discovery of non-linear effects and autocatalysis in asymmetric organic synthesis'",
+        "Hitos: 1986 Kagan, efectos no lineales (ee del producto > ee del catalizador); 1995 reacción de Soai (autocatálisis asimétrica con dialquilzinc + aldehído); 2003 amplificación desde desequilibrio casi nulo",
+        "Relevancia: manufactura farmacéutica y origen de la homoquiralidad",
+        "Premio: 12 millones SEK compartidos"
+      ],
+      "fuentes": [
+        {"url": "https://www.khaleejtimes.com/world/henri-kagan-kenso-soai-win-2026-nobel-chemistry-prize", "medio": "Reuters vía Khaleej Times", "titulo": "Henri Kagan, Kenso Soai win 2026 Nobel chemistry prize", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.nippon.com/en/news/yjj2026100800997/", "medio": "Jiji Press vía nippon.com", "titulo": "Nobel Prize Winner Soai's Discovery May Shed Light on Life's Origins", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://news.liga.net/en/society/news/the-2026-nobel-prize-in-chemistry-was-awarded-to-two-scientists", "medio": "LIGA.net", "titulo": "The 2026 Nobel Prize in Chemistry was awarded to two scientists", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:58:00-03:00"},
+        {"url": "https://www.nobelprize.org/uploads/2026/10/advanced-chemistryprize2026.pdf", "medio": "NobelPrize.org (información científica)", "titulo": "Scientific background: Nobel Prize in Chemistry 2026", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:41:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La afiliación de Kagan aparece como Université Paris-Sud en una fuente y Paris-Saclay en otra (son la misma institución renombrada); su edad no figura en las fuentes abiertas. Una fuente (UNB) da 95 años para Soai; Jiji Press dice 76, que se adopta. Los PDFs de la Academia devolvieron 403; sus frases se conocen por extractos de buscador y por Chemistry World. El año 2003 proviene sólo de LIGA.net."
+    },
+    {
+      "seccion": "ciencia",
+      "titulo_sugerido": "Nobel de Economía 2026 para Hall y Woodford: los microfundamentos de la estabilización",
+      "bajada": "Anunciado esta mañana, el premio del Riksbank reconoce a los dos estadounidenses que reconstruyeron los modelos macro sobre decisiones de hogares y empresas, base del enfoque neokeynesiano que usan los bancos centrales.",
+      "cuerpo": "El 12 de octubre de 2026, a las 11:45 de Estocolmo, la Real Academia Sueca de Ciencias anunció el Premio de Ciencias Económicas del Sveriges Riksbank en memoria de Alfred Nobel para Robert E. Hall (Stanford, nacido en Palo Alto en 1943) y Michael Woodford (Columbia, nacido en Chicopee, Massachusetts, en 1955) por 'los fundamentos microeconómicos de la estabilización macroeconómica'. Según el comité, ambos mostraron cómo reconstruir los modelos de política de estabilización partiendo de decisiones individuales en lugar de correlaciones estadísticas entre agregados como inflación y consumo. Hall trabajó el lado de la demanda: cómo los hogares deciden cuánto consumir en función no sólo de su poder de compra actual sino de los ingresos que esperan; Woodford, el lado de la oferta: cómo las empresas fijan precios cuando cambiarlos es costoso y, por lo tanto, los fijan pensando en cubrir costos durante períodos largos, de modo que las expectativas pasan a ser el centro del análisis. De ahí la recomendación de política que ambos defendieron: como hogares y empresas miran hacia adelante, gobiernos y bancos centrales deben comunicar sus planes con claridad. John Hassler, presidente del comité, dijo que ese trabajo dio una base teórica estable a los modelos que hoy usan los bancos centrales y los deja 'mejor equipados para enfrentar shocks como crisis energéticas o cambios bruscos del consumo'; el integrante Tim Boppart describió el recorrido como 'la receta keynesiana, que funcionó bien hasta que dejó de funcionar', aludiendo a los años setenta que motivaron la reconstrucción. Es el premio que cierra la semana Nobel; los 12 millones de coronas se dividen entre los dos. Los textos del comité no estaban accesibles al cierre, así que la redacción exacta de la motivación se toma de medios que la reproducen.",
+      "fecha_acontecimiento": "2026-10-12",
+      "importancia": 3,
+      "datos_clave": [
+        "Anuncio 2026-10-12, 11:45 CEST, Real Academia Sueca de Ciencias",
+        "Robert E. Hall (Stanford, n. 1943) y Michael Woodford (Columbia, n. 1955)",
+        "Motivo: 'microeconomic foundations of macroeconomic stabilisation'",
+        "Hall: demanda/consumo con expectativas de ingreso futuro; Woodford: oferta/fijación de precios con costos de ajuste; base del enfoque neokeynesiano",
+        "Cita de John Hassler: bancos centrales 'mejor equipados para enfrentar shocks' como crisis energéticas",
+        "Premio: 12 millones SEK compartidos"
+      ],
+      "fuentes": [
+        {"url": "https://www.stlpr.org/npr/2026-10-12/two-americans-win-nobel-prize-in-economics-for-work-on-boom-bust-cycles", "medio": "NPR vía St. Louis Public Radio", "titulo": "Two Americans win Nobel Prize in Economics for work on boom-bust cycles", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T10:02:00-03:00"},
+        {"url": "https://www.cnn.com/2026/10/12/business/nobel-prize-economics-intl", "medio": "CNN", "titulo": "Americans Robert E. Hall and Michael Woodford awarded the Nobel Prize in economics", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://news.columbia.edu/news/columbias-michael-woodford-wins-2026-nobel-memorial-prize-economics", "medio": "Columbia News", "titulo": "Columbia's Michael Woodford Wins 2026 Nobel Memorial Prize in Economics", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T10:00:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Sólo pude abrir el texto completo de NPR; CNN (error 451), CNBC, Japan Times y Columbia News (403) se conocen por extractos de buscador. La redacción de la motivación oficial y los años de nacimiento provienen de esos extractos (CNN/Japan Times); no accedí al comunicado de la Academia. No se identifican en las fuentes los trabajos concretos premiados (artículos o libros)."
+    },
+    {
+      "seccion": "ciencia",
+      "titulo_sugerido": "Los primeros relojes nucleares de torio-229 funcionan: dos papers en Nature y un lazo de realimentación que corrió 24 horas solo",
+      "bajada": "Equipos de Viena y China publicaron el 7 de octubre relojes que usan una transición del núcleo de torio-229 como referencia; todavía están lejos de los mejores relojes atómicos ópticos.",
+      "cuerpo": "El 7 de octubre de 2026 Nature publicó dos artículos que reportan los primeros relojes nucleares operativos basados en torio-229: 'A thorium-229 optical nuclear clock with feedback loop' (Toscani De Col, Riebner, Morawetz et al., DOI 10.1038/s41586-026-11084-4), del grupo de Thorsten Schumm en el Atominstitut de la TU Wien con la PTB de Braunschweig (Ekkehard Peik), y 'A nuclear clock synchronized to 229Th' (Huang, Yan, Xiao et al., DOI 10.1038/s41586-026-11122-1), de un equipo chino encabezado por Shiqian Ding. A diferencia de los relojes atómicos, que usan transiciones electrónicas, aquí la referencia es una transición del núcleo, más de 10.000 veces más pequeño que el átomo y por eso mucho menos sensible a perturbaciones externas. Ambos grupos embeben torio-229 en un cristal de fluoruro de calcio a temperatura ambiente, de tamaño milimétrico, e interrogan la transición con un láser de 148 nm (ultravioleta de vacío). La novedad del trabajo vienés es el lazo de realimentación: cuando el láser se corre de la resonancia, el cambio en la absorción de los núcleos genera una señal de error que corrige la frecuencia, de modo que el sistema se autoestabiliza sin depender de un reloj atómico convencional; funcionó más de 24 horas sin intervención y, comparado contra un reloj de ion de iterbio, alcanzó una precisión del orden de 10^-15 en un día (aproximadamente un segundo de error cada 30 millones de años). El propio comunicado de Nature aclara que la estabilidad actual está por debajo de la de los mejores relojes atómicos (el más preciso citado por APA erraría un segundo en 55.000 millones de años) y que el grupo de Schumm estima margen de mejora de unos cuatro órdenes de magnitud con láseres más potentes y mejores cristales. Como demostración, el equipo usó el reloj para buscar materia oscura ultraliviana y no encontró señal en el rango de frecuencias probado, lo que no descarta la hipótesis sino que acota parámetros. La relevancia práctica es doble: un patrón de tiempo potencialmente compacto (estado sólido, sin trampas de átomos) y un sistema cuántico nuevo para probar si las constantes fundamentales varían.",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 4,
+      "datos_clave": [
+        "Nature, 2026-10-07: dos artículos; DOIs 10.1038/s41586-026-11084-4 (TU Wien/PTB) y 10.1038/s41586-026-11122-1 (equipo chino, Shiqian Ding)",
+        "Transición nuclear de torio-229 en cristal de CaF2 a temperatura ambiente; láser de 148 nm (VUV)",
+        "Viena: lazo de realimentación por absorción; >24 h sin intervención; precisión ~1e-15 en un día (~1 s cada 30 millones de años)",
+        "Límite: estabilidad aún inferior a los mejores relojes atómicos ópticos; mejora estimada ~4 órdenes de magnitud",
+        "Búsqueda de materia oscura ultraliviana: sin detección en el rango probado",
+        "Antecedentes: excitación láser del núcleo demostrada en 2024 por TU Wien y PTB; preprint arXiv 2606.04997 (junio 2026)"
+      ],
+      "fuentes": [
+        {"url": "https://www.natureasia.com/en/info/press-releases/detail/9455", "medio": "Nature (comunicado de prensa, Nature Asia)", "titulo": "Physics: First working nuclear clocks based on thorium-229", "fecha_publicacion": "2026-10-08", "consultado": "2026-10-12T09:41:00-03:00"},
+        {"url": "https://idw-online.de/en/news878443", "medio": "TU Wien vía idw", "titulo": "World's first self-stabilizing nuclear clock (press release)", "fecha_publicacion": "2026-07-10", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://www.vienna.at/viennese-researchers-build-worlds-first-nuclear-clock/10526765", "medio": "APA vía vienna.at", "titulo": "Viennese Researchers Build World's First Nuclear Clock", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:58:00-03:00"},
+        {"url": "https://arxiv.org/abs/2606.04997", "medio": "arXiv", "titulo": "A thorium-229 optical nuclear clock with feedback loop (preprint)", "fecha_publicacion": "2026-06-04", "consultado": "2026-10-12T09:41:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La afiliación del equipo chino (Tsinghua, Pekín) la dan medios secundarios; el comunicado de Nature no la indica y no pude abrir el artículo. La inestabilidad fraccional citada por terceros (~3e-12/sqrt(tau)) y la afirmación de que el reloj chino es ~6 veces más estable no se verificaron contra los papers. La fecha del comunicado de TU Wien (10 de julio) corresponde al preprint; la publicación en Nature es del 7 de octubre. La fecha exacta del preprint en arXiv es aproximada (junio 2026)."
+    }
+  ],
+  "glosario": [
+    {
+      "termino": "Parámetro effort (esfuerzo adaptativo)",
+      "definicion": "Control de inferencia que fija cuánto razonamiento interno y cuántos pasos de herramienta puede gastar un modelo antes de responder, reemplazando el presupuesto fijo de tokens de 'pensamiento' por un nivel discreto que el modelo administra según la dificultad. Permite negociar costo y latencia contra calidad sin cambiar de modelo.",
+      "ejemplo": "Un pipeline de clasificación de tickets de soporte corre Haiku 5.5 con effort 'low' para etiquetar prioridad y sube a 'high' sólo cuando la confianza de la clasificación cae por debajo de un umbral.",
+      "nota_relacionada": "Claude Haiku 5.5: el modelo chico de Anthropic baja 75% el precio y suma control de esfuerzo"
+    },
+    {
+      "termino": "Parámetros activos en un mixture-of-experts (MoE)",
+      "definicion": "En una arquitectura MoE, cada token sólo atraviesa un subconjunto de 'expertos' elegido por una red de enrutamiento, así que el costo de cómputo por token lo determinan los parámetros activos y no el total almacenado. El total define la memoria necesaria para servir el modelo; los activos, la latencia y el costo de inferencia.",
+      "ejemplo": "Mistral Large 4 declara ~1,05 billones de parámetros totales y 52.000 millones activos: necesita la memoria de un modelo de un billón, pero cada token cuesta aproximadamente lo que costaría en un modelo denso de 52B.",
+      "nota_relacionada": "Mistral Large 4: un MoE de 1 billón de parámetros entrenado en Europa, con pesos prometidos para fin de mes"
+    },
+    {
+      "termino": "Fail-closed (cerrar ante falla) en hooks de agentes",
+      "definicion": "Política por la cual, si un control previo a una acción (hook, validador, verificación de política) no puede ejecutarse o devuelve un resultado inesperado, la acción se deniega en lugar de permitirse; es el opuesto de fail-open, donde la caída del control deja pasar todo. En agentes de código importa porque el control suele correr fuera del modelo y puede fallar por timeouts o errores de red.",
+      "ejemplo": "Con onFailure: \"block\" en Claude Code 2.1.295, un hook PreToolUse que valida comandos contra una lista de denegación y se cuelga por un timeout bloquea el comando, en vez de dejarlo ejecutar como ocurría por defecto.",
+      "nota_relacionada": "Semana de endurecimiento en los agentes de código: hooks fail-closed en Claude Code, sandbox GA en Copilot y worktrees gestionados en Codex"
+    },
+    {
+      "termino": "Enclave seguro con atestación (SGX vs. VBS)",
+      "definicion": "Un enclave es una región de memoria aislada donde el motor de base de datos puede operar sobre datos en claro sin exponerlos al resto del proceso ni al sistema operativo; la atestación es la prueba criptográfica, emitida por un servicio externo, de que el código que corre dentro del enclave es el esperado. Intel SGX aísla por hardware y admite atestación; VBS aísla mediante el hipervisor de Windows y en Azure SQL no ofrece atestación ni protección frente a cuentas privilegiadas del host.",
+      "ejemplo": "Una consulta WHERE Sueldo > 500000 sobre una columna cifrada con Always Encrypted sólo puede evaluarse si el servidor tiene un enclave: la aplicación verifica la atestación (en SGX) y envía la clave al enclave, que descifra y compara sin que el DBA vea los valores.",
+      "nota_relacionada": "Azure SQL retira Always Encrypted con enclaves Intel SGX: hay un año para migrar a VBS o a Confidential VMs"
+    },
+    {
+      "termino": "Lectura arbitraria de archivos pre-autenticación (pre-auth arbitrary file read)",
+      "definicion": "Vulnerabilidad en la que un atacante sin credenciales logra que la aplicación web le devuelva el contenido de un archivo del servidor fuera de los recursos previstos, normalmente eludiendo las defensas contra path traversal con secuencias codificadas. Su gravedad real depende de qué archivos con secretos (configuraciones, credenciales de integración, tokens) estén al alcance de la ruta vulnerable.",
+      "ejemplo": "En CVE-2026-21589, leer crowd.properties dentro del webroot de un Jira integrado con Crowd expone las credenciales de aplicación, que luego sirven para crear un usuario administrador: un file read se convierte en toma de control.",
+      "nota_relacionada": "CVE-2026-21589: lectura de archivos sin autenticación en ocho productos Atlassian, explotada a dos horas del PoC"
+    },
+    {
+      "termino": "Uprate nuclear y PPA (power purchase agreement)",
+      "definicion": "Un uprate es el aumento de la potencia autorizada de un reactor existente mediante mejoras en turbinas, generadores de vapor, instrumentación o análisis de seguridad, sin construir una central nueva; suele ser la vía más rápida y barata de sumar megavatios firmes. Un PPA es un contrato de compra de energía a largo plazo con el que un consumidor grande fija precio y volumen y, con ello, hace financiable la inversión del generador.",
+      "ejemplo": "Google firmó un PPA a 20 años por 890 MW que Constellation obtendrá repotenciando 11 unidades existentes en PJM con más de USD 4.300 millones; el contrato es lo que vuelve viable la inversión, aunque el primer megavatio nuevo llega en 2028.",
+      "nota_relacionada": "Google compra 890 MW de 'uprates' nucleares a Constellation: la energía, no el chip, marca el ritmo de la IA"
+    }
+  ]
+}

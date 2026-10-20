@@ -1,0 +1,162 @@
+{
+  "generado": "2026-10-12T13:33:12.988Z",
+  "edicion": {
+    "numero": 2,
+    "fecha": "2026-10-12",
+    "cierre": "2026-10-12T10:30:00-03:00",
+    "lugar": "Los Cocos, Córdoba",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        9.25,
+        8.5,
+        8.5,
+        8.5,
+        8.5,
+        8.5,
+        8.75,
+        9.75
+      ],
+      "iteraciones": 4
+    },
+    "geometria": {
+      "paginas": 8,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.821,
+        "mayor_rectangulo_vacio": 0.029,
+        "hueco_mm": {
+          "x": 62,
+          "y": 219,
+          "ancho": 62,
+          "alto": 24
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.936,
+        "mayor_rectangulo_vacio": 0.015,
+        "hueco_mm": {
+          "x": 24,
+          "y": 5,
+          "ancho": 162,
+          "alto": 5
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.938,
+        "mayor_rectangulo_vacio": 0.017,
+        "hueco_mm": {
+          "x": 0,
+          "y": 257,
+          "ancho": 62,
+          "alto": 14
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.905,
+        "mayor_rectangulo_vacio": 0.053,
+        "hueco_mm": {
+          "x": 129,
+          "y": 224,
+          "ancho": 57,
+          "alto": 48
+        },
+        "ok": true
+      },
+      {
+        "pagina": 5,
+        "ocupacion": 0.911,
+        "mayor_rectangulo_vacio": 0.027,
+        "hueco_mm": {
+          "x": 129,
+          "y": 248,
+          "ancho": 57,
+          "alto": 24
+        },
+        "ok": true
+      },
+      {
+        "pagina": 6,
+        "ocupacion": 0.785,
+        "mayor_rectangulo_vacio": 0.02,
+        "hueco_mm": {
+          "x": 76,
+          "y": 262,
+          "ancho": 109,
+          "alto": 10
+        },
+        "ok": true
+      },
+      {
+        "pagina": 7,
+        "ocupacion": 0.849,
+        "mayor_rectangulo_vacio": 0.053,
+        "hueco_mm": {
+          "x": 0,
+          "y": 243,
+          "ancho": 95,
+          "alto": 29
+        },
+        "ok": true
+      },
+      {
+        "pagina": 8,
+        "ocupacion": 0.822,
+        "mayor_rectangulo_vacio": 0.044,
+        "hueco_mm": {
+          "x": 0,
+          "y": 248,
+          "ancho": 95,
+          "alto": 24
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 8,
+      "renderizadas": 8,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisor": "modelo generador (Claude Fable 5.1)",
+      "fecha": "2026-10-12T10:34:24-03:00",
+      "rubrica": "EL_DIARIO_DE_YRIGOYEN.md §7.6",
+      "hallazgos_corregidos": [
+        "asteriscos literales en un titular (cursiva no interpretada)",
+        "título del gráfico de inflación encimado con su leyenda",
+        "cuerpo de la fuente de la nota de Física en contratapa"
+      ],
+      "observaciones": [
+        "Página 3: la bajada de la nota de alertas se corta entre columnas; aceptable.",
+        "Página 4: aire de ~45 mm al pie de la tercera columna, dentro del umbral."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "C:\\Users\\cguar\\repos\\yrigoyen\\ediciones\\2026-10-12\\El-Diario-de-Yrigoyen-N2-2026-10-12.pdf"
+}

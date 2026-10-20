@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yrigoyen.local/esquema/contenido.schema.json",
+  "title": "Contenido de una edición de El Diario de Yrigoyen",
+  "type": "object",
+  "required": ["edicion", "portada", "notas", "finanzas", "boca", "clima", "disco", "microrelato", "poesia", "glosario", "fe_de_erratas"],
+  "additionalProperties": false,
+  "properties": {
+    "edicion": {
+      "type": "object",
+      "required": ["numero", "fecha", "cierre", "lugar", "papel"],
+      "properties": {
+        "numero": { "type": "integer", "minimum": 1 },
+        "fecha": { "type": "string", "format": "date" },
+        "cierre": { "type": "string", "format": "date-time" },
+        "lugar": { "type": "string" },
+        "papel": { "type": "string", "enum": ["A4", "A3", "Legal"] }
+      }
+    },
+    "portada": {
+      "type": "object",
+      "required": ["principal", "secundarias"],
+      "properties": {
+        "principal": { "$ref": "#/$defs/nota" },
+        "secundarias": {
+          "type": "array", "minItems": 4, "maxItems": 7,
+          "items": { "type": "object", "required": ["titulo", "resumen"], "properties": { "titulo": { "type": "string" }, "resumen": { "type": "string" }, "pagina": { "type": "integer" } } }
+        },
+        "llamadas": { "type": "array", "items": { "type": "object", "required": ["etiqueta", "texto"], "properties": { "etiqueta": { "type": "string" }, "texto": { "type": "string" }, "pagina": { "type": "integer" } } } }
+      }
+    },
+    "notas": { "type": "array", "items": { "$ref": "#/$defs/nota" } },
+    "finanzas": {
+      "type": "object",
+      "required": ["corte", "cripto", "dolar"],
+      "properties": {
+        "corte": { "type": "string", "format": "date-time" },
+        "fuente_cripto": { "type": "string" },
+        "cripto": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["simbolo", "nombre", "precio_usd", "var_24h", "var_7d", "var_30d", "var_1y", "series"],
+            "properties": {
+              "simbolo": { "type": "string" }, "nombre": { "type": "string" },
+              "precio_usd": { "type": "number" },
+              "var_24h": { "type": ["number", "null"] }, "var_7d": { "type": ["number", "null"] }, "var_30d": { "type": ["number", "null"] }, "var_1y": { "type": ["number", "null"] },
+              "market_cap_usd": { "type": ["number", "null"] }, "fdv_usd": { "type": ["number", "null"] },
+              "series": {
+                "type": "object", "required": ["d7", "d30", "d365"],
+                "properties": {
+                  "d7": { "$ref": "#/$defs/serie" }, "d30": { "$ref": "#/$defs/serie" }, "d365": { "$ref": "#/$defs/serie" }
+                }
+              },
+              "comentario": { "type": "string" }
+            }
+          }
+        },
+        "dolar": { "type": "array", "items": { "type": "object", "required": ["casa", "compra", "venta", "actualizado"], "properties": { "casa": { "type": "string" }, "compra": { "type": "number" }, "venta": { "type": "number" }, "actualizado": { "type": "string" } } } },
+        "riesgo_pais": { "type": ["object", "null"], "properties": { "valor": { "type": "number" }, "fecha": { "type": "string" } } },
+        "inflacion": { "type": ["object", "null"], "properties": { "mes": { "type": "string" }, "valor": { "type": "number" }, "serie": { "type": "array", "items": { "type": "object" } } } },
+        "comentario": { "type": "string" },
+        "no_disponible": { "type": "array", "items": { "$ref": "#/$defs/no_disponible" } }
+      }
+    },
+    "boca": {
+      "type": "object",
+      "required": ["ultimo_partido", "proximo_partido", "tabla", "copa_argentina", "continental", "plantel", "mercado", "fuentes"],
+      "properties": {
+        "ultimo_partido": { "type": "object" },
+        "proximo_partido": {
+          "type": "object", "required": ["fecha", "hora_ar", "rival", "competicion", "verificado_en_dos_fuentes"],
+          "properties": { "verificado_en_dos_fuentes": { "type": "boolean", "const": true } }
+        },
+        "siguientes_partidos": { "type": "array" },
+        "tabla": {
+          "type": "object", "required": ["titulo", "filas", "fuente", "actualizada"],
+          "properties": {
+            "titulo": { "type": "string" }, "formato": { "type": "string" }, "fuente": { "type": "string" }, "actualizada": { "type": "string" },
+            "filas": { "type": "array", "minItems": 10, "items": { "type": "object", "required": ["pos", "equipo", "pj", "g", "e", "p", "gf", "gc", "dif", "pts"] } }
+          }
+        },
+        "tabla_anual": { "type": ["object", "null"] },
+        "copa_argentina": { "type": "object", "required": ["sigue", "detalle"] },
+        "continental": { "type": "object", "required": ["competicion", "sigue", "detalle"] },
+        "plantel": { "type": "object" },
+        "mercado": { "type": "object", "required": ["oficiales", "confirmadas", "rumores"] },
+        "fuentes": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/fuente" } },
+        "no_disponible": { "type": "array", "items": { "$ref": "#/$defs/no_disponible" } }
+      }
+    },
+    "clima": {
+      "type": "object",
+      "required": ["lugar", "corte", "fuente", "dias"],
+      "properties": {
+        "lugar": { "type": "string" }, "corte": { "type": "string" }, "fuente": { "type": "string" },
+        "dias": { "type": "array", "minItems": 2, "items": { "type": "object", "required": ["fecha", "codigo_wmo", "max", "min"], "properties": { "fecha": { "type": "string" }, "codigo_wmo": { "type": "integer" }, "max": { "type": "number" }, "min": { "type": "number" }, "precip_mm": { "type": "number" }, "prob_precip": { "type": "number" }, "viento_kmh": { "type": "number" }, "rafagas_kmh": { "type": "number" } } } },
+        "previos": { "type": "array" },
+        "cambio_brusco": { "type": ["string", "null"] },
+        "alertas": { "type": ["string", "null"] }
+      }
+    },
+    "disco": { "type": "object", "required": ["artista", "titulo", "anio", "genero", "justificacion"], "properties": { "artista": { "type": "string" }, "titulo": { "type": "string" }, "anio": { "type": "integer" }, "genero": { "type": "string" }, "justificacion": { "type": "string" }, "comentario": { "type": "array", "items": { "type": "string" } } } },
+    "microrelato": { "type": "object", "required": ["titulo", "autor", "obra", "anio", "texto"], "properties": { "titulo": { "type": "string" }, "autor": { "type": "string" }, "autor_fallecido": { "type": ["integer", "null"] }, "obra": { "type": "string" }, "anio": { "type": ["integer", "string"] }, "traductor": { "type": ["string", "null"] }, "texto": { "type": "array", "items": { "type": "string" } }, "nota": { "type": "string" }, "repeticion_autorizada": { "type": "boolean" } } },
+    "poesia": { "type": "object", "required": ["titulo", "autor", "obra", "anio", "versos", "fragmento"], "properties": { "titulo": { "type": "string" }, "autor": { "type": "string" }, "autor_fallecido": { "type": ["integer", "null"] }, "obra": { "type": "string" }, "anio": { "type": ["integer", "string"] }, "fragmento": { "type": "boolean" }, "versos": { "type": "array", "items": { "type": "string" } }, "nota": { "type": "string" }, "repeticion_autorizada": { "type": "boolean" } } },
+    "glosario": { "type": "array", "minItems": 3, "maxItems": 4, "items": { "type": "object", "required": ["termino", "definicion"], "properties": { "termino": { "type": "string" }, "definicion": { "type": "string" }, "ejemplo": { "type": "string" }, "nota_relacionada": { "type": "string" } } } },
+    "fe_de_erratas": { "type": "array", "items": { "type": "string" } }
+  },
+  "$defs": {
+    "fuente": {
+      "type": "object",
+      "required": ["url", "medio", "consultado"],
+      "properties": { "url": { "type": "string" }, "medio": { "type": "string" }, "titulo": { "type": "string" }, "fecha_publicacion": { "type": "string" }, "consultado": { "type": "string" } }
+    },
+    "serie": { "type": "array", "minItems": 2, "items": { "type": "array", "prefixItems": [{ "type": "number" }, { "type": "number" }], "minItems": 2, "maxItems": 2 } },
+    "no_disponible": {
+      "type": "object", "required": ["dato", "fuente_intentada", "hora_intento"],
+      "properties": { "dato": { "type": "string" }, "fuente_intentada": { "type": "string" }, "hora_intento": { "type": "string" }, "motivo": { "type": "string" } }
+    },
+    "nota": {
+      "type": "object",
+      "required": ["id", "seccion", "titulo", "cuerpo", "tipo", "fecha_acontecimiento", "fuentes", "sensible_al_tiempo"],
+      "properties": {
+        "id": { "type": "string" },
+        "seccion": { "type": "string", "enum": ["principal", "nacional", "economia", "mundo", "cordoba", "punilla", "los_cocos", "buena_noticia", "tecnologia", "upc", "educacion", "ciencia", "cultura", "breve"] },
+        "titulo": { "type": "string" },
+        "bajada": { "type": "string" },
+        "cuerpo": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "tipo": { "type": "string", "enum": ["hecho", "analisis", "opinion"] },
+        "fecha_acontecimiento": { "type": "string" },
+        "fecha_publicacion_fuente": { "type": "string" },
+        "importancia": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "sensible_al_tiempo": { "type": "boolean" },
+        "verificado_en_dos_fuentes": { "type": "boolean" },
+        "recorte": { "type": "string" },
+        "fuentes": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/fuente" } },
+        "repeticion_autorizada": { "type": "boolean" }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "el-diario-de-yrigoyen-pipeline",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Maquetación, preflight y PDF de El Diario de Yrigoyen",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.js",
+    "validar": "node src/validar.js"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "playwright-core": "^1.56.1",
+    "pngjs": "^7.0.0"
+  }
+}

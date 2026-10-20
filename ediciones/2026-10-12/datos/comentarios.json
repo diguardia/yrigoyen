@@ -1,0 +1,18 @@
+{
+  "cripto": {
+    "BTC": "Cerró la semana 3,2% abajo y cotiza 25% por debajo de los US$ 115.000 de hace doce meses, aunque en el mes acumula una recuperación de 7,8%. El lunes a la mañana Ámbito lo registraba en US$ 83.770.",
+    "ETH": "Fue el peor de la semana entre los cuatro: −6,3% en siete días y −33% en doce meses, desde los US$ 4.150 de octubre de 2025. En treinta días quedó prácticamente neutro.",
+    "BNB": "Perdió 5,1% en la semana y 38,5% en el año, la mayor caída anual de los tres grandes seguidos; hace doce meses valía US$ 1.300. El mes cierra apenas positivo.",
+    "0G": "Subió 4% en las últimas 24 horas pero cae 10,4% en la semana; en treinta días acumula +41%. A doce meses pierde 87% desde los US$ 2,29 de su primer mes en el mercado. Capitalización US$ 57,9 millones contra una valuación totalmente diluida de US$ 271,7 millones: sólo circula alrededor de un quinto de la emisión."
+  },
+  "finanzas": "Las cotizaciones del dólar oficial y mayorista son del cierre del viernes 9, último día hábil antes del feriado; blue, MEP, CCL y cripto se actualizaron el lunes a la mañana. El INDEC publica el IPC de septiembre el martes 13; el último dato oficial es agosto.",
+  "clima_alertas": "El Sistema Integrado Provincial de Alertas difundió el domingo 11 a las 16 un aviso vigente hasta el martes 13 a las 22 por tormentas localmente fuertes con abundante agua en poco tiempo, ráfagas, granizo y actividad eléctrica en sectores serranos, con posibles crecidas repentinas de ríos y arroyos. Fuente: El Doce y Capilla Noticias (11/10), que citan el informe del Observatorio Hidrometeorológico de Córdoba.",
+  "clima_cambio_brusco": "sin cambio brusco: la semana sigue fría para octubre, con máximas de 11° a 15° y mínimas de 8° todos los días, igual que los tres días previos (máximas de 10,5° a 13°).",
+  "ocultar_aviso_horaria": true,
+  "filas_extra": [
+    {
+      "casa": "Tasas: TAMAR / BADLAR",
+      "texto": "24,13% / 22,38% · 9 oct"
+    }
+  ]
+}

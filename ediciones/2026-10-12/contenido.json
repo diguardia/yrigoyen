@@ -1,0 +1,1503 @@
+{
+  "edicion": {
+    "numero": 2,
+    "fecha": "2026-10-12",
+    "cierre": "2026-10-12T10:30:00-03:00",
+    "lugar": "Los Cocos, Córdoba",
+    "papel": "A4"
+  },
+  "portada": {
+    "principal": {
+      "id": "corte-ley-tierras",
+      "seccion": "nacional",
+      "titulo": "La Corte frenó la derogación de la Ley de Tierras y el Congreso define el DNU 70 en dos sesiones",
+      "bajada": "El viernes 9 el máximo tribunal suspendió el artículo 154 del decreto 70/2023, con disidencia de Rosenkrantz. La oposición insiste con una sesión el jueves 15 sin quórum asegurado; el oficialismo responde con una megasesión el 21.",
+      "cuerpo": [
+        "El viernes 9 de octubre la Corte Suprema suspendió de manera interina los efectos del artículo 154 del DNU 70/2023, el que en diciembre de 2023 derogó la Ley 26.737 de Tierras Rurales, la norma que limita al 15% la propiedad extranjera de tierra rural. La medida salió en un amparo colectivo iniciado en el Juzgado Federal de Bariloche por la Asociación Civil Árbol de Pie, la exlegisladora Magdalena Odarda y dos comunidades mapuches, que invocan el artículo 41 de la Constitución.",
+        "Firmaron Rosatti, Lorenzetti y los conjueces Barroetaveña y Pérez Curci. Rosenkrantz votó en disidencia parcial: acordó devolver la causa a Bariloche, pero sostuvo que la Corte no tenía competencia para dictar una cautelar en esta etapa. La suspensión rige hasta que el juez federal decida sobre la legitimación de los demandantes; el tribunal aclaró que no juzga todavía la constitucionalidad del decreto. El giro llega diez días después del fallo del 29 de septiembre en la causa del CECIM, que había reactivado la derogación y provocado una ola de críticas.",
+        "En Diputados, la oposición (32 firmas) mantiene el pedido de sesión especial para el jueves 15 a las 14 con el rechazo del DNU 70, la emergencia en discapacidad y el sobreendeudamiento familiar. Los bloques firmantes suman 122 diputados, siete menos que el quórum; el oficialismo los cuenta en 115. La Libertad Avanza convocó su propia sesión para el miércoles 21 a las 12 con la ley de Inviolabilidad de la Propiedad Privada, que incorpora un capítulo para preservar los límites a la compra extranjera de tierras. La semana se completa con el Presupuesto 2027 desde el martes (página 2) y la apelación al fallo sobre financiamiento universitario (página 5)."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.infobae.com/judiciales/2026/10/09/ley-de-tierras-los-puntos-clave-del-fallo-de-la-corte-suprema-y-como-sigue-la-causa/",
+          "medio": "Infobae",
+          "titulo": "Ley de Tierras: los puntos clave del fallo de la Corte Suprema",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:20:00-03:00"
+        },
+        {
+          "url": "https://www.perfil.com/noticias/judiciales/corte-suprema-suspendio-articulo-dnu-7023-ley-de-tierras.phtml",
+          "medio": "Perfil",
+          "titulo": "La Corte Suprema frena la derogación de la Ley de Tierras",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:40:00-03:00"
+        },
+        {
+          "url": "https://www.baenegocios.com/politica/el-gobierno-prepara-una-megasesion-en-diputados-para-salvar-el-dnu-70-y-frenar-a-la-oposicion/",
+          "medio": "BAE Negocios",
+          "titulo": "El Gobierno prepara una megasesión en Diputados",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:35:00-03:00"
+        }
+      ]
+    },
+    "secundarias": [
+      {
+        "titulo": "Boca recibe mañana a Vasco da Gama por la ida de la semifinal de la Sudamericana",
+        "resumen": "Martes 13, 21:30, Bombonera. Sin Paredes, desgarrado en el 2-2 con Instituto.",
+        "pagina": 7
+      },
+      {
+        "titulo": "Alivio en los mercados: el riesgo país bajó a 589 y el BCRA compró US$ 212 millones",
+        "resumen": "Mayorista en $ 1.517, reservas en US$ 49.701 millones. El INDEC publica el IPC el martes.",
+        "pagina": 2
+      },
+      {
+        "titulo": "Un juez ordenó aplicar la Ley de Financiamiento Universitario y los rectores marchan el jueves",
+        "resumen": "El Gobierno apeló; la cautelar sobre salarios y becas sigue vigente.",
+        "pagina": 5
+      },
+      {
+        "titulo": "Renault arrancó la producción de la Niagara en Santa Isabel",
+        "resumen": "Más de la mitad irá a exportación. El feriado dejó 287.463 turistas en Córdoba.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Azure SQL retira los enclaves Intel SGX de Always Encrypted en 2027",
+        "resumen": "Además: Claude Haiku 5.5, una CVE crítica en Atlassian y Mistral Large 4.",
+        "pagina": 4
+      },
+      {
+        "titulo": "Brasil: Flávio Bolsonaro ganó la primera vuelta y define con Lula el 25",
+        "resumen": "47,03% contra 45,16%. El real se apreció 4,6%.",
+        "pagina": 3
+      },
+      {
+        "titulo": "Nobel de Economía, anunciado hoy, para Hall y Woodford",
+        "resumen": "Cierra una semana Nobel con optogenética, los neutrinos de IceCube y la autocatálisis asimétrica.",
+        "pagina": 5
+      }
+    ],
+    "llamadas": [
+      {
+        "etiqueta": "UPC",
+        "texto": "La universidad fue sede del Congreso Internacional de Revistas Universitarias y sumó cuatro títulos a su portal; convocatoria abierta hasta el 30 de noviembre.",
+        "pagina": 5
+      },
+      {
+        "etiqueta": "Ciencia",
+        "texto": "Dos relojes nucleares de torio-229 funcionan: uno corrió 24 horas solo. Dos papers en *Nature*.",
+        "pagina": 5
+      },
+      {
+        "etiqueta": "Clima en las sierras",
+        "texto": "Semana fría y lluviosa, con aviso provincial por tormentas fuertes y crecidas hasta el martes a la noche.",
+        "pagina": 8
+      },
+      {
+        "etiqueta": "Literatura",
+        "texto": "Kafka, *Los árboles*, en traducción propia; Alfonsina Storni, *Cuadrados y ángulos*.",
+        "pagina": 8
+      }
+    ]
+  },
+  "notas": [
+    {
+      "id": "mercados-semana",
+      "seccion": "economia",
+      "titulo": "Semana de alivio en los mercados: el riesgo país bajó a la zona de 580 y el BCRA compró US$ 212 millones",
+      "bajada": "Brasil y la baja de tasas en Estados Unidos empujaron a los activos argentinos. El mayorista cerró en $ 1.517 y las reservas en US$ 49.701 millones.",
+      "cuerpo": [
+        "Entre el lunes 5 y el viernes 9 el riesgo país medido por JP Morgan cayó alrededor de 10% desde los 646 puntos del viernes 2: Infobae lo ubica en 589 al cierre del viernes y El Tribuno en 579. Los bonos en dólares subieron 3% en promedio y el S&P Merval avanzó 2,2% en pesos. El dólar mayorista terminó en $ 1.517 (−$ 3 en la semana), el Banco Nación en $ 1.535, el blue en $ 1.540, el MEP en $ 1.539 y el contado con liquidación en $ 1.611, con una brecha de 6,2%.",
+        "El BCRA compró US$ 212 millones en la semana (US$ 340 millones en octubre, a un ritmo diario de US$ 46 a 48 millones contra 22 en septiembre), con ingresos de energía, minería y deuda de empresas y provincias; el acumulado de 2026 ronda US$ 14.800 millones, muy por encima de la meta anual de 10.000 acordada con el FMI. Las reservas brutas cerraron en US$ 49.701 millones (+904 millones), el nivel más alto desde el 17 de septiembre.",
+        "Para una pyme SaaS que factura en dólares y paga sueldos en pesos, la lectura es incómoda: con el oficial quieto y una inflación mensual de 1,8% a 2%, el costo salarial en dólares sigue subiendo. La baja del riesgo país mejora el acceso al crédito, pero las tasas en pesos (TAMAR 24,1%, BADLAR 22,4%) siguen por encima de la inflación esperada. Para un hogar, el dólar tarjeta en $ 1.995 no se movió; lo que importa es el dato del martes."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.infobae.com/economia/2026/10/10/una-semana-en-la-que-la-politica-de-brasil-impacto-el-mercado-local-subieron-los-bonos-y-el-riesgo-pais-cayo-10-por-ciento/",
+          "medio": "Infobae",
+          "fecha_publicacion": "2026-10-10",
+          "consultado": "2026-10-12T09:30:00-03:00"
+        },
+        {
+          "url": "https://www.ambito.com/finanzas/el-bcra-acumulo-compras-mas-us200-millones-la-semana-y-consolido-el-mejor-inicio-mes-julio-n6332205",
+          "medio": "Ámbito",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:35:00-03:00"
+        },
+        {
+          "url": "https://www.eltribuno.com/nacionales/2026-10-10-0-0-0-el-riesgo-pais-cerro-la-semana-en-menos-de-600-puntos",
+          "medio": "El Tribuno",
+          "fecha_publicacion": "2026-10-10",
+          "consultado": "2026-10-12T09:30:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "presupuesto-2027",
+      "seccion": "nacional",
+      "titulo": "Arranca el Presupuesto 2027: 4% de crecimiento, 18% de inflación y dólar promedio a $ 1.847",
+      "bajada": "El secretario de Hacienda, Carlos Guberman, expone el martes 13 a las 12 ante la comisión de Diputados; el oficialismo quiere dictamen antes del 7 de noviembre.",
+      "cuerpo": [
+        "Los supuestos del proyecto: PBI +4% en 2027 (3% en 2026), inflación de 18% a diciembre de 2027, dólar mayorista en $ 1.600 al cierre de 2026 y promedio de $ 1.847,60 en 2027, superávit primario de 1,1% del PBI y resultado financiero positivo de $ 246.741 millones. La Oficina de Presupuesto del Congreso calcula ingresos +3,5% y gastos +3,4% reales respecto del cierre proyectado de 2026.",
+        "Los puntos de fricción: universidades ($ 7,35 billones contra los 11 que reclama el CIN), discapacidad, jubilaciones, subsidios y fondos provinciales. El oficialismo necesita a los gobernadores: el miércoles 14 Santilli y Caputo exponen en la Conferencia de Federalismo Fiscal junto a Jorge Macri, Frigerio, Sadir, Llaryora, Torres, Pullaro, Zdero y Sáenz. Según Infobae, la Casa Rosada afirma tener acuerdos de palabra con varias provincias para suspender las PASO a cambio de una negociación de retenciones, impuesto al cheque y cargas patronales; no hay nada firmado."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-13",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.diariopopular.com.ar/politica/arranca-el-debate-del-presupuesto-2027-diputados-las-10-claves-del-proyecto-n924048",
+          "medio": "Diario Popular",
+          "fecha_publicacion": "2026-10-11",
+          "consultado": "2026-10-12T09:45:00-03:00"
+        },
+        {
+          "url": "https://www.eltribuno.com/nacionales/2026-10-11-0-0-0-el-gobierno-buscara-que-se-apruebe-el-presupuesto-2027",
+          "medio": "El Tribuno",
+          "fecha_publicacion": "2026-10-11",
+          "consultado": "2026-10-12T09:45:00-03:00"
+        },
+        {
+          "url": "https://www.infobae.com/politica/2026/10/11/milei-consiguio-sus-primeros-acuerdos-de-palabra-con-gobernadores-y-se-gesta-una-negociacion-blue-para-bajar-impuestos/",
+          "medio": "Infobae",
+          "fecha_publicacion": "2026-10-11",
+          "consultado": "2026-10-12T09:10:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "inflacion-septiembre",
+      "seccion": "economia",
+      "titulo": "Inflación: CABA marcó 1,8% en septiembre y el INDEC publica el dato nacional el martes",
+      "bajada": "Las consultoras esperan entre 1,8% y 2,1%, con alimentos por encima del promedio. La pregunta es si se cortó la desaceleración de agosto (1,7%).",
+      "cuerpo": [
+        "El 8 de octubre la Dirección de Estadística porteña informó que el IPC de la Ciudad subió 1,8% en septiembre, contra 1,7% en agosto, con 23,7% acumulado y 32,9% interanual; los rubros de mayor incidencia fueron vivienda (2,3%), alimentos (2,1%), salud (2,2%) y educación (2,9%). El último dato nacional del INDEC es el 1,7% de agosto, con 33,5% interanual.",
+        "Estimaciones privadas para el martes: EconViews 1,8%; C&T 1,9% (verduras 11%); Eco Go, Analytica y Libertad y Progreso 2%; Equilibra 2% a 2,1%; el REM del BCRA, 1,9%. Un dato de 2% confirma que la desinflación se estancó en torno a 27% anualizado, con alimentos arriba del promedio. Para una empresa de software, los costos en pesos crecen cerca de 2% mensual mientras el dólar oficial bajó 0,2% en la semana: el margen en dólares se comprime."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-08",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.cronista.com/economia-politica/la-inflacion-en-caba-fue-de-18-en-septiembre-y-acumula-329-en-los-ultimos-12-meses/",
+          "medio": "El Cronista",
+          "fecha_publicacion": "2026-10-08",
+          "consultado": "2026-10-12T09:10:00-03:00"
+        },
+        {
+          "url": "https://www.mdzol.com/economia/2026/10/12/inflacion-de-septiembre-el-dato-que-espera-javier-milei-y-la-senal-que-preocupa-al-gobierno-1987431.html",
+          "medio": "MDZ",
+          "fecha_publicacion": "2026-10-12",
+          "consultado": "2026-10-12T09:10:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "industria-construccion",
+      "seccion": "economia",
+      "titulo": "Industria y construcción rebotaron en agosto pero siguen por debajo de 2025",
+      "bajada": "La industria creció 1,9% mensual tras caer 5,1% en julio y retrocede 3,2% interanual; la construcción subió 0,4% y cae 4,4%.",
+      "cuerpo": [
+        "El 7 de octubre el INDEC publicó los índices de agosto. La industria subió 1,9% desestacionalizado respecto de julio, pero quedó 3,2% por debajo de agosto de 2025 y acumula −2,7% en el año; 11 de las 16 divisiones cayeron en términos interanuales, con maquinaria y equipo −24% (maquinaria agrícola −37,9%), electrodomésticos −28% y automotores −8,8%, mientras crecieron motos (+27,8%), refinación (+4,7%) y químicos (+4%). La construcción avanzó 0,4% mensual, cortando dos meses de caídas, pero bajó 4,4% interanual, con cemento −8,1% y asfalto −18,4%. El EMAE de agosto se publica el 21 de octubre; con dos trimestres consecutivos de caída, las consultoras proyectan un PBI 2026 por debajo de 2%."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.infobae.com/economia/2026/10/07/la-industria-y-la-construccion-repuntaron-en-agosto-pero-cayeron-contra-el-mismo-mes-de-2025/",
+          "medio": "Infobae",
+          "fecha_publicacion": "2026-10-07",
+          "consultado": "2026-10-12T09:30:00-03:00"
+        },
+        {
+          "url": "https://www.losandes.com.ar/economia/la-construccion-repunto-agosto-pero-cayo-44-interanual-segun-el-indec-n6009459",
+          "medio": "Los Andes",
+          "fecha_publicacion": "2026-10-07",
+          "consultado": "2026-10-12T09:30:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "atraso-cambiario",
+      "seccion": "economia",
+      "titulo": "Milei llevó al Gabinete el debate sobre el atraso cambiario y lo cerró: no habrá devaluación",
+      "bajada": "El Presidente invitó al economista Alberto Ades, que calcula el tipo de cambio real 29% por debajo del promedio de 23 años. Una sola fuente; se publica como análisis.",
+      "cuerpo": [
+        "Según la columna de Pablo Wende en Infobae (11 de octubre), Milei abrió en el Gabinete la discusión sobre si el dólar bajo frena el crecimiento e invitó a Ades, execonomista jefe de Goldman Sachs, que sostuvo que ese nivel deberá ser convalidado para sostenerse. El viceministro Daza respondió que nadie puede determinar el tipo de cambio real de equilibrio. Los argumentos oficiales: superávit comercial y de cuenta corriente, compras del BCRA por casi US$ 15.000 millones, petróleo arriba de US$ 100 y una brecha de 5% que vuelve irrelevante al cepo. El Gobierno dio el debate por cerrado. Para una exportadora de servicios es la discusión de fondo: con el oficial quieto y costos en pesos subiendo 2% mensual, la competitividad se deteriora mes a mes."
+      ],
+      "tipo": "analisis",
+      "fecha_acontecimiento": "2026-10-11",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.infobae.com/economia/2026/10/11/milei-llevo-al-gabinete-el-debate-sobre-el-tipo-de-cambio-puede-crecer-argentina-con-un-dolar-bajo/",
+          "medio": "Infobae",
+          "fecha_publicacion": "2026-10-11",
+          "consultado": "2026-10-12T09:40:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "fmi-revision",
+      "seccion": "breve",
+      "titulo": "FMI: la tercera revisión sigue abierta",
+      "cuerpo": [
+        "Sin novedades formales. La misión estuvo en Buenos Aires del 21 al 29 de septiembre y el acuerdo técnico se busca antes de fin de noviembre, con unos US$ 900 millones en juego. La meta fiscal (1,4% del PBI) está en duda; el Gobierno no descarta pedir una dispensa."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-01",
+      "importancia": 2,
+      "sensible_al_tiempo": false,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.infobae.com/economia/2026/10/01/el-fmi-ratifico-su-apoyo-al-programa-de-ajuste-argentino-pero-senalo-que-hay-que-extender-el-crecimiento-a-mas-sectores/",
+          "medio": "Infobae",
+          "fecha_publicacion": "2026-10-01",
+          "consultado": "2026-10-12T09:20:00-03:00"
+        },
+        {
+          "url": "https://www.infobae.com/economia/2026/10/09/el-bcra-acelero-las-compras-de-dolares-y-acumula-casi-usd-15000-millones-en-2026/",
+          "medio": "Infobae",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:40:00-03:00"
+        }
+      ],
+      "seccion_destino": "economia"
+    },
+    {
+      "id": "breve-salario-minimo",
+      "seccion": "breve",
+      "seccion_destino": "economia",
+      "titulo": "Salario mínimo de $ 391.200 en octubre",
+      "cuerpo": [
+        "Rige desde el 1 de octubre por la Resolución 4/2026, dictada por laudo: +1,9% frente a septiembre. Sigue con $ 398.800 en noviembre, $ 406.400 en diciembre y $ 437.000 en abril de 2027, en línea o apenas por debajo de la inflación esperada."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-01",
+      "importancia": 2,
+      "sensible_al_tiempo": false,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.infobae.com/economia/2026/10/06/de-cuanto-es-el-salario-minimo-en-la-argentina-en-octubre-2026/",
+          "medio": "Infobae",
+          "fecha_publicacion": "2026-10-06",
+          "consultado": "2026-10-12T09:40:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "breve-licitacion",
+      "seccion": "breve",
+      "seccion_destino": "economia",
+      "titulo": "El Tesoro renueva $ 4,85 billones esta semana",
+      "cuerpo": [
+        "Finanzas reabre la LECAP S29E7, el bono TAMAR TMG28 y los duales TXMD9 y TMVE8, sin dólar linked puros. En octubre vencen unos $ 27 billones; en la licitación del 28 de septiembre adjudicó $ 8,62 billones a 29,36% TIREA."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.perfil.com/noticias/economia/licitacion-de-deuda-el-tesoro-busca-renovar-49-billones-a40.phtml",
+          "medio": "Perfil",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:35:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "renault-niagara",
+      "seccion": "cordoba",
+      "titulo": "Renault arrancó la producción en serie de la Niagara en Santa Isabel y Llaryora pidió una Ley de Autopartes",
+      "bajada": "La planta cordobesa fabrica la pick-up que se exportará a 19 países; el gobernador reclamó un régimen autopartista nacional y envió a la Legislatura una nueva Ley de Promoción Industrial.",
+      "cuerpo": [
+        "El martes 6 Renault Argentina formalizó en la Fábrica Santa Isabel el inicio de la producción en serie de la pick-up Niagara, con Martín Llaryora, el secretario de Producción de la Nación, Pablo Lavigne, y el presidente de Renault Argentina, Pablo Sibilla. Más del 50% de la producción irá a exportación, con 19 mercados latinoamericanos en la etapa inicial; la planta emplea 1.300 personas y 195 robots, y la venta empieza en noviembre. Es el modelo número 35 de una fábrica que acumula más de 3,5 millones de unidades en 71 años.",
+        "Llaryora dijo que «ahora también necesitamos una Ley de Autopartes» para que el ecosistema proveedor cordobés sea competitivo. Ninguna fuente informa el monto de inversión ni los empleos nuevos. El mismo día, en Cadena 3, respaldó instalar fotomultas en rutas provinciales con un «sistema mixto» junto a la Policía Caminera; el Ministerio de Seguridad prepara los pliegos, sin lugares ni fechas."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://eleconomista.com.ar/autos/renault-inicio-oficialmente-produccion-niagara-n98666",
+          "medio": "El Economista",
+          "fecha_publicacion": "2026-10-06",
+          "consultado": "2026-10-12T09:35:00-03:00"
+        },
+        {
+          "url": "https://www.mdzol.com/politica/2026/10/6/desde-cordoba-martin-llaryora-reclamo-al-gobierno-nacional-una-ley-de-autopartes-1986210.html",
+          "medio": "MDZ",
+          "fecha_publicacion": "2026-10-06",
+          "consultado": "2026-10-12T09:22:00-03:00"
+        },
+        {
+          "url": "https://www.cadena3.com/noticia/juntos/llaryora-respaldo-las-fotomultas-y-propuso-un-sistema-mixto-con-la-policia-caminera_600966",
+          "medio": "Cadena 3",
+          "fecha_publicacion": "2026-10-06",
+          "consultado": "2026-10-12T09:22:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "turismo-finde-largo",
+      "seccion": "cordoba",
+      "titulo": "Fin de semana largo: 287.463 turistas en la provincia y ocupación cercana al 80%",
+      "bajada": "La Agencia Córdoba Turismo estimó un impacto superior a $ 50.000 millones. Villa Carlos Paz llegó a 85% y La Falda a 78%; no hay dato para Los Cocos.",
+      "cuerpo": [
+        "Según el relevamiento provincial, el feriado movilizó 287.463 turistas frente a 274.395 en 2025 (+4,76%), con ocupación promedio de 79% a 80%, estadía media de 1,8 noches e impacto estimado en más de $ 50.000 millones. Lideraron Tulumba (100%), Yacanto (98%), Villa General Belgrano (95%, con la Oktoberfest) y Río Ceballos (90%); Carlos Paz marcó 85% y La Falda y la capital 78%. Es un balance anticipado, publicado antes del cierre del feriado. Carlos Paz concentró el Sudamericano de Rugby Seven y el Gran Prix de Windsurf; del 15 al 18 sigue la Feria Internacional del Libro, de 18 a 22."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-12",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.cadena3.com/noticia/radioinforme-3/cordoba-tuvo-un-exitoso-fin-de-semana-largo-con-80-de-ocupacion-y-un-impacto-de-50-mil-millones_602548",
+          "medio": "Cadena 3",
+          "fecha_publicacion": "2026-10-12",
+          "consultado": "2026-10-12T09:38:00-03:00"
+        },
+        {
+          "url": "https://www.cba24n.com.ar/cordoba/turismo-en-cordoba--el-fin-de-semana-largo-impacta-con-mas-de--50-mil-millones_a6acac2c2116920e21eb5bf04",
+          "medio": "Cba24n",
+          "fecha_publicacion": "2026-10-10",
+          "consultado": "2026-10-12T09:48:00-03:00"
+        },
+        {
+          "url": "https://www.eldiariodecarlospaz.com.ar/turismo/2026/10/11/carlos-paz-vive-un-fin-de-semana-largo-con-deportes-turistas-y-actividades-al-aire-libre-261777.html",
+          "medio": "El Diario de Carlos Paz",
+          "fecha_publicacion": "2026-10-11",
+          "consultado": "2026-10-12T09:27:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "alertas-tormentas",
+      "seccion": "punilla",
+      "titulo": "Semana de alertas: naranja del SMN el miércoles 7 con Punilla incluida y nuevo aviso provincial hasta el martes 13",
+      "bajada": "El domingo a las 16 el sistema provincial de alertas emitió un aviso por tormentas fuertes, granizo y crecidas repentinas en zonas serranas, vigente hasta mañana a las 22.",
+      "cuerpo": [
+        "Tras la alerta naranja del SMN del miércoles 7, que abarcó Punilla con 50 a 80 milímetros previstos, el domingo 11 el Sistema Integrado Provincial de Alertas difundió un nuevo aviso vigente hasta el martes 13 a las 22: tormentas localmente fuertes con abundante agua en poco tiempo, ráfagas, granizo y posibles crecidas repentinas de ríos y arroyos en sectores serranos. El pronóstico para Los Cocos (página 8) coincide: tormenta el martes con 94% de probabilidad de lluvia. No se hallaron registros oficiales de acumulados ni de daños."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-11",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://eldoce.tv/actualidad/2026/10/11/feriado-complicado-anticipan-lluvias-tormentas-fuertes-y-posible-granizo-en-cordoba-hasta-el-martes/",
+          "medio": "El Doce",
+          "fecha_publicacion": "2026-10-11",
+          "consultado": "2026-10-12T09:54:00-03:00"
+        },
+        {
+          "url": "https://capilla.com.ar/articulo/advierten-por-tormentas-fuertes-granizo-y-posibles-crecidas-en-punilla-CBMi2A",
+          "medio": "Capilla Noticias",
+          "fecha_publicacion": "2026-10-11",
+          "consultado": "2026-10-12T09:48:00-03:00"
+        },
+        {
+          "url": "https://www.cronista.com/informacion-gral/alerta-naranja-y-amarilla-por-fuertes-tormentas-en-cordoba-estas-son-las-zonas-afectadas-este-miercoles-7-de-octubre/",
+          "medio": "El Cronista",
+          "fecha_publicacion": "2026-10-07",
+          "consultado": "2026-10-12T09:54:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "papa-operacion",
+      "seccion": "cordoba",
+      "titulo": "El Papa será operado de un nódulo pulmonar a un mes de su visita; Llaryora: «Córdoba te espera»",
+      "bajada": "León XIV lo anunció el domingo tras el Ángelus. El Vaticano no modificó la gira que incluye Argentina del 8 al 11 de noviembre, con una misa prevista en Córdoba.",
+      "cuerpo": [
+        "El Papa, de 71 años, será operado a comienzos de esta semana para extirparle un nódulo pulmonar detectado, según dijo, en fase inicial; la internación durará unos siete días en el hospital Gemelli de Roma. La gira sigue prevista: Uruguay (6 al 8 de noviembre), Argentina (8 al 11) y Perú (11 al 17), con misa en la Escuela de Aviación Militar de Córdoba, que Letra P fecha el 10. Llaryora publicó en X que rezaba por su salud y que la provincia sigue preparando la llegada; el jueves Passerini y el ministro Quinteros firmaron un convenio para que la Policía conduzca el tránsito en eventos extraordinarios."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-11",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.cadena3.com/noticia/el-papa-leon-xiv-en-argentina/llaryora-rezo-por-la-salud-del-papa-leon-xiv-cordoba-te-espera_602446",
+          "medio": "Cadena 3",
+          "fecha_publicacion": "2026-10-11",
+          "consultado": "2026-10-12T09:33:00-03:00"
+        },
+        {
+          "url": "https://www.infobae.com/america/mundo/2026/10/11/el-papa-leon-xiv-anuncio-que-en-los-proximos-dias-sera-operado-de-un-nodulo-en-el-pulmon/",
+          "medio": "Infobae",
+          "fecha_publicacion": "2026-10-11",
+          "consultado": "2026-10-12T09:45:00-03:00"
+        },
+        {
+          "url": "https://www.perfil.com/noticias/cordoba/visita-del-papa-leon-xiv-passerini-y-quinteros-firmaron-un-convenio-para-coordinar-el-ordenamiento-del-transito-en-la-ciudad.phtml",
+          "medio": "Perfil Córdoba",
+          "fecha_publicacion": "2026-10-08",
+          "consultado": "2026-10-12T09:40:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "alfajor-la-falda",
+      "seccion": "punilla",
+      "titulo": "La Falda cerró cuatro días de Fiesta Nacional del Alfajor con más de cien expositores sobre la avenida Edén",
+      "bajada": "Del viernes 9 al lunes 12, con entrada gratuita y concurso Mejor Alfajor. Antes, el municipio tuvo que frenar ante el INPI el intento de un particular de registrar la marca.",
+      "cuerpo": [
+        "La avenida Edén se convirtió en paseo peatonal con más de cien expositores y dos escenarios: Alfajor Gigante el sábado, premiación del concurso el domingo a las 19, Los Caligaris a la noche y cierre hoy a las 17:30. El intendente Javier Dieminger afirmó que la fiesta se autofinancia. La Estafeta informó que un hombre radicado en Buenos Aires intentó registrar la marca «Fiesta Nacional del Alfajor» ante el INPI; el Concejo Deliberante contrató un estudio para registrarla a nombre del municipio y el INPI frenó la solicitud por falta de avales."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.perfil.com/noticias/cordoba/la-fiesta-nacional-del-alfajor-llega-a-la-falda-cuatro-dias-con-entrada-gratuita-shows-y-actividades.phtml",
+          "medio": "Perfil Córdoba",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:45:00-03:00"
+        },
+        {
+          "url": "https://laestafetaonline.com.ar/locales/dulce-susto-en-la-falda-un-hombre-intento-registrar-la-marca-fiesta-nacional-del-alfajor/",
+          "medio": "La Estafeta Online",
+          "fecha_publicacion": "2026-10-08",
+          "consultado": "2026-10-12T09:50:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "brasil-balotaje",
+      "seccion": "mundo",
+      "titulo": "Brasil: Flávio Bolsonaro ganó la primera vuelta y define con Lula el 25 de octubre",
+      "bajada": "Contra las encuestas, el senador del PL sacó 47,03% de los votos válidos y Lula 45,16%. El real se apreció 4,6% y la Bolsa paulista marcó un récord.",
+      "cuerpo": [
+        "En la primera vuelta del domingo 4, Flávio Bolsonaro obtuvo 56,1 millones de votos y Lula 53,9 millones, una diferencia de 1,87 puntos; Datafolha había proyectado 45% para Lula y 42% para Flávio. En el Senado el PL ganó 19 de las 54 bancas renovadas y el PT 9. El Ibovespa subió 8,8% en la semana hasta un récord y el real pasó de 5,22 a 4,99 por dólar, lo que contribuyó a la baja del riesgo país argentino y mejora la competitividad de las exportaciones industriales."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-04",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://chequeado.com/el-explicador/elecciones-en-brasil-2026-las-claves-de-los-resultados-de-la-primera-vuelta-de-cara-al-balotaje-entre-flavio-bolsonaro-y-lula/",
+          "medio": "Chequeado",
+          "fecha_publicacion": "2026-10-05",
+          "consultado": "2026-10-12T09:30:00-03:00"
+        },
+        {
+          "url": "https://www.lanacion.com.ar/el-mundo/elecciones-en-brasil-en-vivo-que-se-sabe-del-balotaje-entre-lula-y-bolsonaro-encuestas-y-ultimas-nid06102026/",
+          "medio": "La Nación",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:30:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "record-granos",
+      "seccion": "buena_noticia",
+      "titulo": "Récord: la Argentina exportó 88,9 millones de toneladas de granos y subproductos en nueve meses",
+      "bajada": "La Bolsa de Comercio de Rosario calcula que los embarques de enero a septiembre superan en 6 millones de toneladas el máximo de 2021.",
+      "cuerpo": [
+        "El Informativo Semanal 2264 de la BCR, del 9 de octubre, estima 88,9 millones de toneladas exportadas, casi 10% más que en 2025. El trigo acumula 12,8 millones (+60% sobre el promedio a esta altura), el girasol superó 6,5 millones y la harina de girasol llegó a 1,74 millones, 54% sobre su máximo histórico. Lo explican una cosecha extraordinaria, demanda externa firme y la limitación de los envíos del Mar Negro. Es un dato de volumen físico, no de dólares."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 3,
+      "sensible_al_tiempo": false,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.bcr.com.ar/es/mercados/investigacion-y-desarrollo/informativo-semanal/noticias-informativo-semanal/seguimos",
+          "medio": "Bolsa de Comercio de Rosario",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:52:00-03:00"
+        },
+        {
+          "url": "https://www.ellitoral.com/campolitoral/agroindustria-granos-bolsadecomercioderosario-trigo-exportaciones-girasol-maiz-harinadesoja-marnegro-europa-biocombustibles-harinadegirasol-soja_0_fpyItaI4tt.html",
+          "medio": "El Litoral",
+          "fecha_publicacion": "2026-10-10",
+          "consultado": "2026-10-12T09:35:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "breve-los-cocos",
+      "seccion": "breve",
+      "seccion_destino": "punilla",
+      "titulo": "Los Cocos: jornada Córdoba Rosa en la plaza San Martín",
+      "cuerpo": [
+        "La Municipalidad convocó para el viernes 9 a las 16 a una jornada gratuita de actividad física y alimentación saludable para mujeres y niñas, con cierre de los Murgueritos. Es la única actividad verificable de la semana en la localidad."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 2,
+      "sensible_al_tiempo": false,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://loscocos.gob.ar/cordoba-rosa-en-los-cocos/",
+          "medio": "Municipalidad de Los Cocos",
+          "fecha_publicacion": "2026-10-05",
+          "consultado": "2026-10-12T09:50:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "haiku-5-5",
+      "seccion": "tecnologia",
+      "titulo": "Claude Haiku 5.5 baja 75% el precio y suma control de esfuerzo; los benchmarks son autoinformados",
+      "bajada": "Anthropic lo publicó el 7 de octubre con ventana de 1M tokens, parámetro effort y precios escalonados por tamaño de prompt.",
+      "cuerpo": [
+        "Claude Haiku 5.5 (claude-haiku-5-5) pasó a ser el Haiku por defecto y quedó disponible el mismo día en AWS, Google Cloud, Azure, GitHub Copilot y Claude Code 2.1.293. Cuesta US$ 0,10 por millón de tokens de entrada y 0,50 de salida para prompts de hasta 100K tokens, y 0,50/2,50 por encima; la lectura de caché, 0,01/0,05. Contra Haiku 4.5 la empresa calcula una baja promedio de 75%, pero la nota al pie dice 90% para prompts cortos y 50% para los largos, y el tokenizador nuevo consume algo más de tokens por tarea.",
+        "Es el primer Haiku con parámetro effort y sólo admite razonamiento adaptativo, lo que rompió el conteo de tokens detrás de algunos gateways hasta el parche 2.1.296. Los benchmarks son de Anthropic, sin verificación independiente: OSWorld 2.1 offline 72,4% contra 83,9% de Sonnet 5.5; Terminal-Bench 4.0 39,2% contra 70,6%. La propia página lo ubica en compactación, resúmenes y subagentes. Para un ERP que clasifica tickets o extrae comprobantes, el precio y la ventana cambian la cuenta frente a Haiku 4.5, pero conviene medir con el tokenizador nuevo antes de proyectar costos."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "medio": "Anthropic",
+          "fecha_publicacion": "2026-10-07",
+          "consultado": "2026-10-12T09:41:00-03:00"
+        },
+        {
+          "url": "https://code.claude.com/docs/en/changelog",
+          "medio": "Claude Code changelog",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:27:00-03:00"
+        },
+        {
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "medio": "GitHub Changelog",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:34:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "azure-sql-sgx",
+      "seccion": "tecnologia",
+      "titulo": "Azure SQL retira Always Encrypted con enclaves Intel SGX: un año para migrar a VBS o a Confidential VMs",
+      "bajada": "El 31 de octubre de 2027 deja de funcionar el enclave por hardware de la serie DC. Lo que queda, VBS, no tiene atestación ni aislamiento del host.",
+      "cuerpo": [
+        "Los enclaves SGX sólo existen en la configuración DC-series (núcleos físicos, máximo 40 vCores). Según Microsoft Learn, después de la fecha Azure moverá automáticamente esas bases a standard-series con enclaves VBS. La diferencia no es cosmética: SGX con Azure Attestation protege contra atacantes con acceso de administrador del sistema operativo; VBS, basado en el hipervisor de Windows, no soporta atestación y, según los propios docs, no protege contra cuentas privilegiadas del host ni contra la sustitución del binario del enclave. Microsoft recomienda VBS para ocultar datos a DBAs e insiders, y SQL Server en Azure Confidential VMs si se necesita aislamiento equivalente. La migración implica cambiar el tier, quitar la URL de atestación de las cadenas de conexión y actualizar drivers.",
+        "Para un ERP SaaS multi-tenant que usa Always Encrypted con enclaves para CUIT, sueldos o cuentas bancarias y lo declara en contratos o auditorías, el punto es de modelo de amenaza: revisar qué se prometió al cliente y si VBS lo cumple, o presupuestar Confidential VMs, que sacan la base del modelo PaaS."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 4,
+      "sensible_al_tiempo": false,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://techcommunity.microsoft.com/blog/azuresqlblog/azure-sql-database-is-retiring-always-encrypted-with-intel-sgx-enclaves/4556565",
+          "medio": "Azure SQL Blog",
+          "fecha_publicacion": "2026-10-07",
+          "consultado": "2026-10-12T09:27:00-03:00"
+        },
+        {
+          "url": "https://learn.microsoft.com/en-us/azure/azure-sql/database/always-encrypted-enclaves-plan",
+          "medio": "Microsoft Learn",
+          "fecha_publicacion": "2026-10-01",
+          "consultado": "2026-10-12T09:50:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "cve-atlassian",
+      "seccion": "tecnologia",
+      "titulo": "CVE-2026-21589: lectura de archivos sin autenticación en ocho productos Atlassian, explotada a dos horas del PoC",
+      "bajada": "Atlassian publicó el aviso el 5 de octubre; watchTowr mostró el 6 cómo escalar a administrador de Jira vía Crowd y el 7 ya había explotación en honeypots.",
+      "cuerpo": [
+        "Afecta a Bitbucket, Confluence, Jira, Jira Service Management, Bamboo y Crowd Data Center, además de Crucible y Fisheye; CVSS 4.0 de 9,3. Un atacante sin credenciales puede leer archivos dentro del directorio raíz de la aplicación si conoce la ruta exacta. watchTowr ubicó la causa en la biblioteca compartida atlassian-plugins-webresource, que permite eludir las protecciones contra path traversal, y demostró la cadena: leer crowd.properties en un Jira integrado con Crowd, obtener las credenciales de aplicación y crear un administrador. VulnCheck lo sumó a su catálogo de explotación activa y los honeypots de Previdian registraron intentos a menos de dos horas del PoC.",
+        "Versiones corregidas: Confluence 9.2.26/10.2.19, Jira 9.12.40/10.3.26/11.3.12, Bitbucket 9.4.26/10.2.8/10.5.1, Bamboo 10.2.24/12.1.12, Crowd 6.3.7/7.0.3/7.1.7/7.2.4. No hay parches binarios: la única vía es actualizar, o sacar las instancias de internet mientras tanto. Cloud no está afectado. La lección: un file read se convierte en toma de control cuando hay credenciales dentro del webroot, y la ventana entre aviso y explotación masiva se mide en horas."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://confluence.atlassian.com/security/cve-2026-21589-arbitrary-file-access-vulnerability-impacts-multiple-products-1870495748.html",
+          "medio": "Atlassian Security Advisories",
+          "fecha_publicacion": "2026-10-05",
+          "consultado": "2026-10-12T09:41:00-03:00"
+        },
+        {
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-atlassian-flaw-after-public-poc-release/",
+          "medio": "BleepingComputer",
+          "fecha_publicacion": "2026-10-07",
+          "consultado": "2026-10-12T09:35:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "agentes-hardening",
+      "seccion": "tecnologia",
+      "titulo": "Semana de endurecimiento en los agentes de código: hooks que fallan cerrados, sandbox en Copilot y worktrees en Codex",
+      "bajada": "Entre el 5 y el 10 de octubre, Anthropic, OpenAI y GitHub publicaron versiones que convergen en menos permisos implícitos y más control sobre lo que un repositorio puede activar.",
+      "cuerpo": [
+        "Claude Code publicó siete versiones (2.1.290 a 2.1.296). La 2.1.295 agregó onFailure: block para hooks: si el hook no arranca, expira o sale con código inesperado, la acción se bloquea en lugar de pasar. La 2.1.290 impidió que los settings del repositorio activen Claude in Chrome o desactiven adjuntos, y la 2.1.292 cerró un bypass de permisos para lecturas por rutas UNC. En MCP, el protocolo 2026-07-28 pasa a ser el default.",
+        "Codex CLI 0.161.0 (7 de octubre) hace a GPT-6.1 Sol el modelo por defecto y cambia el sandbox para que una escalada de escritura aprobada mantenga las lecturas denegadas y las restricciones de red; la 0.162.0 agrega worktrees de Git gestionados, apply_patch que preserva CRLF y un instalador PowerShell firmado. GitHub declaró GA el sandboxing local de Copilot en CLI, app y VS Code. El patrón para quien administra equipos: la superficie de ataque ya no es sólo el modelo sino la configuración que viaja en el repo, y los tres mueven el default a denegar salvo aprobación explícita."
+      ],
+      "tipo": "analisis",
+      "fecha_acontecimiento": "2026-10-08",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://code.claude.com/docs/en/changelog",
+          "medio": "Claude Code changelog",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:27:00-03:00"
+        },
+        {
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.161.0",
+          "medio": "GitHub openai/codex",
+          "fecha_publicacion": "2026-10-07",
+          "consultado": "2026-10-12T09:35:00-03:00"
+        },
+        {
+          "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+          "medio": "GitHub Changelog",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:34:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "mistral-large-4",
+      "seccion": "tecnologia",
+      "titulo": "Mistral Large 4: un MoE de un billón de parámetros entrenado en Europa, con pesos prometidos para fin de mes",
+      "bajada": "La preview del 6 de octubre declara 52.000 millones de parámetros activos y benchmarks que la propia empresa califica de preliminares.",
+      "cuerpo": [
+        "Mistral Large 4 está en preview vía API a US$ 1,36 por millón de tokens de entrada y 4,18 de salida. Es un mixture-of-experts de 1,05 billones de parámetros totales con 52.000 millones activos, entrenado en 3.800 GPUs Grace Blackwell en centros de datos europeos. Promete pesos abiertos para fin de octubre, sin licencia ni ventana de contexto publicadas. Benchmarks propios y preliminares: 61,7% en DeepSWE v1.1 y 28,3% en Terminal-Bench 4, por debajo del 39,2% que Anthropic reporta para Haiku 5.5, con la salvedad de que son corridas distintas. Para inferencia soberana u on-premise, el anuncio se vuelve concreto cuando aparezcan pesos, licencia y evaluaciones de terceros."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 3,
+      "sensible_al_tiempo": false,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://mistral.ai/news/mistral-large-4",
+          "medio": "Mistral AI",
+          "fecha_publicacion": "2026-10-06",
+          "consultado": "2026-10-12T09:27:00-03:00"
+        },
+        {
+          "url": "https://aiweekly.co/alerts/mistral-previews-1t-param-open-weight-large-4-le-chonk",
+          "medio": "AI Weekly",
+          "fecha_publicacion": "2026-10-06",
+          "consultado": "2026-10-12T09:50:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "financiamiento-universitario",
+      "seccion": "educacion",
+      "titulo": "Un juez ordenó aplicar la Ley de Financiamiento Universitario, el Gobierno apeló y los rectores marchan el jueves 15",
+      "bajada": "Martín Cormick declaró inconstitucional la cláusula del decreto 759/2025 que suspendía la Ley 27.795. La apelación ya está en la Cámara, pero sigue vigente una cautelar sobre salarios y becas.",
+      "cuerpo": [
+        "El 6 de octubre el juez del Contencioso Administrativo Federal 11 hizo lugar al amparo colectivo del Consejo Interuniversitario Nacional y a la demanda de la UBA y declaró inconstitucional la frase del decreto que condicionaba la ejecución de la ley a que el Congreso definiera las fuentes de financiamiento: operó como un veto no previsto en la Constitución. Ordenó dictar de inmediato las normas de ejecución y homologar la paritaria del 10 de junio (24,33% en dos tramos, 20% más en gastos de funcionamiento, $ 50.000 millones para hospitales universitarios y 50% de aumento en las becas Manuel Belgrano).",
+        "El Gobierno apeló con el argumento de que la ley genera gastos sin fuente presupuestaria; el 9 Cormick concedió el recurso sin suspender la cautelar. El miércoles 7 el CIN sesionó en la galería del Cabildo y convocó a la Quinta Marcha Federal Universitaria para el jueves 15 frente al Congreso, desde las 13:30 según Infobae. De fondo, el Presupuesto 2027 asigna $ 7,35 billones contra los 11 que calculan los rectores; ACIJ estima el crédito 24,9% menor en términos reales que el de 2023. La UPC, como universidad provincial, no está alcanzada por la ley, pero sí por el clima salarial que la rodea."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 5,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.infobae.com/judiciales/2026/10/09/paso-a-camara-la-apelacion-del-gobierno-que-ordena-aplicar-la-ley-de-financiamiento-universitario/",
+          "medio": "Infobae",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:33:00-03:00"
+        },
+        {
+          "url": "https://www.lanacion.com.ar/sociedad/es-insolito-haber-llegado-a-este-punto-los-rectores-universitarios-convocaron-desde-el-cabildo-a-la-nid07102026/",
+          "medio": "La Nación",
+          "fecha_publicacion": "2026-10-07",
+          "consultado": "2026-10-12T09:33:00-03:00"
+        },
+        {
+          "url": "https://www.cronista.com/economia-politica/la-justicia-ordeno-cumplir-la-ley-de-financiamiento-universitario-y-dejo-una-fuerte-advertencia-al-gobierno/",
+          "medio": "El Cronista",
+          "fecha_publicacion": "2026-10-06",
+          "consultado": "2026-10-12T09:30:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "upc-ciru",
+      "seccion": "upc",
+      "titulo": "La UPC fue sede del Congreso Internacional de Revistas Universitarias y sumó cuatro títulos a su portal",
+      "bajada": "CIRU 2026 se desarrolló del 6 al 10 de octubre en modalidad híbrida con participantes de seis países. La nueva revista *Sostenible y Circular* recibe trabajos hasta el 30 de noviembre.",
+      "cuerpo": [
+        "La Secretaría de Ciencia, Arte y Tecnología organizó el congreso con sedes en el Campus Sur, la Facultad de Educación y Salud, la Academia Nacional de Ciencias, la Sede Regional Villa Carlos Paz y el CEPROCOR de Santa María de Punilla, con participantes de seis países. El 9 la universidad informó la incorporación de cuatro títulos a su Portal de Revistas: *Sustantiva*, *El Vigía Universitario* (Deán Funes), *Minka* y *Sostenible y Circular*, nueva revista de la SeCiAT. La convocatoria para el primer número admite artículos originales de 5.000 a 9.000 palabras, ensayos, relatos de experiencia y entrevistas, de docentes y estudiantes de la UPC y de otras universidades de la región, con envío por revistas.upc.edu.ar/syc y publicación en el primer semestre de 2027. Toda la información es institucional; no hubo novedades de PILA, calendario académico ni presupuesto en el período."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 4,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.upc.edu.ar/la-upc-expande-su-portal-de-revistas-con-nuevas-publicaciones-durante-ciru-2026/",
+          "medio": "Universidad Provincial de Córdoba",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:28:00-03:00"
+        },
+        {
+          "url": "https://www.upc.edu.ar/convocatoria-abierta-la-upc-invita-a-postular-trabajos-para-el-primer-numero-de-sostenible-y-circular/",
+          "medio": "Universidad Provincial de Córdoba",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:28:00-03:00"
+        },
+        {
+          "url": "https://www.upc.edu.ar/mes-investigacion/",
+          "medio": "Universidad Provincial de Córdoba",
+          "fecha_publicacion": "2026-10-01",
+          "consultado": "2026-10-12T09:55:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nobel-medicina",
+      "seccion": "ciencia",
+      "titulo": "Nobel de Medicina para la optogenética: Deisseroth, Hegemann y Nagel",
+      "bajada": "El 5 de octubre el Karolinska premió los descubrimientos sobre canales iónicos activados por luz que permiten encender o apagar neuronas individuales en un cerebro vivo.",
+      "cuerpo": [
+        "Karl Deisseroth (Stanford), Peter Hegemann (Humboldt de Berlín) y Georg Nagel (Würzburg) comparten el premio. Hegemann postuló que una sola proteína del alga *Chlamydomonas* captaba la luz y funcionaba como canal iónico; Nagel lo verificó en ovocitos de rana y así se identificó la canalrodopsina-2. En 2003 mostraron que en células de mamífero genera corrientes al iluminarla; en 2005 Deisseroth la usó en neuronas y en 2006 el método recibió su nombre. Aplicaciones citadas: ensayos para restaurar visión en retinitis pigmentosa e implantes cocleares ópticos. El límite: hay que entregar el gen al tejido, en general con vectores virales, y hacer llegar la luz, lo que hoy restringe el uso clínico a órganos accesibles como la retina."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-05",
+      "importancia": 4,
+      "sensible_al_tiempo": false,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.stlpr.org/npr/2026-10-05/nobel-medicine-prize-goes-to-3-scientists-for-research-into-brain-activity",
+          "medio": "AP vía NPR",
+          "fecha_publicacion": "2026-10-05",
+          "consultado": "2026-10-12T09:35:00-03:00"
+        },
+        {
+          "url": "https://www.khaleejtimes.com/world/german-us-scientists-win-nobel-medicine-prize-optogenetics",
+          "medio": "Reuters vía Khaleej Times",
+          "fecha_publicacion": "2026-10-05",
+          "consultado": "2026-10-12T09:50:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "relojes-nucleares",
+      "seccion": "ciencia",
+      "titulo": "Los primeros relojes nucleares de torio-229 funcionan: dos papers en *Nature* y un lazo de realimentación que corrió 24 horas solo",
+      "bajada": "Equipos de Viena y China publicaron el 7 de octubre relojes que usan una transición del núcleo como referencia. Todavía están lejos de los mejores relojes atómicos ópticos.",
+      "cuerpo": [
+        "Los artículos son del grupo de Thorsten Schumm en la TU Wien con la PTB alemana (DOI 10.1038/s41586-026-11084-4) y de un equipo chino encabezado por Shiqian Ding (10.1038/s41586-026-11122-1). La referencia es una transición del núcleo, mucho menos sensible a perturbaciones que las transiciones electrónicas de los relojes atómicos. Ambos embeben torio-229 en un cristal milimétrico de fluoruro de calcio a temperatura ambiente y lo interrogan con un láser de 148 nanómetros. La novedad vienesa es el lazo de realimentación: cuando el láser se corre de la resonancia, el cambio de absorción genera una señal de error que corrige la frecuencia; funcionó más de 24 horas solo y alcanzó una precisión del orden de 10^-15 en un día, un segundo cada 30 millones de años. La estabilidad sigue por debajo de la de los mejores relojes atómicos; el margen de mejora estimado es de cuatro órdenes de magnitud."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 4,
+      "sensible_al_tiempo": false,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.natureasia.com/en/info/press-releases/detail/9455",
+          "medio": "Nature (comunicado)",
+          "fecha_publicacion": "2026-10-08",
+          "consultado": "2026-10-12T09:41:00-03:00"
+        },
+        {
+          "url": "https://www.vienna.at/viennese-researchers-build-worlds-first-nuclear-clock/10526765",
+          "medio": "APA vía vienna.at",
+          "fecha_publicacion": "2026-10-07",
+          "consultado": "2026-10-12T09:58:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "nobel-fisica",
+      "seccion": "ciencia",
+      "titulo": "Nobel de Física para Francis Halzen, el arquitecto de IceCube",
+      "bajada": "La Academia sueca premió el 6 de octubre, sin compartir, al físico que convirtió un kilómetro cúbico de hielo antártico en detector de neutrinos.",
+      "cuerpo": [
+        "Halzen, belga-estadounidense de 82 años, propuso en 1988 usar el hielo bajo el Polo Sur como medio de detección: los neutrinos atraviesan la Tierra y rara vez interactúan; cuando lo hacen en el hielo producen destellos que registran sensores enterrados a 2.500 metros. IceCube, financiado por la National Science Foundation y operado por más de 400 científicos de 14 países, publicó en 2013 la primera evidencia de neutrinos de alta energía de origen extragaláctico. Halzen contó a AP que la mayor sorpresa fue que el detector funcionara: durante años se lo consideró «una idea simpática que nunca iba a andar»."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 3,
+      "sensible_al_tiempo": false,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.aljazeera.com/news/2026/10/6/francis-halzen-wins-nobel-prize-in-physics-for-work-on-ghost-particles",
+          "medio": "Al Jazeera",
+          "fecha_publicacion": "2026-10-06",
+          "consultado": "2026-10-12T09:50:00-03:00"
+        },
+        {
+          "url": "https://fox11online.com/news/state/francis-halzen-nobel-prize-physics-university-wisconsin-madison-neutrinos-cosmic-particles-icecube-observatory-antarctica",
+          "medio": "AP vía FOX 11",
+          "fecha_publicacion": "2026-10-06",
+          "consultado": "2026-10-12T09:58:00-03:00"
+        }
+      ],
+      "pagina": 8
+    },
+    {
+      "id": "nobel-economia",
+      "seccion": "ciencia",
+      "titulo": "Nobel de Economía, anunciado hoy, para Hall y Woodford: los microfundamentos de la estabilización",
+      "bajada": "El premio del Riksbank reconoce a los dos estadounidenses que reconstruyeron los modelos macro sobre decisiones de hogares y empresas.",
+      "cuerpo": [
+        "A las 06:45 hora argentina la Academia anunció el premio para Robert E. Hall (Stanford, 1943) y Michael Woodford (Columbia, 1955) por «los fundamentos microeconómicos de la estabilización macroeconómica». Hall trabajó la demanda: cómo los hogares deciden cuánto consumir según los ingresos que esperan; Woodford la oferta: cómo las empresas fijan precios cuando cambiarlos es costoso, de modo que las expectativas pasan al centro del análisis. De ahí la recomendación de ambos: los bancos centrales deben comunicar sus planes con claridad. La semana Nobel se completó con Química para Henri Kagan y Kenso Soai, Literatura para Anne Carson y Paz para Navi Pillay. La motivación se tomó de medios que la reproducen."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-12",
+      "importancia": 3,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.stlpr.org/npr/2026-10-12/two-americans-win-nobel-prize-in-economics-for-work-on-boom-bust-cycles",
+          "medio": "NPR",
+          "fecha_publicacion": "2026-10-12",
+          "consultado": "2026-10-12T10:02:00-03:00"
+        },
+        {
+          "url": "https://news.columbia.edu/news/columbias-michael-woodford-wins-2026-nobel-memorial-prize-economics",
+          "medio": "Columbia News",
+          "fecha_publicacion": "2026-10-12",
+          "consultado": "2026-10-12T10:00:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "breve-upc-convocatorias",
+      "seccion": "breve",
+      "seccion_destino": "upc",
+      "titulo": "Convocatorias docentes abiertas en la UPC",
+      "cuerpo": [
+        "Coordinador de curso en Deán Funes y preceptor en Morteros (hasta el 14), coordinador de curso en Cruz del Eje (hasta el 16), horas vacantes en la Escuela de Cerámica Fernando Arranz (13 al 15) y módulos para la Tecnicatura en Lengua de Señas de la FES (inscripción 15, 16 y 19; documentación el 22 en Campus Sur). Resolución 057."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.upc.edu.ar/convocatoria-de-modulos-universitarios-y-horas-catedra-en-la-fes/",
+          "medio": "Universidad Provincial de Córdoba",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:28:00-03:00"
+        }
+      ]
+    },
+    {
+      "id": "breve-fad-expone",
+      "seccion": "breve",
+      "seccion_destino": "upc",
+      "titulo": "FAD Expone inaugura mañana y Morteros recibe el Congreso Regional de Educación",
+      "cuerpo": [
+        "La décima muestra de la Facultad de Arte y Diseño, con 21 proyectos, abre el martes 13 de 18 a 20 en la Sala Farina del Campus Sur. Del 14 al 16 la UPC coorganiza en Morteros el 11º Congreso Regional de Educación, con apertura presencial el jueves 15 a las 18."
+      ],
+      "tipo": "hecho",
+      "fecha_acontecimiento": "2026-10-13",
+      "importancia": 2,
+      "sensible_al_tiempo": true,
+      "verificado_en_dos_fuentes": false,
+      "fuentes": [
+        {
+          "url": "https://www.upc.edu.ar/fad-expone-2026-inaugura-su-decima-edicion-en-la-sala-farina/",
+          "medio": "Universidad Provincial de Córdoba",
+          "fecha_publicacion": "2026-10-09",
+          "consultado": "2026-10-12T09:42:00-03:00"
+        }
+      ]
+    }
+  ],
+  "finanzas": "@datos/finanzas.json",
+  "clima": "@datos/clima.json",
+  "boca": {
+    "ultimo_partido": {
+      "fecha": "2026-10-09",
+      "hora_ar": "19:30",
+      "competicion": "Clausura 2026, Zona A, fecha 12",
+      "local": "Instituto",
+      "visitante": "Boca",
+      "resultado": "2 - 2",
+      "goles": [
+        {
+          "minuto": "13",
+          "jugador": "Alarcón",
+          "equipo": "Instituto"
+        },
+        {
+          "minuto": "22",
+          "jugador": "Valencia",
+          "equipo": "Boca"
+        },
+        {
+          "minuto": "48",
+          "jugador": "Galván",
+          "equipo": "Instituto"
+        },
+        {
+          "minuto": "56",
+          "jugador": "Merentiel",
+          "equipo": "Boca"
+        }
+      ],
+      "arbitro": "Leandro Rey Hilfer",
+      "estadio": "Estadio Mario Alberto Kempes, Córdoba",
+      "cronica": [
+        "Instituto, puntero de la zona, se puso en ventaja dos veces: Alarcón tras un tiro libre a los 13 minutos y Galván, de cabeza tras un córner, apenas iniciado el segundo tiempo. Boca empató las dos: Valencia aprovechó un error del arquero Ledesma y Merentiel, que había entrado en el entretiempo, definió a los 56 con asistencia de Lautaro Blanco.",
+        "La peor noticia fue Leandro Paredes: entró a los 53 y salió a los 70 con un desgarro grado 2 en el isquiotibial derecho. Boca estiró la racha sin derrotas en el Clausura (5 triunfos, 6 empates, 1 caída) y quedó tercero con 21 puntos. Los minutos de los goles difieren en uno según la fuente."
+      ]
+    },
+    "proximo_partido": {
+      "fecha": "2026-10-13",
+      "hora_ar": "21:30",
+      "competicion": "Copa Sudamericana · semifinal, ida",
+      "rival": "Vasco da Gama",
+      "condicion": "local",
+      "estadio": "La Bombonera",
+      "arbitro": "Piero Maza (Chile); VAR José Cabero",
+      "tv": "ESPN y DSports",
+      "verificado_en_dos_fuentes": true,
+      "fuentes": [
+        {
+          "url": "https://www.lanacion.com.ar/deportes/futbol/boca-juniors-vs-vasco-da-gama-por-la-copa-sudamericana-2026-dia-horario-tv-y-como-ver-online-nid11102026/",
+          "medio": "La Nación",
+          "consultado": "2026-10-12T09:40:00-03:00"
+        },
+        {
+          "url": "https://www.cadena3.com/noticia/futbol/copa-sudamericana-ya-esta-el-arbitro-de-la-ida-entre-boca-y-vasco_601483",
+          "medio": "Cadena 3",
+          "consultado": "2026-10-12T09:40:00-03:00"
+        },
+        {
+          "url": "https://www.bocajuniors.com.ar/noticias",
+          "medio": "Boca Juniors (sitio oficial)",
+          "consultado": "2026-10-12T09:45:00-03:00"
+        }
+      ]
+    },
+    "siguientes_partidos": [
+      {
+        "fecha": "2026-10-16",
+        "hora_ar": "21:30",
+        "competicion": "Clausura, fecha 13 · Bombonera · TNT Sports",
+        "rival": "Talleres",
+        "condicion": "local"
+      },
+      {
+        "fecha": "2026-10-20",
+        "hora_ar": "21:30",
+        "competicion": "Sudamericana, semifinal vuelta · Maracaná",
+        "rival": "Vasco da Gama",
+        "condicion": "visitante"
+      },
+      {
+        "fecha": "2026-10-25",
+        "hora_ar": "17:00",
+        "competicion": "Clausura, fecha 14 · Avellaneda",
+        "rival": "Independiente",
+        "condicion": "visitante"
+      },
+      {
+        "fecha": "2026-11-01",
+        "hora_ar": "15:00",
+        "competicion": "Clausura, fecha 15, interzonal · Superclásico",
+        "rival": "River",
+        "condicion": "local"
+      }
+    ],
+    "tabla": {
+      "titulo": "Torneo Clausura 2026 · Zona A",
+      "formato": "Dos zonas de 15; los ocho primeros de cada una pasan a octavos, con playoffs a partido único. Faltan Lanús-Vélez (hoy 16:00) y Gimnasia (M)-Newell's (hoy 18:30) de la fecha 12: Vélez, con un partido menos, puede superar a Boca.",
+      "fuente": "ESPN Argentina, cotejada con Diario Neuquino",
+      "actualizada": "2026-10-12T09:45:00-03:00",
+      "filas": [
+        {
+          "pos": 1,
+          "equipo": "Instituto",
+          "pj": 12,
+          "g": 8,
+          "e": 2,
+          "p": 2,
+          "gf": 19,
+          "gc": 10,
+          "dif": 9,
+          "pts": 26
+        },
+        {
+          "pos": 2,
+          "equipo": "Defensa y Justicia",
+          "pj": 12,
+          "g": 7,
+          "e": 3,
+          "p": 2,
+          "gf": 18,
+          "gc": 11,
+          "dif": 7,
+          "pts": 24
+        },
+        {
+          "pos": 3,
+          "equipo": "Boca Juniors",
+          "pj": 12,
+          "g": 5,
+          "e": 6,
+          "p": 1,
+          "gf": 19,
+          "gc": 13,
+          "dif": 6,
+          "pts": 21
+        },
+        {
+          "pos": 4,
+          "equipo": "Vélez Sarsfield",
+          "pj": 11,
+          "g": 5,
+          "e": 6,
+          "p": 0,
+          "gf": 17,
+          "gc": 11,
+          "dif": 6,
+          "pts": 21
+        },
+        {
+          "pos": 5,
+          "equipo": "Independiente",
+          "pj": 12,
+          "g": 5,
+          "e": 3,
+          "p": 4,
+          "gf": 11,
+          "gc": 12,
+          "dif": -1,
+          "pts": 18
+        },
+        {
+          "pos": 6,
+          "equipo": "Lanús",
+          "pj": 11,
+          "g": 5,
+          "e": 2,
+          "p": 4,
+          "gf": 13,
+          "gc": 9,
+          "dif": 4,
+          "pts": 17
+        },
+        {
+          "pos": 7,
+          "equipo": "Newell's",
+          "pj": 11,
+          "g": 4,
+          "e": 5,
+          "p": 2,
+          "gf": 11,
+          "gc": 8,
+          "dif": 3,
+          "pts": 17
+        },
+        {
+          "pos": 8,
+          "equipo": "Gimnasia (Mendoza)",
+          "pj": 11,
+          "g": 5,
+          "e": 2,
+          "p": 4,
+          "gf": 14,
+          "gc": 12,
+          "dif": 2,
+          "pts": 17
+        },
+        {
+          "pos": 9,
+          "equipo": "Estudiantes (LP)",
+          "pj": 12,
+          "g": 4,
+          "e": 2,
+          "p": 6,
+          "gf": 15,
+          "gc": 13,
+          "dif": 2,
+          "pts": 14
+        },
+        {
+          "pos": 10,
+          "equipo": "San Lorenzo",
+          "pj": 12,
+          "g": 4,
+          "e": 2,
+          "p": 6,
+          "gf": 5,
+          "gc": 11,
+          "dif": -6,
+          "pts": 14
+        },
+        {
+          "pos": 11,
+          "equipo": "Unión",
+          "pj": 12,
+          "g": 4,
+          "e": 1,
+          "p": 7,
+          "gf": 17,
+          "gc": 21,
+          "dif": -4,
+          "pts": 13
+        },
+        {
+          "pos": 12,
+          "equipo": "Deportivo Riestra",
+          "pj": 12,
+          "g": 2,
+          "e": 5,
+          "p": 5,
+          "gf": 9,
+          "gc": 12,
+          "dif": -3,
+          "pts": 11
+        },
+        {
+          "pos": 13,
+          "equipo": "Platense",
+          "pj": 12,
+          "g": 2,
+          "e": 5,
+          "p": 5,
+          "gf": 12,
+          "gc": 18,
+          "dif": -6,
+          "pts": 11
+        },
+        {
+          "pos": 14,
+          "equipo": "Central Córdoba (SdE)",
+          "pj": 12,
+          "g": 2,
+          "e": 4,
+          "p": 6,
+          "gf": 10,
+          "gc": 16,
+          "dif": -6,
+          "pts": 10
+        },
+        {
+          "pos": 15,
+          "equipo": "Talleres",
+          "pj": 12,
+          "g": 2,
+          "e": 3,
+          "p": 7,
+          "gf": 11,
+          "gc": 18,
+          "dif": -7,
+          "pts": 9
+        }
+      ]
+    },
+    "tabla_anual": {
+      "disponible": true,
+      "posicion_boca": 2,
+      "puntos_boca": 51,
+      "detalle": "Acumulada Apertura más Clausura al 12/10: 1º Independiente Rivadavia 52 (27 partidos), 2º Boca 51 (28), 3º Argentinos 51, 4º Rosario Central 50, 5º Vélez 49 (27). Boca está hoy en zona de clasificación directa a la Libertadores 2027 y a un punto del título de Campeón de Liga. El reparto exacto de cupos entre fase de grupos y repechaje se tomó de medios (Ámbito, 365Scores), no del reglamento oficial.",
+      "fuente": {
+        "url": "https://diarioneuquino.com.ar/los-resultados-de-la-fecha-12-a-pedir-de-boca-juniors-asi-estan-las-posiciones-del-torneo-clausura-y-de-la-tabla-anual/",
+        "medio": "Diario Neuquino"
+      }
+    },
+    "copa_argentina": {
+      "sigue": true,
+      "instancia": "Semifinal",
+      "proximo_rival": "Banfield",
+      "detalle": "Boca está en semifinales: le toca Banfield el sábado 14 de noviembre, en la ventana FIFA, con sede neutral y horario sin confirmar. Recorrido: 2-0 a Gimnasia de Chivilcoy, 2-0 a Sarmiento, 0-0 y 4-3 por penales a Vélez (octavos) y 3-2 a Racing en Rosario el 27/9, remontando un 0-2 con tres goles de Valencia. La otra semifinal, Atlético Tucumán-Platense, se juega el 28/10. Final prevista para el 2/12.",
+      "llave": [
+        {
+          "cruce": "Semifinal: Atlético Tucumán - Platense",
+          "fecha": "28/10",
+          "resultado": "pendiente"
+        },
+        {
+          "cruce": "Semifinal: Banfield - Boca",
+          "fecha": "14/11",
+          "resultado": "sede y hora a confirmar"
+        },
+        {
+          "cruce": "Final",
+          "fecha": "2/12",
+          "resultado": "sede a confirmar"
+        }
+      ]
+    },
+    "continental": {
+      "competicion": "Copa Sudamericana",
+      "sigue": true,
+      "detalle": "Boca arrancó el año en la Libertadores y quedó eliminado en fase de grupos (3º del Grupo D con 7 puntos, el 28/5), la primera eliminación en grupos desde 1994, que le costó el puesto a Claudio Úbeda. Como tercero pasó al repechaje de la Sudamericana: eliminó a O'Higgins por penales, a Deportivo Recoleta en octavos (7-1 global) y a São Paulo en cuartos (1-0 en la Bombonera y 1-1 en el Morumbi). La ida con Vasco es mañana en la Bombonera y la vuelta el martes 20 a las 21:30 en el Maracaná, sede confirmada por Vasco el 9/10 tras un fallo judicial. La otra semifinal es Atlético Mineiro - Montevideo City Torque (14 y 21/10). La final es el 21/11 en Barranquilla.",
+      "llave": [
+        {
+          "cruce": "Semifinal: Boca - Vasco da Gama",
+          "fecha": "13/10 Bombonera · 20/10 Maracaná",
+          "resultado": "pendiente"
+        },
+        {
+          "cruce": "Semifinal: Atlético Mineiro - Montevideo City Torque",
+          "fecha": "14/10 · 21/10",
+          "resultado": "pendiente"
+        },
+        {
+          "cruce": "Final · Metropolitano de Barranquilla",
+          "fecha": "21/11",
+          "resultado": "pendiente"
+        }
+      ]
+    },
+    "plantel": {
+      "entrenador": "Rodolfo Arruabarrena",
+      "formacion_confirmada": [],
+      "formacion_probable": [
+        "Montero",
+        "Lozano",
+        "Di Lollo",
+        "Herrera",
+        "Blanco",
+        "Ascacibar",
+        "Delgado",
+        "Palacios",
+        "Flores",
+        "Merentiel",
+        "Villa"
+      ],
+      "esquema": "4-3-3 probable según Bolavip y El Destape del 11/10; dudas: Alarcón por Palacios o Villa, Romero compite con Villa",
+      "lesionados": [
+        {
+          "jugador": "Paredes",
+          "lesion": "desgarro grado 2 isquiotibial derecho, 9/10",
+          "regreso_estimado": "al menos 21 días; Superclásico del 1/11 en duda"
+        },
+        {
+          "jugador": "Velasco",
+          "lesion": "desgarro en el aductor izquierdo",
+          "regreso_estimado": "fines de octubre"
+        },
+        {
+          "jugador": "Belmonte",
+          "lesion": "meniscos, operado el 2/10",
+          "regreso_estimado": "2027"
+        },
+        {
+          "jugador": "Aranda",
+          "lesion": "fractura de peroné",
+          "regreso_estimado": "2027"
+        },
+        {
+          "jugador": "Bareiro",
+          "lesion": "hernia lumbar, debe operarse",
+          "regreso_estimado": "2027"
+        },
+        {
+          "jugador": "Marchesín",
+          "lesion": "ligamento cruzado, abril",
+          "regreso_estimado": "enero de 2027"
+        }
+      ],
+      "suspendidos": [],
+      "regresos": [],
+      "actualizado": "2026-10-11"
+    },
+    "mercado": {
+      "oficiales": [
+        {
+          "detalle": "El mercado está cerrado desde el 2/9. Balance oficial: altas Lozano (US$ 3,5 M), Montero (US$ 4 M), Villa (US$ 6,5 M) y Valencia (libre); bajas Zeballos (Monza, US$ 5 M), Saracchi, Weigandt, Barinaga, Martegani, Janson, Gelini, Cavani y Ander Herrera (rescisiones) y Orsini.",
+          "fecha": "2026-09-03"
+        },
+        {
+          "detalle": "El club confirmó Boca-Talleres para el viernes 16 a las 21:30 en la Bombonera y abre hoy a las 13 la confirmación de asistencia de socios.",
+          "fecha": "2026-10-11"
+        }
+      ],
+      "confirmadas": [
+        {
+          "detalle": "Merentiel (contrato hasta diciembre de 2027): su representante confirmó que pidió a Riquelme y Delgado una mejora y una extensión; sin acuerdo ni cifras.",
+          "fecha": "2026-10-06"
+        },
+        {
+          "detalle": "Marchesín vence en diciembre y el club no abrió conversaciones; se lo proyecta detrás de Montero en 2027. Brey tiene contrato hasta 2029.",
+          "fecha": "2026-10-11"
+        }
+      ],
+      "rumores": [
+        {
+          "detalle": "Matías Galarza (Talleres): la negociación se cayó en septiembre (pedían US$ 6 M); se lo señala como la operación más avanzada para enero.",
+          "fuente": "El Intransigente"
+        },
+        {
+          "detalle": "Mediocampistas en el radar para 2027 sin negociación formal: Zapelli, Torreira, Lo Celso, Delmás y Montoro.",
+          "fuente": "El Intransigente, 442"
+        },
+        {
+          "detalle": "Brey podría salir a préstamo; interés de Racing supeditado a la venta de Cambeses.",
+          "fuente": "El Intransigente"
+        }
+      ],
+      "institucional": "Arruabarrena tiene contrato hasta el 31/12/2027, más allá de las próximas elecciones. Ninguna fuente informa suspendidos para la ida con Vasco; no se pudo verificar el acumulado de amarillas en CONMEBOL."
+    },
+    "fuentes": [
+      {
+        "url": "https://www.lanacion.com.ar/deportes/futbol/boca-juniors-vs-vasco-da-gama-por-la-copa-sudamericana-2026-dia-horario-tv-y-como-ver-online-nid11102026/",
+        "medio": "La Nación",
+        "consultado": "2026-10-12T09:40:00-03:00"
+      },
+      {
+        "url": "https://www.cadena3.com/noticia/futbol/copa-sudamericana-ya-esta-el-arbitro-de-la-ida-entre-boca-y-vasco_601483",
+        "medio": "Cadena 3",
+        "consultado": "2026-10-12T09:40:00-03:00"
+      },
+      {
+        "url": "https://www.espn.com.ar/futbol/posiciones/_/liga/arg.1",
+        "medio": "ESPN Argentina",
+        "consultado": "2026-10-12T09:45:00-03:00"
+      },
+      {
+        "url": "https://www.infobae.com/deportes/2026/10/09/boca-juniors-visitara-a-instituto-en-un-duelo-clave-por-la-cima-de-su-zona-y-la-tabla-anual-hora-tv-y-probables-formaciones/",
+        "medio": "Infobae",
+        "consultado": "2026-10-12T09:35:00-03:00"
+      },
+      {
+        "url": "https://bolavip.com/ar/boca/sin-paredes-la-posible-formacion-de-boca-contra-vasco-da-gama-por-la-copa-sudamericana-2026",
+        "medio": "Bolavip",
+        "consultado": "2026-10-12T09:35:00-03:00"
+      },
+      {
+        "url": "https://www.eldestapeweb.com/deportes/miercoles-cuando-juega-boca-vs-banfield-semifinal-copa-argentina-2026-fecha-confirmada-2026107191543",
+        "medio": "El Destape",
+        "consultado": "2026-10-12T09:35:00-03:00"
+      },
+      {
+        "url": "https://www.bocajuniors.com.ar/noticias",
+        "medio": "Boca Juniors",
+        "consultado": "2026-10-12T09:45:00-03:00"
+      },
+      {
+        "url": "https://diarioneuquino.com.ar/los-resultados-de-la-fecha-12-a-pedir-de-boca-juniors-asi-estan-las-posiciones-del-torneo-clausura-y-de-la-tabla-anual/",
+        "medio": "Diario Neuquino",
+        "consultado": "2026-10-12T09:45:00-03:00"
+      }
+    ]
+  },
+  "disco": {
+    "artista": "Bill Evans Trio",
+    "titulo": "Sunday at the Village Vanguard",
+    "anio": 1961,
+    "genero": "jazz, trío de piano",
+    "justificacion": "Un lunes feriado con lluvia en las sierras pide un trío grabado una tarde de domingo: piano, contrabajo y batería conversando de igual a igual.",
+    "comentario": [
+      "Grabado en vivo el domingo 25 de junio de 1961 en el Village Vanguard de Nueva York, con Scott LaFaro en contrabajo y Paul Motian en batería, y editado ese mismo año por Riverside. Es el disco que fijó el modelo del trío de piano moderno: el contrabajo deja de marcar el pulso para dialogar con la melodía, y la batería acompaña con escobillas más que con golpes. LaFaro murió en un accidente de auto once días después de la grabación, a los 25 años; Evans tardó meses en volver a tocar.",
+      "Qué escuchar: «Gloria's Step» y «Jade Visions», ambas de LaFaro, para entender por qué el contrabajo es aquí un segundo solista; «My Man's Gone Now», de Gershwin, en 3/4; y «Alice in Wonderland», donde el trío estira y comprime el tiempo sin perder el pulso. Dura 45 minutos, lo que lleva leer las páginas 2 a 5 de esta edición. La segunda mitad de la misma tarde se editó como *Waltz for Debby*."
+    ]
+  },
+  "microrelato": {
+    "titulo": "Los árboles",
+    "autor": "Franz Kafka",
+    "autor_fallecido": 1924,
+    "obra": "Contemplación (Betrachtung)",
+    "anio": 1913,
+    "traductor": "propia, del alemán",
+    "texto": [
+      "Porque somos como troncos de árbol en la nieve. En apariencia están apoyados apenas sobre el suelo, y con un pequeño empujón debería poder apartárselos. No, no se puede, porque están firmemente unidos a la tierra. Pero mira: incluso eso es sólo apariencia."
+    ],
+    "nota": "Cuatro oraciones publicadas por primera vez en la revista *Hyperion* en 1908 y recogidas en *Contemplación*, el primer libro de Kafka. Obra en dominio público; el original alemán («Die Bäume») tiene 46 palabras."
+  },
+  "poesia": {
+    "titulo": "Cuadrados y ángulos",
+    "autor": "Alfonsina Storni",
+    "autor_fallecido": 1938,
+    "obra": "El dulce daño",
+    "anio": 1918,
+    "fragmento": false,
+    "versos": [
+      "Casas enfiladas, casas enfiladas,",
+      "casas enfiladas.",
+      "Cuadrados, cuadrados, cuadrados.",
+      "Casas enfiladas.",
+      "Las gentes ya tienen el alma cuadrada,",
+      "ideas en fila",
+      "y ángulo en la espalda.",
+      "Yo misma he vertido ayer una lágrima,",
+      "Dios mío, cuadrada."
+    ],
+    "nota": "Poema completo. Storni, nacida en Suiza y criada en San Juan y Rosario, lo publicó a los 26 años en su segundo libro. Obra en dominio público."
+  },
+  "glosario": [
+    {
+      "termino": "Fail-closed (cerrar ante falla)",
+      "definicion": "Si un control previo a una acción (hook, validador, verificación de política) no puede ejecutarse o devuelve un resultado inesperado, la acción se deniega en lugar de permitirse; lo opuesto es fail-open. En agentes de código importa porque el control corre fuera del modelo y puede fallar por timeouts o errores de red.",
+      "ejemplo": "Con onFailure: block en Claude Code 2.1.295, un hook que se cuelga bloquea el comando en vez de dejarlo pasar.",
+      "nota_relacionada": "Agentes de código, página 4"
+    },
+    {
+      "termino": "Enclave seguro con atestación",
+      "definicion": "Región de memoria aislada donde el motor de base de datos opera sobre datos en claro sin exponerlos al resto del proceso ni al sistema operativo. La atestación es la prueba criptográfica, emitida por un servicio externo, de que el código dentro del enclave es el esperado. SGX aísla por hardware y admite atestación; VBS aísla por hipervisor y en Azure SQL no la ofrece.",
+      "ejemplo": "Filtrar sueldos mayores a un umbral sobre una columna cifrada con Always Encrypted sólo es posible dentro de un enclave, sin que el DBA vea los valores.",
+      "nota_relacionada": "Azure SQL, página 4"
+    },
+    {
+      "termino": "FDV (fully diluted valuation)",
+      "definicion": "Valuación de un token si toda su emisión máxima estuviera en circulación: precio por suministro total, incluidos los tokens bloqueados de equipo, inversores y tesorería. La brecha con la capitalización de mercado mide cuánta emisión futura presiona sobre el precio.",
+      "ejemplo": "0G: capitalización US$ 57,9 millones y FDV US$ 271,7 millones; circula alrededor del 21% del total.",
+      "nota_relacionada": "Finanzas, esta página"
+    },
+    {
+      "termino": "Parámetros activos en un mixture-of-experts",
+      "definicion": "Cada token sólo atraviesa un subconjunto de expertos elegido por una red de enrutamiento, así que el costo por token lo determinan los parámetros activos y no el total. El total define la memoria necesaria para servir el modelo; los activos, la latencia y el costo de inferencia.",
+      "ejemplo": "Mistral Large 4: 1,05 billones totales y 52.000 millones activos.",
+      "nota_relacionada": "Mistral Large 4, página 4"
+    }
+  ],
+  "fe_de_erratas": [
+    "Sin correcciones de contenido sobre la edición piloto del 19 de septiembre. Los problemas señalados entonces fueron de maquetación (huecos y una superposición entre dos notas) y motivaron el preflight automático con el que se produjo esta edición."
+  ]
+}

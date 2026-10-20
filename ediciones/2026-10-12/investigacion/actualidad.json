@@ -1,0 +1,393 @@
+{
+  "tema": "actualidad",
+  "consultado_el": "2026-10-12T09:53:00-03:00",
+  "portada_sugerida": {
+    "titulo": "La Corte frenó el DNU 70 en tierras y el Congreso define la semana que viene",
+    "por_que": "Es la noticia que cruza los tres poderes y domina la agenda de los próximos diez días: el 9 de octubre la Corte Suprema suspendió provisoriamente el artículo 154 del DNU 70/2023 (el que derogó la Ley de Tierras Rurales), diez días después de haber rechazado por razones procesales la causa del CECIM. El fallo reordenó la pelea parlamentaria: la oposición mantiene la sesión del jueves 15 para intentar derogar todo el DNU pero no le cierran los números (entre 115 y 122 diputados sobre 129), y el oficialismo respondió convocando una megasesión para el 21 que incorpora un capítulo de tierras en la ley de Inviolabilidad de la Propiedad Privada. A eso se suma el fallo del 6 de octubre que ordenó aplicar la Ley de Financiamiento Universitario y el arranque del debate del Presupuesto 2027 el martes 13. Es hecho verificado en varias fuentes, con documentos (resolución de la Corte, pedidos de sesión) y consecuencias concretas sobre reglas de propiedad e inversión. Advertencia de calendario: el 12 de octubre de 2026 cae lunes (feriado), no domingo; varias fuentes consultadas lo confirman."
+  },
+  "notas": [
+    {
+      "seccion": "nacional",
+      "titulo_sugerido": "La Corte suspendió la derogación de la Ley de Tierras y reconfiguró la pelea por el DNU 70",
+      "bajada": "Con la firma de Rosatti, Lorenzetti y dos conjueces, y la disidencia de Rosenkrantz, el tribunal dejó sin efecto provisoriamente el artículo 154 del DNU 70/2023 hasta que resuelva el juzgado federal de Bariloche.",
+      "cuerpo": "El viernes 9 de octubre la Corte Suprema suspendió de manera interina los efectos del artículo 154 del DNU 70/2023, que en diciembre de 2023 había derogado la Ley 26.737 de Tierras Rurales (la que limita al 15% la propiedad extranjera de tierra rural). La medida salió en un amparo colectivo iniciado a fines de 2023 en el Juzgado Federal de San Carlos de Bariloche por la Asociación Civil Árbol de Pie, la exlegisladora rionegrina Magdalena Odarda y las comunidades Lafkenche y Lof Fvta Anecon, que invocan el artículo 41 de la Constitución. Firmaron Horacio Rosatti, Ricardo Lorenzetti y los conjueces Diego Barroetaveña y Juan Ignacio Pérez Curci; Carlos Rosenkrantz votó en disidencia parcial: acordó devolver la causa a Bariloche pero sostuvo que la Corte no tenía competencia para dictar una cautelar en esta etapa. La suspensión rige hasta que el juez de Bariloche decida sobre la legitimación de los demandantes y sobre el pedido de cautelar; la Corte aclaró que no juzga la constitucionalidad de fondo. El giro llega diez días después del fallo del 29 de septiembre en la causa del CECIM La Plata, en el que los tres ministros revocaron la inconstitucionalidad dictada por la Cámara Federal de La Plata por falta de legitimación del actor, lo que había reactivado la derogación y generado una ola de críticas; el 1 de octubre la Corte emitió un comunicado para aclarar que sólo había decidido un aspecto procesal. En el Congreso, la oposición (Unión por la Patria, Provincias Unidas, FIT, Coalición Cívica, Encuentro Federal y otros, 32 firmas) mantiene el pedido de sesión especial para el jueves 15 a las 14 con el rechazo del DNU 70, la prórroga de la emergencia en discapacidad y el sobreendeudamiento familiar; los bloques firmantes suman 122 diputados, siete menos del quórum, y fuentes oficialistas los cuentan en 115. La Libertad Avanza, por pedido de Gabriel Bornoroni, convocó su propia sesión para el miércoles 21 a las 12 con la ley de Inviolabilidad de la Propiedad Privada (con un capítulo que preservaría los límites a la compra extranjera de tierras), sus versiones de discapacidad y endeudamiento, trazabilidad de medicamentos y vandalismo rural; el plenario de comisiones está previsto para el 14.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 5,
+      "datos_clave": [
+        "Resolución del 9/10/2026: suspensión interina del art. 154 del DNU 70/2023 (derogación de la Ley 26.737).",
+        "Mayoría: Rosatti, Lorenzetti y conjueces Barroetaveña y Pérez Curci; disidencia parcial de Rosenkrantz.",
+        "Antecedente: fallo del 29/9 en la causa CECIM, revocado por falta de legitimación; comunicado aclaratorio de la Corte el 1/10.",
+        "Sesión opositora: jueves 15/10, 14:00, 32 firmas, 122 diputados (faltan 7 para quórum; el oficialismo los cuenta en 115).",
+        "Sesión oficialista: miércoles 21/10, 12:00, pedida por Bornoroni; plenario de comisiones el 14/10."
+      ],
+      "fuentes": [
+        {"url": "https://www.infobae.com/judiciales/2026/10/09/ley-de-tierras-los-puntos-clave-del-fallo-de-la-corte-suprema-y-como-sigue-la-causa/", "medio": "Infobae", "titulo": "Ley de Tierras: los puntos clave del fallo de la Corte Suprema y cómo sigue la causa", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:20:00-03:00"},
+        {"url": "https://www.perfil.com/noticias/judiciales/corte-suprema-suspendio-articulo-dnu-7023-ley-de-tierras.phtml", "medio": "Perfil", "titulo": "Del rechazo a la cautelar: la Corte Suprema frena la derogación de la Ley de Tierras y Rosenkrantz se opone", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:40:00-03:00"},
+        {"url": "https://www.iprofesional.com/legales/466283-corte-suprema-freno-inesperado-milei-ley-tierras-suspendio-derogacion", "medio": "iProfesional", "titulo": "Ley de Tierras: la Corte Suprema suspendió provisoriamente la derogación", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:40:00-03:00"},
+        {"url": "https://www.ambito.com/politica/ley-tierras-la-corte-suprema-aclaro-su-fallo-y-cruzo-las-criticas-al-tribunal-n6328855", "medio": "Ámbito", "titulo": "Ley de Tierras: la Corte Suprema aclaró su fallo y cruzó las críticas al tribunal", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:20:00-03:00"},
+        {"url": "https://www.perfil.com/noticias/politica/diputados-la-oposicion-pidio-sesion-para-tratar-el-dnu-7023-discapacidad-y-endeudamiento-familiar.phtml", "medio": "Perfil", "titulo": "Diputados: la oposición pidió sesión para tratar el DNU 70/23, discapacidad y endeudamiento familiar", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:20:00-03:00"},
+        {"url": "https://www.baenegocios.com/politica/el-gobierno-prepara-una-megasesion-en-diputados-para-salvar-el-dnu-70-y-frenar-a-la-oposicion/", "medio": "BAE Negocios", "titulo": "El Gobierno prepara una megasesión en Diputados para salvar el DNU 70 y frenar a la oposición", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.opinandosannicolas.ar/2026/10/sesiones-dnu-70-diputados-octubre/", "medio": "Opinando San Nicolás (Noticias Argentinas)", "titulo": "Sesiones por el DNU 70: Diputados fue convocado para el 15 y 21 de octubre", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:20:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No accedí al texto completo de la resolución de la Corte ni al número de expediente. La fecha exacta (9/10) surge de Perfil ('este viernes'); Infobae e iProfesional no la precisan. El conteo del quórum opositor difiere según la fuente (122 según Perfil del 1/10; 115 según fuentes oficialistas citadas por BAE el 9/10). La agenda de la sesión del 21 varía levemente entre medios (algunos agregan un proyecto sobre soberanía en Malvinas)."
+    },
+    {
+      "seccion": "nacional",
+      "titulo_sugerido": "Un juez ordenó aplicar la Ley de Financiamiento Universitario y el Gobierno apela",
+      "bajada": "El juez Martín Cormick declaró inconstitucional la cláusula del decreto 759/2025 con la que el Ejecutivo suspendió la ejecución de la ley 27.795 y ordenó su cumplimiento inmediato.",
+      "cuerpo": "El martes 6 de octubre el juez Martín Cormick, del Juzgado Contencioso Administrativo Federal N° 11, hizo lugar a un amparo colectivo del Consejo Interuniversitario Nacional (CIN) y a una demanda de la UBA, unificados en un solo fallo, y declaró inconstitucional la frase del decreto 759/2025 que condicionaba la ejecución de la Ley de Financiamiento Universitario (27.795) a lo dispuesto por el artículo 5 de la ley 24.629, es decir, a que el Congreso definiera las fuentes de financiamiento. La ley había sido vetada en 2025 (decreto 647/2025) y luego ratificada por dos tercios de ambas cámaras. Según el fallo, el decreto operó como un veto no previsto en la Constitución y vulneró los artículos 75 inciso 8 y 83; el juez señaló además que el artículo 9 de la ley sí preveía pautas de financiamiento. Ordenó al Ejecutivo dictar de inmediato las normas reglamentarias y de ejecución y homologar el acta paritaria del 10 de junio de 2026 (actualización salarial de 24,33% en dos tramos, recomposición de 20% en gastos de funcionamiento, $50.000 millones para hospitales universitarios y 50% de aumento en las becas Manuel Belgrano). El Gobierno anticipó que apelará a través de la Procuración del Tesoro con el argumento de que sólo el Congreso puede definir la fuente de los fondos y de que la ejecución inmediata compromete el equilibrio fiscal; durante el proceso sostuvo que la ley demandaría más de un billón de pesos. El tema se cruza con el Presupuesto 2027, que asigna $7,3 billones a universidades frente a los cerca de $11 billones que reclama el CIN, y con una marcha universitaria prevista para el 15 de octubre.",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 4,
+      "datos_clave": [
+        "Fallo del 6/10/2026, juez Martín Cormick (Contencioso Administrativo Federal N° 11).",
+        "Inconstitucional la cláusula del decreto 759/2025 que remitía al art. 5 de la ley 24.629.",
+        "Orden: cumplimiento inmediato de la ley 27.795 y homologación de la paritaria del 10/6/2026 (24,33%).",
+        "El Gobierno apelará vía Procuración del Tesoro; sentencia de primera instancia.",
+        "Presupuesto 2027: $7,3 billones para universidades vs. ~$11 billones pedidos por el CIN."
+      ],
+      "fuentes": [
+        {"url": "https://www.infobae.com/judiciales/2026/10/06/la-justicia-ordeno-al-gobierno-aplicar-la-ley-de-financiamiento-universitario-y-declaro-inconstitucional-el-decreto-que-la-frenaba/", "medio": "Infobae", "titulo": "La Justicia ordenó al Gobierno aplicar la Ley de Financiamiento Universitario y declaró inconstitucional el decreto que la frenaba", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://www.cronista.com/economia-politica/la-justicia-ordeno-cumplir-la-ley-de-financiamiento-universitario-y-dejo-una-fuerte-advertencia-al-gobierno/", "medio": "El Cronista", "titulo": "La Justicia ordenó cumplir la ley de financiamiento universitario y el Gobierno anticipó que apelará", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://grupolaprovincia.com/contenido/602397/presupuesto-2027-diputados-debate-fondos-universidades-discapacidad", "medio": "Grupo La Provincia", "titulo": "Presupuesto 2027: Diputados abre el debate y el Gobierno enfrenta reclamos por fondos", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:45:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No leí el texto de la sentencia. Las cifras de $7,3 billones y ~$11 billones para universidades provienen de un resumen de búsqueda (Grupo La Provincia) que no abrí en detalle; conviene confirmarlas con el mensaje del proyecto de Presupuesto 2027. No encontré confirmación de que la apelación ya haya sido presentada al cierre."
+    },
+    {
+      "seccion": "nacional",
+      "titulo_sugerido": "Arranca el Presupuesto 2027: 4% de crecimiento, 18% de inflación y dólar a $1.847",
+      "bajada": "El secretario de Hacienda, Carlos Guberman, expone el martes 13 ante la comisión de Presupuesto de Diputados; el oficialismo quiere dictamen antes del 7 de noviembre y recinto el 17.",
+      "cuerpo": "El proyecto de Presupuesto 2027 empieza a discutirse el martes 13 de octubre a las 12 en la Comisión de Presupuesto y Hacienda de Diputados, presidida por Alberto Benegas Lynch, con la exposición del secretario de Hacienda, Carlos Guberman. Los supuestos macro del proyecto: crecimiento del PBI de 4% en 2027 (y 3% en 2026), inflación de 18% a diciembre de 2027, dólar mayorista en $1.600 al cierre de 2026 y promedio de $1.847,60 en 2027, superávit primario de 1,1% del PBI y resultado financiero positivo de $246.741 millones, con exportaciones proyectadas en USD 133.984 millones e importaciones en USD 118.424 millones. La Oficina de Presupuesto del Congreso calcula un aumento real de 3,5% en ingresos y 3,4% en gastos respecto del cierre proyectado de 2026. Los puntos de fricción son universidades, discapacidad (el proyecto toca las pensiones no contributivas), jubilaciones, subsidios a energía y transporte y los reclamos de fondos de las provincias; el oficialismo necesita a los gobernadores para llegar al dictamen. El cronograma oficialista apunta a dictamen antes del 7 de noviembre y sesión el 17 de noviembre para no extender el período ordinario, aunque otros medios mencionan reuniones el 14, 20, 21 y 27 de octubre con dictamen el 28.",
+      "fecha_acontecimiento": "2026-10-13",
+      "importancia": 4,
+      "datos_clave": [
+        "Exposición de Guberman: martes 13/10, 12:00, Comisión de Presupuesto (Benegas Lynch).",
+        "Supuestos 2027: PBI +4%, inflación 18%, dólar promedio $1.847,60, superávit primario 1,1% del PBI.",
+        "OPC: ingresos +3,5% real, gastos +3,4% real vs. cierre proyectado 2026.",
+        "Meta oficialista: dictamen antes del 7/11 y recinto el 17/11."
+      ],
+      "fuentes": [
+        {"url": "https://www.eltribuno.com/nacionales/2026-10-11-0-0-0-el-gobierno-buscara-que-se-apruebe-el-presupuesto-2027", "medio": "El Tribuno", "titulo": "El Gobierno buscará que se apruebe el Presupuesto 2027", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:45:00-03:00"},
+        {"url": "https://www.diariopopular.com.ar/politica/arranca-el-debate-del-presupuesto-2027-diputados-las-10-claves-del-proyecto-n924048", "medio": "Diario Popular", "titulo": "Arranca el debate del Presupuesto 2027 en Diputados: las 10 claves del proyecto", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:45:00-03:00"},
+        {"url": "https://examedia.com.ar/portada/post/88033190", "medio": "Examedia (reproduce El Destape)", "titulo": "Milei viaja a Washington mientras el Congreso se enciende: Presupuesto en debate y ofensiva contra el DNU 70/2023", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:15:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La exposición es el martes 13, posterior al cierre de la edición; lo verificado es la convocatoria y el contenido del proyecto. Los cronogramas de dictamen difieren entre medios (28/10 vs. antes del 7/11). El superávit financiero aparece como $246.741 millones (Diario Popular) y como $0,2 billones para la APN (El Tribuno), cifras compatibles pero no idénticas."
+    },
+    {
+      "seccion": "nacional",
+      "titulo_sugerido": "Milei busca gobernadores: acuerdos de palabra por las PASO y una negociación tributaria paralela",
+      "bajada": "La Casa Rosada asegura tener compromisos verbales de varias provincias para suspender las PASO y negocia por fuera de la agenda pública una baja de impuestos a cambio de desregulación.",
+      "cuerpo": "Según Infobae (11 de octubre), el Gobierno afirma haber cerrado acuerdos de palabra con varios gobernadores para aprobar la reforma política y suspender las PASO, con el ministro del Interior Diego Santilli como negociador, y da por 'sólido' el paquete de votos. En paralelo se gesta lo que la nota llama una negociación 'blue': los gobernadores piden reducir gradualmente retenciones, eliminar o bajar el impuesto al cheque y reducir cargas patronales; algunos ofrecen a cambio impulsar con los intendentes una baja de tasas municipales. Rolando Figueroa (Neuquén) propuso eliminar Ingresos Brutos para empresas que creen empleo en 2028 y recibirá a Milei el 19 de octubre; Alfredo Cornejo (Mendoza) sostuvo que el oficialismo puede ganar en primera vuelta en 2027 con alianzas con 10 o 12 gobernadores. El 14 de octubre Santilli y Luis Caputo expondrán en la Conferencia de Federalismo Fiscal (CONFEFI II) junto a Jorge Macri, Frigerio, Sadir, Llaryora, Torres, Pullaro, Zdero y Sáenz. La nota también atribuye a Caputo, en reuniones privadas, la frase de que el Gobierno agotó sus herramientas para convencer al mercado y que ahora 'es el turno de la política', y señala que Milei le dijo a Patricia Bullrich que no avanzará con una reforma previsional antes de una eventual reelección. Todo esto es relato de fuentes oficiales y de negociación; no hay documentos firmados.",
+      "fecha_acontecimiento": "2026-10-11",
+      "importancia": 3,
+      "datos_clave": [
+        "Acuerdos verbales con gobernadores para suspender las PASO (sin firma ni lista pública).",
+        "Pedidos provinciales: baja de retenciones, impuesto al cheque y cargas patronales.",
+        "CONFEFI II el 14/10 con Santilli, Caputo y nueve gobernadores/jefe de gobierno.",
+        "Milei viaja a Neuquén el 19/10."
+      ],
+      "fuentes": [
+        {"url": "https://www.infobae.com/politica/2026/10/11/milei-consiguio-sus-primeros-acuerdos-de-palabra-con-gobernadores-y-se-gesta-una-negociacion-blue-para-bajar-impuestos/", "medio": "Infobae", "titulo": "Milei consiguió sus primeros acuerdos de palabra con gobernadores y se gesta una negociación 'blue' para bajar impuestos", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:10:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "analisis",
+      "incertidumbres": "Una sola fuente, basada en fuentes anónimas del Gobierno y de las provincias. No hay acuerdos escritos ni confirmación pública de los gobernadores mencionados. El dato de que LLA necesita 37 votos en el Senado para suspender las PASO apareció sólo en un sitio regional (Cholila Online) y no lo verifiqué."
+    },
+    {
+      "seccion": "economia",
+      "titulo_sugerido": "Semana de alivio en los mercados: el riesgo país bajó a la zona de 580 y el BCRA compró USD 212 millones",
+      "bajada": "El resultado de la primera vuelta en Brasil y la baja de tasas en EEUU empujaron a los activos argentinos; el dólar mayorista cerró en $1.517 y las reservas brutas en USD 49.701 millones.",
+      "cuerpo": "Entre el lunes 5 y el viernes 9 de octubre el riesgo país medido por JP Morgan cayó alrededor de 10% desde el cierre de 646 puntos del viernes 2 (y un máximo intradiario de 655): Infobae lo ubica en 589 y El Tribuno e Infobae (nota del 11/10) en 579 al cierre del viernes. Los bonos soberanos en dólares subieron en promedio 3% y el S&P Merval avanzó 2,2% en pesos hasta 2.828.027 puntos; entre los ADR, Loma Negra ganó 9,4% y Mercado Libre 6,7%, mientras YPF, Vista y Galicia cayeron entre 1,1% y 1,3%. El dólar mayorista terminó en $1.517 (-$3 en la semana, -0,2%), el Banco Nación en $1.535, el blue en $1.540, el MEP en torno a $1.539 y el contado con liquidación en $1.611-1.612 (brecha de 6,2%). El BCRA compró USD 69 millones el viernes y USD 212 millones en la semana (USD 340 millones en octubre, a un ritmo diario de unos USD 46-48 millones contra USD 22 millones en septiembre), con ingresos de energía, minería y colocaciones de deuda de empresas y provincias; el acumulado de 2026 ronda USD 14.800-14.900 millones según la base que se tome, muy por encima de la meta anual de USD 10.000 millones acordada con el FMI. Las reservas brutas cerraron en USD 49.701 millones (+USD 904 millones en la semana), el nivel más alto desde el 17 de septiembre. Para una pyme SaaS que factura en dólares y paga sueldos en pesos: la brecha CCL/oficial del 6% y un oficial estable alrededor de $1.517 implican que los ingresos en pesos no acompañan una inflación mensual de 1,8-2%, es decir, el costo salarial en dólares sigue subiendo; la baja del riesgo país mejora el acceso al crédito pero las tasas en pesos (TAMAR 24,1%, BADLAR 22,4%) siguen por encima de la inflación esperada. Para un hogar, el dólar quieto y la tarjeta en $1.995 no cambiaron en la semana; lo relevante es el dato de inflación del martes.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 4,
+      "datos_clave": [
+        "Riesgo país: de 646 (2/10) a 579-589 (9/10), baja cercana al 10%.",
+        "Bonos en dólares +3% promedio; S&P Merval +2,2% en pesos (2.828.027).",
+        "Mayorista $1.517 (-$3 semanal); BNA $1.535; blue $1.540; MEP ~$1.539; CCL ~$1.611.",
+        "BCRA: compras USD 212 M en la semana, USD 340 M en octubre; reservas brutas USD 49.701 M (+904 M).",
+        "Tasas: TAMAR 24,13%, BADLAR 22,38% (9/10)."
+      ],
+      "fuentes": [
+        {"url": "https://www.infobae.com/economia/2026/10/10/una-semana-en-la-que-la-politica-de-brasil-impacto-el-mercado-local-subieron-los-bonos-y-el-riesgo-pais-cayo-10-por-ciento/", "medio": "Infobae", "titulo": "Una semana en la que la política de Brasil impactó el mercado local: subieron los bonos y el riesgo país cayó 10 por ciento", "fecha_publicacion": "2026-10-10", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://www.ambito.com/finanzas/el-bcra-acumulo-compras-mas-us200-millones-la-semana-y-consolido-el-mejor-inicio-mes-julio-n6332205", "medio": "Ámbito", "titulo": "El BCRA acumuló compras por más de u$s200 millones en la semana y consolidó el mejor inicio de mes desde julio", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.infobae.com/economia/2026/10/09/el-bcra-acelero-las-compras-de-dolares-y-acumula-casi-usd-15000-millones-en-2026/", "medio": "Infobae", "titulo": "El BCRA aceleró las compras de dólares y acumula casi USD 15.000 millones en 2026", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:40:00-03:00"},
+        {"url": "https://www.eltribuno.com/nacionales/2026-10-10-0-0-0-el-riesgo-pais-cerro-la-semana-en-menos-de-600-puntos", "medio": "El Tribuno", "titulo": "El riesgo país cerró la semana en menos de 600 puntos", "fecha_publicacion": "2026-10-10", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-9-octubre-n6332151", "medio": "Ámbito", "titulo": "Dólar hoy: a cuánto cerró este viernes 9 de octubre", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.infobae.com/economia/2026/10/03/semana-financiera-el-riesgo-pais-se-disparo-6-y-las-acciones-argentinas-cayeron-hasta-12-en-wall-street/", "medio": "Infobae", "titulo": "Semana financiera: el riesgo país se disparó 6% y las acciones argentinas cayeron hasta 12% en Wall Street", "fecha_publicacion": "2026-10-03", "consultado": "2026-10-12T09:25:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El cierre del riesgo país del viernes 9 difiere: 589 (Infobae 10/10, cuerpo de la nota, con una inconsistencia interna sobre el punto de partida) vs. 579 (El Tribuno e Infobae 11/10). El acumulado de compras 2026 del BCRA se informa como USD 14.796 M (Ámbito, al 7/10) y USD 14.909 M 'desde la fase cuatro' (Infobae, al 9/10); no son estrictamente la misma serie. No obtuve el Merval en dólares. La interpretación sobre costos salariales en dólares de una pyme es análisis propio a partir de los datos."
+    },
+    {
+      "seccion": "economia",
+      "titulo_sugerido": "Inflación: CABA marcó 1,8% en septiembre y el INDEC publica el dato nacional el martes 13",
+      "bajada": "Las consultoras esperan entre 1,8% y 2,1% con alimentos presionando; la pregunta es si se corta la desaceleración de agosto (1,7%).",
+      "cuerpo": "El 8 de octubre la Dirección de Estadística porteña informó que el IPC de la Ciudad de Buenos Aires subió 1,8% en septiembre, contra 1,7% en agosto, con 23,7% acumulado en el año y 32,9% interanual; los rubros de mayor incidencia fueron vivienda y servicios (2,3%), alimentos y bebidas (2,1%), salud (2,2%) y educación (2,9%). El INDEC publica el IPC nacional de septiembre el martes 13 de octubre; el último dato oficial es el 1,7% de agosto, con 21,3% acumulado y 33,5% interanual. Las estimaciones privadas: EconViews 1,8%; C&T 1,9% (alimentos 2%, verduras 11%); Eco Go, Analytica y Libertad y Progreso 2% (esta última con alimentos y bebidas en 3,2%); Equilibra 2% a 2,1%; LCG mide 2,1% de núcleo y 2,7% en alimentos básicos en cuatro semanas. El Relevamiento de Expectativas de Mercado del BCRA prevé 1,9% para septiembre y 30,3% interanual a fin de año; el secretario de Finanzas, Federico Furiase, ubica la inflación actual entre 1,5% y 2%. Para un hogar, un dato de 1,9-2% implica que la desinflación se estancó en torno a 2% mensual (unos 27% anualizados), con alimentos por encima del promedio; para una pyme SaaS, los costos en pesos (sueldos, alquiler, servicios) crecen cerca de 2% mensual mientras el dólar oficial bajó 0,2% en la semana, lo que comprime márgenes en dólares.",
+      "fecha_acontecimiento": "2026-10-08",
+      "importancia": 4,
+      "datos_clave": [
+        "IPC CABA septiembre: 1,8% mensual; 23,7% acumulado; 32,9% interanual (publicado 8/10).",
+        "INDEC publica el IPC nacional el martes 13/10; agosto fue 1,7% (21,3% acumulado, 33,5% i.a.).",
+        "Consultoras: 1,8% (EconViews) a 2,1% (Equilibra, LCG núcleo); REM del BCRA: 1,9%.",
+        "Alimentos: C&T +2%, Libertad y Progreso +3,2%, LCG +2,7% en cuatro semanas."
+      ],
+      "fuentes": [
+        {"url": "https://www.cronista.com/economia-politica/la-inflacion-en-caba-fue-de-18-en-septiembre-y-acumula-329-en-los-ultimos-12-meses/", "medio": "El Cronista", "titulo": "Inflación de septiembre 2026: de cuánto fue el IPC en CABA", "fecha_publicacion": "2026-10-08", "consultado": "2026-10-12T09:10:00-03:00"},
+        {"url": "https://www.mdzol.com/economia/2026/10/12/inflacion-de-septiembre-el-dato-que-espera-javier-milei-y-la-senal-que-preocupa-al-gobierno-1987431.html", "medio": "MDZ", "titulo": "Inflación de septiembre: el dato que espera Javier Milei y la señal que preocupa al Gobierno", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T09:10:00-03:00"},
+        {"url": "https://www.infobae.com/economia/2026/10/11/milei-llevo-al-gabinete-el-debate-sobre-el-tipo-de-cambio-puede-crecer-argentina-con-un-dolar-bajo/", "medio": "Infobae", "titulo": "Milei llevó al Gabinete el debate sobre el tipo de cambio: ¿puede crecer Argentina con un dólar bajo?", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:40:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El dato nacional no estaba publicado al cierre. Las cifras de agosto (1,7%, 21,3%, 33,5%) provienen de un resumen de búsqueda que cita el informe del INDEC del 10/9; no abrí el PDF del INDEC. La estimación de Equilibra aparece como 2% en una fuente y 2,1% en otra. Las consecuencias para hogar y pyme son análisis propio."
+    },
+    {
+      "seccion": "economia",
+      "titulo_sugerido": "Industria y construcción rebotaron en agosto pero siguen abajo del año pasado",
+      "bajada": "El INDEC informó el 7 de octubre que la industria creció 1,9% mensual tras caer 5,1% en julio, aunque retrocede 3,2% interanual; la construcción subió 0,4% y cae 4,4% interanual.",
+      "cuerpo": "El 7 de octubre el INDEC publicó el Índice de Producción Industrial manufacturero (IPI) y el Indicador Sintético de la Actividad de la Construcción (ISAC) de agosto. La industria subió 1,9% desestacionalizado respecto de julio (cuando había caído 5,1%), pero quedó 3,2% por debajo de agosto de 2025 y acumula -2,7% en el año; 11 de las 16 divisiones cayeron en términos interanuales, con maquinaria y equipo -24% (maquinaria agrícola -37,9%), electrodomésticos -28%, indumentaria y calzado -14,7%, automotores -8,8% y productos de metal -9,6%, mientras crecieron otros equipos de transporte (+12,1%, motos +27,8%), refinación de petróleo (+4,7%), químicos (+4%) y metales básicos (+3,3%). La construcción avanzó 0,4% mensual, cortando dos meses de caídas, pero bajó 4,4% interanual (tendencia-ciclo -1,1% mensual) y acumula +0,8% en enero-agosto; casi todos los insumos cayeron frente a 2025 (asfalto -18,4%, yeso -17%, cales -13%, cemento -8,1%). En julio el empleo registrado en la construcción fue de 375.158 puestos (-0,3% interanual). Un informe privado citado por Infobae indica que los precios industriales subieron 8,3% en enero-agosto, muy por debajo del IPC, lo que refleja la presión del tipo de cambio sobre la competitividad. El EMAE de agosto se publica el 21 de octubre; con dos trimestres consecutivos de caída, la economía está en recesión técnica y las consultoras proyectan un PBI 2026 por debajo de 2%.",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 3,
+      "datos_clave": [
+        "IPI agosto: +1,9% mensual desestacionalizado; -3,2% interanual; -2,7% acumulado enero-agosto.",
+        "ISAC agosto: +0,4% mensual; -4,4% interanual; +0,8% acumulado.",
+        "Maquinaria y equipo -24% i.a.; electrodomésticos -28%; motos +27,8%.",
+        "EMAE de agosto: 21/10/2026."
+      ],
+      "fuentes": [
+        {"url": "https://www.infobae.com/economia/2026/10/07/la-industria-y-la-construccion-repuntaron-en-agosto-pero-cayeron-contra-el-mismo-mes-de-2025/", "medio": "Infobae", "titulo": "Tras la fuerte caída de julio, la industria y la construcción repuntaron en agosto", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://www.losandes.com.ar/economia/la-construccion-repunto-agosto-pero-cayo-44-interanual-segun-el-indec-n6009459", "medio": "Los Andes", "titulo": "La construcción repuntó en agosto, pero cayó 4,4% interanual según el Indec", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://www.infobae.com/economia/2026/10/11/milei-llevo-al-gabinete-el-debate-sobre-el-tipo-de-cambio-puede-crecer-argentina-con-un-dolar-bajo/", "medio": "Infobae", "titulo": "Milei llevó al Gabinete el debate sobre el tipo de cambio: ¿puede crecer Argentina con un dólar bajo?", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:40:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No abrí los informes técnicos del INDEC; las cifras provienen de dos medios que los citan y coinciden entre sí. La fecha de publicación del INDEC (7/10) surge de las notas, no del calendario oficial. La afirmación de 'recesión técnica' es de Infobae (11/10) y no la contrasté con el EMAE del segundo trimestre."
+    },
+    {
+      "seccion": "economia",
+      "titulo_sugerido": "Milei llevó al Gabinete el debate sobre el atraso cambiario y lo cerró: no habrá devaluación",
+      "bajada": "El Presidente invitó al economista Alberto Ades, que calcula el tipo de cambio real 29% por debajo del promedio de 23 años; el Gobierno descarta corregirlo.",
+      "cuerpo": "Según Infobae (11 de octubre), Milei abrió en una reunión de Gabinete la discusión sobre si el dólar bajo frena el crecimiento e invitó a Alberto Ades, execonomista jefe de Goldman Sachs, algo inusual en ese ámbito. Ades sostuvo que el tipo de cambio real está 29% por debajo del promedio de los últimos 23 años, incluso por debajo de 2017, y que ese nivel 'deberá ser convalidado' para sostenerse, aunque advirtió que una devaluación golpearía a los salarios. El viceministro José Luis Daza respondió que nadie puede determinar el tipo de cambio real de equilibrio. Los argumentos oficiales para sostener el esquema: superávit comercial y de cuenta corriente, exportaciones récord, compras del BCRA por casi USD 15.000 millones en el año, términos de intercambio favorables (petróleo arriba de USD 100 y soja firme), la apreciación del real brasileño (de 6 a menos de 5 por dólar en poco más de un año) y una brecha CCL/oficial de alrededor de 5% que vuelve poco relevante al cepo. El Gobierno dio el debate por cerrado y descarta cambios en la política cambiaria. Del lado de la actividad, la nota recoge que la economía está en recesión técnica y se espera un rebote cercano a 1,7% en el último trimestre; Fernando Marull proyecta 1,7% de inflación para octubre. Es la discusión de fondo para una pyme exportadora de servicios: con el oficial quieto y costos en pesos subiendo 2% mensual, la competitividad se deteriora mes a mes, y el Gobierno acaba de confirmar que no piensa compensarlo con el tipo de cambio.",
+      "fecha_acontecimiento": "2026-10-11",
+      "importancia": 3,
+      "datos_clave": [
+        "Ades: tipo de cambio real 29% por debajo del promedio de 23 años.",
+        "Brecha CCL/oficial ~5-6%; real brasileño de 6 a <5 por dólar.",
+        "Gobierno: no habrá devaluación; debate cerrado.",
+        "Marull: inflación de octubre estimada en 1,7%."
+      ],
+      "fuentes": [
+        {"url": "https://www.infobae.com/economia/2026/10/11/milei-llevo-al-gabinete-el-debate-sobre-el-tipo-de-cambio-puede-crecer-argentina-con-un-dolar-bajo/", "medio": "Infobae", "titulo": "Milei llevó al Gabinete el debate sobre el tipo de cambio: ¿puede crecer Argentina con un dólar bajo?", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:40:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "analisis",
+      "incertidumbres": "Una sola fuente (columna de Pablo Wende, Infobae). La fecha de la reunión de Gabinete no está precisada en la nota. El cálculo del 29% es de un economista y no lo contrasté con el ITCRM del BCRA. La lectura sobre la pyme exportadora de servicios es propia."
+    },
+    {
+      "seccion": "economia",
+      "titulo_sugerido": "FMI: la tercera revisión sigue abierta y el acuerdo técnico se busca para antes de fin de noviembre",
+      "bajada": "La misión encabezada por Joyce Wong estuvo en Buenos Aires del 21 al 29 de septiembre; el desembolso en juego ronda USD 900 millones y la meta fiscal es el punto débil.",
+      "cuerpo": "La tercera revisión del acuerdo de Facilidades Extendidas no tuvo novedades formales entre el 5 y el 12 de octubre. El 1 de octubre la vocera Julie Kozack dijo que la misión técnica trabajó en Buenos Aires del 21 al 29 de septiembre, que las conversaciones seguirán 'en las próximas semanas' con el objetivo de alcanzar un acuerdo a nivel de staff y que el país logró 'avances significativos' en estabilidad macroeconómica, aunque pidió que el crecimiento se extienda más allá de energía, minería y agro. Según Infobae, la intención es cerrar el acuerdo técnico y llevarlo al Directorio antes de que termine noviembre; el desembolso asociado se estima en unos USD 900 millones (iProfesional habló de USD 980 millones). La meta de compras de reservas (USD 10.000 millones anuales) está ampliamente superada, con casi USD 15.000 millones comprados en 2026; la meta fiscal de superávit primario de 1,4% del PBI para 2026 está en duda por la caída de la recaudación en un contexto recesivo, y el Gobierno no descarta pedir una dispensa (waiver). Restan vencimientos con el FMI por USD 865 millones en noviembre y USD 340 millones en diciembre.",
+      "fecha_acontecimiento": "2026-10-01",
+      "importancia": 3,
+      "datos_clave": [
+        "Misión del FMI: 21-29/9/2026; acuerdo a nivel de staff buscado antes de fin de noviembre.",
+        "Desembolso en juego: ~USD 900 M (USD 980 M según iProfesional).",
+        "Meta de reservas superada (USD 10.000 M); meta fiscal de 1,4% del PBI en duda; posible waiver.",
+        "Vencimientos con el FMI: USD 865 M (noviembre) y USD 340 M (diciembre)."
+      ],
+      "fuentes": [
+        {"url": "https://www.infobae.com/economia/2026/10/01/el-fmi-ratifico-su-apoyo-al-programa-de-ajuste-argentino-pero-senalo-que-hay-que-extender-el-crecimiento-a-mas-sectores/", "medio": "Infobae", "titulo": "El FMI ratificó su apoyo al programa de ajuste argentino pero señaló que hay que extender el crecimiento a más sectores", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:20:00-03:00"},
+        {"url": "https://www.infobae.com/economia/2026/10/09/el-bcra-acelero-las-compras-de-dolares-y-acumula-casi-usd-15000-millones-en-2026/", "medio": "Infobae", "titulo": "El BCRA aceleró las compras de dólares y acumula casi USD 15.000 millones en 2026", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:40:00-03:00"},
+        {"url": "https://www.resumenlatinoamericano.org/2026/10/01/argentina-el-fmi-concluyo-la-revision-de-las-cuentas-del-gobierno-con-foco-en-el-superavit-fiscal-y-las-reservas", "medio": "Resumen Latinoamericano", "titulo": "El FMI concluyó la revisión de las cuentas del gobierno con foco en el superávit fiscal y las reservas", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:15:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El hecho central es anterior a la ventana (1/10); lo incluyo porque sigue siendo el marco de la política económica y no hubo novedades formales en la semana. Los datos de meta fiscal (0,6% del PBI en el primer semestre vs. 0,7% de meta), waiver y vencimientos provienen de resúmenes de búsqueda de medios de fines de septiembre que no abrí uno por uno. No encontré comunicado del FMI posterior al 1/10."
+    },
+    {
+      "seccion": "mundo",
+      "titulo_sugerido": "Brasil: Flávio Bolsonaro ganó la primera vuelta y define con Lula el 25 de octubre",
+      "bajada": "Contra lo que indicaban las encuestas, el senador del PL sacó 47,03% de los votos válidos y Lula 45,16%; el resultado disparó a la Bolsa paulista y al real, y arrastró a los activos argentinos.",
+      "cuerpo": "En la primera vuelta del domingo 4 de octubre, con 99,99% de las urnas escrutadas, Flávio Bolsonaro (PL) obtuvo 56.104.268 votos (47,03% de los válidos) y Luiz Inácio Lula da Silva (PT) 53.876.617 (45,16%), una diferencia de 2,2 millones de votos y 1,87 puntos. Datafolha había proyectado 45% para Lula y 42% para Flávio. La abstención fue de 21,08%. En el Senado se renovaron 54 de 81 bancas: el PL ganó 19 y el PT 9. El balotaje es el domingo 25 de octubre. Durante la semana Flávio sumó los apoyos de Ronaldo Caiado (quinto en la primera vuelta) y de Romeu Zema, y negocia con Progresistas y Republicanos; Lula habló de 'una nueva campaña' y el oficialismo busca instalar la reducción de la jornada laboral en el Senado. El 9 de octubre el Supremo Tribunal Federal dictó una orden de captura contra Eduardo Bolsonaro, hermano del candidato, por sus gestiones en EEUU para interferir en el juicio a su padre (dato de un portal de referencia, no contrastado en medios). El impacto financiero fue inmediato: el Ibovespa subió 8,8% en la semana hasta un récord de 209.017 puntos y el real se apreció 4,6% (de 5,22 a 4,99 por dólar), lo que contribuyó a la baja del riesgo país argentino. Para la Argentina, Brasil es el principal socio comercial y un real fuerte mejora la competitividad de las exportaciones industriales argentinas.",
+      "fecha_acontecimiento": "2026-10-04",
+      "importancia": 4,
+      "datos_clave": [
+        "Flávio Bolsonaro 47,03% (56,1 M votos) vs. Lula 45,16% (53,9 M); diferencia 1,87 puntos.",
+        "Balotaje: domingo 25/10/2026.",
+        "Senado: PL 19 bancas, PT 9 de las 54 renovadas.",
+        "Ibovespa +8,8% semanal (récord 209.017); real de 5,22 a 4,99 por dólar."
+      ],
+      "fuentes": [
+        {"url": "https://chequeado.com/el-explicador/elecciones-en-brasil-2026-las-claves-de-los-resultados-de-la-primera-vuelta-de-cara-al-balotaje-entre-flavio-bolsonaro-y-lula/", "medio": "Chequeado", "titulo": "Elecciones en Brasil 2026: las claves de los resultados de la primera vuelta de cara al balotaje entre Flávio Bolsonaro y Lula da Silva", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://www.lanacion.com.ar/el-mundo/elecciones-en-brasil-en-vivo-que-se-sabe-del-balotaje-entre-lula-y-bolsonaro-encuestas-y-ultimas-nid06102026/", "medio": "La Nación", "titulo": "Qué se sabe del balotaje entre Lula y Bolsonaro, encuestas y últimas noticias", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://www.infobae.com/economia/2026/10/10/una-semana-en-la-que-la-politica-de-brasil-impacto-el-mercado-local-subieron-los-bonos-y-el-riesgo-pais-cayo-10-por-ciento/", "medio": "Infobae", "titulo": "Una semana en la que la política de Brasil impactó el mercado local", "fecha_publicacion": "2026-10-10", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://en.wikipedia.org/wiki/Portal:Current_events/October_2026", "medio": "Wikipedia (Portal de actualidad)", "titulo": "Portal:Current events/October 2026", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T09:10:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La primera vuelta fue el 4/10, un día antes de la ventana, pero sigue siendo la noticia regional dominante por el balotaje del 25. La orden de captura contra Eduardo Bolsonaro (9/10) sólo la vi en Wikipedia; no la encontré en La Nación ni la verifiqué en medios brasileños. No obtuve encuestas para el balotaje. El apoyo de Zema fue sin foto conjunta, según La Nación."
+    },
+    {
+      "seccion": "mundo",
+      "titulo_sugerido": "El ataque hutí más letal contra Arabia Saudita: 12 muertos en el aeropuerto de Riad",
+      "bajada": "Un misil impactó el sábado 10 en la terminal del aeropuerto Rey Khalid; es el tercer ataque de la semana y el más grave contra el reino en más de una década, en el marco de la guerra regional con Irán de fondo.",
+      "cuerpo": "El sábado 10 de octubre un misil atribuido a los hutíes de Yemen impactó en el aeropuerto internacional Rey Khalid de Riad y, según la autoridad saudita de aviación civil (GACA), mató a 12 personas e hirió a 309; entre los muertos hay cuatro sauditas, dos bangladesíes y ciudadanos de EEUU, Egipto, Jordania, Siria, Palestina y Sudán. Fue el tercer ataque de la semana contra ese aeropuerto: el martes 6 y jueves 8 ataques contra Abha y Riad habían dejado tres muertos (entre ellos el comandante de un avión de Saudia) y 36 heridos. El domingo 11 los hutíes reivindicaron un nuevo ataque que provocó un incendio en una terminal; Arabia Saudita anunció que responderá 'con firmeza' y la coalición que lidera calificó el ataque del sábado de crimen de guerra. Condenaron el hecho la ONU (Guterres y el enviado Hans Grundberg), Egipto, Qatar, Jordania, Omán, Pakistán, India, Japón, Canadá y EEUU, entre otros; Donald Trump dijo que hablará con el príncipe Mohammed bin Salman y que Washington evalúa sumarse a la campaña contra los hutíes ('puede ser'), y Marco Rubio confirmó la muerte de un estadounidense. El contexto: desde el 5 de octubre el gobierno yemení reconocido lanzó una ofensiva con apoyo aéreo saudita para recuperar territorio hutí y Turquía y Pakistán acordaron desplegar tropas bajo un pacto de defensa con Riad; los hutíes son aliados de Irán y la región atraviesa una guerra entre EEUU e Irán que mantiene el petróleo por encima de USD 100 el barril, con ataques recurrentes a buques en el estrecho de Ormuz. Para la Argentina, el petróleo alto mejora el ingreso de divisas de Vaca Muerta y los términos de intercambio, pero encarece combustibles importados.",
+      "fecha_acontecimiento": "2026-10-10",
+      "importancia": 4,
+      "datos_clave": [
+        "10/10: misil en el aeropuerto Rey Khalid de Riad; 12 muertos y 309 heridos según GACA.",
+        "6 y 8/10: ataques previos a Abha y Riad con 3 muertos y 36 heridos; 11/10 nuevo ataque con incendio en una terminal.",
+        "Condenas de la ONU, Egipto, Qatar, Jordania, Omán, Pakistán, India, Japón, Canadá y EEUU.",
+        "Trump: EEUU evalúa unirse a la campaña contra los hutíes; petróleo por encima de USD 100."
+      ],
+      "fuentes": [
+        {"url": "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know", "medio": "Al Jazeera", "titulo": "Yemen fighting expands as Houthis attack Saudi airport again: What to know", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport", "medio": "Al Jazeera", "titulo": "World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://es.euronews.com/2026/10/09/ataques-con-misiles-huties-en-el-aeropuerto-de-riad-dejan-3-muertos-entre-ellos-un-capitan", "medio": "Euronews", "titulo": "Ataques con misiles hutíes en el aeropuerto de Riad dejan 3 muertos, entre ellos un capitán", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://en.wikipedia.org/wiki/Portal:Current_events/October_2026", "medio": "Wikipedia (Portal de actualidad)", "titulo": "Portal:Current events/October 2026", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T09:10:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "El ataque del sábado 10 (12 muertos) sólo lo pude leer en Al Jazeera (dos notas); CNN devolvió error de acceso y la búsqueda en castellano sólo trajo los ataques del 8 y 9 (3 muertos). Wikipedia consigna 12 muertos el 10/10 y 13 al 11/10; CNN titulaba 'al menos 13'. El dato del petróleo arriba de USD 100 y de la guerra EEUU-Irán proviene de resúmenes (Wikipedia, GlobalSecurity) y de Infobae (11/10), no de una agencia. Las cifras de víctimas son preliminares."
+    },
+    {
+      "seccion": "buena_noticia",
+      "titulo_sugerido": "Récord histórico: la Argentina exportó 88,9 millones de toneladas de granos y subproductos en nueve meses",
+      "bajada": "La Bolsa de Comercio de Rosario informó que los embarques de enero a septiembre superan en 6 millones de toneladas el máximo de 2021, con trigo, girasol y maíz en niveles inéditos.",
+      "cuerpo": "El Informativo Semanal N° 2264 de la Bolsa de Comercio de Rosario, del 9 de octubre, calcula que entre enero y septiembre de 2026 la Argentina exportó cerca de 88,9 millones de toneladas de granos y subproductos, casi 10% más que en el mismo período de 2025 y unos 6 millones de toneladas por encima del récord anterior de 83 millones (2021). El trigo acumula 12,8 millones de toneladas, 60% más que el promedio de los últimos años a esta altura; el girasol superó 6,5 millones, más del doble del promedio de campañas recientes; el maíz acumula 30,2 millones en la campaña (18% sobre el promedio) con 7,63 millones embarcados sólo en agosto y septiembre; la harina de soja superó 6 millones de toneladas en esos dos meses y la harina de girasol llegó a 1,74 millones, 54% más que su máximo histórico. La BCR lo explica por una cosecha con oferta extraordinaria, demanda externa firme, la limitación de los envíos de Ucrania y Rusia por el conflicto del Mar Negro, menor cosecha de maíz en la UE y menores embarques de Brasil, además de la baja de retenciones al maíz (de 12% a 8,5%). Es un dato de volumen físico, no de dólares: los precios internacionales no acompañan en la misma proporción y el ingreso de divisas del agro se concentró en el primer semestre. Las proyecciones privadas de exportaciones totales 2026 (bienes) superan los USD 100.000 millones (LCG USD 103.740 millones; DNI/ICC USD 105.150 millones), lo que sería récord nominal, pero sigue siendo una proyección.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 3,
+      "datos_clave": [
+        "88,9 Mt exportadas enero-septiembre 2026 (+10% i.a.); récord anterior 83 Mt en 2021.",
+        "Trigo 12,8 Mt (+60% vs. promedio); girasol >6,5 Mt; maíz 30,2 Mt en la campaña.",
+        "Harina de girasol 1,74 Mt, +54% sobre el máximo previo.",
+        "Fuente primaria: BCR, Informativo Semanal N° 2264 (9/10/2026)."
+      ],
+      "fuentes": [
+        {"url": "https://www.bcr.com.ar/es/mercados/investigacion-y-desarrollo/informativo-semanal/noticias-informativo-semanal/seguimos", "medio": "Bolsa de Comercio de Rosario", "titulo": "Seguimos haciendo historia: exportación agroindustrial en máximos", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:52:00-03:00"},
+        {"url": "https://ruralnet.com.ar/exportaciones-agroindustriales-record-2026-3/", "medio": "Ruralnet", "titulo": "Exportaciones agroindustriales: récord argentino en 2026", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.ellitoral.com/campolitoral/agroindustria-granos-bolsadecomercioderosario-trigo-exportaciones-girasol-maiz-harinadesoja-marnegro-europa-biocombustibles-harinadegirasol-soja_0_fpyItaI4tt.html", "medio": "El Litoral (Campolitoral)", "titulo": "La agroindustria argentina alcanzó un récord de exportaciones en los primeros nueve meses de 2026", "fecha_publicacion": "2026-10-10", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.infobae.com/economia/2026/10/12/la-argentina-recupera-participacion-en-el-comercio-mundial-proyectan-que-en-2035-exportara-usd-180000-millones/", "medio": "Infobae", "titulo": "La Argentina recupera participación en el comercio mundial: proyectan que en 2035 exportará USD 180.000 millones", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T09:30:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La fecha de publicación de El Litoral no figura en la página (la estimo entre el 9 y el 11/10). El dato oficial de INDEC de exportaciones en dólares de septiembre se publica a fin de octubre; las cifras de USD 100.000 millones son proyecciones privadas, no datos."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "Milei viaja a Washington por quinta vez en el año",
+      "bajada": "Sale el martes 13 y el miércoles 14 será invitado de honor en la Official Hispanic Heritage Gala.",
+      "cuerpo": "Según El Destape (vía Examedia) y MDZ, Milei parte el martes 13 de octubre a Estados Unidos: el miércoles 14 por la noche habla como invitado de honor en la Official Hispanic Heritage Gala en el auditorio Andrew W. Mellon de Washington, tiene prevista una reunión con la Cámara de Comercio de EEUU y participa de un foro sobre antisemitismo. Es su quinta visita al país en 2026 y coincide con la semana de las sesiones del 15 y del arranque del Presupuesto.",
+      "fecha_acontecimiento": "2026-10-13",
+      "importancia": 2,
+      "datos_clave": ["Viaje 13-15/10 a Washington; gala del 14/10; quinta visita a EEUU en el año."],
+      "fuentes": [
+        {"url": "https://examedia.com.ar/portada/post/88033190", "medio": "Examedia (reproduce El Destape)", "titulo": "Milei viaja a Washington mientras el Congreso se enciende", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:15:00-03:00"},
+        {"url": "https://www.mdzol.com/politica/2026/10/10/el-gobierno-se-toma-el-finde-xl-javier-milei-no-convoca-al-gabinete-y-ya-piensa-en-su-viaje-a-eeuu-1987279.html", "medio": "MDZ", "titulo": "El Gobierno se toma el finde XL: Javier Milei no convoca al gabinete y ya piensa en su viaje a EE.UU", "fecha_publicacion": "2026-10-10", "consultado": "2026-10-12T09:45:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La nota de MDZ la vi sólo como resumen de búsqueda; la agenda detallada proviene de El Destape. No hay confirmación de reuniones con funcionarios del gobierno estadounidense."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "El salario mínimo pasó a $391.200 en octubre",
+      "bajada": "La Resolución 4/2026 fijó el SMVM por laudo tras el fracaso del Consejo del Salario; sube a $437.000 en abril de 2027.",
+      "cuerpo": "Desde el 1 de octubre el salario mínimo, vital y móvil es de $391.200 mensuales ($1.956 por hora) por Resolución 4/2026, dictada por el Gobierno ante la falta de acuerdo en el Consejo del Salario; venía de $383.800 en septiembre (+1,9%) y el cronograma sigue con $398.800 en noviembre, $406.400 en diciembre y $437.000 en abril de 2027. Las subas mensuales rondan 1,9%, en línea o apenas por debajo de la inflación esperada, por lo que el mínimo no recupera poder de compra.",
+      "fecha_acontecimiento": "2026-10-01",
+      "importancia": 2,
+      "datos_clave": ["SMVM octubre: $391.200 (+1,9% vs. septiembre); abril 2027: $437.000."],
+      "fuentes": [
+        {"url": "https://www.infobae.com/economia/2026/10/06/de-cuanto-es-el-salario-minimo-en-la-argentina-en-octubre-2026/", "medio": "Infobae", "titulo": "De cuánto es el salario mínimo en la Argentina en octubre 2026", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:40:00-03:00"},
+        {"url": "https://www.cronista.com/economia-politica/salario-minimo-vital-y-movil-de-cuanto-es-en-argentina-en-octubre-2026/", "medio": "El Cronista", "titulo": "Aumenta el Salario Mínimo: de cuánto es en octubre 2026", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:40:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Sólo abrí la nota de Infobae; El Cronista apareció en la búsqueda pero no lo leí. No consulté el Boletín Oficial para la fecha de la Resolución 4/2026. La comparación con inflación es propia."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "El Tesoro sale a renovar $4,85 billones en la primera licitación de octubre",
+      "bajada": "Finanzas reabre la LECAP S29E7, el bono TAMAR TMG28 y los duales TXMD9 y TMVE8; en el mes vencen unos $27 billones.",
+      "cuerpo": "La Secretaría de Finanzas presentó el 9 de octubre el menú de la primera licitación de deuda en pesos del mes, para afrontar vencimientos de unos $4,85 billones (contra $8,65 billones a fin de septiembre): reabre la LECAP S29E7 (vence 29/1/2027), el bono TAMAR TMG28 (31/8/2028) y los duales TXMD9 (CER/TAMAR, 14/12/2029) y TMVE8 (TAMAR/dólar linked, 28/1/2028), sin instrumentos dólar linked puros. En la licitación del 28 de septiembre el Tesoro había adjudicado $8,62 billones con una tasa de 29,36% TIREA en la reapertura del T15E7.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 2,
+      "datos_clave": ["Vencimientos ~$4,85 billones; instrumentos S29E7, TMG28, TXMD9, TMVE8; octubre total ~$27 billones."],
+      "fuentes": [
+        {"url": "https://www.perfil.com/noticias/economia/licitacion-de-deuda-el-tesoro-busca-renovar-49-billones-a40.phtml", "medio": "Perfil", "titulo": "Licitación de deuda: el Tesoro enfrenta vencimientos por $4,9 billones", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.iprofesional.com/finanzas/466282-deuda-en-pesos-el-tesoro-enfrenta-vencimientos-por-27-billones", "medio": "iProfesional", "titulo": "Deuda en pesos: el Tesoro enfrenta vencimientos por $27 billones", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:35:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "La fecha exacta de la licitación no figura en Perfil (probablemente miércoles 14). iProfesional sólo lo vi como resumen de búsqueda. El dato del 28/9 proviene del comunicado oficial en argentina.gob.ar citado en la búsqueda, no abierto."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "Gobernadores y Gobierno se ven el miércoles en la CONFEFI II",
+      "bajada": "Santilli y Caputo exponen el 14 de octubre junto a Jorge Macri y ocho gobernadores; Milei visita Neuquén el 19.",
+      "cuerpo": "La segunda Conferencia de Federalismo Fiscal (CONFEFI II) se realiza el 14 de octubre con exposiciones del ministro del Interior Diego Santilli y del ministro de Economía Luis Caputo junto a Jorge Macri, Rogelio Frigerio, Carlos Sadir, Martín Llaryora, Ignacio Torres, Maximiliano Pullaro, Leandro Zdero y Gustavo Sáenz, en medio de la negociación por el Presupuesto 2027 y la reforma política. El 19 de octubre Milei viaja a Neuquén, donde el gobernador Rolando Figueroa propuso eliminar Ingresos Brutos a las empresas que creen empleo en 2028.",
+      "fecha_acontecimiento": "2026-10-14",
+      "importancia": 2,
+      "datos_clave": ["CONFEFI II: 14/10; Milei en Neuquén: 19/10."],
+      "fuentes": [
+        {"url": "https://www.infobae.com/politica/2026/10/11/milei-consiguio-sus-primeros-acuerdos-de-palabra-con-gobernadores-y-se-gesta-una-negociacion-blue-para-bajar-impuestos/", "medio": "Infobae", "titulo": "Milei consiguió sus primeros acuerdos de palabra con gobernadores y se gesta una negociación 'blue' para bajar impuestos", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:10:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Una sola fuente. La lista de gobernadores es la de expositores anunciados, no confirma acuerdos."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "Dólar al arranque de la semana: oficial $1.535 en el Nación, blue $1.540, CCL $1.611",
+      "bajada": "Con el feriado del lunes 12, las cotizaciones del viernes quedan como referencia: mayorista $1.517, MEP $1.539, tarjeta $1.995,50.",
+      "cuerpo": "Ámbito informó para el lunes 12 de octubre un dólar mayorista de $1.517, Banco Nación a $1.485/$1.535, promedio BCRA de $1.537,18, blue a $1.520/$1.540, MEP a $1.539,28 (brecha 1,5%), contado con liquidación a $1.611,26 (brecha 6,2%) y tarjeta a $1.995,50; el dólar cripto cotizaba $1.607 con bitcoin en USD 83.770. Son los valores del cierre del viernes 9, dado el feriado.",
+      "fecha_acontecimiento": "2026-10-12",
+      "importancia": 2,
+      "datos_clave": ["Mayorista $1.517; BNA $1.535; blue $1.540; MEP $1.539,28; CCL $1.611,26; tarjeta $1.995,50."],
+      "fuentes": [
+        {"url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-lunes-12-octubre-n6332655", "medio": "Ámbito", "titulo": "Dólar hoy: a cuánto cotiza este lunes 12 de octubre", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T09:10:00-03:00"},
+        {"url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-9-octubre-n6332151", "medio": "Ámbito", "titulo": "Dólar hoy: a cuánto cerró este viernes 9 de octubre", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:35:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Ambas notas son de Ámbito. La nota del 12/10 tiene un recuadro con el blue a $1.435, inconsistente con los $1.540 del cuerpo; tomo $1.540, que coincide con el cierre del viernes. Nota: Ámbito titula 'lunes 12 de octubre', coherente con el calendario 2026."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "Sismo de 7,7 en Panamá sin muertos confirmados",
+      "bajada": "El viernes 9 un terremoto con epicentro en la provincia de Herrera dañó iglesias y edificios en el interior; hubo alerta de tsunami para el Pacífico que no se concretó.",
+      "cuerpo": "El viernes 9 de octubre un sismo de magnitud 7,7 (USGS) con epicentro cerca de Pitaloza Arriba, provincia de Herrera, a 10 km de profundidad, sacudió Panamá y fue seguido por otro de 6,6 y decenas de réplicas; Protección Civil reportó heridos y daños concentrados en Veraguas, Herrera y Los Santos (derrumbe parcial de la catedral de Penonomé y de la iglesia de San Atanasio), sin daños en la capital ni en el Canal. La alerta de tsunami para la costa del Pacífico no se tradujo en olas destructivas. Al 10 de octubre no había muertos confirmados.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 2,
+      "datos_clave": ["M7,7 (USGS) + M6,6; epicentro en Herrera; heridos y daños patrimoniales; sin muertos confirmados al 10/10."],
+      "fuentes": [
+        {"url": "https://www.adn.com/nation-world/2026/10/09/magnitude-77-earthquake-shakes-panama-prompting-evacuations/", "medio": "Anchorage Daily News (AP)", "titulo": "Magnitude 7.7 earthquake shakes Panama, prompting evacuations", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:45:00-03:00"},
+        {"url": "https://semanariouniversidad.com/pais/sismo-de-magnitud-77-sacudio-panama-y-levanto-alertas-en-costa-rica/", "medio": "Semanario Universidad (Costa Rica)", "titulo": "Sismo de magnitud 7,7 sacudió Panamá y levantó alertas en Costa Rica", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:45:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Los datos provienen de resúmenes de búsqueda de despachos de AP y AFP del 9 y 10/10 que no abrí individualmente. No encontré un balance oficial actualizado al 12/10; la cifra de víctimas puede haber cambiado."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "Semana Nobel: optogenética, neutrinos, Anne Carson y Navi Pillay",
+      "bajada": "Entre el 5 y el 12 de octubre se anunciaron los premios de Medicina, Física, Química, Literatura, Paz y Economía; sin laureados argentinos.",
+      "cuerpo": "Según el registro de actualidad de Wikipedia, el Nobel de Medicina (5/10) fue para Karl Deisseroth, Peter Hegemann y Georg Nagel por la optogenética; el de Física (6/10) para Francis Halzen por el observatorio de neutrinos IceCube; el de Química (7/10) para Henri Kagan y Kensō Soai; el de Literatura (8/10) para la poeta canadiense Anne Carson; el de la Paz (9/10) para la jurista sudafricana Navi Pillay, y el de Economía (12/10) para Robert Hall y Michael Woodford. No hay argentinos entre los premiados.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 1,
+      "datos_clave": ["Medicina: Deisseroth, Hegemann, Nagel; Física: Halzen; Literatura: Anne Carson; Paz: Navi Pillay; Economía: Hall y Woodford (12/10)."],
+      "fuentes": [
+        {"url": "https://en.wikipedia.org/wiki/Portal:Current_events/October_2026", "medio": "Wikipedia (Portal de actualidad)", "titulo": "Portal:Current events/October 2026", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T09:10:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Única fuente: Wikipedia. nobelprize.org devolvió error 403 y la búsqueda no trajo cobertura del anuncio de Economía (previsto para las 11:45 CEST del 12/10, es decir 06:45 de Argentina); conviene confirmar en nobelprize.org antes de publicar, en especial Economía. Si no se verifica, descartar la breve."
+    }
+  ]
+}

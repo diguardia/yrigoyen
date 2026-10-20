@@ -1,0 +1,168 @@
+{
+  "tema": "boca",
+  "consultado_el": "2026-10-12T09:55:00-03:00",
+  "ultimo_partido": {
+    "fecha": "2026-10-09",
+    "hora_ar": "19:30",
+    "competicion": "Torneo Clausura 2026 (Liga Profesional), Zona A, fecha 12",
+    "local": "Instituto",
+    "visitante": "Boca Juniors",
+    "resultado": "Instituto 2 - Boca 2",
+    "goles": [
+      {"minuto": "13'", "jugador": "Fernando Alarcón", "equipo": "Instituto"},
+      {"minuto": "22'", "jugador": "Enner Valencia", "equipo": "Boca Juniors"},
+      {"minuto": "48' (2' ST)", "jugador": "Jonathan Galván", "equipo": "Instituto"},
+      {"minuto": "56' (10' ST)", "jugador": "Miguel Merentiel", "equipo": "Boca Juniors"}
+    ],
+    "expulsados": [],
+    "arbitro": "Leandro Rey Hilfer (VAR: Yamil Possi)",
+    "estadio": "Mario Alberto Kempes, Córdoba (no el Monumental Presidente Perón que informaba la API de ESPN)",
+    "cronica": "Instituto, líder de la zona, se puso en ventaja dos veces: Alarcón tras un tiro libre a los 13' y Galván, de cabeza tras un córner, apenas iniciado el segundo tiempo. Boca empató las dos: Valencia aprovechó un error del arquero Marcos Ledesma a los 22' y Merentiel, que había ingresado en el entretiempo, definió a los 56' con asistencia de Lautaro Blanco. La peor noticia para Boca fue Leandro Paredes, que entró a los 53' y salió a los 70' con un desgarro grado 2 en el isquiotibial derecho. Boca estiró su racha sin derrotas (en el Clausura lleva 5 triunfos, 6 empates y 1 caída) y quedó tercero con 21 puntos; Instituto se mantiene puntero con 26. Único amonestado de Boca informado: Malcom Braida (76').",
+    "fuentes": [
+      {"url": "https://www.infobae.com/deportes/2026/10/09/boca-juniors-visitara-a-instituto-en-un-duelo-clave-por-la-cima-de-su-zona-y-la-tabla-anual-hora-tv-y-probables-formaciones/", "medio": "Infobae", "consultado": "2026-10-12T09:35:00-03:00"},
+      {"url": "https://www.minutouno.com/deportes/instituto-vs-boca-el-torneo-clausura-2026-goles-resultado-vivo-y-minuto-minuto-n6330670", "medio": "Minutouno", "consultado": "2026-10-12T09:35:00-03:00"},
+      {"url": "https://442.perfil.com/noticias/amp/futbol/boca-vs-instituto-por-el-torneo-clausura-2026.phtml", "medio": "442 (Perfil)", "consultado": "2026-10-12T09:50:00-03:00"},
+      {"url": "https://elintransigente.com/2026/10/boca-superclasico-fecha-15/", "medio": "El Intransigente (horario 19:30 y sede Kempes)", "consultado": "2026-10-12T09:40:00-03:00"}
+    ]
+  },
+  "proximo_partido": {
+    "fecha": "2026-10-13",
+    "dia_semana": "martes",
+    "hora_ar": "21:30",
+    "competicion": "Copa Sudamericana 2026 - semifinal, partido de ida",
+    "rival": "Vasco da Gama (Brasil)",
+    "condicion": "local",
+    "estadio": "La Bombonera (Alberto J. Armando), Buenos Aires",
+    "arbitro": "Piero Maza (Chile); VAR: José Cabero (Chile). Asistentes José Retamal y Carlos Poblete, cuarto árbitro Mathías Riquelme",
+    "tv": "ESPN y DSports (streaming: Disney+ Premium, Flow, DGO, Telecentro Play)",
+    "verificado_en_dos_fuentes": true,
+    "fuentes": [
+      {"url": "https://www.lanacion.com.ar/deportes/futbol/boca-juniors-vs-vasco-da-gama-por-la-copa-sudamericana-2026-dia-horario-tv-y-como-ver-online-nid11102026/", "medio": "La Nación", "consultado": "2026-10-12T09:40:00-03:00"},
+      {"url": "https://www.cadena3.com/noticia/futbol/copa-sudamericana-ya-esta-el-arbitro-de-la-ida-entre-boca-y-vasco_601483", "medio": "Cadena 3", "consultado": "2026-10-12T09:40:00-03:00"},
+      {"url": "https://en.wikipedia.org/wiki/2026_Copa_Sudamericana_final_stages", "medio": "Wikipedia (fixture CONMEBOL)", "consultado": "2026-10-12T09:45:00-03:00"},
+      {"url": "https://bolavip.com/ar/boca/sin-paredes-la-posible-formacion-de-boca-contra-vasco-da-gama-por-la-copa-sudamericana-2026", "medio": "Bolavip", "consultado": "2026-10-12T09:35:00-03:00"},
+      {"url": "https://www.bocajuniors.com.ar/noticias", "medio": "Boca Juniors (sitio oficial: 'Boca-Vasco da Gama: información para socios', 7/10)", "consultado": "2026-10-12T09:45:00-03:00"}
+    ]
+  },
+  "siguientes_partidos": [
+    {"fecha": "2026-10-16", "hora_ar": "21:30", "competicion": "Torneo Clausura 2026, fecha 13 (TNT Sports) - La Bombonera", "rival": "Talleres (Córdoba)", "condicion": "local"},
+    {"fecha": "2026-10-20", "hora_ar": "21:30", "competicion": "Copa Sudamericana 2026, semifinal vuelta - Maracaná, Río de Janeiro", "rival": "Vasco da Gama", "condicion": "visitante"},
+    {"fecha": "2026-10-25", "hora_ar": "17:00", "competicion": "Torneo Clausura 2026, fecha 14 (ESPN Premium) - Libertadores de América, Avellaneda", "rival": "Independiente", "condicion": "visitante"},
+    {"fecha": "2026-11-01", "hora_ar": "15:00", "competicion": "Torneo Clausura 2026, fecha 15, interzonal - Superclásico (TNT Sports / ESPN Premium)", "rival": "River Plate", "condicion": "local"},
+    {"fecha": "2026-11-14", "hora_ar": "a confirmar", "competicion": "Copa Argentina 2026, semifinal (sede neutral a confirmar)", "rival": "Banfield", "condicion": "neutral"}
+  ],
+  "tabla_zona_a": {
+    "actualizada": "2026-10-12T09:45:00-03:00",
+    "fuente": {"url": "https://www.espn.com.ar/futbol/posiciones/_/liga/arg.1", "medio": "ESPN Argentina (posiciones en vivo), cotejada con Diario Neuquino 12/10/2026: https://diarioneuquino.com.ar/los-resultados-de-la-fecha-12-a-pedir-de-boca-juniors-asi-estan-las-posiciones-del-torneo-clausura-y-de-la-tabla-anual/"},
+    "formato": "30 equipos en dos zonas de 15. Cada equipo juega 14 partidos contra su zona más 2 interzonales (16 fechas). Los 8 primeros de cada zona pasan a octavos de final; octavos, cuartos, semifinal y final se juegan a partido único. El torneo termina en diciembre (la temporada cierra el 12/12/2026). Boca ya jugó 12 fechas y le quedan 4 (Talleres, Independiente, River -interzonal- y una más). Está 3º con 21 puntos, 7 por encima del 9º (Estudiantes LP, 14), así que tiene casi asegurado el ingreso a playoffs; pelea por terminar lo más arriba posible en la zona (Instituto 26, Defensa 24, Vélez 21 con un partido menos). La tabla incluye 13 de los 15 partidos de la fecha 12: faltan Lanús-Vélez (lunes 12/10, 16:00) y Gimnasia (Mendoza)-Newell's (lunes 12/10, 18:30), por lo que Vélez puede superar a Boca y Lanús/Newell's/Gimnasia pueden acercarse.",
+    "filas": [
+      {"pos": 1, "equipo": "Instituto", "pj": 12, "g": 8, "e": 2, "p": 2, "gf": 19, "gc": 10, "dif": 9, "pts": 26},
+      {"pos": 2, "equipo": "Defensa y Justicia", "pj": 12, "g": 7, "e": 3, "p": 2, "gf": 18, "gc": 11, "dif": 7, "pts": 24},
+      {"pos": 3, "equipo": "Boca Juniors", "pj": 12, "g": 5, "e": 6, "p": 1, "gf": 19, "gc": 13, "dif": 6, "pts": 21},
+      {"pos": 4, "equipo": "Vélez Sarsfield", "pj": 11, "g": 5, "e": 6, "p": 0, "gf": 17, "gc": 11, "dif": 6, "pts": 21},
+      {"pos": 5, "equipo": "Independiente", "pj": 12, "g": 5, "e": 3, "p": 4, "gf": 11, "gc": 12, "dif": -1, "pts": 18},
+      {"pos": 6, "equipo": "Lanús", "pj": 11, "g": 5, "e": 2, "p": 4, "gf": 13, "gc": 9, "dif": 4, "pts": 17},
+      {"pos": 7, "equipo": "Newell's Old Boys", "pj": 11, "g": 4, "e": 5, "p": 2, "gf": 11, "gc": 8, "dif": 3, "pts": 17},
+      {"pos": 8, "equipo": "Gimnasia (Mendoza)", "pj": 11, "g": 5, "e": 2, "p": 4, "gf": 14, "gc": 12, "dif": 2, "pts": 17},
+      {"pos": 9, "equipo": "Estudiantes (La Plata)", "pj": 12, "g": 4, "e": 2, "p": 6, "gf": 15, "gc": 13, "dif": 2, "pts": 14},
+      {"pos": 10, "equipo": "San Lorenzo", "pj": 12, "g": 4, "e": 2, "p": 6, "gf": 5, "gc": 11, "dif": -6, "pts": 14},
+      {"pos": 11, "equipo": "Unión (Santa Fe)", "pj": 12, "g": 4, "e": 1, "p": 7, "gf": 17, "gc": 21, "dif": -4, "pts": 13},
+      {"pos": 12, "equipo": "Deportivo Riestra", "pj": 12, "g": 2, "e": 5, "p": 5, "gf": 9, "gc": 12, "dif": -3, "pts": 11},
+      {"pos": 13, "equipo": "Platense", "pj": 12, "g": 2, "e": 5, "p": 5, "gf": 12, "gc": 18, "dif": -6, "pts": 11},
+      {"pos": 14, "equipo": "Central Córdoba (SdE)", "pj": 12, "g": 2, "e": 4, "p": 6, "gf": 10, "gc": 16, "dif": -6, "pts": 10},
+      {"pos": 15, "equipo": "Talleres (Córdoba)", "pj": 12, "g": 2, "e": 3, "p": 7, "gf": 11, "gc": 18, "dif": -7, "pts": 9}
+    ]
+  },
+  "tabla_anual": {
+    "disponible": true,
+    "posicion_boca": 2,
+    "puntos_boca": 51,
+    "detalle": "Tabla anual 2026 (Apertura + Clausura) al 12/10 con 13 de 15 partidos de la fecha 12 jugados: 1º Independiente Rivadavia 52 (27 PJ), 2º Boca 51 (28 PJ), 3º Argentinos 51 (28 PJ), 4º Rosario Central 50 (28), 5º Vélez 49 (27, juega el lunes 12 vs Lanús), 6º Belgrano 48, 7º Instituto 47, 8º Estudiantes LP 45, 9º River 45, 10º Gimnasia LP 45. Boca y Argentinos se ordenan por diferencia de gol. Cupos 2027 según El Intransigente/Ámbito/365Scores: Libertadores 2027 para los campeones del Apertura (Belgrano, ya asegurado), del Clausura y de la Copa Argentina más los 3 mejores de la tabla anual no clasificados por otra vía; Sudamericana 2027 para los siguientes 6 de la anual (hoy 4º a 9º descontando a los ya clasificados). El primero de la tabla anual recibe además el título de 'Campeón de Liga'. Boca está hoy en zona de clasificación directa a la Libertadores 2027 y pelea el 'Campeón de Liga' a un punto del líder. El reparto exacto entre fase de grupos y repechaje de Libertadores no fue verificado en una fuente oficial.",
+    "fuente": {"url": "https://diarioneuquino.com.ar/los-resultados-de-la-fecha-12-a-pedir-de-boca-juniors-asi-estan-las-posiciones-del-torneo-clausura-y-de-la-tabla-anual/", "medio": "Diario Neuquino (12/10/2026); base completa en 365Scores (9/10/2026) https://www.365scores.com/es/news/como-quedo-boca-tabla-anual-instituto/ y reglas de cupos en Ámbito https://www.ambito.com/deportes/tabla-anual-2026-asi-esta-la-clasificacion-la-copa-libertadores-y-sudamericana-2027-n6319087"}
+  },
+  "copa_argentina": {
+    "sigue": true,
+    "detalle": "Boca está en semifinales. Recorrido: 2-0 a Gimnasia y Esgrima de Chivilcoy (24/2, Salta, doblete de Bareiro); 2-0 a Sarmiento de Junín (16/7); 0-0 y 4-3 por penales a Vélez (2/9, octavos); 3-2 a Racing en el Gigante de Arroyito (27/9, cuartos), remontando un 0-2 con tres goles de Enner Valencia. La semifinal ante Banfield fue fijada para el sábado 14 de noviembre, en la ventana FIFA, con horario y sede todavía sin confirmar; la fecha se corrió varias veces por el calendario de Boca.",
+    "instancia": "Semifinal",
+    "proximo_rival": "Banfield",
+    "fecha": "2026-11-14 (hora a confirmar)",
+    "sede": "A confirmar (sede neutral)",
+    "llave": [
+      {"cruce": "Cuartos: Deportivo Riestra - Banfield (Beranger, Turdera)", "fecha": "2026-09-09", "resultado": "1-1, Banfield 7-6 por penales"},
+      {"cruce": "Cuartos: Independiente Rivadavia - Atlético Tucumán (Gallardón, Lomas de Zamora)", "fecha": "2026-09-16", "resultado": "1-1, Atlético Tucumán 3-2 por penales"},
+      {"cruce": "Cuartos: Racing - Boca Juniors (Gigante de Arroyito, Rosario)", "fecha": "2026-09-27", "resultado": "Racing 2 - Boca 3"},
+      {"cruce": "Cuartos: Platense - Estudiantes LP (Tomaghello, Florencio Varela)", "fecha": "2026-10-01", "resultado": "Platense 1-0"},
+      {"cruce": "Semifinal: Atlético Tucumán - Platense", "fecha": "2026-10-28", "resultado": "pendiente"},
+      {"cruce": "Semifinal: Banfield - Boca Juniors", "fecha": "2026-11-14", "resultado": "pendiente (sede y hora a confirmar)"},
+      {"cruce": "Final", "fecha": "2026-12-02", "resultado": "pendiente (sede a confirmar)"}
+    ],
+    "fuentes": [
+      {"url": "https://www.eldestapeweb.com/deportes/miercoles-cuando-juega-boca-vs-banfield-semifinal-copa-argentina-2026-fecha-confirmada-2026107191543", "medio": "El Destape", "consultado": "2026-10-12T09:35:00-03:00"},
+      {"url": "https://en.wikipedia.org/wiki/2026_Copa_Argentina", "medio": "Wikipedia (cuadro completo)", "consultado": "2026-10-12T09:50:00-03:00"},
+      {"url": "https://en.wikipedia.org/wiki/2026_Club_Atl%C3%A9tico_Boca_Juniors_season", "medio": "Wikipedia (temporada 2026 de Boca)", "consultado": "2026-10-12T09:35:00-03:00"},
+      {"url": "https://www.lanacion.com.ar/deportes/futbol/asi-esta-el-cuadro-de-la-copa-argentina-2026-nid02092026/", "medio": "La Nación (cruces de cuartos)", "consultado": "2026-10-12T09:40:00-03:00"}
+    ]
+  },
+  "continental": {
+    "competicion": "Sudamericana",
+    "sigue": true,
+    "detalle": "Boca arrancó 2026 en la Copa Libertadores pero quedó eliminado en fase de grupos: terminó 3º del Grupo D con 7 puntos (2-1 a U. Católica, 3-0 a Barcelona SC, 0-1 con Cruzeiro, 0-1 con Barcelona, 1-1 con Cruzeiro y 0-1 con U. Católica en la Bombonera el 28/5), primera eliminación en grupos desde 1994; eso le costó el puesto a Claudio Úbeda. Como tercero pasó al repechaje de la Copa Sudamericana, donde eliminó a O'Higgins por penales (1-0 y 0-1), a Deportivo Recoleta en octavos (3-1 y 4-0) y a São Paulo en cuartos (1-0 en la Bombonera el 8/9 y 1-1 en el Morumbi el 15/9; 2-1 global). Ahora juega la semifinal con Vasco da Gama: ida mañana martes 13/10 a las 21:30 en la Bombonera y vuelta el martes 20/10 a las 21:30 en el Maracaná (sede confirmada por Vasco el 9/10 tras un fallo judicial que obligó al consorcio Fla-Flu a ceder el estadio). La otra semifinal es Atlético Mineiro - Montevideo City Torque (14/10 y 21/10). La final es el 21/11 en el Metropolitano de Barranquilla, Colombia.",
+    "llave": [
+      {"cruce": "Repechaje: Boca - O'Higgins (Chile)", "fecha": "2026-07-23 / 2026-07-30", "resultado": "1-0 y 0-1; Boca por penales"},
+      {"cruce": "Octavos: Boca - Deportivo Recoleta (Paraguay)", "fecha": "2026-08-11 / 2026-08-18", "resultado": "3-1 y 4-0 (7-1 global)"},
+      {"cruce": "Cuartos: Boca - São Paulo (Brasil)", "fecha": "2026-09-08 / 2026-09-15", "resultado": "1-0 y 1-1 (2-1 global)"},
+      {"cruce": "Semifinal: Boca - Vasco da Gama (Brasil)", "fecha": "2026-10-13 (Bombonera, 21:30) / 2026-10-20 (Maracaná, 21:30)", "resultado": "pendiente"},
+      {"cruce": "Semifinal: Atlético Mineiro - Montevideo City Torque", "fecha": "2026-10-14 (Arena MRV, 19:00) / 2026-10-21 (Centenario, 19:00)", "resultado": "pendiente"},
+      {"cruce": "Final (Estadio Metropolitano Roberto Meléndez, Barranquilla)", "fecha": "2026-11-21", "resultado": "pendiente"}
+    ],
+    "fuentes": [
+      {"url": "https://en.wikipedia.org/wiki/2026_Copa_Sudamericana_final_stages", "medio": "Wikipedia (fases finales Sudamericana 2026)", "consultado": "2026-10-12T09:45:00-03:00"},
+      {"url": "https://en.wikipedia.org/wiki/2026_Club_Atl%C3%A9tico_Boca_Juniors_season", "medio": "Wikipedia (temporada 2026 de Boca)", "consultado": "2026-10-12T09:35:00-03:00"},
+      {"url": "https://www.lanacion.com.ar/deportes/futbol/boca-juniors-vs-vasco-da-gama-por-la-copa-sudamericana-2026-dia-horario-tv-y-como-ver-online-nid11102026/", "medio": "La Nación", "consultado": "2026-10-12T09:40:00-03:00"},
+      {"url": "https://diariopanorama.com/noticia/569208/justicia-habilito-maracana-para-revancha-entre-boca-vasco-da-gama-copa-sudamericana", "medio": "Diario Panorama (sede de la vuelta)", "consultado": "2026-10-12T09:55:00-03:00"}
+    ]
+  },
+  "plantel": {
+    "entrenador": "Rodolfo 'Vasco' Arruabarrena (asumió el 18/6/2026 tras la salida de Claudio Úbeda; contrato hasta el 31/12/2027)",
+    "formacion_confirmada": [],
+    "formacion_probable": ["Álvaro Montero", "Leandro Lozano", "Lautaro Di Lollo", "Facundo Herrera", "Lautaro Blanco", "Santiago Ascacibar", "Milton Delgado", "Carlos Palacios", "Leonel Flores", "Miguel Merentiel", "Sebastián Villa"],
+    "esquema": "4-3-3 (deducido de la distribución publicada; las fuentes no explicitan el dibujo). Variante menos probable: Williams Alarcón por Palacios o Villa; Ángel Romero compite con Villa.",
+    "lesionados": [
+      {"jugador": "Leandro Paredes", "lesion": "Desgarro grado 2 en el isquiotibial derecho (9/10 vs Instituto)", "regreso_estimado": "Al menos 21 días: se pierde ida y vuelta con Vasco, Talleres e Independiente; el Superclásico del 1/11 está en duda"},
+      {"jugador": "Alan Velasco", "lesion": "Desgarro en el aductor izquierdo (confirmado el 5/10)", "regreso_estimado": "Unas tres semanas: fines de octubre"},
+      {"jugador": "Tomás Belmonte", "lesion": "Rotura de meniscos en la rodilla derecha, operado el 2/10", "regreso_estimado": "2027"},
+      {"jugador": "Tomás Aranda", "lesion": "Fractura de peroné", "regreso_estimado": "2027"},
+      {"jugador": "Adam Bareiro", "lesion": "Discopatía / hernia lumbar, debe operarse", "regreso_estimado": "2027"},
+      {"jugador": "Agustín Marchesín", "lesion": "Rotura de ligamento cruzado de la rodilla derecha (abril 2026)", "regreso_estimado": "Enero de 2027"}
+    ],
+    "suspendidos": [],
+    "regresos": ["Alan Velasco (fines de octubre, estimado)", "Leandro Paredes (principios de noviembre; no está garantizado para el Superclásico del 1/11)"],
+    "actualizado": "2026-10-11",
+    "fuentes": [
+      {"url": "https://bolavip.com/ar/boca/sin-paredes-la-posible-formacion-de-boca-contra-vasco-da-gama-por-la-copa-sudamericana-2026", "medio": "Bolavip (formación probable, actualizado 11/10 19:01)", "consultado": "2026-10-12T09:35:00-03:00"},
+      {"url": "http://www.eldestapeweb.com/deportes/paredes-arruabarrena-tiene-titulares-jugar-vs-vasco-copa-20261011192217", "medio": "El Destape (formación probable, 11/10 19:22)", "consultado": "2026-10-12T09:40:00-03:00"},
+      {"url": "https://lanacion.com.ar/deportes/futbol/las-lesiones-de-leandro-paredes-y-una-preocupacion-que-boca-debe-resolver-en-plena-definicion-nid11102026", "medio": "La Nación (Paredes, 11/10)", "consultado": "2026-10-12T09:35:00-03:00"},
+      {"url": "https://bolavip.com/ar/boca/boca-hoy-los-partidos-que-se-perderia-paredes-la-enfermeria-y-el-rechazo-del-hincha-a-un-jugador", "medio": "Bolavip (enfermería completa, 10/10)", "consultado": "2026-10-12T09:50:00-03:00"},
+      {"url": "https://elintransigente.com/2026/10/09/boca-rotaciones-calendario-decisivo/", "medio": "El Intransigente (Velasco, Belmonte, 9/10)", "consultado": "2026-10-12T09:40:00-03:00"},
+      {"url": "https://elintransigente.com/2026/10/11/juan-roman-riquelme-marchesin-renovacion/", "medio": "El Intransigente (Marchesín, 11/10)", "consultado": "2026-10-12T09:45:00-03:00"}
+    ]
+  },
+  "mercado": {
+    "oficiales": [
+      {"detalle": "No hay mercado abierto: la ventana del fútbol argentino cerró el 2/9/2026. Balance oficial de ese mercado: altas Leandro Lozano (Argentinos, compra US$3,5M), Álvaro Montero (Vélez, compra US$4M), Sebastián Villa (Independiente Rivadavia, compra US$6,5M) y Enner Valencia (libre, ex Pachuca); bajas Exequiel Zeballos (venta a Monza, US$5M), Marcelo Saracchi (venta a Houston Dynamo), Marcelo Weigandt (cesión a Liga de Quito), Juan Barinaga (cesión a Racing), Agustín Martegani (Independiente Medellín), Lucas Janson (Gimnasia LP), Gonzalo Gelini (Peñarol), Edinson Cavani (rescisión), Ander Herrera (rescisión de común acuerdo) y Nicolás Orsini.", "fecha": "2026-09-03", "fuente": "El Intransigente https://elintransigente.com/2026/09/boca-mercado-pases-2026/ y Wikipedia (temporada 2026)"},
+      {"detalle": "Comunicado oficial del club: Rodolfo Arruabarrena firmó como DT hasta el 31/12/2027, con cuerpo técnico Diego Markic y Juan Gobet (ayudantes), Gustavo Roberti y Cristian Aquino (PF), Cristian Muñoz (arqueros) y Amr Mokhtar (análisis de video).", "fecha": "2026-06-18", "fuente": "Boca Juniors / La Nueva https://www.lanueva.com/nota/2026-6-18-18-33-0-boca-confirmo-a-su-nuevo-entrenador-con-un-breve-comunicado"},
+      {"detalle": "Comunicado del club 'Boca-Talleres: información importante': confirma el partido del viernes 16/10 en la Bombonera y fija la confirmación de asistencia de socios desde el lunes 12/10 a las 13:00 (generales) y 14:00 (plateas, hasta el viernes 16 a las 12:00); vitalicios desde el miércoles 14 a las 14:00.", "fecha": "2026-10-11", "fuente": "bocajuniors.com.ar https://www.bocajuniors.com.ar/noticias/boca-talleres-informacion-importante"}
+    ],
+    "confirmadas": [
+      {"detalle": "Miguel Merentiel (contrato hasta diciembre de 2027): su representante Marcelo Tejera confirmó que habló con Riquelme y Marcelo Delgado para pedir una mejora económica y una extensión; el jugador quiere seguir y descartan esperar a quedar libre. Sin acuerdo cerrado ni cifras públicas.", "fecha": "2026-10-06", "fuente": "El Intransigente https://elintransigente.com/2026/10/miguel-merentiel-renovacion-boca/"},
+      {"detalle": "Agustín Marchesín: contrato vence en diciembre de 2026 y el club aún no abrió conversaciones para renovarlo; el arquero (rotura de ligamentos en abril) espera el alta para negociar, y para 2027 se lo proyecta detrás de Montero. Leandro Brey tiene contrato hasta 2029.", "fecha": "2026-10-11", "fuente": "El Intransigente https://elintransigente.com/2026/10/11/juan-roman-riquelme-marchesin-renovacion/"}
+    ],
+    "rumores": [
+      {"detalle": "Matías Galarza (Talleres): la negociación se cayó al cierre del mercado de septiembre (Talleres pedía US$6M); Martín Arévalo lo señala como la operación más avanzada para el mercado de diciembre/enero 2027.", "fecha": "2026-10", "fuente": "El Intransigente https://elintransigente.com/2026/10/boca-matias-galarza-negociacion/"},
+      {"detalle": "Mediocampistas en el radar para 2027 sin negociación formal: Bruno Zapelli (Athletico Paranaense), Lucas Torreira (si se vende a Milton Delgado al exterior), Giovani Lo Celso (Betis), Eduardo Delmás (Olimpia) y Álvaro Montoro (Botafogo).", "fecha": "2026-09 / 2026-10", "fuente": "El Intransigente (varias notas) y 442.perfil.com"},
+      {"detalle": "Leandro Brey podría salir a préstamo en el próximo mercado; interés de Racing supeditado a la venta de Facundo Cambeses.", "fecha": "2026-10-11", "fuente": "El Intransigente https://elintransigente.com/2026/10/11/juan-roman-riquelme-marchesin-renovacion/"}
+    ],
+    "institucional": "Juan Román Riquelme preside el club; tras la disolución del Consejo de Fútbol en agosto de 2025, Marcelo Delgado quedó como secretario técnico/manager y nexo con el cuerpo técnico. El DT Arruabarrena tiene contrato hasta fin de 2027, es decir más allá de las próximas elecciones. En lo inmediato el club comunicó la logística de socios para Boca-Vasco (7/10) y Boca-Talleres (11/10). No se encontraron comunicados oficiales de octubre sobre contratos o pases. El hincha cuestionó a Malcom Braida tras el empate con Instituto (Bolavip, 10/10)."
+  },
+  "incertidumbres": "1) El pedido dice 'domingo 12 de octubre', pero el 12/10/2026 es lunes según el calendario y según las fuentes (Lanús-Vélez y Gimnasia M-Newell's se juegan 'lunes 12'); Boca juega igual el martes 13. 2) La tabla de la Zona A puede cambiar hoy por la tarde: Vélez (21, un partido menos) juega ante Lanús a las 16:00 y puede pasar a Boca; Gimnasia (M)-Newell's a las 18:30. 3) Minutos de los goles de Instituto-Boca varían en un minuto según la fuente (Valencia 22'/23', Galván 47'/48', Merentiel 55'/56'); no se consiguieron las formaciones titulares completas. 4) La API de ESPN daba como sede el Monumental Presidente Perón; cuatro fuentes coinciden en que se jugó en el Kempes. 5) La formación ante Vasco es probable (coinciden Bolavip y El Destape del 11/10), no confirmada por el DT; dudas Alarcón/Palacios/Villa/Romero. 6) Ninguna fuente informa suspendidos de Boca para la ida; no se pudo verificar el acumulado de amarillas en CONMEBOL. 7) Televisación de Boca-Vasco: La Nación dice ESPN y DSports, Minutouno sólo ESPN; Disney+ Premium según Noticias Argentinas. 8) Boca-Talleres: la LPF y el club lo fijan el viernes 16/10 a las 21:30, pero la ficha de ESPN aún muestra domingo 18 a las 15:00 (programación vieja). 9) Reparto exacto de cupos 2027 (quiénes van a fase de grupos y quiénes a repechaje de Libertadores; cuántos a Sudamericana) tomado de medios, sin verificar en reglamento oficial de LPF/AFA. 10) Semifinal de Copa Argentina: fecha 14/11 confirmada por El Destape y Wikipedia, pero sede y hora sin definir; la final figura el 2/12 (una versión anterior decía 4/11). 11) La nota de El Intransigente sobre Galarza tiene fecha ambigua (URL de octubre, contenido que parece de principios de septiembre); se trata como rumor. 12) Advíncula, Fabra, Lema, Valdez, Solís y Salomón figuran como salidas definitivas 2026 en Wikipedia pero no se verificó cada caso en fuente propia."
+}

@@ -1,0 +1,419 @@
+{
+  "tema": "cordoba_educacion",
+  "consultado_el": "2026-10-12T09:56:00-03:00",
+  "feriado": {
+    "hay_fin_de_semana_largo": true,
+    "detalle": "El 12 de octubre de 2026 cae lunes y no se traslada (es feriado trasladable por Ley 27.399, pero al caer lunes se mantiene). Fin de semana largo de tres días: sábado 10, domingo 11 y lunes 12. La Ley 27.399 lo denomina Día del Respeto a la Diversidad Cultural; según Perfil, el calendario oficial del Gobierno nacional lo lista como 'Día de la Raza'. Próximo feriado: Día de la Soberanía Nacional, trasladado al lunes 23 de noviembre (dato de Perfil, no contrastado). No se pudo abrir la página oficial argentina.gob.ar/interior/feriados-nacionales-2026 (error 404).",
+    "fuente": "Perfil, 'Feriado del 12 de octubre 2026: cuándo es el próximo fin de semana largo', 2026-08-20, https://www.perfil.com/noticias/sociedad/feriado-del-12-de-octubre-2026-cuando-es-el-proximo-fin-de-semana-largo.phtml ; Noticias NQN, 'Feriado del 12 de octubre: cómo queda el fin de semana largo en 2026', 2026-09-26, https://www.noticiasnqn.com.ar/noticias/2026/09/26/354265-feriado-del-12-de-octubre-como-queda-el-fin-de-semana-largo-en-2026 (ambas consultadas 2026-10-12 ~09:20-03:00)"
+  },
+  "notas": [
+    {
+      "seccion": "cordoba",
+      "titulo_sugerido": "Renault arrancó la producción en serie de la Niagara en Santa Isabel y Llaryora pidió una Ley de Autopartes",
+      "bajada": "La planta cordobesa inició la fabricación de la pick-up que se exportará a 19 países; el gobernador reclamó a la Nación un régimen autopartista y anunció que envió a la Legislatura una nueva Ley de Promoción Industrial.",
+      "cuerpo": "El martes 6 de octubre Renault Argentina formalizó en la Fábrica Santa Isabel (Córdoba) el inicio de la producción en serie de la pick-up Niagara, con la presencia del gobernador Martín Llaryora, del secretario de Producción de la Nación, Pablo Lavigne, y del presidente de Renault Argentina, Pablo Sibilla. La empresa informó que más del 50% de la producción irá a exportación, con 19 mercados latinoamericanos en la etapa inicial (MDZ menciona Argentina, Brasil y Colombia como primeros destinos), que la planta emplea 1.300 personas y 195 robots (60 incorporados para la nueva carrocería), y que la comercialización empieza en noviembre de 2026. La Niagara es el modelo número 35 de una planta que acumula más de 3,5 millones de unidades en 71 años. Llaryora dijo que 'ahora también necesitamos una Ley de Autopartes' para que el ecosistema proveedor cordobés sea competitivo, y recordó que la Provincia envió a la Legislatura un proyecto de nueva Ley de Promoción Industrial. Ninguna de las notas consultadas informa el monto de inversión ni cantidad de empleos nuevos asociados a este arranque.",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 4,
+      "datos_clave": [
+        "Inicio de producción en serie: 6 de octubre de 2026, Fábrica Santa Isabel",
+        "Más del 50% de la producción a exportación; 19 países de América Latina",
+        "1.300 trabajadores y 195 robots en planta; lanzamiento comercial en noviembre de 2026",
+        "Llaryora reclamó una Ley de Autopartes nacional y envió a la Legislatura una nueva Ley de Promoción Industrial"
+      ],
+      "fuentes": [
+        {"url": "https://eleconomista.com.ar/autos/renault-inicio-oficialmente-produccion-niagara-n98666", "medio": "El Economista", "titulo": "Renault inició oficialmente la producción de Niagara", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://www.mdzol.com/politica/2026/10/6/desde-cordoba-martin-llaryora-reclamo-al-gobierno-nacional-una-ley-de-autopartes-1986210.html", "medio": "MDZ", "titulo": "Desde Córdoba, Martín Llaryora reclamó al Gobierno nacional una Ley de Autopartes", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:22:00-03:00"},
+        {"url": "https://www.cadena3.com/noticia/juntos/llaryora-respaldo-las-fotomultas-y-propuso-un-sistema-mixto-con-la-policia-caminera_600966", "medio": "Cadena 3", "titulo": "Llaryora respaldó las fotomultas y propuso un sistema mixto con la Policía Caminera", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:22:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Monto de inversión y empleos nuevos no informados en las fuentes consultadas (el anuncio original de 2024 hablaba de US$ 350 millones y 850 puestos, pero no se verificó en esta semana). El Economista menciona 278 proyectos de infraestructura sin cifra total."
+    },
+    {
+      "seccion": "cordoba",
+      "titulo_sugerido": "Llaryora respaldó las fotomultas en rutas provinciales con un 'sistema mixto' junto a la Caminera",
+      "bajada": "El Ministerio de Seguridad prepara los pliegos para comprar el equipamiento; puentes y circunvalaciones serían los primeros puntos, sin fecha definida.",
+      "cuerpo": "En declaraciones a Cadena 3 el 6 de octubre, durante el lanzamiento de la Niagara en Santa Isabel, el gobernador Martín Llaryora se pronunció a favor de avanzar con fotomultas en Córdoba, combinadas con la presencia de la Policía Caminera: 'hay que avanzar definitivamente en un sistema mixto, porque a veces lo presencial también es importante'. Afirmó que el Ministerio de Seguridad, a cargo de Juan Pablo Quinteros, 'está trabajando ya con los pliegos para la adquisición' de los equipos. Recordó que la Provincia había priorizado el control presencial por las críticas a radares municipales cuyas multas llegaban mucho después de la infracción, y citó como referencia las experiencias de Buenos Aires y Santa Fe. Se mencionaron puentes y circunvalaciones como posibles emplazamientos. No hay cifras de equipos, costos ni fecha de implementación.",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 3,
+      "datos_clave": [
+        "Propuesta: fotomultas más control presencial de la Policía Caminera",
+        "Ministerio de Seguridad (Juan Pablo Quinteros) elabora pliegos de compra",
+        "Sin lugares definitivos, cantidad de equipos ni fecha de inicio"
+      ],
+      "fuentes": [
+        {"url": "https://www.cadena3.com/noticia/juntos/llaryora-respaldo-las-fotomultas-y-propuso-un-sistema-mixto-con-la-policia-caminera_600966", "medio": "Cadena 3", "titulo": "Llaryora respaldó las fotomultas y propuso un sistema mixto con la Policía Caminera", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:22:00-03:00"},
+        {"url": "https://elciudadanovd.com.ar/cordoba-avanza-con-fotomultas-que-dijo-llaryora-sobre-los-nuevos-controles/", "medio": "El Ciudadano (Villa Dolores)", "titulo": "Córdoba avanza con fotomultas: qué dijo Llaryora sobre los nuevos controles", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:50:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La segunda fuente (El Ciudadano) reproduce las declaraciones hechas a Cadena 3; no hay un comunicado oficial del Ministerio de Seguridad verificado."
+    },
+    {
+      "seccion": "cordoba",
+      "titulo_sugerido": "Tras el domingo sin inspectores, Passerini y Quinteros firmaron un convenio para que la Policía ordene el tránsito en grandes eventos",
+      "bajada": "El acuerdo, pensado para la visita del Papa, habilita al Ministerio de Seguridad a conducir el operativo de seguridad y tránsito en eventos extraordinarios; el Suoem denuncia ítems salariales impagos y el municipio lo niega.",
+      "cuerpo": "El jueves 8 de octubre el intendente de Córdoba, Daniel Passerini, y el ministro de Seguridad provincial, Juan Pablo Quinteros, firmaron en el Palacio 6 de Julio un convenio de cooperación y asistencia operativa para la visita del papa León XIV, que fija además un mecanismo para eventos extraordinarios: el Ministerio diseñará y conducirá de forma unificada el operativo de seguridad y orden público, con asistencia de áreas municipales. El municipio aclaró que no hay transferencia de competencias y que el convenio será ratificado por ordenanza. El antecedente fue el domingo previo, cuando el cuerpo de inspectores de tránsito municipal no prestó servicio en coincidencia con el partido Belgrano-Talleres, una maratón del Sanatorio Allende y una procesión religiosa, y la Policía de Córdoba cubrió los operativos. El Suoem sostiene que no hubo paro sino falta de pago de ítems salariales adeudados; Passerini afirmó que 'no se adeuda nada' y que 'no es un conflicto con los empleados municipales'. Llaryora acusó en redes a un grupo de empleados municipales de extorsión y prometió 'todas las herramientas a nuestro alcance para garantizar el orden'. Según Letra P, el oficialismo vinculó la medida gremial con el juecismo, que a su vez cuestionó que la Policía asuma tareas de tránsito.",
+      "fecha_acontecimiento": "2026-10-08",
+      "importancia": 3,
+      "datos_clave": [
+        "Convenio firmado el 8 de octubre en el Palacio 6 de Julio; se ratificará por ordenanza",
+        "El Ministerio de Seguridad conducirá los operativos de seguridad y tránsito en eventos extraordinarios",
+        "Origen: quite de colaboración de inspectores municipales el domingo previo (Belgrano-Talleres, maratón, procesión)",
+        "Suoem: ítems salariales adeudados; Municipalidad: 'no se adeuda nada'"
+      ],
+      "fuentes": [
+        {"url": "https://www.perfil.com/noticias/cordoba/visita-del-papa-leon-xiv-passerini-y-quinteros-firmaron-un-convenio-para-coordinar-el-ordenamiento-del-transito-en-la-ciudad.phtml", "medio": "Perfil Córdoba", "titulo": "Visita del papa León XIV: Passerini y Quinteros firmaron un convenio para coordinar el ordenamiento del tránsito en la ciudad", "fecha_publicacion": "2026-10-08", "consultado": "2026-10-12T09:40:00-03:00"},
+        {"url": "https://www.letrap.com.ar/politica/martin-llaryora-choca-con-los-municipales-la-capital-y-acusa-luis-juez-mover-los-hilos-del-paro-n5427230", "medio": "Letra P", "titulo": "Martín Llaryora choca con los municipales de la capital y acusa a Luis Juez de mover los hilos del paro", "fecha_publicacion": "2026-10-08", "consultado": "2026-10-12T09:50:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Fecha exacta del domingo sin inspectores: ambas notas (del jueves 8) hablan de 'el domingo' / 'el domingo pasado', lo que apunta al 4 de octubre, pero ninguna lo fecha explícitamente. Letra P menciona a Rodrigo Fernández como tercer firmante; Perfil sólo nombra a Passerini y Quinteros. No se accedió al texto del convenio ni a una respuesta posterior del Suoem."
+    },
+    {
+      "seccion": "cordoba",
+      "titulo_sugerido": "El Papa será operado de un nódulo pulmonar a un mes de su visita; Llaryora: 'Córdoba te espera'",
+      "bajada": "León XIV anunció el domingo 11 que lo intervendrán a comienzos de esta semana; el Vaticano no modificó por ahora la gira que incluye Argentina del 8 al 11 de noviembre, con una misa prevista en Córdoba.",
+      "cuerpo": "Tras el Ángelus del domingo 11 de octubre, el papa León XIV (71 años) anunció que será operado para extirparle un nódulo en un pulmón detectado, según dijo, en fase muy inicial y bien localizado. El vocero vaticano Matteo Bruni indicó que la cirugía se hará a comienzos de la semana que empieza el 12 de octubre y que la internación posterior durará unos siete días; Infobae y Cadena 3 ubican la operación en el hospital Gemelli de Roma. La gira latinoamericana sigue prevista del 6 al 17 de noviembre: Uruguay (6-8), Argentina (8-11) y Perú (11-17), con una misa en la Escuela de Aviación Militar de Córdoba dentro de la etapa argentina; Letra P fecha la visita a Córdoba el 10 de noviembre. El mismo domingo el gobernador Martín Llaryora publicó en X que rezaba por la salud del Papa y que la provincia sigue preparando la llegada: '¡Córdoba te espera, Papa León!'. Hasta el cierre, la Santa Sede no informó cambios en el itinerario.",
+      "fecha_acontecimiento": "2026-10-11",
+      "importancia": 4,
+      "datos_clave": [
+        "Anuncio papal: domingo 11 de octubre tras el Ángelus",
+        "Cirugía a comienzos de la semana del 12 de octubre; internación de unos siete días (Bruni)",
+        "Gira: Uruguay 6-8/11, Argentina 8-11/11, Perú 11-17/11; misa prevista en la Escuela de Aviación Militar de Córdoba",
+        "Llaryora en X: 'Córdoba te espera, Papa León'"
+      ],
+      "fuentes": [
+        {"url": "https://www.cadena3.com/noticia/el-papa-leon-xiv-en-argentina/llaryora-rezo-por-la-salud-del-papa-leon-xiv-cordoba-te-espera_602446", "medio": "Cadena 3", "titulo": "Llaryora rezó por la salud del papa León XIV: 'Córdoba te espera'", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:33:00-03:00"},
+        {"url": "https://www.infobae.com/america/mundo/2026/10/11/el-papa-leon-xiv-anuncio-que-en-los-proximos-dias-sera-operado-de-un-nodulo-en-el-pulmon/", "medio": "Infobae", "titulo": "A pocas semanas de su gira por América Latina, el papa León XIV anunció que será operado de un nódulo en un pulmón", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:45:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No se accedió al comunicado original de la Sala de Prensa de la Santa Sede ni a Vatican News. La fecha del 10 de noviembre para Córdoba proviene de Letra P (nota del 8/10) y de coberturas previas, no de las dos fuentes principales de esta nota. Día y hora exactos de la cirugía no informados."
+    },
+    {
+      "seccion": "cordoba",
+      "titulo_sugerido": "Semana de alertas: naranja del SMN el miércoles 7 (Punilla incluida) y nuevo aviso provincial hasta el martes 13",
+      "bajada": "El SMN previó 50 a 80 mm y granizo para gran parte de la provincia el 7 de octubre; el domingo 11 el sistema provincial de alertas emitió otro aviso por tormentas fuertes, granizo y crecidas repentinas en zonas serranas, vigente hasta el 13 a las 22.",
+      "cuerpo": "El Servicio Meteorológico Nacional emitió una alerta naranja por tormentas para el miércoles 7 de octubre que abarcó, entre otros departamentos, Punilla, Juárez Celman, San Martín, Marcos Juárez, Unión y las zonas bajas y serranas de Calamuchita, Santa María, Colón y Totoral, con acumulados previstos de 50 a 80 mm, ráfagas intensas y granizo ocasional; el norte (Ischilín, Río Seco, Sobremonte, Tulumba, Cruz del Eje) quedó en amarillo. Según El Doce, el técnico Rafael Di Marco anticipó ese miércoles como 'el día más crítico de la semana'; El Cronista indicó que las alertas se levantaban en toda la provincia el jueves 8. El domingo 11 a las 16, el Sistema Integrado Provincial de Alertas (SIPA), con un informe del Observatorio Hidrometeorológico de Córdoba para la Dirección de Gestión de Riesgos, difundió un nuevo aviso vigente hasta el martes 13 a las 22: tormentas localmente fuertes con abundante agua en poco tiempo, ráfagas, granizo y actividad eléctrica en sectores serranos y áreas del centro, sur, sudeste y norte, con posibles crecidas repentinas de ríos y arroyos, visibilidad reducida y calzadas resbaladizas. No se hallaron registros oficiales de acumulados ni de daños para la semana.",
+      "fecha_acontecimiento": "2026-10-11",
+      "importancia": 3,
+      "datos_clave": [
+        "Alerta naranja SMN miércoles 7/10: Punilla incluida; 50-80 mm previstos; granizo ocasional",
+        "Nuevo aviso SIPA emitido domingo 11/10 a las 16, vigente hasta martes 13/10 a las 22",
+        "Riesgo de crecidas repentinas en zonas serranas; recomendación de no cruzar vados",
+        "Sin cifras oficiales de lluvia caída ni daños verificadas"
+      ],
+      "fuentes": [
+        {"url": "https://www.cronista.com/informacion-gral/alerta-naranja-y-amarilla-por-fuertes-tormentas-en-cordoba-estas-son-las-zonas-afectadas-este-miercoles-7-de-octubre/", "medio": "El Cronista", "titulo": "Alerta naranja y amarilla por fuertes tormentas en Córdoba: estas son las zonas afectadas este miércoles 7 de octubre", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:54:00-03:00"},
+        {"url": "https://eldoce.tv/actualidad/2026/10/06/cordoba-en-alerta-por-tormentas-fuertes-con-lluvia-y-granizo-las-zonas-mas-complicadas/", "medio": "El Doce", "titulo": "Córdoba en alerta por tormentas fuertes con lluvia y granizo: las zonas más complicadas", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://eldoce.tv/actualidad/2026/10/11/feriado-complicado-anticipan-lluvias-tormentas-fuertes-y-posible-granizo-en-cordoba-hasta-el-martes/", "medio": "El Doce", "titulo": "Feriado complicado: anticipan lluvias, tormentas fuertes y posible granizo en Córdoba hasta el martes", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:54:00-03:00"},
+        {"url": "https://capilla.com.ar/articulo/advierten-por-tormentas-fuertes-granizo-y-posibles-crecidas-en-punilla-CBMi2A", "medio": "Capilla Noticias", "titulo": "Advierten por tormentas fuertes, granizo y posibles crecidas en Punilla", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:48:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Las páginas oficiales de cba.gov.ar y prensa.cba.gov.ar devolvieron error 403 y no pudieron abrirse; los datos del SIPA provienen de El Doce y Capilla Noticias, que lo citan. El Cronista reproduce cifras de lluvia del SMN con inconsistencias internas (50-80 mm vs 20-40 mm según el tipo de aviso)."
+    },
+    {
+      "seccion": "cordoba",
+      "titulo_sugerido": "Fin de semana largo: Córdoba recibió 287.463 turistas (+4,76%) con ocupación promedio cercana al 80%",
+      "bajada": "La Agencia Córdoba Turismo estimó un impacto superior a $50 mil millones y una estadía media de 1,8 noches; Villa Carlos Paz alcanzó 85% (90% en establecimientos categorizados) y La Falda 78%.",
+      "cuerpo": "Según el relevamiento provincial difundido por la Agencia Córdoba Turismo, el fin de semana largo del 10 al 12 de octubre movilizó 287.463 turistas frente a 274.395 en el mismo feriado de 2025 (+4,76%; Cadena 3 lo redondea en 287.500 y +5%), con ocupación hotelera promedio entre 79% y 80%, estadía media de 1,8 noches e impacto económico estimado en más de $50 mil millones. Entre las localidades con mayor ocupación figuran Tulumba (100%), Yacanto de Calamuchita (98%), Villa General Belgrano (95%, con la Oktoberfest), Río Ceballos (90%), Balnearia (88%) y La Cumbrecita, Villa Carlos Paz y Miramar (85%). En establecimientos categorizados, Villa General Belgrano llegó a 98%, Córdoba Capital a 92% y Villa Carlos Paz a 90%. La capital tuvo 78% de ocupación general, igual que La Falda, Villa Dolores y Deán Funes. El titular de la Agencia, Darío Capitani, dijo que 'Córdoba está superándose aún en una economía retraída' y señaló una moderación del gasto diario por persona, sin cifra. Como eventos tractores se citan la Oktoberfest, la Fiesta Nacional del Alfajor en La Falda, la competencia Utacch en Calamuchita y, en la capital, shows masivos y el partido Instituto-Boca.",
+      "fecha_acontecimiento": "2026-10-12",
+      "importancia": 4,
+      "datos_clave": [
+        "287.463 turistas en 2026 vs 274.395 en 2025 (+4,76%)",
+        "Ocupación promedio 79-80%; estadía 1,8 noches; impacto > $50 mil millones",
+        "Villa Carlos Paz 85% (90% en categorizados); La Falda 78%",
+        "Fuente: Agencia Córdoba Turismo (Darío Capitani)"
+      ],
+      "fuentes": [
+        {"url": "https://www.cadena3.com/noticia/radioinforme-3/cordoba-tuvo-un-exitoso-fin-de-semana-largo-con-80-de-ocupacion-y-un-impacto-de-50-mil-millones_602548", "medio": "Cadena 3", "titulo": "Córdoba tuvo un exitoso fin de semana largo con 80% de ocupación y un impacto de $50 mil millones", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T09:38:00-03:00"},
+        {"url": "https://www.cba24n.com.ar/cordoba/turismo-en-cordoba--el-fin-de-semana-largo-impacta-con-mas-de--50-mil-millones_a6acac2c2116920e21eb5bf04", "medio": "Cba24n", "titulo": "Turismo en Córdoba: el fin de semana largo impacta con más de $50 mil millones", "fecha_publicacion": "2026-10-10", "consultado": "2026-10-12T09:48:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Es un balance anticipado: Cba24n lo publicó el sábado 10 a las 20:01 y Cadena 3 el lunes 12 a las 8:36, antes de que termine el feriado. No se encontró el comunicado original en cordobaturismo.gov.ar (la última nota de prensa hallada allí es del finde de agosto). Cadena 3 no identifica explícitamente las fechas del fin de semana; Cba24n no desglosa la región Punilla más allá de Carlos Paz y La Falda. No hay dato para Los Cocos, La Cumbre, Capilla del Monte ni Cosquín."
+    },
+    {
+      "seccion": "cordoba",
+      "titulo_sugerido": "Despacho de comisión para que San Lorenzo sea municipio y para ampliar el radio de San Roque (Punilla)",
+      "bajada": "Las comisiones de Asuntos Municipales y de Comunidades Regionales aprobaron cinco proyectos del Ejecutivo, entre ellos la modificación de radios de San Roque, La Pampa, El Tío y Agua de Oro.",
+      "cuerpo": "El martes 6 de octubre las comisiones de Asuntos Municipales y Comunales (Gustavo Tévez) y de Promoción y Desarrollo de las Comunidades Regionales (Marcelo Eslava) de la Legislatura de Córdoba despacharon favorablemente cinco proyectos del Poder Ejecutivo: el reconocimiento como municipio de la comuna de San Lorenzo (San Alberto, 2.200 habitantes según el Censo 2022, con facultad para convocar elecciones de intendente, concejales y Tribunal de Cuentas) y la modificación de los radios de La Pampa (Totoral), San Roque (Punilla), El Tío (San Justo) y Agua de Oro (Colón). La nota oficial no indica la fecha de tratamiento en el recinto; en la semana del 5 al 9 de octubre el sitio de la Legislatura no registra sesión plenaria, sólo actividad de comisiones y actos institucionales.",
+      "fecha_acontecimiento": "2026-10-06",
+      "importancia": 2,
+      "datos_clave": [
+        "Cinco proyectos del Ejecutivo con despacho favorable el 6/10 (expedientes 47969, 47902, 47911, 47912 y 47919)",
+        "San Lorenzo (San Alberto) pasaría de comuna a municipio",
+        "Modificación de radio de San Roque, departamento Punilla"
+      ],
+      "fuentes": [
+        {"url": "https://legislaturacba.gob.ar/despacho-favorable-en-comision-para-que-san-lorenzo-sea-reconocida-como-municipio/", "medio": "Legislatura de la Provincia de Córdoba", "titulo": "Despacho favorable para que la comuna de San Lorenzo sea reconocida como municipio", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:35:00-03:00"},
+        {"url": "https://legislaturacba.gob.ar/noticias/", "medio": "Legislatura de la Provincia de Córdoba", "titulo": "Noticias (listado 1 al 9 de octubre de 2026)", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:30:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Sólo fuente oficial de la Legislatura. No se verificó qué expediente corresponde a cada proyecto ni el alcance concreto de la ampliación del radio de San Roque."
+    },
+    {
+      "seccion": "punilla",
+      "titulo_sugerido": "La Falda cerró cuatro días de Fiesta Nacional del Alfajor con más de 100 expositores sobre la avenida Edén",
+      "bajada": "La fiesta se extendió del viernes 9 al lunes 12 con entrada gratuita, concurso Mejor Alfajor y shows de Los Caligaris; semanas antes, el municipio debió frenar ante el INPI el intento de un particular de registrar la marca.",
+      "cuerpo": "La Fiesta Nacional del Alfajor 2026 se desarrolló del viernes 9 al lunes 12 de octubre en La Falda, con más de 100 expositores de alfajores artesanales e industriales a lo largo de la avenida Edén convertida en paseo peatonal, dos escenarios (Av. Edén 100 y Descanso Edén) y entrada libre. El programa incluyó la inauguración el viernes a las 18, el corte del Alfajor Gigante del sábado tras una clase de cocina de Denise Dumas, la premiación del concurso Mejor Alfajor el domingo a las 19 (categorías frutas, chocolate, libre de gluten y versión regional cordobesa), Los Caligaris, La Bicho y Grupo Cristal el domingo desde las 20:15, y un cierre el lunes a las 17:30 con Diego Guzmán y La Pleyer. El intendente Javier Dieminger afirmó que la fiesta se autofinancia y deja ganancias al municipio. La Estafeta informó además que un hombre radicado en Buenos Aires intentó registrar a su nombre la marca 'Fiesta Nacional del Alfajor' ante el INPI; alertado por un expositor en mayo, el Concejo Deliberante aprobó por unanimidad contratar al estudio Prosigno Marcas & Patentes para registrar la marca a nombre de la Municipalidad, y el INPI frenó la solicitud del particular por falta de avales. El asesor letrado Rodrigo Anglada no descartó acciones legales si insiste. Según la Agencia Córdoba Turismo, La Falda tuvo 78% de ocupación en el fin de semana.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 4,
+      "datos_clave": [
+        "Del 9 al 12 de octubre, avenida Edén, La Falda; más de 100 expositores; entrada gratuita",
+        "Premiación Mejor Alfajor: domingo 11 a las 19; Los Caligaris domingo desde las 20:15; cierre lunes 17:30",
+        "Intento de registro privado de la marca frenado por el INPI; el municipio contrató un estudio para registrarla",
+        "Ocupación en La Falda: 78% (Agencia Córdoba Turismo)"
+      ],
+      "fuentes": [
+        {"url": "https://www.perfil.com/noticias/cordoba/la-fiesta-nacional-del-alfajor-llega-a-la-falda-cuatro-dias-con-entrada-gratuita-shows-y-actividades.phtml", "medio": "Perfil Córdoba", "titulo": "La Fiesta Nacional del Alfajor llega a La Falda: cuatro días con entrada gratuita, shows y actividades", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:45:00-03:00"},
+        {"url": "https://laestafetaonline.com.ar/locales/dulce-susto-en-la-falda-un-hombre-intento-registrar-la-marca-fiesta-nacional-del-alfajor/", "medio": "La Estafeta Online", "titulo": "Dulce susto en La Falda: un hombre intentó registrar la marca 'Fiesta Nacional del Alfajor'", "fecha_publicacion": "2026-10-08", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://cordobaturismo.gov.ar/evento/28-edicion-de-la-fiesta-nacional-del-alfajor-en-la-falda/", "medio": "Agencia Córdoba Turismo", "titulo": "28° edición de la Fiesta Nacional del Alfajor en La Falda", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:52:00-03:00"},
+        {"url": "https://www.cba24n.com.ar/cordoba/turismo-en-cordoba--el-fin-de-semana-largo-impacta-con-mas-de--50-mil-millones_a6acac2c2116920e21eb5bf04", "medio": "Cba24n", "titulo": "Turismo en Córdoba: el fin de semana largo impacta con más de $50 mil millones", "fecha_publicacion": "2026-10-10", "consultado": "2026-10-12T09:48:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Número de edición: Perfil, La Jornada Web y Córdoba Turismo dicen 28ª; La Estafeta dice 27ª. No se pudo abrir el sitio municipal de La Falda ni La Jornada Web (bloqueo anti-bot). El evento de Córdoba Turismo no tiene fecha de publicación visible (se consigna aproximada). Resultados del concurso Mejor Alfajor y balance de asistencia no verificados al cierre."
+    },
+    {
+      "seccion": "punilla",
+      "titulo_sugerido": "Carlos Paz llenó el feriado con el Sudamericano de Rugby Seven y el Grand Prix de Windsurf",
+      "bajada": "Los Pumas 7's y Las Yaguaretés llegaron a las finales del domingo en el Carlos Paz Rugby Club; ASHOGA había proyectado 'buen movimiento' sin cifras, y la Agencia Córdoba Turismo midió 85% de ocupación.",
+      "cuerpo": "Villa Carlos Paz concentró durante el fin de semana largo el Campeonato Sudamericano de Rugby Seven en el Carlos Paz Rugby Club, con seleccionados internacionales; según El Diario de Carlos Paz, Los Pumas 7's y Las Yaguaretés alcanzaron las finales que se definían el domingo 11. En paralelo se disputó el Gran Prix Argentino de Windsurf en el lago San Roque, y la agenda municipal sumó rodadas de motos, deportes de contacto, fútbol, patín, pelota paleta y avistaje de aves, además del Festival Internacional de Teatro Independiente y torneos de tenis y hockey mencionados por la Asociación Hotelera y Gastronómica (ASHOGA). El viernes 9 ASHOGA había anticipado una 'tendencia positiva' en reservas sin dar porcentajes, y reclamó 'diversificar la demanda' con eventos fuera de temporada. El relevamiento de la Agencia Córdoba Turismo difundido el fin de semana asignó a Carlos Paz 85% de ocupación general y 90% en establecimientos categorizados. Próximo evento: Feria Internacional del Libro, del 15 al 18 de octubre, de 18 a 22, en la Plaza de la Cultura - Paseo de los Artesanos (Córdoba Turismo).",
+      "fecha_acontecimiento": "2026-10-11",
+      "importancia": 3,
+      "datos_clave": [
+        "Sudamericano de Rugby Seven en el Carlos Paz Rugby Club; finales el domingo 11 con ambos seleccionados argentinos",
+        "Gran Prix Argentino de Windsurf en el lago San Roque",
+        "Ocupación: 85% general, 90% en categorizados (Agencia Córdoba Turismo)",
+        "Feria Internacional del Libro: 15 al 18 de octubre, 18 a 22 h, Plaza de la Cultura"
+      ],
+      "fuentes": [
+        {"url": "https://www.eldiariodecarlospaz.com.ar/turismo/2026/10/11/carlos-paz-vive-un-fin-de-semana-largo-con-deportes-turistas-y-actividades-al-aire-libre-261777.html", "medio": "El Diario de Carlos Paz", "titulo": "Carlos Paz vive un fin de semana largo con deportes, turistas y actividades al aire libre", "fecha_publicacion": "2026-10-11", "consultado": "2026-10-12T09:27:00-03:00"},
+        {"url": "https://www.eldiariodecarlospaz.com.ar/turismo/2026/10/9/fin-de-semana-largo-en-carlos-paz-hay-buenas-reservas-y-una-nutrida-agenda-de-eventos-261619.html", "medio": "El Diario de Carlos Paz", "titulo": "Fin de semana largo en Carlos Paz: hay buenas reservas y una nutrida agenda de eventos", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:27:00-03:00"},
+        {"url": "https://www.cba24n.com.ar/cordoba/turismo-en-cordoba--el-fin-de-semana-largo-impacta-con-mas-de--50-mil-millones_a6acac2c2116920e21eb5bf04", "medio": "Cba24n", "titulo": "Turismo en Córdoba: el fin de semana largo impacta con más de $50 mil millones", "fecha_publicacion": "2026-10-10", "consultado": "2026-10-12T09:48:00-03:00"},
+        {"url": "https://cordobaturismo.gov.ar/eventos/mes/2026-10/", "medio": "Agencia Córdoba Turismo", "titulo": "Eventos en octubre 2026", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:52:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Los eventos deportivos provienen de un solo medio (El Diario de Carlos Paz, dos notas); sólo la cifra de ocupación está contrastada (Cba24n y Cadena 3). Resultados finales del Sudamericano no verificados. Las notas no dan horarios ni sedes del windsurf y las demás actividades. El titular 'hasta un 90% de ocupación' que aparece como nota relacionada en El Diario de Carlos Paz no pudo abrirse."
+    },
+    {
+      "seccion": "punilla",
+      "titulo_sugerido": "Punilla norte en el feriado: Expo Conciencia y Energía en Capilla del Monte y recorrido histórico en La Cumbre",
+      "bajada": "La agenda oficial de Córdoba Turismo registró para el fin de semana una expo holística gratuita de dos días en Capilla del Monte y una caminata guiada por el Poblado Histórico de La Cumbre; no hubo otras novedades verificables de La Cumbre en la semana.",
+      "cuerpo": "Según la agenda de la Agencia Córdoba Turismo, Capilla del Monte fue sede los días 10 y 11 de octubre, de 10 a 22, de la Expo Conciencia y Energía Uritorco, una muestra holística con charlas, talleres y conferencias dirigida a prestadores de servicios de bienestar, con entrada libre y gratuita (la página no indica lugar exacto ni organizador). En La Cumbre, la Secretaría de Turismo organizó el sábado 10 de 11 a 12 un recorrido gratuito con inscripción previa por el Circuito de Poblado Histórico. El portal Capilla Noticias publicó el 12 de octubre una nota sobre la expo y el 10 de octubre otra sobre una travesía de más de 50 camionetas 4x4 por las sierras de La Falda y Capilla del Monte, pero sus artículos no pudieron abrirse. El sitio de Canal 11 La Cumbre no registra noticias fechadas entre el 5 y el 12 de octubre; su última entrada (4/10) es sobre el taller de prospectiva del Plan de Ordenamiento Ambiental y Territorial de La Cumbre, realizado el 22 de septiembre.",
+      "fecha_acontecimiento": "2026-10-10",
+      "importancia": 2,
+      "datos_clave": [
+        "Expo Conciencia y Energía Uritorco: 10 y 11 de octubre, 10 a 22 h, Capilla del Monte, gratuita",
+        "La Cumbre: recorrido Poblado Histórico, sábado 10, 11 a 12 h, salida desde la Secretaría de Turismo",
+        "Sin novedades verificables de La Cumbre entre el 5 y el 12 de octubre"
+      ],
+      "fuentes": [
+        {"url": "https://cordobaturismo.gov.ar/evento/expo-conciencia-y-energia-uritorco-en-capilla-del-monte/", "medio": "Agencia Córdoba Turismo", "titulo": "Expo Conciencia y Energía Uritorco en Capilla del Monte", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:54:00-03:00"},
+        {"url": "https://cordobaturismo.gov.ar/eventos/mes/2026-10/", "medio": "Agencia Córdoba Turismo", "titulo": "Eventos en octubre 2026", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:52:00-03:00"},
+        {"url": "https://capilla.com.ar/", "medio": "Capilla Noticias", "titulo": "Portada (listado de notas 7 al 12 de octubre de 2026)", "fecha_publicacion": "2026-10-12", "consultado": "2026-10-12T09:42:00-03:00"},
+        {"url": "https://www.canal11lacumbre.com.ar/blog/", "medio": "Canal 11 La Cumbre", "titulo": "Noticias (listado)", "fecha_publicacion": "2026-10-04", "consultado": "2026-10-12T09:42:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Las páginas de evento de Córdoba Turismo no muestran fecha de publicación (se consigna aproximada). No se verificó la realización efectiva de la expo ni asistencia. Las notas individuales de Capilla Noticias devolvieron 404 en la ruta indexada."
+    },
+    {
+      "seccion": "punilla",
+      "titulo_sugerido": "Operativos policiales en Punilla: nueve detenidos y tres armas secuestradas",
+      "bajada": "La Policía de Córdoba informó allanamientos en Villa Carlos Paz, Cosquín y Capilla del Monte, además de otras ciudades del interior, con secuestro de armas, motos y drogas.",
+      "cuerpo": "Capilla Noticias informó el viernes 9 de octubre que la Policía de Córdoba dio a conocer 'durante este jueves' una serie de operativos con nueve detenidos en total, realizados en Villa Carlos Paz, Cosquín y Capilla del Monte (Valle de Punilla) y también en Cruz del Eje, San Francisco, Río Cuarto y Villa de María de Río Seco. Se secuestraron tres armas de fuego, motocicletas, estupefacientes y otros elementos de interés para distintas investigaciones. La nota no desglosa detenidos por localidad ni identifica fiscalías. El mismo portal informó el 8 de octubre un operativo en Capilla del Monte con un detenido por drogas y ocho motos secuestradas, y La Estafeta reportó el 9 de octubre dos detenidos en La Falda (barrio Villa La Caprichosa) por venta de drogas en modalidad delivery, en una investigación de la Fuerza Policial Antinarcotráfico.",
+      "fecha_acontecimiento": "2026-10-08",
+      "importancia": 2,
+      "datos_clave": [
+        "Nueve detenidos en operativos informados el 8/10; tres armas de fuego secuestradas",
+        "Localidades de Punilla: Villa Carlos Paz, Cosquín, Capilla del Monte",
+        "La Falda: dos detenidos por narcomenudeo (FPA), 9/10"
+      ],
+      "fuentes": [
+        {"url": "https://capilla.com.ar/articulo/nueve-detenidos-y-secuestro-de-armas-y-drogas-en-carlos-paz-cosquin-y-capilla-de-CBMi7A", "medio": "Capilla Noticias", "titulo": "Nueve detenidos y secuestro de armas y drogas en Carlos Paz, Cosquín y Capilla del Monte", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:48:00-03:00"},
+        {"url": "https://laestafetaonline.com.ar/locales/dos-detenidos-en-la-falda-por-narcomenudeo-secuestraron-cocaina/", "medio": "La Estafeta Online", "titulo": "Dos detenidos en La Falda por narcomenudeo: secuestraron cocaína", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:36:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Un solo medio para los nueve detenidos; la nota de La Estafeta sobre La Falda es un hecho distinto y sólo se vio en el resumen de búsqueda, no se abrió el texto completo. La fecha de los operativos (jueves 8) surge de la expresión 'este jueves' en una nota del viernes 9. No se halló el parte oficial de la Policía de Córdoba."
+    },
+    {
+      "seccion": "punilla",
+      "titulo_sugerido": "Un joven de 25 años murió ahogado en el río Cosquín",
+      "bajada": "Ocurrió el miércoles 7 en el balneario La Toma; los bomberos lo rescataron bajo el agua y le practicaron RCP durante una hora sin éxito.",
+      "cuerpo": "El miércoles 7 de octubre, pasado el mediodía, un joven de 25 años ingresó al río Cosquín a la altura del balneario La Toma y minutos después dejó de ser visto. Bomberos del cuartel local lo rescataron bajo el agua y le realizaron maniobras de reanimación durante una hora, pero falleció en el lugar. Intervinieron también la Policía de Córdoba, la Guardia Local y Defensa Civil municipal. La fiscal de Cosquín, Silvana Pen, investiga las circunstancias. La Municipalidad de Cosquín había dispuesto asueto administrativo ese mismo día por la festividad de Nuestra Señora del Rosario, patrona de la ciudad.",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 2,
+      "datos_clave": [
+        "Miércoles 7 de octubre, balneario La Toma, río Cosquín",
+        "Víctima de 25 años; RCP durante una hora",
+        "Investiga la fiscal Silvana Pen"
+      ],
+      "fuentes": [
+        {"url": "https://laestafetaonline.com.ar/locales/un-joven-murio-ahogado-en-el-rio-cosquin/", "medio": "La Estafeta Online", "titulo": "Un joven murió ahogado en el Río Cosquín", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:52:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Un solo medio. Identidad y procedencia de la víctima no informadas. El dato del asueto municipal proviene del resumen de búsqueda del sitio cosquin.gob.ar, no se abrió la página."
+    },
+    {
+      "seccion": "los_cocos",
+      "titulo_sugerido": "Los Cocos: jornada 'Córdoba Rosa' en la plaza San Martín, única actividad municipal verificable de la semana",
+      "bajada": "La Municipalidad convocó para el viernes 9 a las 16 a una jornada gratuita de actividad física, relajación y alimentación saludable para mujeres y niñas, en el marco del mes de concientización sobre el cáncer de mama.",
+      "cuerpo": "El sitio oficial de la Municipalidad de Los Cocos publicó la convocatoria 'Córdoba Rosa en Los Cocos': una jornada gratuita y abierta para mujeres y niñas el viernes 9 de octubre a las 16 en la plaza San Martín (playón municipal), con actividad física y ritmos, relajación, consejos de alimentación saludable, merienda compartida y cierre a cargo de los Murgueritos de Los Cocos; en caso de mal tiempo, se trasladaba al Club Atlético Los Cocos en el mismo horario. La actividad se enmarca en la campaña provincial Córdoba Rosa, a la que esa misma semana adhirió la Legislatura iluminando su edificio. Fuera de esto, no se encontró ninguna otra noticia verificable sobre Los Cocos entre el 5 y el 12 de octubre: el sitio municipal no publica fechas en sus notas y las anteriores en el listado ('Sos Artesano?', charla de prevención de accidentes en el hogar) son previas; Canal 11 La Cumbre, Capilla Noticias, La Estafeta y Córdoba Turismo no registran hechos en la localidad en la semana. Las fiestas patronales de Santa Teresita (misa y procesión a las 11, peña en el Club Atlético) fueron el sábado 3 de octubre y el encuentro coral el domingo 4, ambos fuera de la ventana. Los Cocos no figura con dato de ocupación en el balance turístico provincial del fin de semana.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 2,
+      "datos_clave": [
+        "Viernes 9 de octubre, 16 h, plaza San Martín / playón municipal (alternativa: Club Atlético Los Cocos)",
+        "Actividad gratuita para mujeres y niñas; cierre con los Murgueritos de Los Cocos",
+        "No hay otras novedades verificables sobre Los Cocos en la semana del 5 al 12 de octubre"
+      ],
+      "fuentes": [
+        {"url": "https://loscocos.gob.ar/cordoba-rosa-en-los-cocos/", "medio": "Municipalidad de Los Cocos", "titulo": "Córdoba Rosa en Los Cocos", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://loscocos.gob.ar/las-noticias/", "medio": "Municipalidad de Los Cocos", "titulo": "Las noticias (listado)", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:50:00-03:00"},
+        {"url": "https://legislaturacba.gob.ar/la-legislatura-se-sumo-a-las-actividades-de-concientizacion-sobre-el-cancer-de-mama/", "medio": "Legislatura de la Provincia de Córdoba", "titulo": "La Legislatura se sumó a las actividades de concientización sobre el cáncer de mama", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:30:00-03:00"},
+        {"url": "https://cordobaturismo.gov.ar/evento/fiestas-patronales-en-los-cocos/", "medio": "Agencia Córdoba Turismo", "titulo": "Fiestas Patronales en Los Cocos", "fecha_publicacion": "2026-09-25", "consultado": "2026-10-12T09:25:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "La página municipal no indica fecha de publicación ni año; 'viernes 9 de octubre' coincide con el calendario 2026 y aparece primera en el listado, pero la fecha de publicación consignada es estimada. No se verificó la realización efectiva de la jornada. La nota de Córdoba Interior Informa sobre las patronales (3/10) no pudo abrirse; la ficha de Córdoba Turismo tampoco muestra fecha de publicación."
+    },
+    {
+      "seccion": "upc",
+      "titulo_sugerido": "La UPC fue sede del Congreso Internacional de Revistas Universitarias y sumó cuatro publicaciones a su Portal de Revistas",
+      "bajada": "CIRU 2026 se desarrolló del 6 al 10 de octubre en modalidad híbrida con participantes de seis países; en ese marco se presentó la revista 'Sostenible y Circular', con convocatoria abierta hasta el 30 de noviembre.",
+      "cuerpo": "La Universidad Provincial de Córdoba, a través de su Secretaría de Ciencia, Arte y Tecnología (SeCiAT), organizó del 6 al 10 de octubre el Congreso Internacional de Revistas Universitarias (CIRU 2026), Edición Argentina, en modalidad híbrida, con sedes en el Campus Sur (Ciudad de las Artes), la Facultad de Educación y Salud, la Academia Nacional de Ciencias, la Sede Regional Villa Carlos Paz y el CEPROCOR de Santa María de Punilla, y participantes de Argentina, Brasil, Chile, Colombia, Costa Rica y España, en cinco áreas temáticas. El 9 de octubre la UPC informó la incorporación de cuatro títulos a su Portal de Revistas: Sustantiva (Secretaría de Extensión), El Vigía Universitario (Sede Deán Funes, en migración a Open Journal Systems), Minka (coeditada por UPC Editorial y Espacio FORO Córdoba) y Sostenible y Circular, nueva revista académica de la SeCiAT que se suma a Investiga+ y Punto FES. La convocatoria para el primer número de Sostenible y Circular está abierta desde el 8 de octubre hasta el 30 de noviembre de 2026, con publicación prevista para el primer semestre de 2027; admite artículos originales (5.000 a 9.000 palabras), ensayos y relatos de experiencia (1.500 a 4.500), entrevistas (2.000 a 4.000) y notas de coyuntura, de investigadores, docentes y estudiantes de grado y posgrado de la UPC y de otras universidades de Argentina y América Latina, con envío por revistas.upc.edu.ar/syc. El congreso integra la agenda 'Octubre, mes de la investigación' de la SeCiAT.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 4,
+      "datos_clave": [
+        "CIRU 2026: 6 al 10 de octubre, híbrido, seis países, cinco sedes incluida Villa Carlos Paz y CEPROCOR",
+        "Cuatro revistas nuevas en el Portal: Sustantiva, El Vigía Universitario, Minka y Sostenible y Circular",
+        "Convocatoria Sostenible y Circular: 8/10 al 30/11/2026; publicación 1er semestre 2027; envíos en revistas.upc.edu.ar/syc"
+      ],
+      "fuentes": [
+        {"url": "https://www.upc.edu.ar/comienza-ciru-2026-y-la-universidad-provincial-de-cordoba-sera-el-epicentro-de-la-edicion-cientifica-internacional/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "Comienza CIRU 2026 y la Universidad Provincial de Córdoba será el epicentro de la edición científica internacional", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:22:00-03:00"},
+        {"url": "https://www.upc.edu.ar/la-upc-expande-su-portal-de-revistas-con-nuevas-publicaciones-durante-ciru-2026/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "La UPC expande su Portal de Revistas con nuevas publicaciones durante CIRU 2026", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:28:00-03:00"},
+        {"url": "https://www.upc.edu.ar/convocatoria-abierta-la-upc-invita-a-postular-trabajos-para-el-primer-numero-de-sostenible-y-circular/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "Convocatoria abierta: La UPC invita a postular trabajos para el primer número de «Sostenible y Circular»", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:28:00-03:00"},
+        {"url": "https://www.upc.edu.ar/mes-investigacion/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "Octubre, mes de la investigación", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:55:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Toda la información proviene del sitio institucional; no se encontró cobertura en medios ni en prensa.cba.gov.ar. La nota del Portal dice que Sostenible y Circular se presentó 'este jueves' (8/10) aunque fue publicada el viernes 9. La página de CIRU no informa cantidad de asistentes ni ponencias; el título de la agenda del Mes de la Investigación dice 6 al 9/10 y el texto 6 al 10/10. La página 'mes-investigacion' no muestra fecha de publicación (se consigna estimada)."
+    },
+    {
+      "seccion": "upc",
+      "titulo_sugerido": "Agenda UPC de 'Octubre, mes de la investigación': comunicación científica, jornada en Carlos Paz y seminario de IA generativa",
+      "bajada": "La SeCiAT concentra en octubre conversatorios y jornadas en sedes de toda la provincia; para la semana que empieza figuran actividades el 13, 14 y 15, y el 19 un seminario virtual sobre IA generativa para la investigación.",
+      "cuerpo": "La Secretaría de Ciencia, Arte y Tecnología de la UPC, a través de su Dirección de Fortalecimiento de la Investigación, publicó la agenda de 'Octubre, mes de la investigación' con actividades en facultades y sedes regionales. Entre las próximas: el martes 13 un conversatorio sobre comunicación científica en Ciencias Sociales y Humanas en la FES (17 a 19) y actividades en Deán Funes y Morteros; el miércoles 14 a las 21 un conversatorio por los 20 años de la Ley de Educación Sexual Integral; el jueves 15 una jornada de investigación y extensión en la Sede Regional Villa Carlos Paz; el lunes 19 de 14 a 17 un seminario virtual sobre IA generativa para la investigación organizado desde Río Tercero; el 20 el encuentro fundacional de la Red C9 de universidades de ciudades llamadas Córdoba/Córdova; el 22 la 1ª Jornada de REDILEO en la FES (9 a 18); y el 23 jornadas en Villa Dolores, Bell Ville y Laboulaye, además de una presentación sobre seguridad ciudadana del IGITyP (15 a 17). La agenda ya incluyó el 8 de octubre a las 14 un conversatorio sobre políticas educativas en la formación docente en Educación Física (FEF-IPEF).",
+      "fecha_acontecimiento": "2026-10-13",
+      "importancia": 3,
+      "datos_clave": [
+        "13/10: conversatorio comunicación científica (FES, 17-19 h)",
+        "15/10: jornada de investigación y extensión en Sede Regional Villa Carlos Paz",
+        "19/10: seminario virtual sobre IA generativa para la investigación (Río Tercero, 14-17 h)",
+        "20/10: encuentro fundacional de la Red C9"
+      ],
+      "fuentes": [
+        {"url": "https://www.upc.edu.ar/mes-investigacion/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "Octubre, mes de la investigación", "fecha_publicacion": "2026-10-01", "consultado": "2026-10-12T09:55:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Página institucional sin fecha de publicación visible (se consigna estimada). Horarios y lugares exactos de la jornada de Carlos Paz y de varias actividades de sedes no figuran en el resumen obtenido; conviene revisar la página antes de publicar cada ítem."
+    },
+    {
+      "seccion": "upc",
+      "titulo_sugerido": "Convocatorias docentes abiertas en la UPC: Deán Funes, Morteros, Cruz del Eje, Cerámica y FES",
+      "bajada": "Entre el 7 y el 19 de octubre vencen cinco llamados a cargos y horas vacantes en sedes regionales y unidades académicas, bajo la Resolución 057 de cobertura de cargos.",
+      "cuerpo": "La UPC publicó en la semana varias convocatorias: coordinador de curso en la Sede Regional Deán Funes 'Juan Bautista Alberdi' (inscripción del 7 al 14 de octubre inclusive), preceptor en la Sede Regional Morteros 'María Justa Moyano de Ezpeleta' (7 al 14 de octubre), coordinador de curso en la Sede Regional Cruz del Eje (9 al 16 de octubre), horas vacantes en la Escuela Superior de Cerámica Fernando Arranz (13 al 15 de octubre) y módulos universitarios y horas cátedra para la Tecnicatura Universitaria en Lengua de Señas Argentina de la Facultad de Educación y Salud 'Dr. Domingo Cabred', con inscripción el 15, 16 y 19 de octubre y presentación presencial de documentación el jueves 22 de octubre de 11:30 a 18 en la Oficina de Gestión Administrativa para Convocatorias y Concursos (Campus Sur, Av. Pablo Ricchieri 1955). En todos los casos el procedimiento remite a la Resolución 057, requiere completar un formulario de CV, subir el proyecto o propuesta de cátedra a una carpeta de Drive y enviar la documentación por correo según el anexo de cada llamado. La FES ofrece además instructivo, documento guía y videos en LSA. Mesa de Entrada Campus Sur: lunes a viernes de 9:30 a 18:30, tel. 0351 4430362.",
+      "fecha_acontecimiento": "2026-10-07",
+      "importancia": 3,
+      "datos_clave": [
+        "Deán Funes (coordinador de curso) y Morteros (preceptor): 7 al 14/10",
+        "Cruz del Eje (coordinador de curso): 9 al 16/10; Cerámica Fernando Arranz (horas vacantes): 13 al 15/10",
+        "FES, Tecnicatura en LSA: inscripción 15, 16 y 19/10; documentación presencial 22/10 de 11:30 a 18",
+        "Marco: Resolución 057 de cobertura de cargos"
+      ],
+      "fuentes": [
+        {"url": "https://www.upc.edu.ar/convocatoria-para-el-cargo-de-coordinador-de-curso-en-la-sede-regional-dean-funes-del-07-al-14-de-octubre/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "Convocatoria para el Cargo de Coordinador de Curso en la Sede Regional Dean Funes del 07 al 14 de Octubre", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:48:00-03:00"},
+        {"url": "https://www.upc.edu.ar/convocatoria-para-el-cargo-de-preceptor-en-la-sede-regional-morteros-del-07-al-14-de-octubre/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "Convocatoria para el Cargo de Preceptor en la Sede Regional Morteros del 07 al 14 de Octubre", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:48:00-03:00"},
+        {"url": "https://www.upc.edu.ar/convocatoria-de-modulos-universitarios-y-horas-catedra-en-la-fes/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "Convocatoria de Módulos Universitarios y Horas Cátedra en la FES", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:28:00-03:00"},
+        {"url": "https://www.upc.edu.ar/feed/", "medio": "Universidad Provincial de Córdoba (feed RSS)", "titulo": "Feed de novedades (ítems del 6 al 9 de octubre de 2026)", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:42:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Las páginas de Cruz del Eje y Cerámica Arranz sólo se vieron en el feed y la portada (título y fechas), no se abrió su detalle. Las carreras y espacios curriculares convocados en Deán Funes y Morteros están en PDF anexos no consultados. No se encontraron resoluciones de la UPC en el Boletín Oficial de Córdoba (la búsqueda no arrojó resultados y no se accedió al buscador del Boletín)."
+    },
+    {
+      "seccion": "upc",
+      "titulo_sugerido": "Semana que viene en la UPC: inaugura FAD Expone y Morteros recibe el 11º Congreso Regional de Educación",
+      "bajada": "La décima edición de la muestra de la Facultad de Arte y Diseño abre el martes 13 en la Sala Farina; del 14 al 16 la UPC coorganiza en su sede de Morteros un congreso docente con conversatorio virtual sobre universidades y territorio.",
+      "cuerpo": "FAD Expone 2026, décima edición de la muestra de estudiantes y egresados de la Facultad de Arte y Diseño bajo la consigna 'Activar la memoria', se inaugura el martes 13 de octubre de 18 a 20 en la Sala de Exposiciones Ernesto Farina (Campus Sur, Av. Pablo Ricchieri 1955), con entrada libre y 21 proyectos seleccionados; la UPC no informó fecha de cierre. Del 14 al 16 de octubre, la UPC, la Municipalidad de Morteros, el Ministerio de Educación provincial y la Unión de Educadores de la Provincia de Córdoba realizan el 11º Congreso Regional de Educación, para docentes de todos los niveles: el miércoles 14 un conversatorio virtual sobre el rol de las universidades en el territorio provincial con autoridades de la UPC, decanos y directivos de sedes regionales; el jueves 15 desde las 18, en la Sede Regional Morteros, apertura presencial, experiencias pedagógicas y dos mesas de trabajo (trayectorias educativas, coordinada por la Escuela Especial La Rosa Azul, y convivencia y bienestar); el viernes 16 una conferencia virtual sobre convivencia escolar. La inscripción es por formulario de Google y otorga certificación de la UPC sin puntaje docente. Además, el 6 de octubre la UPC publicó una crónica del Primavera Fest del Programa Bien-Estar para Personas Mayores, realizado el 19 de septiembre.",
+      "fecha_acontecimiento": "2026-10-13",
+      "importancia": 2,
+      "datos_clave": [
+        "FAD Expone: martes 13/10, 18 a 20 h, Sala Ernesto Farina, Campus Sur; 21 proyectos; entrada libre",
+        "11º Congreso Regional de Educación: 14 al 16/10, Sede Regional Morteros (presencial el 15 desde las 18) y virtual",
+        "Certificación UPC, sin puntaje docente"
+      ],
+      "fuentes": [
+        {"url": "https://www.upc.edu.ar/fad-expone-2026-inaugura-su-decima-edicion-en-la-sala-farina/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "FAD Expone 2026 inaugura su décima edición en la Sala Farina", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:42:00-03:00"},
+        {"url": "https://www.upc.edu.ar/morteros-sera-sede-del-11-o-congreso-regional-de-educacion/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "Morteros será sede del 11.º Congreso Regional de Educación", "fecha_publicacion": "2026-10-04", "consultado": "2026-10-12T09:55:00-03:00"},
+        {"url": "https://www.upc.edu.ar/programa-universitario-bien-estar-upc-fiesta-primavera-fest/", "medio": "Universidad Provincial de Córdoba (upc.edu.ar)", "titulo": "Programa Universitario Bien-Estar UPC FIESTA PRIMAVERA FEST", "fecha_publicacion": "2026-10-06", "consultado": "2026-10-12T09:28:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Sólo fuente institucional. La nota del congreso de Morteros es del 4 de octubre (un día antes de la ventana), pero el evento ocurre en la semana entrante. Horario del conversatorio virtual del 14 no informado. No se encontró el programa PILA ni novedades de calendario académico o presupuesto de la UPC en el período."
+    },
+    {
+      "seccion": "educacion",
+      "titulo_sugerido": "Financiamiento universitario: la Justicia ordenó aplicar la ley, el Gobierno apeló y los rectores marchan al Congreso el 15",
+      "bajada": "El juez Martín Cormick declaró inconstitucional la cláusula del Decreto 759/2025 que suspendía la Ley 27.795; la apelación ya está en la Cámara, pero sigue vigente una cautelar que ordena recomponer salarios y becas.",
+      "cuerpo": "El 6 de octubre el juez federal Martín Cormick (Contencioso Administrativo Federal) hizo lugar al amparo colectivo del Consejo Interuniversitario Nacional (CIN) y a la demanda de la UBA, unificados, y declaró inconstitucional la cláusula del Decreto 759/2025 que condicionaba la Ley 27.795 de Financiamiento Universitario a que el Congreso definiera las fuentes de fondos: según el fallo, el decreto funcionó como un 'mecanismo extraconstitucional', una suerte de veto no previsto, en contra de los artículos 75 inciso 8 y 83 de la Constitución, y ordenó al Ejecutivo dictar las normas reglamentarias para cumplir la ley. El Gobierno apeló con el argumento de que la ley genera gastos sin fuente presupuestaria; el 9 de octubre Cormick concedió el recurso y elevó el expediente a la Cámara Contencioso Administrativo Federal, sin suspender la cautelar vigente que ordena recomponer salarios docentes y becas. El miércoles 7, el Comité Ejecutivo del CIN sesionó en la galería del Cabildo de Buenos Aires (la lluvia impidió hacerlo en Plaza de Mayo) y convocó a la Quinta Marcha Federal Universitaria para el jueves 15 de octubre frente al Congreso, con concentración prevista a las 13:30 según Infobae; el presidente del CIN, Franco Bartolacci, dijo que es 'insólito' haber llegado a este punto sin respuesta oficial. Como telón de fondo está el proyecto de Presupuesto 2027, que asigna $7,35 billones a las universidades nacionales frente a los $11 billones que los rectores calculan necesarios; ACIJ estima que el crédito 2027 es 24,9% menor en términos reales al de 2023.",
+      "fecha_acontecimiento": "2026-10-09",
+      "importancia": 5,
+      "datos_clave": [
+        "6/10: fallo de Cormick declara inconstitucional la cláusula del Decreto 759/2025 y ordena cumplir la Ley 27.795",
+        "9/10: apelación del Estado concedida y elevada a Cámara; cautelar sobre salarios y becas sigue vigente",
+        "7/10: CIN en el Cabildo; Quinta Marcha Federal Universitaria el jueves 15/10 frente al Congreso (13:30 según Infobae)",
+        "Presupuesto 2027: $7,35 billones previstos vs $11 billones reclamados por los rectores"
+      ],
+      "fuentes": [
+        {"url": "https://www.infobae.com/judiciales/2026/10/09/paso-a-camara-la-apelacion-del-gobierno-que-ordena-aplicar-la-ley-de-financiamiento-universitario/", "medio": "Infobae", "titulo": "La Justicia concedió la apelación del Gobierno contra el fallo que ordena aplicar la ley de Financiamiento Universitario pero sigue vigente una cautelar", "fecha_publicacion": "2026-10-09", "consultado": "2026-10-12T09:33:00-03:00"},
+        {"url": "https://www.lanacion.com.ar/sociedad/es-insolito-haber-llegado-a-este-punto-los-rectores-universitarios-convocaron-desde-el-cabildo-a-la-nid07102026/", "medio": "La Nación", "titulo": "'Es insólito haber llegado a este punto': los rectores universitarios convocaron desde el Cabildo a la Quinta Marcha Federal", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:33:00-03:00"},
+        {"url": "https://www.infobae.com/politica/2026/10/07/financiamiento-universitario-el-gobierno-apelo-el-fallo-judicial-y-las-universidades-preparan-una-movilizacion-al-congreso/", "medio": "Infobae", "titulo": "Financiamiento universitario: el Gobierno apeló el fallo judicial y las universidades preparan una movilización al Congreso", "fecha_publicacion": "2026-10-07", "consultado": "2026-10-12T09:22:00-03:00"},
+        {"url": "https://www.perfil.com/noticias/politica/yacobitti-cuestiono-los-fondos-para-las-universidades-hay-partidas-que-bajaron-85.phtml", "medio": "Perfil", "titulo": "Yacobitti cuestionó los fondos para las universidades: 'Hay partidas que bajaron 85%'", "fecha_publicacion": "2026-09-17", "consultado": "2026-10-12T09:55:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Hora de la marcha: Infobae del 7/10 da dos horarios (13:30 la marcha al Congreso, 14:30 una sesión de rectores en Plaza de Mayo); La Nación no precisa hora ni recorrido. El número de rectores en el Cabildo (60) aparece en medios no abiertos (UNO Santa Fe), no en La Nación. El contenido exacto de la cautelar y el juzgado (N° 11 según otras coberturas) no se verificaron en el texto del fallo. Cifras de Presupuesto 2027 provienen de una nota de Perfil del 17/9 (fuera de ventana) y de La Nación del 7/10."
+    },
+    {
+      "seccion": "educacion",
+      "titulo_sugerido": "UNESCO en el Día Mundial de los Docentes: hay 107 millones de docentes y faltan 50 millones más para 2030",
+      "bajada": "La ficha estadística publicada el 5 de octubre atribuye el 58% de la necesidad futura al abandono de la profesión; en dos de cada cinco países analizados los docentes ganan menos que profesionales con formación similar.",
+      "cuerpo": "El 5 de octubre, Día Mundial de los Docentes, la UNESCO publicó junto con el Instituto de Estadística (UIS) y el Grupo de Trabajo Internacional sobre Docentes la ficha '2026 World Teachers' Day fact sheet': hay 107 millones de docentes en el mundo y se necesitan 50 millones adicionales para 2030 para universalizar la educación preprimaria, primaria y secundaria, 'un docente más por cada dos en actividad'. El 58% de esa demanda corresponde a reemplazar a quienes dejan la profesión; las tasas de abandono son 7,2% en preprimaria, 5,4% en secundaria y 4,7% en primaria. En dos de cada cinco de los 68 países analizados, los salarios docentes están por debajo de los de profesionales comparables en todos los niveles; según TALIS 2024 (OCDE), en el 75% de los países participantes menos del 40% de los docentes siente que su profesión es valorada. La UNESCO, la OIT, UNICEF e Internacional de la Educación emitieron un mensaje conjunto; el tema del año recuerda los 60 años de la Recomendación OIT/UNESCO de 1966 sobre la condición del personal docente. Según Latin Times, el desglose regional asigna a América Latina y el Caribe una necesidad de 3,2 millones de docentes adicionales, también explicada principalmente por el abandono. Los datos no incluyen a la educación superior.",
+      "fecha_acontecimiento": "2026-10-05",
+      "importancia": 3,
+      "datos_clave": [
+        "107 millones de docentes en el mundo; faltan 50 millones para 2030 (44 millones primaria y secundaria, 6 millones preprimaria)",
+        "58% de la demanda es reemplazo por abandono de la profesión",
+        "En 2 de cada 5 de 68 países, salarios docentes inferiores a profesiones comparables",
+        "América Latina y el Caribe: 3,2 millones de docentes adicionales (Latin Times)"
+      ],
+      "fuentes": [
+        {"url": "https://www.unesco.org/en/articles/new-unesco-data-every-two-teachers-world-needs-one-more", "medio": "UNESCO", "titulo": "New UNESCO data: For every two teachers, the world needs one more", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:56:00-03:00"},
+        {"url": "https://www.latintimes.com/world-needs-50-million-more-teachers-2030-un-agencies-warn-world-teachers-day-599863", "medio": "Latin Times", "titulo": "The World Needs 50 Million More Teachers by 2030, UN Agencies Warn on World Teachers' Day", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:55:00-03:00"},
+        {"url": "https://www.unesco.org/en/days/teachers", "medio": "UNESCO", "titulo": "World Teachers' Day", "fecha_publicacion": "2026-10-05", "consultado": "2026-10-12T09:55:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Latin Times da como tema 'Recasting Teaching as a Collaborative Profession', mientras la página oficial de UNESCO indica 'Standing with teachers: 60 years of protecting the profession...'; se tomó la versión oficial. La cifra regional de 3,2 millones y la de 58% de deserción como causa provienen de Latin Times y no se verificaron en la ficha original de UIS. El dato es de educación básica, no universitaria."
+    }
+  ]
+}

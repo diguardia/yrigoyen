@@ -1,0 +1,189 @@
+/* El Diario de Yrigoyen — hoja de estilos de impresión. Monocromo, A4 por defecto (variables desde render.js). */
+@page { size: var(--papel-ancho) var(--papel-alto); margin: 0; }
+
+:root {
+  --serif: Georgia, Cambria, 'Times New Roman', serif;
+  --sans: 'Segoe UI', Calibri, Arial, sans-serif;
+  --negro: #000;
+  --gris-texto: #333;
+  --gris-regla: #888;
+  --gris-fondo: #ececec;
+  --col-gap: 5mm;
+}
+
+html, body { margin: 0; padding: 0; background: #fff; color: var(--negro); }
+body { font-family: var(--serif); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+* { box-sizing: border-box; }
+
+.page {
+  width: var(--papel-ancho);
+  height: var(--papel-alto);
+  padding: var(--margen);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  font-size: var(--cuerpo);
+  line-height: 1.24;
+  page-break-after: always;
+  break-after: page;
+}
+.page:last-child { page-break-after: auto; break-after: auto; }
+@media screen { .page { margin: 6mm auto; box-shadow: 0 0 0 1px #bbb; } body { background: #ddd; } }
+
+/* Encabezado y pie */
+.ph { flex: 0 0 auto; display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1mm; margin-bottom: 2.5mm; font-family: var(--sans); font-size: 7pt; letter-spacing: 0.06em; text-transform: uppercase; }
+.ph .ph-seccion { font-weight: 700; }
+.pf { flex: 0 0 auto; display: flex; justify-content: space-between; border-top: 0.5pt solid var(--negro); padding-top: 1mm; margin-top: 2mm; font-family: var(--sans); font-size: 7pt; color: var(--gris-texto); }
+.pb { flex: 1 1 auto; min-height: 0; position: relative; display: flex; flex-direction: column; }
+.pb > * { flex: 1 1 auto; min-height: 0; }
+
+/* Flujo en columnas */
+.flow { height: 100%; column-count: var(--columnas, 3); column-gap: var(--col-gap); column-fill: auto; column-rule: 0.3pt solid #bbb; }
+.flow.c2 { column-count: 2; }
+.flow > * { break-inside: avoid-column; }
+.flow > .art { break-inside: auto; }
+
+/* Artículos */
+p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: auto; orphans: 2; widows: 2; }
+.art { margin-bottom: 1.8mm; }
+.art + .art { border-top: 0.3pt solid #bbb; padding-top: 1.3mm; }
+.kicker { font-family: var(--sans); font-size: 0.72em; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris-texto); margin: 0 0 0.6mm; break-after: avoid; }
+.tit { font-family: var(--serif); font-weight: 700; line-height: 1.08; margin: 0 0 1mm; letter-spacing: -0.01em; break-after: avoid; break-inside: avoid; }
+.art .tit { font-size: 1.32em; }
+.art.lead .tit { font-size: 1.8em; column-span: all; margin-bottom: 1mm; }
+.art.lead .kicker { column-span: all; }
+.bajada { font-style: italic; font-size: 1em; line-height: 1.2; margin: 0 0 1.1mm; color: #111; break-after: avoid; }
+.art.lead .bajada { column-span: all; font-size: 1.05em; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.2mm; margin-bottom: 1.5mm; }
+.cuerpo p:first-child::first-letter { font-weight: 700; }
+.fuente { font-family: var(--sans); font-size: 0.74em; color: var(--gris-texto); margin: 0.4mm 0 0; text-align: left; }
+.fuente::before { content: 'Fuente: '; }
+.datos { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); margin: 0 0 0.6mm; }
+.tipo-analisis .kicker::after { content: ' · análisis'; }
+
+/* Breves */
+.breves { break-inside: avoid; margin-bottom: 2mm; }
+.breves h3 { font-family: var(--sans); font-size: 0.8em; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1mm; border-bottom: 1.2pt solid var(--negro); padding-bottom: 0.5mm; }
+.breve { margin: 0 0 1.1mm; text-align: left; font-size: 0.95em; }
+.breve b { font-weight: 700; }
+.breve .f { font-family: var(--sans); font-size: 0.72em; color: var(--gris-texto); }
+
+/* Dato no disponible */
+.nd { border: 0.6pt dashed var(--gris-regla); padding: 1.2mm 1.8mm; margin: 1mm 0 2mm; font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); break-inside: avoid; }
+.nd b { color: var(--negro); }
+
+/* Portada */
+.ph.masthead { display: block; border: 0; border-bottom: 1.8pt solid var(--negro); padding-bottom: 1.5mm; margin-bottom: 2mm; text-transform: none; letter-spacing: 0; }
+.masthead h1 { font-family: var(--serif); font-size: 36pt; font-weight: 700; margin: 0; text-align: center; letter-spacing: -0.015em; line-height: 1; }
+.masthead .sub { display: flex; justify-content: space-between; font-family: var(--sans); font-size: 7.5pt; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 1.5mm; border-top: 0.5pt solid var(--negro); padding-top: 1mm; }
+.strip { flex: 0 0 auto !important; display: grid; grid-template-columns: 1.15fr 1.25fr 1.3fr; gap: 3mm; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.6mm; margin-bottom: 2.2mm; font-family: var(--sans); font-size: 7.4pt; }
+.strip h4 { margin: 0 0 0.7mm; font-size: 6.8pt; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris-texto); }
+.strip-clima { display: flex; gap: 2.5mm; align-items: center; }
+.strip-clima .dia { display: flex; align-items: center; gap: 1.2mm; }
+.strip-clima .wicon { width: 8mm; height: 8mm; flex: 0 0 auto; }
+.strip-clima .t { line-height: 1.15; }
+.strip-clima .t b { font-size: 9pt; }
+.strip-cot table { border-collapse: collapse; width: 100%; }
+.strip-cot td { padding: 0 1mm 0 0; line-height: 1.25; white-space: nowrap; }
+.strip-cot td.v { text-align: right; font-variant-numeric: tabular-nums; }
+.strip-disco { font-family: var(--serif); font-size: 8.4pt; line-height: 1.2; }
+.strip-disco b { font-size: 9pt; }
+.strip-disco .just { font-style: italic; }
+.strip + .portada-main { }
+.portada-main { display: grid; grid-template-columns: 2fr 1fr; gap: var(--col-gap); }
+.principal { display: flex; flex-direction: column; min-height: 0; }
+.principal .kicker { font-size: 7.2pt; }
+.principal .tit { font-size: 25pt; line-height: 1.02; margin-bottom: 1.6mm; }
+.principal .bajada { font-size: 11pt; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.6mm; margin-bottom: 1.8mm; }
+.principal .cuerpo { flex: 1 1 auto; min-height: 0; column-count: 2; column-gap: var(--col-gap); column-fill: auto; column-rule: 0.3pt solid #bbb; font-size: 9.6pt; }
+.secundarias { border-left: 0.5pt solid var(--negro); padding-left: 3mm; min-height: 0; overflow: hidden; }
+.secundarias h3 { font-family: var(--sans); font-size: 7pt; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1.4mm; color: var(--gris-texto); }
+.sec { margin-bottom: 2.2mm; break-inside: avoid; }
+.sec h4 { font-size: 10.6pt; line-height: 1.1; margin: 0 0 0.6mm; }
+.sec p { font-size: 8.6pt; text-align: left; margin: 0; hyphens: auto; }
+.sec .pg { font-family: var(--sans); font-size: 6.8pt; color: var(--gris-texto); }
+.llamadas { flex: 0 0 auto !important; display: grid; grid-template-columns: repeat(var(--n-llamadas, 4), 1fr); gap: 3mm; border-top: 1.2pt solid var(--negro); margin-top: 2mm; padding-top: 1.6mm; }
+.llamada { font-size: 8.4pt; line-height: 1.2; }
+.llamada .et { font-family: var(--sans); font-size: 6.6pt; letter-spacing: 0.1em; text-transform: uppercase; display: block; color: var(--gris-texto); }
+.llamada .pg { font-family: var(--sans); font-size: 6.6pt; color: var(--gris-texto); }
+
+/* Finanzas */
+.fin { display: flex; flex-direction: column; height: 100%; gap: 1.4mm; }
+.coin { border-top: 0.8pt solid var(--negro); padding-top: 1mm; break-inside: avoid; }
+.coin-head { display: flex; align-items: baseline; gap: 3mm; font-family: var(--sans); margin-bottom: 0.6mm; }
+.coin-head .sym { font-size: 12pt; font-weight: 700; }
+.coin-head .nom { font-size: 7.5pt; color: var(--gris-texto); }
+.coin-head .px { font-size: 12pt; font-weight: 700; margin-left: auto; font-variant-numeric: tabular-nums; }
+.coin-head .vars { display: flex; gap: 2mm; font-size: 7.2pt; }
+.coin-head .vars span { border: 0.4pt solid var(--gris-regla); padding: 0 1.2mm; border-radius: 1mm; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.coin-head .vars span.neg { background: var(--gris-fondo); }
+.charts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; }
+.chart { width: 100%; height: auto; display: block; font-family: var(--sans); }
+.coin .com { font-size: 0.82em; line-height: 1.18; margin: 0.8mm 0 0; text-align: left; }
+.fin-bottom { display: grid; grid-template-columns: 1fr 1.25fr; gap: var(--col-gap); border-top: 0.8pt solid var(--negro); padding-top: 1.5mm; flex: 1 1 auto; min-height: 0; }
+.tabla { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: 7.4pt; }
+.tabla th, .tabla td { padding: 0.45mm 1mm; border-bottom: 0.3pt solid #bbb; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tabla th { border-bottom: 0.8pt solid var(--negro); font-weight: 700; font-size: 6.8pt; text-transform: uppercase; letter-spacing: 0.04em; }
+.tabla td.l, .tabla th.l { text-align: left; }
+.tabla tr.destacado td { font-weight: 700; background: var(--gris-fondo); }
+.tabla caption { caption-side: top; text-align: left; font-weight: 700; font-size: 7.6pt; padding: 0 0 0.8mm; }
+.aviso { font-family: var(--sans); font-size: 6.8pt; color: var(--gris-texto); margin-top: 1mm; text-align: left; }
+.h3 { font-family: var(--sans); font-size: 0.8em; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1mm; border-bottom: 1.2pt solid var(--negro); padding-bottom: 0.5mm; break-after: avoid; }
+.glos dt { font-weight: 700; margin-top: 1mm; }
+.glos dd { margin: 0 0 0.6mm; font-size: 0.92em; text-align: justify; hyphens: auto; }
+.glos dd .ej { color: var(--gris-texto); }
+.glos dd .rel { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); }
+
+/* Boca */
+.boca { display: grid; grid-template-columns: 1.05fr 1fr; gap: var(--col-gap); height: 100%; }
+.boca .col { min-height: 0; display: flex; flex-direction: column; gap: 1.6mm; }
+.bloque { break-inside: avoid; }
+.bloque p { text-align: left; }
+.proximo { border: 1.4pt solid var(--negro); padding: 1.6mm 2.2mm; }
+.proximo .et { font-family: var(--sans); font-size: 6.8pt; letter-spacing: 0.1em; text-transform: uppercase; }
+.proximo .rival { font-size: 1.55em; font-weight: 700; line-height: 1.08; margin: 0.4mm 0; }
+.proximo .cuando { font-size: 1.05em; font-weight: 700; }
+.proximo .det { font-family: var(--sans); font-size: 0.8em; color: var(--gris-texto); margin: 0.4mm 0 0; }
+.proximo.hoy { background: var(--gris-fondo); }
+.resultado { font-size: 1.5em; font-weight: 700; line-height: 1.1; margin: 0 0 0.6mm; }
+.goles { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); margin: 0 0 0.8mm; }
+.lista { margin: 0; padding-left: 3.2mm; font-size: 0.92em; }
+.lista li { margin-bottom: 0.3mm; text-align: left; }
+.lista.sans { font-family: var(--sans); font-size: 0.8em; }
+.formacion { font-size: 0.95em; margin: 0 0 0.6mm; text-align: left; }
+.formacion b { font-family: var(--sans); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.06em; }
+.boca .tabla { font-size: 7.1pt; }
+.boca .tabla th, .boca .tabla td { padding: 0.35mm 0.8mm; }
+.sello { font-family: var(--sans); font-size: 6.8pt; color: var(--gris-texto); margin-top: auto; text-align: left; }
+
+/* Contratapa */
+.contra { display: grid; grid-template-columns: 1.15fr 1fr; gap: var(--col-gap); height: 100%; }
+.contra .col { min-height: 0; display: flex; flex-direction: column; gap: 2mm; }
+.contra .art.lit { margin-bottom: 0; } .contra .art.lit .art { margin: 0; border: 0; padding: 0; } .contra .art.lit .tit { font-size: 1.35em; } .contra .art.lit p { font-size: 1em; line-height: 1.24; text-align: justify; }
+.disco .tit { font-size: 1.5em; }
+.disco .ficha { font-family: var(--sans); font-size: 0.8em; color: var(--gris-texto); margin-bottom: 1mm; }
+.lit { border-top: 0.8pt solid var(--negro); padding-top: 1.2mm; }
+.lit .tit { font-size: 1.35em; }
+.lit .autor { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); margin: 0 0 1.2mm; }
+.lit p { text-align: left; font-size: 1.02em; line-height: 1.32; }
+.verso { margin: 0; text-align: left; line-height: 1.32; font-size: 1.02em; }
+.verso.blanco { height: 0.6em; }
+.lit .nota { font-family: var(--sans); font-size: 0.74em; color: var(--gris-texto); margin-top: 1mm; }
+.clima .dias { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2mm; margin-bottom: 1.2mm; }
+.clima .dia { text-align: center; border: 0.4pt solid var(--gris-regla); padding: 1mm 0.5mm; font-family: var(--sans); font-size: 7.2pt; }
+.clima .dia .wicon { width: 10mm; height: 10mm; display: block; margin: 0.5mm auto; }
+.clima .dia .d { font-weight: 700; text-transform: capitalize; }
+.clima .dia .tt b { font-size: 10pt; }
+.clima .dia .tt { line-height: 1.2; }
+.clima .tabla { font-size: 7pt; }
+.clima .obs { font-size: 0.9em; text-align: left; margin: 0.8mm 0 0; }
+.erratas p { text-align: left; font-size: 0.92em; }
+.fuentes-ed { font-family: var(--sans); font-size: 6.6pt; color: var(--gris-texto); text-align: left; line-height: 1.3; }
+.fuentes-ed b { color: var(--negro); }
+.pie-legal { font-family: var(--sans); font-size: 6.4pt; color: var(--gris-texto); margin-top: auto; text-align: left; }
+.wicon { display: inline-block; vertical-align: middle; }
+
+.chart-infl { margin: 1.5mm 0 1mm; } .chart-infl .chart { width: 100%; }
+.clima .tabla tr.obs td { color: var(--gris-texto); font-style: italic; }
+.contra .art.lit p.fuente { font-size: 0.74em; text-align: left; }

@@ -1,0 +1,159 @@
+{
+  "numero": 2,
+  "fecha": "2026-10-12",
+  "cierre": "2026-10-12T10:30:00-03:00",
+  "temas": [
+    {
+      "seccion": "nacional",
+      "titulo": "La Corte frenó la derogación de la Ley de Tierras y el Congreso define el DNU 70 en dos sesiones"
+    },
+    {
+      "seccion": "economia",
+      "titulo": "Semana de alivio en los mercados: el riesgo país bajó a la zona de 580 y el BCRA compró US$ 212 millones"
+    },
+    {
+      "seccion": "nacional",
+      "titulo": "Arranca el Presupuesto 2027: 4% de crecimiento, 18% de inflación y dólar promedio a $ 1.847"
+    },
+    {
+      "seccion": "economia",
+      "titulo": "Inflación: CABA marcó 1,8% en septiembre y el INDEC publica el dato nacional el martes"
+    },
+    {
+      "seccion": "economia",
+      "titulo": "Industria y construcción rebotaron en agosto pero siguen por debajo de 2025"
+    },
+    {
+      "seccion": "economia",
+      "titulo": "Milei llevó al Gabinete el debate sobre el atraso cambiario y lo cerró: no habrá devaluación"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "FMI: la tercera revisión sigue abierta"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Salario mínimo de $ 391.200 en octubre"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "El Tesoro renueva $ 4,85 billones esta semana"
+    },
+    {
+      "seccion": "cordoba",
+      "titulo": "Renault arrancó la producción en serie de la Niagara en Santa Isabel y Llaryora pidió una Ley de Autopartes"
+    },
+    {
+      "seccion": "cordoba",
+      "titulo": "Fin de semana largo: 287.463 turistas en la provincia y ocupación cercana al 80%"
+    },
+    {
+      "seccion": "punilla",
+      "titulo": "Semana de alertas: naranja del SMN el miércoles 7 con Punilla incluida y nuevo aviso provincial hasta el martes 13"
+    },
+    {
+      "seccion": "cordoba",
+      "titulo": "El Papa será operado de un nódulo pulmonar a un mes de su visita; Llaryora: «Córdoba te espera»"
+    },
+    {
+      "seccion": "punilla",
+      "titulo": "La Falda cerró cuatro días de Fiesta Nacional del Alfajor con más de cien expositores sobre la avenida Edén"
+    },
+    {
+      "seccion": "mundo",
+      "titulo": "Brasil: Flávio Bolsonaro ganó la primera vuelta y define con Lula el 25 de octubre"
+    },
+    {
+      "seccion": "buena_noticia",
+      "titulo": "Récord: la Argentina exportó 88,9 millones de toneladas de granos y subproductos en nueve meses"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Los Cocos: jornada Córdoba Rosa en la plaza San Martín"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Claude Haiku 5.5 baja 75% el precio y suma control de esfuerzo; los benchmarks son autoinformados"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Azure SQL retira Always Encrypted con enclaves Intel SGX: un año para migrar a VBS o a Confidential VMs"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "CVE-2026-21589: lectura de archivos sin autenticación en ocho productos Atlassian, explotada a dos horas del PoC"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Semana de endurecimiento en los agentes de código: hooks que fallan cerrados, sandbox en Copilot y worktrees en Codex"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Mistral Large 4: un MoE de un billón de parámetros entrenado en Europa, con pesos prometidos para fin de mes"
+    },
+    {
+      "seccion": "educacion",
+      "titulo": "Un juez ordenó aplicar la Ley de Financiamiento Universitario, el Gobierno apeló y los rectores marchan el jueves 15"
+    },
+    {
+      "seccion": "upc",
+      "titulo": "La UPC fue sede del Congreso Internacional de Revistas Universitarias y sumó cuatro títulos a su portal"
+    },
+    {
+      "seccion": "ciencia",
+      "titulo": "Nobel de Medicina para la optogenética: Deisseroth, Hegemann y Nagel"
+    },
+    {
+      "seccion": "ciencia",
+      "titulo": "Los primeros relojes nucleares de torio-229 funcionan: dos papers en *Nature* y un lazo de realimentación que corrió 24 horas solo"
+    },
+    {
+      "seccion": "ciencia",
+      "titulo": "Nobel de Física para Francis Halzen, el arquitecto de IceCube"
+    },
+    {
+      "seccion": "ciencia",
+      "titulo": "Nobel de Economía, anunciado hoy, para Hall y Woodford: los microfundamentos de la estabilización"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Convocatorias docentes abiertas en la UPC"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "FAD Expone inaugura mañana y Morteros recibe el Congreso Regional de Educación"
+    }
+  ],
+  "microrelato": {
+    "autor": "Franz Kafka",
+    "obra": "Contemplación (Betrachtung)",
+    "titulo": "Los árboles"
+  },
+  "poesia": {
+    "autor": "Alfonsina Storni",
+    "obra": "El dulce daño",
+    "titulo": "Cuadrados y ángulos"
+  },
+  "disco": {
+    "artista": "Bill Evans Trio",
+    "titulo": "Sunday at the Village Vanguard"
+  },
+  "glosario": [
+    "Fail-closed (cerrar ante falla)",
+    "Enclave seguro con atestación",
+    "FDV (fully diluted valuation)",
+    "Parámetros activos en un mixture-of-experts"
+  ],
+  "fuentes_datos": [
+    "Open-Meteo",
+    "CoinGecko",
+    "DolarApi",
+    "ArgentinaDatos",
+    "ESPN"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-10-12T13:33:12.988Z",
+    "revision_visual": "aprobada"
+  }
+}

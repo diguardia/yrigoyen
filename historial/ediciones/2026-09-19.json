@@ -1,0 +1,17 @@
+{
+  "numero": 1,
+  "fecha": "2026-09-19",
+  "cierre": null,
+  "paginas": 8,
+  "nota": "Edición piloto producida antes del pipeline actual. Registro reconstruido a partir del historial de decisiones; los campos desconocidos quedan vacíos.",
+  "temas": [
+    { "seccion": "economia", "titulo": "Inflación: menos velocidad no significa precios bajos" },
+    { "seccion": "economia", "titulo": "Breves económicas" }
+  ],
+  "microrelato": { "autor": null, "obra": null, "nota": "Generado por IA; decisión revertida." },
+  "poesia": { "autor": null, "obra": null },
+  "disco": { "artista": null, "titulo": null },
+  "glosario": [],
+  "fuentes_datos": [],
+  "preflight": { "ok": false, "nota": "Superposición y huecos detectados por el lector." }
+}

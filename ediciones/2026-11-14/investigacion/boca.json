@@ -1,0 +1,159 @@
+{
+  "tema": "boca",
+  "consultado_el": "2026-11-14T09:40:00-03:00",
+
+  "ultimo_partido": {
+    "fecha": "2026-11-07",
+    "hora_ar": "17:30",
+    "competicion": "Torneo Clausura 2026 (Liga Profesional), última fecha de la fase regular",
+    "local": "Boca Juniors",
+    "visitante": "Defensa y Justicia",
+    "resultado": "1-0",
+    "goles": [
+      {"minuto": "90+6 (las fuentes dan entre 45+5 y 45+6 del segundo tiempo)", "jugador": "Enner Valencia", "equipo": "Boca Juniors"}
+    ],
+    "expulsados": [],
+    "arbitro": "Sebastián Zunino (VAR: Yamil Possi)",
+    "estadio": "La Bombonera",
+    "cronica": "Fue un partido parejo y con pocas situaciones, con los arqueros como figuras; el VAR le anuló un gol a Merentiel y Defensa avisó con dos cabezazos de David Martínez. Cuando Rosario Central le ganaba 2-0 a Estudiantes de Río Cuarto y tenía la tabla anual en la mano, Enner Valencia empujó un rebote del arquero Matías Borgogno en el descuento. El gol le dio a Boca el título de campeón de la tabla anual 2026 con 63 puntos, uno más que Central, y la clasificación a la fase de grupos de la Libertadores 2027.",
+    "fuentes": [
+      {"url": "https://www.diariojornada.com.ar/426695/deportes/de_manera_agonica_boca_se_consagra_campeon_del_futbol_argentino", "medio": "Diario Jornada", "titulo": "De manera agónica, Boca se consagra campeón del fútbol argentino", "fecha_publicacion": "2026-11-07", "consultado": "2026-11-14T09:25:00-03:00"},
+      {"url": "https://www.lacapitalmdp.com/campeon-con-el-corazon-en-la-boca/", "medio": "La Capital (Mar del Plata)", "titulo": "Campeón con el corazón en la Boca", "fecha_publicacion": "2026-11-07", "consultado": "2026-11-14T09:28:00-03:00"},
+      {"url": "datos/espn_boca_schedule.json (API ESPN, endpoint teams/{id}/schedule)", "medio": "ESPN (API)", "titulo": "Boca Juniors schedule (hora de inicio 20:30 UTC)", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T08:57:00-03:00"}
+    ]
+  },
+
+  "proximo_partido": {
+    "fecha": "2026-11-14",
+    "dia_semana": "sábado (HOY)",
+    "hora_ar": "19:00",
+    "competicion": "Copa Argentina 2026, semifinal (partido único en cancha neutral; si hay empate a los 90 minutos, penales directos, sin alargue)",
+    "rival": "Banfield (DT: Pedro Troglio)",
+    "condicion": "neutral (sede Mendoza)",
+    "estadio": "Estadio Malvinas Argentinas, Mendoza",
+    "arbitro": "Nazareno Arasa; asistentes Gabriel Chade y Pablo Gualtieri; cuarto árbitro Bruno Amiconi; VAR Lucas Novelli",
+    "tv": "TyC Sports (y TyC Sports Play)",
+    "verificado_en_dos_fuentes": true,
+    "fuentes": [
+      {"url": "https://www.canal26.com/deportes/2026/11/14/boca-vs-banfield-por-la-copa-argentina-2026-a-que-hora-juegan-hoy-donde-verlo-en-vivo-y-que-pasa-si-empatan/", "medio": "Canal 26", "titulo": "Boca vs. Banfield por la Copa Argentina 2026: a qué hora juegan hoy, dónde verlo en vivo y qué pasa si empatan", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T09:15:00-03:00"},
+      {"url": "https://www.diariomendoza.com.ar/deportes/boca-banfield-definiran-segundo-finalista-copa-argentina-hora-tv-formaciones-n185550", "medio": "Diario Mendoza", "titulo": "Boca y Banfield definirán al segundo finalista de la Copa Argentina: hora, TV y formaciones", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T09:16:00-03:00"},
+      {"url": "https://www.c5n.com/deportes/copa-argentina-se-confirmo-la-sede-y-el-horario-boca-vs-banfield-n251865", "medio": "C5N", "titulo": "Copa Argentina: se confirmó la sede y el horario de Boca vs. Banfield", "fecha_publicacion": "2026-10-17", "consultado": "2026-11-14T09:10:00-03:00"}
+    ]
+  },
+
+  "siguientes_partidos": [
+    {"fecha": "2026-11-21", "hora_ar": "19:30", "competicion": "Copa Sudamericana 2026, final (partido único; alargue y penales si hay empate)", "rival": "Atlético Mineiro", "condicion": "neutral (Estadio Metropolitano Roberto Meléndez, Barranquilla, Colombia)"},
+    {"fecha": "2026-11-25", "hora_ar": "21:00", "competicion": "Torneo Clausura 2026, octavos de final (ESPN Premium)", "rival": "Independiente Rivadavia", "condicion": "local (La Bombonera)"},
+    {"fecha": "2026-12-02", "hora_ar": null, "competicion": "Copa Argentina 2026, final (sólo si le gana hoy a Banfield; sede y hora sin confirmar)", "rival": "Platense", "condicion": "neutral (sede sin confirmar)"}
+  ],
+
+  "tabla_zona": {
+    "actualizada": "2026-11-14T08:57:00-03:00",
+    "fuente": {"url": "https://site.api.espn.com/apis/v2/sports/soccer/arg.1/standings", "medio": "ESPN (API); orden coincide con los cruces de octavos publicados por Infobae y Ámbito"},
+    "formato": "Clausura 2026: dos zonas de 15 equipos, 16 fechas. Clasificaron los ocho primeros de cada zona a octavos de final cruzados (1A-8B, 2A-7B, etc.), a partido único en cancha del mejor ubicado; empate: dos suplementarios de 15' y penales. Lo mismo en cuartos (fin de semana del 28-29/11) y semis; final el sábado 12/12 en el Estadio Único Diego A. Maradona de La Plata. El campeón va a la fase de grupos de la Libertadores 2027 y juega el Trofeo de Campeones ante Belgrano (19/12, Kempes). Octavos: vie 20/11 20:00 Vélez-Belgrano; sáb 21/11 15:00 Defensa y Justicia-Barracas Central, 17:00 Argentinos-Independiente; dom 22/11 16:00 Rosario Central-Gimnasia (Mendoza), 19:00 River-Lanús, 22:00 Instituto-Huracán (en el Kempes); lun 23/11 17:00 Gimnasia (LP)-Newell's; mié 25/11 21:00 Boca-Independiente Rivadavia (postergado por la final de la Sudamericana).",
+    "filas": [
+      {"pos": 1, "equipo": "Instituto (Córdoba)", "pj": 16, "g": 10, "e": 4, "p": 2, "gf": 26, "gc": 15, "dif": 11, "pts": 34},
+      {"pos": 2, "equipo": "Boca Juniors", "pj": 16, "g": 9, "e": 6, "p": 1, "gf": 24, "gc": 14, "dif": 10, "pts": 33},
+      {"pos": 3, "equipo": "Vélez Sarsfield", "pj": 16, "g": 7, "e": 7, "p": 2, "gf": 25, "gc": 17, "dif": 8, "pts": 28},
+      {"pos": 4, "equipo": "Defensa y Justicia", "pj": 16, "g": 8, "e": 4, "p": 4, "gf": 21, "gc": 15, "dif": 6, "pts": 28},
+      {"pos": 5, "equipo": "Lanús", "pj": 15, "g": 7, "e": 4, "p": 4, "gf": 18, "gc": 11, "dif": 7, "pts": 25},
+      {"pos": 6, "equipo": "Newell's Old Boys", "pj": 16, "g": 5, "e": 8, "p": 3, "gf": 16, "gc": 13, "dif": 3, "pts": 23},
+      {"pos": 7, "equipo": "Independiente", "pj": 16, "g": 6, "e": 5, "p": 5, "gf": 15, "gc": 16, "dif": -1, "pts": 23},
+      {"pos": 8, "equipo": "Gimnasia y Esgrima (Mendoza)", "pj": 16, "g": 6, "e": 4, "p": 6, "gf": 18, "gc": 17, "dif": 1, "pts": 22},
+      {"pos": 9, "equipo": "Unión (Santa Fe)", "pj": 16, "g": 6, "e": 3, "p": 7, "gf": 24, "gc": 24, "dif": 0, "pts": 21},
+      {"pos": 10, "equipo": "Platense", "pj": 16, "g": 5, "e": 5, "p": 6, "gf": 18, "gc": 20, "dif": -2, "pts": 20},
+      {"pos": 11, "equipo": "San Lorenzo", "pj": 16, "g": 5, "e": 4, "p": 7, "gf": 9, "gc": 16, "dif": -7, "pts": 19},
+      {"pos": 12, "equipo": "Estudiantes de La Plata", "pj": 16, "g": 4, "e": 4, "p": 8, "gf": 21, "gc": 22, "dif": -1, "pts": 16},
+      {"pos": 13, "equipo": "Talleres (Córdoba)", "pj": 16, "g": 3, "e": 4, "p": 9, "gf": 17, "gc": 23, "dif": -6, "pts": 13},
+      {"pos": 14, "equipo": "Deportivo Riestra", "pj": 16, "g": 2, "e": 6, "p": 8, "gf": 11, "gc": 19, "dif": -8, "pts": 12},
+      {"pos": 15, "equipo": "Central Córdoba (Santiago del Estero)", "pj": 15, "g": 2, "e": 4, "p": 9, "gf": 11, "gc": 25, "dif": -14, "pts": 10}
+    ]
+  },
+
+  "tabla_anual": {
+    "disponible": true,
+    "posicion_boca": 1,
+    "puntos_boca": 63,
+    "detalle": "Boca es campeón de la tabla anual 2026 (título de Liga) con 63 puntos, uno más que Rosario Central (62); Argentinos Juniors terminó tercero con 60 según una sola fuente. El título le da a Boca la clasificación directa a la fase de grupos de la Copa Libertadores 2027 y el derecho a jugar la Supercopa Internacional ante el ganador del Trofeo de Campeones (Belgrano vs. campeón del Clausura). La tabla anual reparte en total seis cupos a la Libertadores 2027 y seis a la Sudamericana 2027 (dato de una sola fuente).",
+    "fuente": {"url": "https://www.c5n.com/deportes/tras-el-titulo-la-tabla-anual-que-copas-va-jugar-boca-n253726", "medio": "C5N (contrastado con Diario Jornada y La Capital MdP para los 63 y 62 puntos)"}
+  },
+
+  "copa_argentina": {
+    "sigue": true,
+    "detalle": "Boca juega HOY la semifinal con Banfield en Mendoza (19:00, TyC Sports). El ganador enfrenta en la final a Platense, que eliminó a Atlético Tucumán por penales; la final está prevista para el miércoles 2 de diciembre, con sede y horario a confirmar.",
+    "instancia": "semifinal",
+    "proximo_rival": "Banfield",
+    "fecha": "2026-11-14",
+    "sede": "Estadio Malvinas Argentinas, Mendoza",
+    "llave": [
+      {"cruce": "32avos: Boca 2-0 Gimnasia y Esgrima de Chivilcoy (Estadio Padre Martearena, Salta; doblete de Adam Bareiro)", "fecha": "2026-02-24", "resultado": "2-0"},
+      {"cruce": "16avos: Boca vs. Sarmiento (Junín)", "fecha": null, "resultado": "ganó Boca (marcador no verificado)"},
+      {"cruce": "Octavos: Boca vs. Vélez (Córdoba)", "fecha": null, "resultado": "0-0; Boca ganó 4-3 por penales, con Montero como figura"},
+      {"cruce": "Cuartos: Boca 3-2 Racing (Gigante de Arroyito, Rosario); Racing ganaba 2-0 (Lodico, gol olímpico, y Adrián Martínez) y Enner Valencia, que entró desde el banco, marcó los tres goles", "fecha": "2026-09-27", "resultado": "3-2"},
+      {"cruce": "Semifinal: Boca vs. Banfield (Malvinas Argentinas, Mendoza)", "fecha": "2026-11-14", "resultado": "se juega hoy a las 19"},
+      {"cruce": "Otra semifinal: Platense vs. Atlético Tucumán", "fecha": null, "resultado": "pasó Platense por penales"},
+      {"cruce": "Final: ganador de Boca-Banfield vs. Platense", "fecha": "2026-12-02", "resultado": "sede y hora a confirmar por la organización"}
+    ],
+    "fuentes": [
+      {"url": "https://www.canal26.com/deportes/2026/11/14/boca-vs-banfield-por-la-copa-argentina-2026-a-que-hora-juegan-hoy-donde-verlo-en-vivo-y-que-pasa-si-empatan/", "medio": "Canal 26", "titulo": "Boca vs. Banfield por la Copa Argentina 2026: a qué hora juegan hoy, dónde verlo en vivo y qué pasa si empatan", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T09:15:00-03:00"},
+      {"url": "https://www.c5n.com/deportes/copa-argentina-se-confirmo-la-sede-y-el-horario-boca-vs-banfield-n251865", "medio": "C5N", "titulo": "Copa Argentina: se confirmó la sede y el horario de Boca vs. Banfield", "fecha_publicacion": "2026-10-17", "consultado": "2026-11-14T09:10:00-03:00"},
+      {"url": "https://www.diariomendoza.com.ar/deportes/boca-banfield-definiran-segundo-finalista-copa-argentina-hora-tv-formaciones-n185550", "medio": "Diario Mendoza", "titulo": "Boca y Banfield definirán al segundo finalista de la Copa Argentina: hora, TV y formaciones", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T09:16:00-03:00"},
+      {"url": "https://www.lacapitalmdp.com/boca-gano-un-partido-increible-y-elimino-a-racing/", "medio": "La Capital (Mar del Plata)", "titulo": "Boca ganó un partido increíble y eliminó a Racing", "fecha_publicacion": "2026-09-27", "consultado": "2026-11-14T09:35:00-03:00"},
+      {"url": "https://442.perfil.com/noticias/amp/futbol/boca-dio-el-primer-paso-al-consagrarse-en-la-tabla-anual-los-4-titulos-que-todavia-puede-ganar-este-ano.phtml", "medio": "Perfil (442)", "titulo": "Boca dio el primer paso al consagrarse en la Tabla Anual: los 4 títulos que todavía puede ganar este año", "fecha_publicacion": "2026-11-08", "consultado": "2026-11-14T09:38:00-03:00"}
+    ]
+  },
+
+  "continental": {
+    "competicion": "Sudamericana",
+    "sigue": true,
+    "detalle": "Boca es finalista de la Copa Sudamericana 2026. En la semifinal perdió la ida 0-1 con Vasco da Gama en la Bombonera y en la vuelta, el martes 20 de octubre en el Maracaná, ganó 3-1 (Di Lollo 4', Merentiel 34', Pumita Rodríguez 66' para Vasco, Paredes 87'; árbitro Jesús Valenzuela, de Venezuela) para un global de 3-2. La final, a partido único, es el sábado 21 de noviembre a las 19:30 de Argentina (Conmebol atrasó media hora el horario por el calor) en el Estadio Metropolitano Roberto Meléndez de Barranquilla, ante Atlético Mineiro, que eliminó a Montevideo City Torque (3-0 y 0-2, global 3-2). Si hay empate, 30 minutos de alargue y penales. Boca busca su tercera Sudamericana; el campeón entra a la fase de grupos de la Libertadores 2027 y a la Recopa (Boca ya tiene el cupo por la tabla anual). Árbitro de la final: no designado en ninguna fuente consultada.",
+    "llave": [
+      {"cruce": "Playoffs: Boca vs. O'Higgins (Chile)", "fecha": null, "resultado": "pasó Boca"},
+      {"cruce": "Octavos: Boca vs. Deportivo Recoleta (Paraguay)", "fecha": null, "resultado": "pasó Boca"},
+      {"cruce": "Cuartos: Boca vs. São Paulo", "fecha": null, "resultado": "pasó Boca"},
+      {"cruce": "Semifinal ida: Boca 0-1 Vasco da Gama (Bombonera)", "fecha": "2026-10-13", "resultado": "0-1"},
+      {"cruce": "Semifinal vuelta: Vasco da Gama 1-3 Boca (Maracaná)", "fecha": "2026-10-20", "resultado": "1-3; global 3-2 Boca"},
+      {"cruce": "Final: Boca vs. Atlético Mineiro (Barranquilla, 19:30 AR)", "fecha": "2026-11-21", "resultado": "por jugarse"}
+    ],
+    "fuentes": [
+      {"url": "https://www.emol.com/noticias/Deportes/2026/10/20/1214726/boca-vasco-sudamericana-semifinal-maracana.html", "medio": "Emol", "titulo": "Boca vence a Vasco en el Maracaná y es finalista de la Sudamericana", "fecha_publicacion": "2026-10-20", "consultado": "2026-11-14T09:20:00-03:00"},
+      {"url": "https://www.diariojornada.com.ar/425595/deportes/boca_se_mete_en_la_final_con_un_gol_de_paredes", "medio": "Diario Jornada", "titulo": "Boca se mete en la final con un gol de Paredes", "fecha_publicacion": "2026-10-20", "consultado": "2026-11-14T09:20:00-03:00"},
+      {"url": "https://eleconomista.com.ar/deportes/vasco-da-gama-vs-boca-copa-sudamericana-2026-resultado-resumen-partido-n99057/amp", "medio": "El Economista", "titulo": "Vasco da Gama vs. Boca, Copa Sudamericana 2026: resultado y resumen", "fecha_publicacion": "2026-10-21", "consultado": "2026-11-14T09:18:00-03:00"},
+      {"url": "https://442.perfil.com/noticias/amp/futbol/conmebol-confirmo-el-horario-para-la-final-de-la-copa-sudamericana.phtml", "medio": "Perfil (442)", "titulo": "Conmebol confirmó el horario para la final de la Copa Sudamericana", "fecha_publicacion": "2026-10-31", "consultado": "2026-11-14T09:13:00-03:00"},
+      {"url": "https://www.primicias.ec/deportes/futbol/conmebol-horario-final-copa-sudamericana-boca-juniors-atletico-mineiro-barranquilla-136188/", "medio": "Primicias (Ecuador)", "titulo": "Conmebol confirma el horario de la final de la Copa Sudamericana entre Boca Juniors y Atlético Mineiro", "fecha_publicacion": "2026-10-31", "consultado": "2026-11-14T09:13:00-03:00"},
+      {"url": "https://442.perfil.com/noticias/amp/futbol/boca-vs-atletico-mineiro-la-gran-final-de-la-copa-sudamericana-cuando-se-jugara-en-donde-y-como-llegan-ambos-equipos.phtml", "medio": "Perfil (442)", "titulo": "Boca vs Atlético Mineiro, la gran final de la Copa Sudamericana: cuándo se jugará, en dónde y cómo llegan ambos equipos", "fecha_publicacion": "2026-10-21", "consultado": "2026-11-14T09:22:00-03:00"},
+      {"url": "https://eleconomista.com.ar/deportes/hay-alargue-o-penales-boca-vs-atletico-mineiro-como-define-caso-empate-final-copa-sudamericana-2026-n99099/amp", "medio": "El Economista", "titulo": "¿Hay alargue o penales? Boca vs. Atlético Mineiro: cómo se define en caso de empate", "fecha_publicacion": "2026-10-22", "consultado": "2026-11-14T09:22:00-03:00"}
+    ]
+  },
+
+  "plantel": {
+    "entrenador": "Rodolfo Arruabarrena",
+    "formacion_confirmada": [],
+    "formacion_probable": ["Álvaro Montero", "Leandro Lozano", "Lautaro Di Lollo", "Facundo Herrera", "Malcom Braida", "Leandro Paredes", "Milton Delgado", "Santiago Ascacibar o Tomás Belmonte (también se menciona a Tomás Aranda)", "Alan Velasco", "Miguel Merentiel", "Sebastián Villa"],
+    "esquema": "4-3-3 (deducido de la formación probable)",
+    "lesionados": [
+      {"jugador": "Lautaro Blanco", "lesion": "sobrecarga muscular desde el partido en el Maracaná; no estará ante Banfield según Diario Mendoza", "regreso_estimado": "sin fecha informada"},
+      {"jugador": "Santiago Ascacibar", "lesion": "golpe en la rodilla sufrido ante Defensa y Justicia; en duda, se decide a último momento", "regreso_estimado": "sin fecha informada"},
+      {"jugador": "Rodrigo Battaglia", "lesion": "molestia en el sóleo, en recuperación", "regreso_estimado": "sin fecha informada"},
+      {"jugador": "Leandro Paredes", "lesion": "desgaste acumulado, sin lesión; hizo trabajo diferenciado en la semana", "regreso_estimado": "figura en la formación probable de hoy"}
+    ],
+    "suspendidos": [],
+    "regresos": ["Adam Bareiro vuelve a ser convocado e irá al banco tras más de seis meses sin jugar"],
+    "actualizado": "2026-11-14",
+    "fuentes": [
+      {"url": "https://www.diariomendoza.com.ar/deportes/boca-banfield-definiran-segundo-finalista-copa-argentina-hora-tv-formaciones-n185550", "medio": "Diario Mendoza", "titulo": "Boca y Banfield definirán al segundo finalista de la Copa Argentina: hora, TV y formaciones", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T09:16:00-03:00"},
+      {"url": "https://www.canal26.com/deportes/2026/11/14/boca-vs-banfield-por-la-copa-argentina-2026-a-que-hora-juegan-hoy-donde-verlo-en-vivo-y-que-pasa-si-empatan/", "medio": "Canal 26", "titulo": "Boca vs. Banfield por la Copa Argentina 2026: a qué hora juegan hoy, dónde verlo en vivo y qué pasa si empatan", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T09:15:00-03:00"},
+      {"url": "https://diariopanorama.com/noticia/572673/boca-prepara-semifinal-ante-banfield-tres-dudas-tiene-vasco-arruabarrena-para-definir-equipo", "medio": "Diario Panorama", "titulo": "Boca prepara la semifinal ante Banfield: las tres dudas que tiene el Vasco Arruabarrena", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T09:32:00-03:00"},
+      {"url": "https://diariopanorama.com/noticia/572640/boca-alerta-paredes-blanco-como-llegan-semifinal-copa-argentina-ante-banfield", "medio": "Diario Panorama", "titulo": "Boca, en alerta: cómo llegan Paredes y Blanco a la semifinal de Copa Argentina ante Banfield", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T09:32:00-03:00"}
+    ]
+  },
+
+  "mercado": {
+    "oficiales": [],
+    "confirmadas": [],
+    "rumores": [],
+    "institucional": "El libro de pases está cerrado desde principios de septiembre y no hay altas ni bajas oficiales en la ventana. En medios aceptados no apareció ninguna negociación confirmada para 2027; sitios partidarios (no incluidos en la lista de medios aceptados) hablan de que Merentiel pidió renovar y mejorar su contrato y de que la dirigencia postergó la charla hasta el final de las competencias, además de nombres de Europa sin negociación confirmada. Williams Alarcón no está disponible por la convocatoria a la selección de Chile."
+  },
+
+  "incertidumbres": "1) Minuto del gol de Valencia ante Defensa: las fuentes dicen 45+5, 45+6 o 51' del segundo tiempo; la hora de inicio (17:30) sale sólo de la API de ESPN. 2) Formación ante Banfield: es probable, no confirmada; dudas en el mediocampo (Ascacibar, Belmonte, Aranda). Lautaro Blanco: Diario Mendoza dice que no estará, Diario Panorama (11/11) lo daba en evaluación. 3) Tabla de la Zona A: sólo de ESPN; Promiedos no cargó. Lanús y Central Córdoba figuran con 15 partidos jugados, lo que sugiere un partido pendiente o suspendido entre ellos; no lo verifiqué. Igual, el orden coincide con los cruces de octavos oficiales. 4) Copa Argentina: no verifiqué las fechas de 16avos y octavos ni el marcador ante Sarmiento. La sede de la final del 2/12 no está confirmada. 5) Sudamericana: no verifiqué las fechas ni los marcadores de playoffs, octavos y cuartos (O'Higgins, Recoleta, São Paulo). La fecha de la ida con Vasco (13/10) sale de la edición anterior. No hay árbitro designado para la final: un titular de C5N menciona a Andrés Matonte, pero el cuerpo de la nota no lo confirma. TV de la final sin verificar. 6) Hora de la final de la Sudamericana: C5N (30/10) daba 20:00; Perfil y Primicias (31/10) informan que Conmebol la pasó a las 19:30 de Argentina, y Ámbito (12/11) repite las 19:30. 7) Mercado: sin datos de medios aceptados."
+}

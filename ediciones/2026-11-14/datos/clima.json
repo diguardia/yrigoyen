@@ -1,0 +1,81 @@
+{
+  "lugar": "Los Cocos",
+  "corte": "2026-11-14T11:59:01Z",
+  "fuente": "Open-Meteo (modelo best_match)",
+  "dias": [
+    {
+      "fecha": "2026-11-14",
+      "codigo_wmo": 95,
+      "max": 21.7,
+      "min": 17.2,
+      "precip_mm": 11.8,
+      "prob_precip": 81,
+      "viento_kmh": 14.4,
+      "rafagas_kmh": 39.2
+    },
+    {
+      "fecha": "2026-11-15",
+      "codigo_wmo": 53,
+      "max": 25.6,
+      "min": 14.8,
+      "precip_mm": 1.9,
+      "prob_precip": 36,
+      "viento_kmh": 13.5,
+      "rafagas_kmh": 31.3
+    },
+    {
+      "fecha": "2026-11-16",
+      "codigo_wmo": 96,
+      "max": 22.3,
+      "min": 15.8,
+      "precip_mm": 29.1,
+      "prob_precip": 91,
+      "viento_kmh": 15.1,
+      "rafagas_kmh": 33.1
+    },
+    {
+      "fecha": "2026-11-17",
+      "codigo_wmo": 55,
+      "max": 21.6,
+      "min": 13.7,
+      "precip_mm": 2.9,
+      "prob_precip": 91,
+      "viento_kmh": 21.8,
+      "rafagas_kmh": 45.7
+    }
+  ],
+  "previos": [
+    {
+      "fecha": "2026-11-11",
+      "codigo_wmo": 2,
+      "max": 25.2,
+      "min": 12.6,
+      "precip_mm": 0,
+      "prob_precip": 0,
+      "viento_kmh": 14.9,
+      "rafagas_kmh": 32
+    },
+    {
+      "fecha": "2026-11-12",
+      "codigo_wmo": 95,
+      "max": 27,
+      "min": 14.4,
+      "precip_mm": 2.9,
+      "prob_precip": 88,
+      "viento_kmh": 13.2,
+      "rafagas_kmh": 28.4
+    },
+    {
+      "fecha": "2026-11-13",
+      "codigo_wmo": 95,
+      "max": 29.7,
+      "min": 17.7,
+      "precip_mm": 11.1,
+      "prob_precip": 94,
+      "viento_kmh": 25.1,
+      "rafagas_kmh": 52.6
+    }
+  ],
+  "cambio_brusco": "la máxima cae de 29,7° el viernes a 21,7° hoy, después de un viernes con 37° en la ciudad de Córdoba; el lunes vuelven las tormentas, con 29 mm previstos.",
+  "alertas": "El SMN elevó a naranja la alerta por tormentas para Punilla durante la madrugada de hoy, con 50 a 90 mm y ráfagas que podían superar los 90 km/h; los pronósticos dan mejora hacia la tarde. El texto del aviso oficial no pudo abrirse en el sitio del SMN; fuentes: La Estafeta Online, La Nación y El Doce (13 y 14/11)."
+}

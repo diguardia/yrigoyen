@@ -90,12 +90,20 @@ function portada(ctx) {
     <div class="strip-disco"><h4>Disco de la semana</h4><b>${esc(c.disco.artista)}</b>, <i>${esc(c.disco.titulo)}</i> (${c.disco.anio}, ${esc(c.disco.genero)}). <span class="just">${parrafo(c.disco.justificacion)}</span></div>
   </div>
   <div class="portada-main">
+    <div class="col-principal">
     <article class="principal art tipo-${esc(pr.tipo)}">
       <div class="kicker">${esc(KICKER[pr.seccion] || pr.seccion)} · ${esc(fechaCorta(pr.fecha_acontecimiento))}</div>
       <h2 class="tit">${parrafo(pr.titulo)}</h2>
       ${pr.bajada ? `<p class="bajada">${parrafo(pr.bajada)}</p>` : ''}
       <div class="cuerpo">${pr.cuerpo.map(x => `<p>${parrafo(x)}</p>`).join('')}${fuentes(pr)}</div>
     </article>
+    ${p.segunda ? `<article class="segunda art tipo-${esc(p.segunda.tipo)}">
+      <div class="kicker">${esc(p.segunda.kicker || KICKER[p.segunda.seccion] || p.segunda.seccion)} · ${esc(fechaCorta(p.segunda.fecha_acontecimiento))}</div>
+      <h2 class="tit">${parrafo(p.segunda.titulo)}</h2>
+      ${p.segunda.bajada ? `<p class="bajada">${parrafo(p.segunda.bajada)}</p>` : ''}
+      <div class="cuerpo">${p.segunda.cuerpo.map(x => `<p>${parrafo(x)}</p>`).join('')}${fuentes(p.segunda)}${p.segunda.pagina ? ` <p class="fuente sin-prefijo">Más en página ${p.segunda.pagina}.</p>` : ''}</div>
+    </article>` : ''}
+    </div>
     <aside class="secundarias"><h3>En esta edición</h3>${secundarias}</aside>
   </div>
   ${llamadas ? `<div class="llamadas" style="--n-llamadas:${p.llamadas.length}">${llamadas}</div>` : ''}`;
@@ -212,7 +220,7 @@ function boca(ctx) {
       </div>
       <div class="proximo ${esHoy || esManana ? 'hoy' : ''}">
         <div class="et">Próximo partido · ${esc(p.competicion)}</div>
-        <div class="rival">${p.condicion === 'local' ? 'Boca' : esc(p.rival)} vs. ${p.condicion === 'local' ? esc(p.rival) : 'Boca'}</div>
+        <div class="rival">${p.condicion === 'visitante' ? `${esc(p.rival)} vs. Boca` : `Boca vs. ${esc(p.rival)}`}</div>
         <div class="cuando">${cuando}</div>
         <p class="det">${esc(p.estadio || '')}${p.arbitro ? ` · Árbitro: ${esc(p.arbitro)}` : ''}${p.tv ? ` · TV: ${esc(p.tv)}` : ''} · Verificado en ${p.fuentes?.length || 2} fuentes al cierre.</p>
       </div>

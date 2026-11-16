@@ -32,7 +32,8 @@ Lanzar cuatro subagentes con los briefs de `pipeline/prompts/` reemplazando `{FE
 - Escribir `ediciones/$FECHA/datos/comentarios.json` con los comentarios de cada cripto (hechos y variaciones, sin causas no documentadas), el comentario general de finanzas, `clima_alertas` (del investigador de Córdoba) y `filas_extra` si hay tasas u otro dato útil.
 - Correr `node pipeline/src/datos.js ediciones/$FECHA $FECHA`.
 - Escribir `ediciones/$FECHA/contenido.json` según `esquema/contenido.schema.json`, con `finanzas` y `clima` como `"@datos/finanzas.json"` y `"@datos/clima.json"`. Presupuesto de palabras por página de flujo (3 columnas, A4, 8,5 a 9,25 pt): **1.250 palabras en total por página, incluidos títulos y bajadas**. Guía: nota de apertura 220 a 260 palabras, notas secundarias 120 a 180, breves 40 a 60, bajadas de una oración. Nunca más de siete notas por página. Lo que no entra se descarta siguiendo `orden_recorte`; no se escribe primero largo para recortar después.
-- Portada: nota principal de 250 palabras en tres párrafos, seis o siete secundarias con resumen de una línea, cuatro llamadas.
+- Portada: nota principal de 300 palabras en cuatro párrafos, una segunda nota de portada (`portada.segunda`, unas 90 palabras, por ejemplo Boca si juega en los próximos días), seis o siete secundarias con resumen de una línea y cuatro llamadas.
+- Horas de consulta: si un investigador anotó una hora posterior al reloj real, normalizarla a la hora real antes de validar.
 - Boca: completar el objeto `boca` con lo que entregó el investigador; el próximo partido lleva al menos dos fuentes con hora de consulta.
 - Disco, microrelato (dominio público o traducción propia), poesía y glosario (3 o 4 términos de las notas publicadas), comprobando contra `historial/ediciones/*.json` que no se repitan autores, discos ni términos.
 - Fe de erratas: lo pendiente en `historial/DECISIONES.md`, o la línea estándar.

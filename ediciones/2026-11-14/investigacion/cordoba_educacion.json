@@ -1,0 +1,256 @@
+{
+  "tema": "cordoba_educacion",
+  "consultado_el": "2026-11-14T09:14:00-03:00",
+  "feriado": {
+    "hay_fin_de_semana_largo": false,
+    "detalle": "El sábado 14 y domingo 15 de noviembre son un fin de semana común. La semana anterior hubo dos días sin actividad por la visita de León XIV: lunes 9 feriado nacional y martes 10 feriado provincial en Córdoba (también rigió en la Ciudad de Buenos Aires). El próximo fin de semana largo es del sábado 21 al lunes 23 de noviembre: el Día de la Soberanía Nacional (viernes 20) se traslada al lunes 23.",
+    "fuente": "Perfil, 'Feriados de noviembre 2026: qué lunes vuelve a haber fin de semana largo tras la visita del Papa', https://perfil.com/sociedad/feriados-de-noviembre-2026-que-lunes-vuelve-a-haber-fin-de-semana-largo-tras-la-visita-del-papa-a50-aT4977h72sAV (consultado 2026-11-14T09:08-03:00); El Cronista, 'Cuándo es feriado en Córdoba por la visita del papa León XIV', 2026-09-24, https://www.cronista.com/informacion-gral/cuando-es-feriado-en-cordoba-por-la-visita-del-papa-leon-xiv/ (anuncio del jefe de Gabinete provincial Manuel Calvo; consultado 2026-11-14T08:58-03:00). No se abrió el decreto provincial ni el Boletín Oficial."
+  },
+  "alertas_meteorologicas": {
+    "vigentes": "Según La Estafeta Online (13/11), el SMN tenía alerta amarilla por tormentas para Punilla la tarde y noche del viernes 13, elevada a NARANJA para la madrugada del sábado 14: tormentas fuertes a severas, granizo, ráfagas que pueden superar 90 km/h, actividad eléctrica y acumulados de 50 a 90 mm, con valores puntuales mayores. La Nación (actualizado sábado 14, 00:01) ubica el nivel naranja en el 'norte de Córdoba' sin detallar departamentos. El Observatorio Hidro-Meteorológico de Córdoba (sistema provincial) daba inestabilidad desde las 15 del viernes hasta las 10 del sábado, con 70-100% de probabilidad en Capital y área metropolitana, ráfagas de 70-90 km/h del sur-suroeste y 40-70 mm. ElDoce (sábado 00:27) prevé que la inestabilidad siga durante la mañana del sábado y mejore hacia la tarde. No se pudo abrir smn.gob.ar/alertas (el sitio rechazó la consulta automatizada) ni la nota de La Estafeta, así que el texto oficial del aviso no se verificó en la fuente primaria. Open-Meteo para Los Cocos (datos del repo, consultados 11:59 UTC) marca 11,8 mm hoy, 1,9 mm el domingo y 29,1 mm el lunes 16 con tormenta: posible nuevo aviso a comienzos de semana, no confirmado.",
+    "fuente": "La Estafeta Online, 'Elevan a naranja la alerta por tormentas en Punilla', 13/11/2026, https://laestafetaonline.com.ar/locales/elevan-a-naranja-la-alerta-por-tormentas-en-punilla/ (sólo vía buscador, la página no abrió); La Nación vía Yahoo Noticias, 'Hay alerta naranja y amarilla por tormentas para este sábado 14 de noviembre', https://es-us.noticias.yahoo.com/alerta-naranja-amarilla-tormentas-s%C3%A1bado-030100839.html; Cadena 3, 'Alerta en Córdoba: tormentas severas, calor sofocante y cambio brusco de tiempo', 13/11/2026 19:20, https://www.cadena3.com/noticia/radioinforme-3/alerta-en-cordoba-tormentas-severas-calor-sofocante-y-cambio-brusco-de-tiempo_612728; ElDoce, 'Viento e inestabilidad: cómo seguirá el tiempo en Córdoba tras las intensas lluvias', 14/11/2026 00:27, https://eldoce.tv/actualidad/2026/11/14/viento-e-inestabilidad-como-seguira-el-tiempo-en-cordoba-tras-las-intensas-lluvias/ (todas consultadas 2026-11-14 entre 09:00 y 09:05 -03:00)"
+  },
+  "notas": [
+    {
+      "seccion": "Córdoba",
+      "titulo_sugerido": "León XIV dio misa en la Escuela de Aviación ante una multitud y recordó a Brochero",
+      "bajada": "La visita del martes 10 movilizó entre 400.000 y un millón de personas según quién cuente, sin incidentes graves.",
+      "cuerpo": "El papa León XIV aterrizó en Córdoba el martes 10 a las 8.57, fue recibido por el gobernador Martín Llaryora, el intendente Daniel Passerini y el cardenal Ángel Rossi, y celebró misa en la explanada de la Escuela de Aviación Militar, en el predio de FAdeA. En la homilía llamó a Córdoba 'tierra de santos' y pidió hacer memoria agradecida del Cura Brochero; por la tarde saludó desde el balcón del Arzobispado, habló en la Catedral, donde mencionó a Francisco y a Mama Antula, y a las 16.56 volvió en avión a Buenos Aires. Las cifras de asistencia no coinciden: el ministro de Seguridad Juan Pablo Quinteros habló de más de 400.000 personas en FAdeA, el secretario de Gobierno municipal Rodrigo Fernández estimó más de 550.000 en el predio y más de un millón en todo el recorrido (ambas cifras preliminares) y Llaryora mencionó cerca de un millón. En FAdeA hubo unas 60 asistencias sanitarias y 12 derivaciones; el regreso en colectivos se adelantó a las 13.30 y hubo demoras por la salida simultánea de micros, autos y peatones. La visita se hizo con feriado nacional el lunes 9 y feriado provincial el martes 10.",
+      "fecha_acontecimiento": "2026-11-10",
+      "importancia": 5,
+      "datos_clave": [
+        "Aterrizaje 8.57; misa desde las 10; fin 11.35; partida a Buenos Aires 16.56 (Perfil)",
+        "Asistencia FAdeA: +400.000 (Quinteros), +550.000 preliminar (Fernández, Municipalidad), ~1 millón (Llaryora)",
+        "~60 asistencias y 12 derivaciones en FAdeA (Fernández)",
+        "Colectivos de regreso hasta las 21; accesos a Circunvalación cerrados tras el paso de la caravana",
+        "Feriado nacional lunes 9 y provincial martes 10"
+      ],
+      "fuentes": [
+        {"url": "https://perfil.com/cordoba/en-vivo-la-misa-del-papa-leon-xiv-en-cordoba-pidio-recordar-a-brochero-ante-una-multitud-en-fadea-aJ6x57N8jpmo", "medio": "Perfil Córdoba", "titulo": "EN VIVO: la misa del papa León XIV en Córdoba: pidió recordar a Brochero ante una multitud en FAdeA", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T08:52:00-03:00"},
+        {"url": "https://www.cadena3.com/noticia/el-camino-de-leon-en-argentina-uruguay-y-peru/leon-xiv-en-cordoba-estiman-mas-de-550-mil-fieles-en-fadea-y-la-municipalidad-destaco-el-operativo_611831", "medio": "Cadena 3", "titulo": "León XIV en Córdoba: estiman más de 550 mil fieles en FAdeA y la Municipalidad destacó el operativo", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T08:55:00-03:00"},
+        {"url": "https://www.cronista.com/informacion-gral/cuando-es-feriado-en-cordoba-por-la-visita-del-papa-leon-xiv/", "medio": "El Cronista", "titulo": "Cuándo es feriado en Córdoba por la visita del papa León XIV", "fecha_publicacion": "2026-09-24", "consultado": "2026-11-14T08:58:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No hay cifra oficial final de asistencia: las tres estimaciones son de funcionarios y preliminares; un buscador atribuye a Infonegocios 650.000 y a El Destape una cifra de 800.000 citada por Passerini, no abiertas. Un resumen de búsqueda menciona que Ámbito informó la muerte de una persona cerca de FAdeA la víspera de la visita; no se abrió ni se verificó."
+    },
+    {
+      "seccion": "Córdoba",
+      "titulo_sugerido": "Tras el calor de 37 grados, un temporal dejó evacuados, granizo y calles anegadas en la provincia",
+      "bajada": "La tormenta del viernes 13 golpeó sobre todo el sur y el este cordobés; en la Capital hubo 122 llamados a Defensa Civil.",
+      "cuerpo": "El viernes 13 la ciudad de Córdoba llegó a 37 °C a las 16, con sensación térmica de 42,7 °C según el SMN, y por la tarde y noche el SMN emitió avisos a muy corto plazo por tormentas severas que fueron alcanzando distintos departamentos. Según el ministro de Desarrollo Social, Marcos Torres, en General Roca hubo 16 casas con agua y 12 familias evacuadas, en Almafuerte dos jóvenes en moto fueron arrastradas unos 300 metros y quedaron en observación, en Río Tercero cayeron 95 mm en unos 40 minutos y en Inriville 96 mm con granizo. En la Capital, la Municipalidad registró 122 llamados al 103 por árboles, postes y calles anegadas, la red de Defensa Civil midió hasta 42 mm en Villa Urquiza y ráfagas de 78 km/h, y se cortaron los sectores bajos de la Costanera. No hubo reportes de daños en Punilla en las fuentes consultadas.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 4,
+      "datos_clave": [
+        "37 °C y 42,7 °C de sensación en Córdoba a las 16 del viernes (SMN, vía ElDoce)",
+        "General Roca: 16 casas con agua, 12 familias evacuadas (Torres)",
+        "Río Tercero 95 mm en ~40 min; Inriville 96 mm con granizo (Torres)",
+        "Capital: 122 llamados al 103; 42 mm en Villa Urquiza; ráfagas de 78 km/h en barrio San Martín",
+        "Pronóstico provincial: inestabilidad hasta las 10 del sábado 14"
+      ],
+      "fuentes": [
+        {"url": "https://eldoce.tv/actualidad/2026/11/13/tormenta-en-cordoba-evacuados-en-distintas-localidades-casas-inundadas-y-dos-chicas-arrastradas-por-el-agua/", "medio": "ElDoce", "titulo": "Tormenta en Córdoba: evacuados en distintas localidades, casas inundadas y dos chicas arrastradas por el agua", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T09:02:00-03:00"},
+        {"url": "https://eldoce.tv/actualidad/2026/11/13/llega-la-tormenta-tras-el-calor-insoportable-adonde-cayo-piedra-en-cordoba/", "medio": "ElDoce", "titulo": "EN VIVO: llega la tormenta tras el calor insoportable, adónde cayó piedra en Córdoba", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T09:00:00-03:00"},
+        {"url": "https://www.cadena3.com/noticia/radioinforme-3/alerta-en-cordoba-tormentas-severas-calor-sofocante-y-cambio-brusco-de-tiempo_612728", "medio": "Cadena 3", "titulo": "Alerta en Córdoba: tormentas severas, calor sofocante y cambio brusco de tiempo", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T09:01:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "La tormenta y los avisos del SMN están en ElDoce y Cadena 3, pero el balance de daños (evacuados, milímetros por localidad) sólo figura en ElDoce. ElDoce da dos cifras para Inriville (25 y 79/96 mm). No hay total provincial de evacuados ni datos de cortes de EPEC. No se confirmó qué pasó en Punilla durante la madrugada del sábado."
+    },
+    {
+      "seccion": "Córdoba",
+      "titulo_sugerido": "La Provincia postergó para el lunes la presentación del Presupuesto 2027",
+      "bajada": "El ministro Guillermo Acosta iba a exponerlo el viernes 13 en la Legislatura, con alivio fiscal anunciado para pymes.",
+      "cuerpo": "El proyecto de Presupuesto 2027 de la Provincia, junto con cambios al Código Tributario y la Ley Impositiva, estaba convocado para el viernes 13 a las 11 en el Salón Auditorio de la Democracia de la Legislatura, con exposición del ministro de Economía Guillermo Acosta. Según Puntal, la presentación fue reprogramada para 'el próximo lunes' para una revisión final del texto. El Gobierno anticipó medidas de alivio fiscal y Llaryora había adelantado una baja de Ingresos Brutos para pymes, sin cifras oficiales todavía. Tras su ingreso, el paquete pasará por comisiones, audiencia pública y doble lectura, con la etapa final prevista para diciembre. En paralelo, la Municipalidad de Córdoba envió al Concejo Deliberante el 6 de noviembre un presupuesto 2027 de 1,817 billones de pesos con déficit cero.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 3,
+      "datos_clave": [
+        "Presentación prevista: viernes 13, 11 h, Legislatura; reprogramada al lunes (presumiblemente 16/11)",
+        "Incluye Código Tributario y Ley Impositiva Anual",
+        "Anuncio de baja de Ingresos Brutos para pymes, sin detalle",
+        "Presupuesto municipal 2027 de Córdoba: $1.816.953.925.582, déficit cero (enviado el 6/11)"
+      ],
+      "fuentes": [
+        {"url": "https://www.puntal.com.ar/presupuesto/presupuesto-2027se-preven-mas-medidas-alivio-fiscal-n268156", "medio": "Puntal (Río Cuarto)", "titulo": "Presupuesto 2027: se prevén más medidas de alivio fiscal", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T09:06:00-03:00"},
+        {"url": "https://examedia.com.ar/portada/post/88222132", "medio": "Examedia (reproduce La Voz)", "titulo": "El ministro Acosta presentará este viernes el Presupuesto 2027 para Córdoba", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T09:05:00-03:00"},
+        {"url": "https://www.cba24n.com.ar/cordoba/cordoba--el-presupuesto-2027-enviado-al-concejo-deliberante-preve-deficit-cero_a6aee550a566f8a6f7fcc124b", "medio": "Cba24n", "titulo": "Córdoba: el Presupuesto 2027 enviado al Concejo Deliberante prevé déficit cero", "fecha_publicacion": "2026-11-06", "consultado": "2026-11-14T09:05:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "La postergación sólo la informa Puntal, que no está en la lista de medios aceptados, y no da la fecha exacta del lunes. La nota original de La Voz se leyó a través de Examedia (agregador), con fecha de publicación inferida. No se confirmó en legislaturacba.gob.ar ni en cba.gov.ar."
+    },
+    {
+      "seccion": "Córdoba",
+      "titulo_sugerido": "La inflación cordobesa de octubre fue 2,7%, por encima de la nacional",
+      "bajada": "Según la estadística provincial, fue el mayor registro desde abril, empujado por vivienda, gas y alquileres.",
+      "cuerpo": "La Dirección General de Estadística y Censos de Córdoba informó una suba de precios de 2,7% en octubre, 1,3 puntos más que el 1,4% de septiembre y el valor más alto desde abril, según La Estafeta Online. La variación interanual fue de 32,2% y la acumulada en el año de 25,1%. El capítulo de mayor aumento fue Vivienda, agua, electricidad y gas, por subas de gas y alquileres; Alimentos y Transporte subieron 2,3% cada uno. El IPC nacional del INDEC para octubre fue 2,2%, de modo que Córdoba quedó medio punto arriba.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 3,
+      "datos_clave": [
+        "IPC Córdoba octubre: 2,7% (septiembre: 1,4%)",
+        "Interanual 32,2%; acumulada 2026: 25,1%",
+        "Alimentos 2,3%; Transporte 2,3%",
+        "IPC nacional octubre (INDEC, vía ArgentinaDatos en datos/inflacion.json): 2,2%"
+      ],
+      "fuentes": [
+        {"url": "https://laestafetaonline.com.ar/provincia/fuerte-salto-de-la-inflacion-en-cordoba-octubre-cerro-en-27/", "medio": "La Estafeta Online", "titulo": "Fuerte salto de la inflación en Córdoba: octubre cerró en 2,7%", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T09:10:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Una sola fuente periodística; no se abrió el informe de la Dirección de Estadística y Censos ni otro medio. No se publica el porcentaje del capítulo Vivienda. El dato nacional de 2,2% sí coincide con la serie de ArgentinaDatos guardada en el repositorio."
+    },
+    {
+      "seccion": "Punilla",
+      "titulo_sugerido": "Crimen de Juan Pablo Dentesano en La Cumbre: uno de los dos detenidos fue apresado en Los Cocos",
+      "bajada": "El joven de 30 años murió tras ser golpeado y pateado en la cabeza a la salida de un bar; el pueblo marchó en silencio.",
+      "cuerpo": "Juan Pablo 'Tutti' Dentesano, de 30 años, nacido en La Cumbre y radicado en Italia, murió tras una agresión cerca de las 6 del domingo 8 en la puerta del bar Felipe Costa: según el Ministerio Público Fiscal, un hombre le impidió volver a entrar y lo golpeó, cayó de espaldas por dos escalones y otro lo pateó en la cabeza. La autopsia preliminar indicó hemorragia cerebral secundaria a traumatismo de cráneo. La fiscal Silvana Pen, de la Fiscalía de Cosquín, ordenó allanamientos: dos hombres de 31 y 32 años quedaron detenidos e imputados por homicidio simple; uno fue apresado en su casa de Los Cocos y el otro se entregó, y ambos fueron trasladados a la cárcel de Cruz del Eje. El martes 10 vecinos, familiares y amigos marcharon en silencio por las calles de La Cumbre y dejaron flores y velas en el bar.",
+      "fecha_acontecimiento": "2026-11-08",
+      "importancia": 4,
+      "datos_clave": [
+        "Víctima: Juan Pablo Dentesano, 30 años, vivía en Italia",
+        "Detenidos: dos hombres de 31 y 32 años, homicidio simple; uno arrestado en Los Cocos",
+        "Fiscal: Silvana Pen (Cosquín)",
+        "Autopsia preliminar: hemorragia cerebral por traumatismo de cráneo",
+        "Marcha del silencio el martes 10 en La Cumbre"
+      ],
+      "fuentes": [
+        {"url": "https://www.cadena3.com/noticia/amamos-los-domingos/murio-un-joven-de-30-anos-tras-una-violenta-agresion-a-la-salida-de-un-boliche-en-la-cumbre_611340", "medio": "Cadena 3", "titulo": "Murió un joven de 30 años tras una violenta agresión a la salida de un boliche en La Cumbre", "fecha_publicacion": "2026-11-08", "consultado": "2026-11-14T09:13:00-03:00"},
+        {"url": "https://www.lanacion.com.ar/seguridad/dos-detenidos-por-el-crimen-de-un-hombre-a-la-salida-de-un-boliche-de-la-cumbre-nid09112026/", "medio": "La Nación", "titulo": "Dos detenidos por el crimen de un hombre a la salida de un boliche de La Cumbre", "fecha_publicacion": "2026-11-09", "consultado": "2026-11-14T09:12:00-03:00"},
+        {"url": "https://laestafetaonline.com.ar/locales/la-cumbre-marcho-para-pedir-justicia-por-juan-pablo-dentesano/", "medio": "La Estafeta Online", "titulo": "La Cumbre marchó para pedir justicia por Juan Pablo Dentesano", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T09:11:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El parte fiscal citado por La Nación habla de 'la madrugada del 6 de noviembre', pero Cadena 3 (publicado el mismo domingo) ubica el hecho el domingo 8 a las 6; se toma el 8. Un portal no aceptado (Carlos Paz Vivo) informa que la Municipalidad clausuró el bar el viernes 13; no se verificó en medios aceptados."
+    },
+    {
+      "seccion": "Punilla",
+      "titulo_sugerido": "Hallaron sin vida a una madre y a su hijo de seis años en el río Cosquín, en Santa María de Punilla",
+      "bajada": "Eran de Roldán (Santa Fe) y estaban de visita en las sierras; la Fiscalía de Cosquín investiga las circunstancias.",
+      "cuerpo": "Noelia Rocío Sánchez, de 39 años, fue encontrada muerta el viernes 6 cerca de las 15.30 junto al río Cosquín, en el balneario La Pasarela de Villa Caeiro, Santa María de Punilla. Los investigadores hallaron en el lugar documentos de un menor y se inició una búsqueda: su hijo Benicio, de 6 años, apareció sin vida el sábado 7 alrededor de las 9.30, a unos 50 metros. La autopsia preliminar de la mujer indicó asfixia por inmersión; la del niño estaba pendiente al momento de la publicación. Madre e hijo, oriundos de Roldán, habían viajado para alojarse en casa de familiares, y la causa está a cargo de la Fiscalía de Fuero Múltiple N.º 2 de Cosquín.",
+      "fecha_acontecimiento": "2026-11-07",
+      "importancia": 3,
+      "datos_clave": [
+        "Madre: Noelia Rocío Sánchez, 39 años; hijo: Benicio, 6 años; de Roldán, Santa Fe",
+        "Balneario La Pasarela, Villa Caeiro, Santa María de Punilla",
+        "Autopsia preliminar de la madre: asfixia por inmersión",
+        "Fiscalía de Fuero Múltiple N.º 2 de Cosquín (fiscal Silvana Pen, según ElDoce)"
+      ],
+      "fuentes": [
+        {"url": "https://eldoce.tv/actualidad/2026/11/07/encontraron-muertos-a-una-mama-y-su-hijo-de-6-anos-en-un-rio-de-cordoba/", "medio": "ElDoce", "titulo": "Encontraron ahogados a una mamá y su hijo de 6 años en un río de Córdoba", "fecha_publicacion": "2026-11-07", "consultado": "2026-11-14T09:09:00-03:00"},
+        {"url": "https://www.eldiariodecarlospaz.com.ar/sucesos/2026/11/7/encontraron-al-nino-sin-vida-a-50-metros-del-cuerpo-de-su-madre-263844.html", "medio": "El Diario de Carlos Paz", "titulo": "Conmoción: hallaron sin vida al niño que buscaban en Punilla", "fecha_publicacion": "2026-11-07", "consultado": "2026-11-14T09:09:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "No se informaron las circunstancias en que madre e hijo llegaron al río ni el resultado de la autopsia del niño. No se encontraron novedades posteriores al 7 de noviembre."
+    },
+    {
+      "seccion": "Punilla",
+      "titulo_sugerido": "Agenda del valle: Mes del Astroturismo, fiesta de la pizza en Huerta Grande y audiencia por el presupuesto de La Falda",
+      "bajada": "Hasta el 27 de noviembre hay más de 15 actividades de observación del cielo en cinco localidades de Punilla.",
+      "cuerpo": "La Provincia lanzó el Mes del Astroturismo, del 7 al 27 de noviembre, con más de 15 actividades en Capilla del Monte (Reserva Villa Cielo, dique El Cajón, base del Uritorco, paseo El Zapato), La Cumbre (Sala Aúlica y Aeroclub), Carlos Paz, Mayu Sumaj y La Falda (cerro El Dragón); Los Cocos no figura en la grilla. Huerta Grande hará del 20 al 22 de noviembre la tercera Fiesta Provincial de la Pizza y la Cerveza Artesanal sobre avenida San Martín, gratuita, con Valentina Márquez y Simón Aguirre. En La Falda, el Concejo aprobó en primera lectura el presupuesto 2027, de 24.999 millones de pesos (unos 25% más que en 2026), y convocó a audiencia pública el martes 24 a las 19 en el salón Leopoldo Marechal. Además, el Inpres registró el lunes 9 a las 6.36 un sismo 'muy débil' de magnitud 2,6, a 14 km de profundidad y 24 km al noroeste de La Falda, que vecinos percibieron en Capilla del Monte, La Cumbre y La Falda, sin daños.",
+      "fecha_acontecimiento": "2026-11-12",
+      "importancia": 2,
+      "datos_clave": [
+        "Mes del Astroturismo: 7 al 27 de noviembre, +15 actividades, 5 localidades",
+        "Fiesta de la Pizza y la Cerveza Artesanal: 20-22/11, Huerta Grande, gratis, desde las 18",
+        "La Falda: presupuesto 2027 $24.999 millones; audiencia pública 24/11, 19 h, Sarmiento 92",
+        "Sismo M2,6 el 9/11 a las 6.36, 24 km al NO de La Falda (Inpres)"
+      ],
+      "fuentes": [
+        {"url": "https://laestafetaonline.com.ar/turismo/con-mas-de-15-actividades-en-punilla-cordoba-lanzo-el-mes-del-astroturismo/", "medio": "La Estafeta Online", "titulo": "Con más de 15 actividades en Punilla, Córdoba lanzó el Mes del Astroturismo", "fecha_publicacion": "2026-11-05", "consultado": "2026-11-14T09:11:00-03:00"},
+        {"url": "https://laestafetaonline.com.ar/locales/tres-dias-de-fiesta-provincial-de-la-pizza-y-cerveza-artesanal-en-huerta-grande-grilla-completa/", "medio": "La Estafeta Online", "titulo": "Huerta Grande presentó la tercera edición de su Fiesta Provincial de la Pizza y la Cerveza Artesanal", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T09:12:00-03:00"},
+        {"url": "https://laestafetaonline.com.ar/locales/presupuesto-y-tarifaria-2027-en-la-falda-convocan-a-una-audiencia-publica/", "medio": "La Estafeta Online", "titulo": "Presupuesto y Tarifaria 2027 en La Falda: convocan a una audiencia pública", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T09:12:00-03:00"},
+        {"url": "https://laestafetaonline.com.ar/locales/un-sismo-de-2-6-se-sintio-en-varias-localidades-de-punilla/", "medio": "La Estafeta Online", "titulo": "Un sismo de 2.6 se sintió en varias localidades de Punilla", "fecha_publicacion": "2026-11-09", "consultado": "2026-11-14T09:10:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Todo proviene de un único medio (La Estafeta Online). El organizador del Mes del Astroturismo no está explícito (enlaza a Córdoba Turismo). Horarios puntuales de cada actividad astronómica no fueron relevados. No se verificó el sismo en inpres.gob.ar."
+    },
+    {
+      "seccion": "Los Cocos",
+      "titulo_sugerido": "Los Cocos: sin novedades municipales verificables en la semana",
+      "bajada": "La localidad aparece en las noticias por el operativo del caso Dentesano y por la Noche de los Museos en el Museo La Loma.",
+      "cuerpo": "No se encontraron en medios aceptados noticias propias de Los Cocos fechadas entre el 7 y el 14 de noviembre: la sección de noticias de loscocos.gob.ar no muestra entradas con fecha de noviembre. La localidad figura en el caso del crimen de Juan Pablo Dentesano en La Cumbre, porque uno de los dos detenidos fue apresado en su vivienda de Los Cocos. Un portal regional anunció que el Museo La Loma participaría de la Noche de los Museos el viernes 13, de 19.30 a 22, con entrada gratuita y propuestas sobre lectura inclusiva, pero no hay confirmación de que se haya realizado en medio de la alerta por tormentas. Los Cocos tampoco aparece en la grilla del Mes del Astroturismo de Punilla.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 2,
+      "datos_clave": [
+        "loscocos.gob.ar: sin noticias fechadas en noviembre",
+        "Un detenido del caso Dentesano fue arrestado en Los Cocos (La Nación, La Estafeta)",
+        "Noche de los Museos en el Museo La Loma: anunciada para el 13/11, 19.30-22 (fuente no aceptada)"
+      ],
+      "fuentes": [
+        {"url": "https://loscocos.gob.ar/", "medio": "Municipalidad de Los Cocos", "titulo": "Portada / Noticias", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T09:07:00-03:00"},
+        {"url": "https://cordobainteriorinforma.com/2026/11/04/los-cocos-se-sumara-a-la-noche-de-los-museos/", "medio": "Córdoba Interior Informa", "titulo": "Los Cocos se sumará a la Noche de los Museos", "fecha_publicacion": "2026-11-04", "consultado": "2026-11-14T09:07:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Córdoba Interior Informa no está entre los medios aceptados; la realización efectiva de la Noche de los Museos en Los Cocos no está confirmada. No se halló información sobre daños por la tormenta en Los Cocos."
+    },
+    {
+      "seccion": "UPC",
+      "titulo_sugerido": "La UPC abre horas vacantes en Capilla del Monte, con la Tecnicatura en Programación Full Stack entre las carreras",
+      "bajada": "La inscripción será del 18 al 20 de noviembre; también hay convocatoria en la sede Villa Dolores del 16 al 18.",
+      "cuerpo": "La Universidad Provincial de Córdoba publicó el 13 de noviembre una convocatoria de horas vacantes para la Sede Regional Capilla del Monte, con inscripción del 18 al 20 de noviembre inclusive. Los espacios curriculares corresponden al Profesorado Universitario de Biología, la Tecnicatura Superior en Prótesis Dental, la Tecnicatura Universitaria en Marketing y Negocios Digitales, la Tecnicatura Universitaria en Programación Full Stack, la Licenciatura en Diseño y la Tecnicatura Universitaria en Diseño Gráfico. Los postulantes deben cargar el CV en el formulario en línea, enviar la documentación como enlace de Google Drive al correo de la sede con el nombre de la sede y el DNI en el asunto y, si corresponde, presentar propuesta curricular en el formato oficial. El detalle de horas por espacio está en el PDF de la convocatoria. El mismo día se publicó otra convocatoria para la Sede Regional Villa Dolores 'Luis Tessandori', del 16 al 18 de noviembre.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 4,
+      "datos_clave": [
+        "Sede Capilla del Monte: inscripción 18 al 20/11",
+        "Incluye Tecnicatura Universitaria en Programación Full Stack",
+        "Sede Villa Dolores: inscripción 16 al 18/11",
+        "Consultas: (0351) 4430362, lunes a viernes 10 a 17"
+      ],
+      "fuentes": [
+        {"url": "https://www.upc.edu.ar/convocatoria-de-horas-vacantes-en-la-sede-regional-capilla-del-monte-del-18-al-20-de-noviembre/", "medio": "UPC (sitio oficial)", "titulo": "Convocatoria de Horas Vacantes en la Sede Regional Capilla del Monte del 18 al 20 de Noviembre", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T09:06:00-03:00"},
+        {"url": "https://www.upc.edu.ar/convocatoria-de-horas-vacantes-en-la-sede-regional-villa-dolores-luis-tessandori-del-16-al-18-de-noviembre/", "medio": "UPC (sitio oficial)", "titulo": "Convocatoria de Horas Vacantes en la Sede Regional Villa Dolores «Luis Tessandori» del 16 al 18 de noviembre", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T09:06:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Fuente primaria única (sitio oficial). No se abrió el PDF con la cantidad de horas por espacio ni los requisitos detallados. La página de Villa Dolores sólo se vio por su título."
+    },
+    {
+      "seccion": "UPC",
+      "titulo_sugerido": "Semana UPC: ciclo de cuarteto con la Municipalidad, 20 años de ESI y Noche de los Museos en la FAD",
+      "bajada": "El ciclo de formación en cuarteto cordobés se presenta el miércoles 18 en el Teatro Ciudad de las Artes y empieza en 2027.",
+      "cuerpo": "La UPC, a través de la Facultad de Arte y Diseño y la Secretaría de Extensión, y la Municipalidad de Córdoba anunciaron un Ciclo Integral de Formación en Cuarteto Cordobés que combina música, danza, técnica escénica y producción, para mayores de 16 años, con actividades en los CPC Argüello y Mercantil y en la FAD a partir de 2027. La presentación oficial será el 18 de noviembre a las 19.30 en el Teatro Ciudad de las Artes (Av. Pablo Ricchieri 1955); las fechas de inscripción no se anunciaron. El miércoles 11 la Facultad de Educación y Salud realizó las quintas Jornadas Interfacultades de ESI, por los 20 años de la Ley 26.150, con talleres, muestras y un mural colectivo. El viernes 13, de 18.30 a 23, la FAD abrió sus escuelas en la Noche de los Museos, y la revista Sostenible y Circular recibe trabajos hasta el 30 de noviembre.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 3,
+      "datos_clave": [
+        "Cuarteto: presentación 18/11, 19.30, Teatro Ciudad de las Artes; cursado desde 2027; +16 años",
+        "Jornadas Interfacultades de ESI: 11/11, FES, Campus Sur",
+        "Noche de los Museos en la FAD: 13/11, 18.30 a 23",
+        "Revista Sostenible y Circular: cierre de convocatoria 30/11"
+      ],
+      "fuentes": [
+        {"url": "https://www.upc.edu.ar/ciclo-formacion-integral-en-cuarteto-cordobes/", "medio": "UPC (sitio oficial)", "titulo": "La UPC y la Municipalidad de Córdoba presentan un ciclo formación integral en Cuarteto Cordobés", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T09:06:00-03:00"},
+        {"url": "https://www.upc.edu.ar/la-upc-celebro-los-20-anos-de-la-esi-con-una-nueva-edicion-de-las-jornadas-interfacultades/", "medio": "UPC (sitio oficial)", "titulo": "La UPC celebró los 20 años de la ESI con una nueva edición de las Jornadas Interfacultades", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T09:06:00-03:00"},
+        {"url": "https://www.upc.edu.ar/noche-de-los-museos-2026/", "medio": "UPC (sitio oficial)", "titulo": "Noche de los museos 2026 en la FAD: el Arte se hace, se hereda y se habita", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T09:14:00-03:00"},
+        {"url": "https://www.upc.edu.ar/ya-se-encuentra-abierta-la-convocatoria-para-presentar-trabajos-a-la-revista-sostenible-y-circular/", "medio": "UPC (sitio oficial)", "titulo": "Ya se encuentra abierta la convocatoria para presentar trabajos a la revista Sostenible y Circular", "fecha_publicacion": "2026-11-07", "consultado": "2026-11-14T09:14:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Fuente primaria única. No se sabe si la Noche de los Museos en la FAD se realizó completa con la tormenta del viernes. No se hallaron en upc.edu.ar novedades sobre calendario 2027, PILA ni resoluciones en las dos últimas semanas; no se revisó el Boletín Oficial de Córdoba."
+    },
+    {
+      "seccion": "Educación superior",
+      "titulo_sugerido": "Presupuesto 2027: Diputados buscará dictamen el martes 17 sin cerrar la brecha con las universidades",
+      "bajada": "Las universidades piden 11 billones para cumplir la ley de financiamiento y el Gobierno ofrece unos 7,5 billones.",
+      "cuerpo": "La Comisión de Presupuesto de Diputados, presidida por Bertie Benegas Lynch, fue citada para el martes 17 a las 16 con la intención oficialista de firmar dictamen ese día, y la sesión para tratar el Presupuesto 2027 apunta al miércoles 25. Según Ámbito, los espacios provincialistas reclaman, entre otros puntos, 11 billones de pesos para universidades, lo que permitiría cumplir la Ley de Financiamiento Universitario, frente a unos 7,5 billones que ofrece el Gobierno. El reglamento obliga a emitir dictámenes antes del 20 de noviembre para tratarlo en sesiones ordinarias; la aprobación final en el Senado requerirá extraordinarias. Infobae advierte que el 25 el jefe de Gabinete Diego Santilli debe dar su informe en el Senado, lo que complica la coordinación con los gobernadores.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 4,
+      "datos_clave": [
+        "Dictamen previsto: martes 17/11, 16 h, Comisión de Presupuesto",
+        "Sesión prevista: miércoles 25/11",
+        "Reclamo universitario: $11 billones; oferta oficial: ~$7,5 billones (Ámbito); el proyecto original asignaba $7,35 billones (El Cronista, 13/10)",
+        "Plazo reglamentario para dictámenes: 20/11"
+      ],
+      "fuentes": [
+        {"url": "https://www.ambito.com/politica/el-gobierno-oficializo-los-plazos-aprobar-el-presupuesto-2027-diputados-n6345178", "medio": "Ámbito", "titulo": "El Gobierno oficializó los plazos para aprobar el Presupuesto 2027 en Diputados", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T09:13:00-03:00"},
+        {"url": "https://www.infobae.com/politica/2026/11/14/reforma-electoral-presupuesto-y-discapacidad-el-congreso-enfrenta-sus-diez-dias-mas-exigentes-del-ano/", "medio": "Infobae", "titulo": "Reforma electoral, Presupuesto y Discapacidad: el Congreso enfrenta sus diez días más exigentes del año", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T09:13:00-03:00"},
+        {"url": "https://www.cronista.com/economia-politica/el-numero-dos-de-caputo-abrio-el-debate-por-presupuesto-universidades-discapacidad-y-la-hoja-de-ruta/", "medio": "El Cronista", "titulo": "El número dos de Caputo abrió el debate por Presupuesto: universidades, Discapacidad y la hoja de ruta", "fecha_publicacion": "2026-10-13", "consultado": "2026-11-14T09:12:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El cronograma está en Ámbito e Infobae; la cifra de 7,5 billones sólo en Ámbito (otras notas dan 7,3 o 7,7). La Nación mencionó que el Gobierno evalúa pasar la sesión al jueves 26 (sólo visto en buscador). No se consultó al CIN ni hubo novedades judiciales verificadas esta semana sobre la Ley 27.795. No se encontró un informe OCDE/UNESCO sobre IA en la enseñanza publicado en la ventana."
+    }
+  ]
+}

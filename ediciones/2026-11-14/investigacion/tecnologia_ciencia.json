@@ -1,0 +1,243 @@
+{
+  "tema": "tecnologia_ciencia",
+  "consultado_el": "2026-11-14T12:10:00-03:00",
+  "notas": [
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": ".NET 11 y C# 15: llegan los tipos unión, Runtime Async y un EF Core que poda joins",
+      "bajada": "Microsoft liberó el 10 de noviembre, en la apertura de .NET Conf 2026, una versión STS de dos años que trae uniones verificadas por el compilador y mejoras concretas para SQL Server.",
+      "cuerpo": "El 10 de noviembre de 2026 el equipo de .NET publicó la versión final de .NET 11, con C# 15 como lenguaje por defecto para net11.0; es una versión STS con dos años de soporte, .NET 10 sigue siendo la LTS y ese mismo día .NET 8 y .NET 9 quedaron sin soporte. La novedad de lenguaje es el tipo unión: un valor declarado como uno de un conjunto cerrado de tipos, con chequeo de exhaustividad en los switch; lo acompañan las jerarquías cerradas (clases 'closed' que sólo se derivan dentro de su ensamblado), argumentos en expresiones de colección, indexadores de extensión y break/continue con etiqueta, mientras que el trabajo de seguridad de memoria sigue en preview. En el runtime, Runtime Async traslada la suspensión de los métodos async del compilador al runtime (pilas de llamadas más legibles y menos overhead), aunque las fuentes de Microsoft no coinciden en si para código de aplicación ya es estable o sigue en preview; el anuncio habla de 'cientos de optimizaciones' sin publicar porcentajes de mejora. Para un ERP sobre Azure SQL lo más tangible está en EF Core 11: poda de joins innecesarios en split queries (29% de mejora en un benchmark del propio equipo) y quita de claves redundantes en ORDER BY (22%), traducción de FullJoin a FULL JOIN, índices vectoriales y VECTOR_SEARCH() experimentales, y columnas vectoriales que ya no se cargan por defecto (unas 9 veces más rápido en local y 22 veces contra Azure SQL remoto, según la documentación). Ojo con dos cambios de comportamiento: UseSqlServer pasa a nivel de compatibilidad 160 (SQL Server 2022) por defecto, y la CLI arranca con un host Native AOT y el servidor de MSBuild activados por defecto. El SDK incluye además la plantilla 'dotnet new mcpserver' para crear servidores MCP.",
+      "fecha_acontecimiento": "2026-11-10",
+      "importancia": 5,
+      "datos_clave": [
+        ".NET 11 GA: 10/11/2026, STS con 2 años de soporte; .NET 10 sigue como LTS",
+        ".NET 8 y .NET 9 llegaron a fin de soporte el 10/11/2026",
+        "C# 15: tipos unión, jerarquías cerradas, argumentos en expresiones de colección, indexadores de extensión, break/continue etiquetados; seguridad de memoria en preview",
+        "Runtime Async: ya no requiere EnablePreviewFeatures para net11.0 (Microsoft Learn); el anuncio lo sigue describiendo como opt-in con runtime-async=on",
+        "EF Core 11: -29% tiempo en split query con to-one join y -22% al quitar ORDER BY redundante (benchmarks del equipo EF)",
+        "EF Core 11: columnas SqlVector<T> excluidas del SELECT por defecto; ~9x en local, ~22x contra Azure SQL remoto",
+        "EF Core 11: UseSqlServer pasa a compatibility level 160 por defecto (cambio con posible impacto)",
+        "SDK: CLI con host Native AOT y servidor MSBuild activados por defecto; plantilla dotnet new mcpserver",
+        "Más de 7.000 contribuyentes y más de 589.000 paquetes NuGet únicos, según el anuncio"
+      ],
+      "fuentes": [
+        {"url": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-11/", "medio": ".NET Blog (Microsoft)", "titulo": "Announcing .NET 11", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T11:38:00-03:00"},
+        {"url": "https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-11/overview", "medio": "Microsoft Learn", "titulo": "What's new in .NET 11", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T11:47:00-03:00"},
+        {"url": "https://learn.microsoft.com/en-us/ef/core/what-is-new/ef-core-11.0/whatsnew", "medio": "Microsoft Learn", "titulo": "What's New in EF Core 11", "fecha_publicacion": "2026-08-03", "consultado": "2026-11-14T11:49:00-03:00"},
+        {"url": "https://www.theregister.com/devops/2026/09/02/microsoft-devs-rejoice-union-types-coming-to-c-in-november/5294056", "medio": "The Register", "titulo": "Microsoft devs rejoice: Union types coming to C# in November", "fecha_publicacion": "2026-09-02", "consultado": "2026-11-14T11:41:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "El lanzamiento GA sólo está confirmado en fuentes de Microsoft (blog y Learn); The Register cubrió el conjunto de funciones de C# 15 en preview (septiembre) y Visual Studio Magazine reportó el GA pero devolvió 403 al abrirla. Los porcentajes de EF Core 11 son benchmarks del propio equipo y la página de EF Core consultada está fechada en agosto (preview), por lo que alguna función pudo cambiar en el GA. Hay discrepancia sobre si Runtime Async es estable o preview para código de aplicación. El anuncio no cita una versión específica de Visual Studio 2026."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Claude Fable 5.2 y Mythos 5.2: más rápidos, 20% más baratos y con números propios de agentic coding",
+      "bajada": "Anthropic lanzó el 9 de noviembre una actualización de sus modelos tope de gama; un día después Cisco e IBM anunciaron que integran Mythos en sus herramientas de seguridad.",
+      "cuerpo": "El 9 de noviembre de 2026 Anthropic presentó Claude Fable 5.2 y Claude Mythos 5.2, que son el mismo modelo base: Fable lleva salvaguardas de ciberseguridad y biología y está disponible para todos (API claude-fable-5-2, AWS, Google Cloud y Azure), mientras Mythos queda restringido a organizaciones verificadas en sus programas de ciberseguridad y ciencias de la vida. El precio baja de USD 10/50 a 8/40 por millón de tokens de entrada/salida, la salida es hasta 30% más rápida que en 5.1 y un 'fast mode' opcional acelera hasta 2,5 veces al doble de precio. En benchmarks publicados por la propia empresa, Fable 5.2 marca 49,1% en FrontierCode 2.0 (Opus 5.5: 45,5%; GPT-6 Astra: 42,8%; Gemini 4 Carbon: 41,1%) y 69,9% en FrontierSWE v2, pero pierde contra Gemini 4 Carbon en AutomationBench (51,4% contra 53,9%) y contra Opus 5.5 en el Elo de AA-Briefcase (1785 contra 1800). La propia Anthropic recomienda seguir usando Opus 5.5 para la mayoría del trabajo de código y conocimiento y reservar Fable para tareas largas y abiertas; además informa unas 55% menos de consultas bloqueadas por salvaguardas que en 5.1. El 10 de noviembre The Register informó que Cisco ofrecerá Mythos dentro del red-teaming de AI Defense sin costo adicional e IBM lo integrará en Concert para detectar debilidades y proponer correcciones que aprueban los desarrolladores. Para equipos que usan Claude Code, el cambio práctico es el precio y la velocidad; el salto de capacidad es real en los números, pero todos son autoinformados.",
+      "fecha_acontecimiento": "2026-11-09",
+      "importancia": 5,
+      "datos_clave": [
+        "Lanzamiento: 9/11/2026; anuncio enmendado el 11/11/2026",
+        "Precio Fable 5.2 y Mythos 5.2: USD 8 entrada / 40 salida por millón (antes 10/50); fast mode 16/80, hasta 2,5x más rápido",
+        "FrontierCode 2.0: Fable 5.2 49,1% (Xhigh) vs Opus 5.5 45,5%, GPT-6 Astra 42,8%, Gemini 4 Carbon 41,1%",
+        "FrontierSWE v2: 69,9% vs Opus 5.5 62,3%; OSWorld 2.1 offline parcial: 89,3% vs 87,2%",
+        "AutomationBench: Fable 5.2 51,4% vs Gemini 4 Carbon 53,9% (pierde)",
+        "Mythos 5.2 en CVE Rediscovery (1.829 CVE): 89,6%; +10,2% de vulnerabilidades halladas vs Opus 5.5",
+        "Salvaguardas: ~55% menos bloqueos que Fable 5.1 (~60% menos en ciber, ~40% menos en biología)",
+        "Cisco (AI Defense) e IBM (Concert) integran Mythos, anunciado el 10/11/2026",
+        "No publica tamaño de ventana de contexto ni resultados en SWE-bench o ARC-AGI"
+      ],
+      "fuentes": [
+        {"url": "https://www.anthropic.com/news/claude-fable-and-mythos-5-2", "medio": "Anthropic", "titulo": "Introducing Claude Fable 5.2 and Claude Mythos 5.2", "fecha_publicacion": "2026-11-09", "consultado": "2026-11-14T11:44:00-03:00"},
+        {"url": "https://www.theregister.com/ai-and-ml/2026/11/10/anthropics-super-bug-finding-mythos-model-is-going-into-cisco-and-ibm-products/5308616", "medio": "The Register", "titulo": "Anthropic's super bug-finding Mythos model is going into Cisco and IBM products", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T11:46:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Todos los benchmarks son de Anthropic, algunos internos (CVE Rediscovery, RoboDojo Sim) y sin réplica independiente. El anuncio no informa ventana de contexto ni nombra explícitamente Amazon Bedrock. La rebaja de 10/50 a 8/40 surge de The New Stack (resultado de búsqueda; la nota devolvió 403) y de que The Register habla de 'cuestan menos'; el precio nuevo está en la fuente primaria. Anthropic no aclaró si las integraciones con Cisco e IBM implican acceso más amplio a Mythos."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Patch Tuesday de noviembre: 1.094 fallas, un zero-day en Outlook y el año que superó los 100.000 CVE",
+      "bajada": "Microsoft corrigió el 10 de noviembre una falla explotada que filtra hashes NTLMv2 y varias de CVSS 9,8 sin interacción; el volumen de vulnerabilidades ya se atribuye a la caza automatizada con IA.",
+      "cuerpo": "El martes 10 de noviembre Microsoft publicó parches para 1.094 vulnerabilidades (63 críticas, según Qualys), segundo mes seguido por encima de mil tras las 1.474 de octubre. La única explotada activamente es CVE-2026-124194, un 'spoofing' de Outlook con CVSS 6,5: un archivo de mensaje manipulado hace que Outlook se conecte a un servidor del atacante sin la advertencia de contenido externo y filtra el hash NTLMv2 del usuario, reutilizable para autenticarse en su nombre; CISA la sumó a su catálogo KEV y Microsoft no dijo desde cuándo se explota. Dustin Childs (Zero Day Initiative) pidió priorizar Exchange y controladores de dominio por tres fallas de CVSS 9,8 sin clic: CVE-2026-116928 en Windows Search (se dispara cuando Exchange indexa un adjunto, sin que el destinatario lo abra), CVE-2026-119958 en LDAP y CVE-2026-112967 en el servicio de red de Xbox Live; cuenta 30 fallas 'wormables'. En Azure figuran, entre otras, una elevación de privilegios crítica en Azure OpenAI (CVE-2026-119990) y otra en Azure Managed Grafana (CVE-2026-114160). El 13 de noviembre VulnCheck contó 100.222 CVE publicados en 2026, más del doble que en 2025, y atribuye el salto principalmente a la búsqueda de fallas con IA; la mediana entre publicación y explotación bajó de 120 días en 2025 a 80 en el primer semestre. Además, la actualización de Windows trae problemas conocidos de impresión de imágenes y de activación con slmgr que Microsoft todavía investiga.",
+      "fecha_acontecimiento": "2026-11-10",
+      "importancia": 4,
+      "datos_clave": [
+        "1.094 CVE de Microsoft en noviembre (Qualys menciona 1.235 contando terceros); 63 críticas",
+        "Zero-day: CVE-2026-124194, Outlook, CVSS 6,5, filtra hash NTLMv2; en KEV de CISA",
+        "CVSS 9,8 sin clic: CVE-2026-116928 (Windows Search, vía Exchange), CVE-2026-119958 (LDAP), CVE-2026-112967 (Xbox Live Networking)",
+        "Exchange Server RCE autenticada: CVE-2026-118207 (crítica)",
+        "Azure: CVE-2026-119990 (Azure OpenAI, EoP crítica), CVE-2026-114160 (Managed Grafana, EoP crítica), CVE-2026-112745 (Azure DevOps Server, SSRF)",
+        "VulnCheck: 100.222 CVE en 2026 al 13/11; 1.363 (~1,4%) en su catálogo KEV",
+        "Mediana publicación→explotación: 120 días (2025) → 80 días (1er semestre 2026)",
+        "Problemas conocidos: impresión vía GDI (WI1549472) y activación slmgr error 0x80041008 (WI1549486)"
+      ],
+      "fuentes": [
+        {"url": "https://www.theregister.com/security/2026/11/10/november-patch-tuesday-boasts-over-1000-bugs-one-already-under-attack/5308946", "medio": "The Register", "titulo": "November Patch Tuesday boasts over 1,000 bugs, one already under attack", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T11:55:00-03:00"},
+        {"url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/11/10/microsoft-patch-tuesday-november-2026-security-update-review", "medio": "Qualys Threat Research", "titulo": "Microsoft Patch Tuesday, November 2026 Security Update Review", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T11:54:00-03:00"},
+        {"url": "https://theregister.com/security/2026/11/13/this-years-bug-count-just-passed-100k/5309882", "medio": "The Register", "titulo": "This year's bug count just passed 100K", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T11:58:00-03:00"},
+        {"url": "https://www.theregister.com/os-platforms/2026/11/12/microsoft-has-an-image-problem-with-novembers-windows-security-update/5309435", "medio": "The Register", "titulo": "Microsoft has an image problem with November's Windows security update", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T12:00:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "La guía de MSRC (msrc.microsoft.com) no pudo leerse porque se renderiza por JavaScript: las versiones exactas afectadas por CVE-2026-124194 no están verificadas (un medio secundario menciona Microsoft 365 Apps for Enterprise y Office LTSC 2021/2024). La tabla de Qualys menciona 59 vulnerabilidades en 13 actualizaciones bajo SQL Server sin listar CVE, mientras The Register dice que SQL Server no aparece en los detalles de noviembre: no resuelto. Qualys no forma parte de la lista de medios aceptados; se usa como respaldo del conteo. No se encontraron CVE de .NET ni de ASP.NET Core este mes."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Gemini 4 Carbon pasa a disponibilidad general con precio promocional hasta el 30 de noviembre",
+      "bajada": "Google abrió el 10 de noviembre a desarrolladores y empresas su modelo más fuerte, presentado el 28 de octubre con foco en ciberseguridad y tareas largas.",
+      "cuerpo": "El 10 de noviembre de 2026 Koray Kavukcuoglu, jefe de arquitectura de IA de Google, anunció que Gemini 4 Carbon queda disponible en el tier pago de la API (Google AI Studio, Gemini para empresas y Android Studio) y para suscriptores de Google AI Ultra en Antigravity, la app Gemini y AI Mode, tras dos semanas restringido a defensores de ciberseguridad del programa Fairwind. El precio introductorio es de USD 2/10 por millón de tokens de entrada/salida hasta el 30 de noviembre y luego sube a 4/20, igual que Claude Opus 5.5 según The Register. Google informa el primer puesto en el Intelligence Index v5.0 de Artificial Analysis (59 puntos), en SEC-bench Pro (88,2%), ExploitGym (54,8%), CursorBench 4.0 y AutomationBench, y 0% de éxito de ataques en el benchmark de inyección indirecta de Gray Swan; The Register señaló que en WebDev Arena y en el ranking de agentes de Arena.ai queda detrás de Opus 5.5. La propia Google admite que Carbon gasta más tokens que Gemini 4 Argon para explorar y verificar, que Argon sigue siendo mejor opción para la mayoría del trabajo de software y que la robustez frente a inyección de prompts 'sigue siendo un área a mejorar'. La comparación con Fable 5.2 es cruzada: cada laboratorio publica tablas donde gana en distintas pruebas, por lo que conviene evaluar con cargas propias.",
+      "fecha_acontecimiento": "2026-11-10",
+      "importancia": 4,
+      "datos_clave": [
+        "Presentación: 28/10/2026 (acceso limitado vía Fairwind); GA para desarrolladores: 10/11/2026",
+        "Precio: USD 2/10 por millón hasta el 30/11/2026; luego 4/20; caché de entrada con 95% de descuento",
+        "Artificial Analysis Intelligence Index v5.0: 59 (1.º); SEC-bench Pro 88,2%; ExploitGym 54,8%; CWE-bench 71,0%",
+        "WebDev Arena: 4.º con 1768 Elo, detrás de Claude Opus 5.5",
+        "Benchmark de honestidad agéntica (375 tareas): 92% vs 70% de Argon",
+        "Benchmarks de ciberseguridad externos evaluados sin guardrails",
+        "Ventana de contexto: no informada en los anuncios"
+      ],
+      "fuentes": [
+        {"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/", "medio": "Google (blog oficial)", "titulo": "Gemini 4 Carbon is now available", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T12:02:00-03:00"},
+        {"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/", "medio": "Google (blog oficial)", "titulo": "Gemini 4 Carbon: our next frontier model", "fecha_publicacion": "2026-10-28", "consultado": "2026-11-14T11:45:00-03:00"},
+        {"url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/", "medio": "Google (blog oficial)", "titulo": "Gemini 4 Carbon is now available for developers", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T11:51:00-03:00"},
+        {"url": "https://www.theregister.com/ai-and-ml/2026/10/29/googles-gemini-4-carbon-looks-like-a-diamond-in-the-rough/5306149", "medio": "The Register", "titulo": "Google's Gemini 4 Carbon looks like a diamond in the rough", "fecha_publicacion": "2026-10-29", "consultado": "2026-11-14T12:01:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El modelo y su precio están contrastados en Google y The Register; la disponibilidad general del 10/11 y la fecha de fin del precio promocional (30/11) sólo constan en Google. Los benchmarks son de Google o de operadores de rankings, sin verificación independiente. No se informa ventana de contexto."
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo_sugerido": "Azure SQL antes de Ignite: Hyperscale más grande, DiskANN en GA y agentes de base de datos en preview",
+      "bajada": "Microsoft hizo el 11 de noviembre el balance anual de su línea SQL y anticipó la agenda de Ignite, que se hace del 17 al 20 de noviembre en San Francisco.",
+      "cuerpo": "El 11 de noviembre, en el marco de PASS Summit, Anna Hoffman (Microsoft) publicó un resumen de lo que la línea SQL lanzó en 2026; no es una lista de anuncios nuevos, y deja explícitamente las novedades para Ignite, que será del 17 al 20 de noviembre, por lo que esta semana no hubo anuncios de Ignite que cubrir. En Azure SQL Database están en GA los índices vectoriales DiskANN con búsqueda vectorial, AI_GENERATE_EMBEDDINGS, las opciones Hyperscale Premium de 160 y 192 vCores y la inmutabilidad automática de los últimos siete días de backups PITR sin costo (todavía no aplica a Hyperscale). En preview quedan las elastic pools Hyperscale de alta densidad (hasta 50 bases y 128 TB por pool), la pausa automática de Hyperscale serverless, el enmascaramiento dinámico con expresiones regulares y los 'Database Agents' en Database Hub, que investigan rendimiento y recomiendan cambios dentro de los permisos existentes. Un dato clave para quien corre SQL Server propio: esas funciones de IA, salvo regex, todavía no llegaron a SQL Server ni a Managed Instance con versión fija; además SSMS 22.10.2 ya trae el modo agente de GitHub Copilot y Microsoft.Data.SqlClient 7.1 está en GA. La agenda de Ignite publicada el 13 de noviembre incluye una sesión 'Sneak peek: What's next in SQL' el jueves 19 y otra sobre agentes de Database Hub que actúan con aprobación humana, sin nombrar una próxima versión de SQL Server.",
+      "fecha_acontecimiento": "2026-11-11",
+      "importancia": 3,
+      "datos_clave": [
+        "Microsoft Ignite 2026: 17 al 20 de noviembre, San Francisco (fuera de la ventana de esta edición)",
+        "GA en Azure SQL Database: DiskANN + búsqueda vectorial, AI_GENERATE_EMBEDDINGS, Hyperscale Premium 160/192 vCores",
+        "Inmutabilidad automática de backups PITR de 7 días sin costo; no aplica a Hyperscale",
+        "Preview: elastic pools Hyperscale hasta 50 bases y 128 TB; serverless auto-pause en Hyperscale; masking con REGEXP_REPLACE",
+        "Database Agents en Database Hub (Fabric): preview",
+        "Funciones de IA (salvo regex) aún no disponibles en SQL Server ni en MI con versión fija; regex llega en SQL Server 2025 CU5",
+        "SSMS 22.10.2 (28/9) con GitHub Copilot Agent Mode; Microsoft.Data.SqlClient 7.1 GA (septiembre)",
+        "Sesión de roadmap en Ignite: 'Sneak peek: What's next in SQL', jueves 19/11"
+      ],
+      "fuentes": [
+        {"url": "https://devblogs.microsoft.com/azure-sql/whats-new-across-microsoft-sql-in-2026-so-far-the-pass-summit-west-roundup/", "medio": "Azure SQL Dev Corner (Microsoft)", "titulo": "What's new across Microsoft SQL in 2026 so far: the PASS Summit West roundup", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T12:04:00-03:00"},
+        {"url": "https://techcommunity.microsoft.com/blog/sqlserver/your-day-by-day-guide-to-microsoft-sql-at-ignite-2026/4573303", "medio": "Microsoft Tech Community", "titulo": "Your day-by-day guide to Microsoft SQL at Ignite 2026", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T12:05:00-03:00"},
+        {"url": "https://techcommunity.microsoft.com/blog/partnernews/get-ready-for-microsoft-ignite-2026/4568837", "medio": "Microsoft Tech Community", "titulo": "Get ready for Microsoft Ignite 2026", "fecha_publicacion": "2026-10-29", "consultado": "2026-11-14T11:40:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Todas las fuentes son de Microsoft; no hubo cobertura independiente en los medios aceptados. El resumen no distingue qué se anunció en PASS y qué antes; las fechas de GA son las que da el post. La sede de Ignite (San Francisco) consta en la guía del 13/11, no en la de partners. Los anuncios de Ignite (Azure, SQL Server, agentes) recién se conocerán a partir del 17/11."
+    },
+    {
+      "seccion": "ciencia",
+      "titulo_sugerido": "Hera llegó a Didymos: empieza la autopsia del primer impacto de defensa planetaria",
+      "bajada": "La sonda de la ESA orbita desde esta semana el sistema binario que la NASA golpeó con DART en 2022, con apoyo de una antena de espacio profundo en Argentina.",
+      "cuerpo": "La Agencia Espacial Europea informó el 11 de noviembre de 2026 que Hera llegó al sistema binario Didymos y comenzó su fase de caracterización temprana a unos 25-30 km de los dos asteroides; al día siguiente difundió una imagen con la luna Dimorphos parcialmente oculta. Como la gravedad es ínfima (Didymos mide unos 780 m y Dimorphos unos 151 m, con gravedades unas 40.000 y 200.000 veces menores que la terrestre), Hera no describe una órbita clásica sino un 'rectángulo' alrededor del centro de masa, a unos 12 cm/s, con tramos rectos y giros de 90 grados que, si falla un propulsor, la alejan en lugar de acercarla. El objetivo es medir qué dejó el impacto de DART (26 de septiembre de 2022, 580 kg a 6,1 km/s, que acortó la órbita de Dimorphos unos 33 minutos): si hubo cráter o se deformó el cuerpo, su masa y su estructura interna, para calibrar los modelos de desvío de asteroides. El mes próximo empieza la fase de caracterización detallada desde unos 20 km, y en los meses siguientes se desplegarán dos CubeSats y se hará la 'investigación del sitio del choque'. La ESA aclara que todavía no hay resultados sobre masa ni cráter. La sonda se comunica unas ocho horas diarias a 196,5 millones de km mediante antenas de 35 m de la red de espacio profundo, entre ellas la de Argentina.",
+      "fecha_acontecimiento": "2026-11-11",
+      "importancia": 4,
+      "datos_clave": [
+        "Llegada informada por ESA: 11/11/2026; distancia inicial 25-30 km del par",
+        "Didymos ~780 m; Dimorphos ~151 m",
+        "Órbita 'rectangular' a ~12 cm/s alrededor del centro de gravedad común",
+        "DART: 26/9/2022, 580 kg a 6,1 km/s, órbita de Dimorphos acortada ~33 min",
+        "Próxima fase (diciembre): arcos hiperbólicos desde ~20 km; luego despliegue de 2 CubeSats",
+        "Comunicación ~8 h/día a 196,5 millones de km con antenas de 35 m en Argentina, España y Australia",
+        "Sin resultados aún sobre masa ni cráter"
+      ],
+      "fuentes": [
+        {"url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-spacecraft-in-rectangular-orbit-around-target-asteroids", "medio": "ESA", "titulo": "Hera spacecraft in 'rectangular orbit' around target asteroids", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T11:57:00-03:00"},
+        {"url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-spies-a-half-hidden-asteroid-moonlet", "medio": "ESA", "titulo": "Hera spies a half-hidden asteroid moonlet", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T11:56:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Sólo fuentes de la ESA; no se encontró cobertura independiente en medios aceptados. La nota de ESA no da la fecha exacta de llegada ni nombra los CubeSats (otras páginas de ESA y JAXA los identifican como Milani y Juventas, y JAXA llegó a dar diciembre como fecha de arribo). La ESA no especifica en esta nota cuál antena argentina se usa; Malargüe (Mendoza) es la estación de 35 m de ESA en el país, pero no está nombrada en la fuente."
+    },
+    {
+      "seccion": "ciencia",
+      "titulo_sugerido": "Euclid publica su primer gran catálogo: 900 millones de galaxias para mapear la materia oscura",
+      "bajada": "La ESA liberó el 12 de noviembre la entrega DR1-Foundation, con 13 meses de observación y cerca de 1,7 petabytes de datos.",
+      "cuerpo": "El 12 de noviembre de 2026 la ESA publicó DR1-Foundation, la primera gran entrega de datos del telescopio espacial Euclid, que reúne unos 13 meses de observaciones del relevamiento amplio sobre aproximadamente 1.900 grados cuadrados de cielo, el equivalente a 9.500 lunas llenas. El catálogo supera los 900 millones de galaxias y los mil millones de objetos, e incluye unos 15.000 candidatos a lentes gravitacionales fuertes, más de 60 millones de candidatos a cuásares y espectros de más de 160 millones de fuentes, en alrededor de 1,7 millones de gigabytes. Euclid busca restringir la naturaleza de la energía oscura y la materia oscura midiendo la forma y la distancia de las galaxias para reconstruir en 3D la red cósmica. Los límites están declarados: la entrega cubre sólo cerca del 14% del área total planificada y todavía no incluye el análisis de lente gravitacional débil ni las mediciones cosmológicas, que llegarán con el DR1 completo a mediados de 2027. Los datos son abiertos en la plataforma Euclid Data Space, lo que los vuelve también un banco de pruebas para análisis masivo con aprendizaje automático.",
+      "fecha_acontecimiento": "2026-11-12",
+      "importancia": 3,
+      "datos_clave": [
+        "Entrega: DR1-Foundation, 12/11/2026, ~13 meses de observación",
+        "Área: ~1.900 grados cuadrados (~14% del relevamiento planificado)",
+        "Más de 900 millones de galaxias y más de mil millones de objetos",
+        "~15.000 candidatos a lentes fuertes; más de 60 millones de candidatos a cuásares; espectros de más de 160 millones de fuentes",
+        "Volumen: ~1,7 millones de GB",
+        "DR1 completo con lente débil y resultados de red cósmica: mediados de 2027"
+      ],
+      "fuentes": [
+        {"url": "https://www.esa.int/articles/about-us/directorates/science/euclid/euclid-lays-the-foundation-for-its-best-ever-3d-map-of-the-universe", "medio": "ESA", "titulo": "Euclid lays the foundation for its best-ever 3D map of the Universe", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T12:03:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Fuente única (ESA). No se encontraron todavía artículos científicos con DOI asociados a esta entrega ni cobertura independiente; la ESA no informa la cantidad de papers que acompañan la publicación. La mención al aprendizaje automático es contexto editorial, no está en la fuente."
+    },
+    {
+      "seccion": "ciencia",
+      "titulo_sugerido": "Voyager 1 estará a un día-luz de la Tierra el miércoles 18",
+      "bajada": "La NASA confirmó que la sonda lanzada en 1977 cruzará la semana próxima los 25.900 millones de km, distancia que la luz tarda 24 horas en recorrer.",
+      "cuerpo": "En un comunicado del 10 de noviembre de 2026, actualizado el 13, la NASA informó que Voyager 1 alcanzará el miércoles 18 de noviembre la distancia de un día-luz respecto de la Tierra: más de 25.900 millones de kilómetros (16.000 millones de millas). Eso significa que una orden enviada desde la Tierra tardará un día entero en llegar a la nave y otro tanto en volver la confirmación, lo que da una idea del margen con que opera el equipo del JPL. La sonda fue lanzada en 1977 y es el objeto construido por humanos más lejano. La NASA organiza para el martes 17 una convocatoria pública para hacer destellos con el código Morse de 'VGR' tras la puesta del sol, y el jueves 19 una charla en el auditorio von Kármán del JPL con avance de un documental previsto para 2027. El comunicado no informa el estado actual de los instrumentos ni de la energía de la nave.",
+      "fecha_acontecimiento": "2026-11-18",
+      "importancia": 3,
+      "datos_clave": [
+        "Hito: un día-luz de distancia, miércoles 18/11/2026 (hora no informada)",
+        "Distancia: más de 25.900 millones de km",
+        "Lanzamiento: 1977",
+        "Actividades: 17/11 'Shine Bright for Voyager's Light-Day'; 19/11 charla en JPL a las 12 EST"
+      ],
+      "fuentes": [
+        {"url": "https://nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities", "medio": "NASA", "titulo": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T11:58:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Fuente única (NASA). Es un hito futuro (18/11), posterior al cierre. El comunicado no da hora exacta ni el estado de instrumentos y energía de la sonda."
+    }
+  ],
+  "glosario": [
+    {
+      "termino": "Tipo unión (union type)",
+      "definicion": "Tipo cuyo valor es exactamente uno de un conjunto cerrado de tipos declarados, sin que estos tengan que compartir una clase base; el compilador verifica que un switch contemple todos los casos.",
+      "ejemplo": "Un resultado de facturación declarado como unión de Aprobada, Rechazada o Pendiente obliga a manejar los tres casos, en lugar de un objeto genérico o una excepción.",
+      "nota_relacionada": ".NET 11 y C# 15: llegan los tipos unión, Runtime Async y un EF Core que poda joins"
+    },
+    {
+      "termino": "Runtime Async",
+      "definicion": "Implementación de async/await en la que el runtime de .NET, y no el compilador mediante una máquina de estados generada, se encarga de suspender y reanudar los métodos asincrónicos.",
+      "ejemplo": "Una excepción dentro de una cadena de awaits muestra una pila de llamadas más limpia y con menos asignaciones de memoria al calentar la aplicación.",
+      "nota_relacionada": ".NET 11 y C# 15: llegan los tipos unión, Runtime Async y un EF Core que poda joins"
+    },
+    {
+      "termino": "Búsqueda de vecinos aproximada (ANN) con DiskANN",
+      "definicion": "Búsqueda vectorial que usa un índice basado en grafos, diseñado para residir mayormente en disco, para devolver los k vectores más parecidos sin compararlos todos, a cambio de no garantizar el resultado exacto.",
+      "ejemplo": "En Azure SQL, VECTOR_SEARCH con WITH APPROXIMATE recupera los 5 productos más similares a una consulta en milisegundos; sin el índice, se calcula la distancia contra toda la tabla (kNN exacto).",
+      "nota_relacionada": "Azure SQL antes de Ignite: Hyperscale más grande, DiskANN en GA y agentes de base de datos en preview"
+    },
+    {
+      "termino": "Filtración de hash NTLMv2",
+      "definicion": "Ataque en el que se fuerza a Windows a autenticarse contra un servidor del atacante, que captura la respuesta NTLMv2 del usuario para crackearla o reenviarla (relay) a otro servicio.",
+      "ejemplo": "Un mensaje de Outlook manipulado apunta a una ruta de red externa y, al abrirlo, el cliente envía el hash sin mostrar la advertencia habitual.",
+      "nota_relacionada": "Patch Tuesday de noviembre: 1.094 fallas, un zero-day en Outlook y el año que superó los 100.000 CVE"
+    },
+    {
+      "termino": "Vulnerabilidad 'wormable'",
+      "definicion": "Falla explotable por red sin autenticación ni interacción del usuario, que permite a un código malicioso propagarse solo de un equipo vulnerable a otro.",
+      "ejemplo": "Una ejecución remota en LDAP de CVSS 9,8 podría comprometer en cadena varios controladores de dominio de una misma red.",
+      "nota_relacionada": "Patch Tuesday de noviembre: 1.094 fallas, un zero-day en Outlook y el año que superó los 100.000 CVE"
+    },
+    {
+      "termino": "Inyección indirecta de prompt",
+      "definicion": "Ataque en el que las instrucciones maliciosas no las escribe el usuario sino que llegan dentro de contenido que el modelo procesa (una web, un correo, un documento) e intentan desviar a un agente de su tarea.",
+      "ejemplo": "Un PDF de proveedor con texto oculto que le ordena al agente de cuentas a pagar cambiar el CBU de destino; el benchmark de Gray Swan mide cuántas veces el modelo obedece.",
+      "nota_relacionada": "Gemini 4 Carbon pasa a disponibilidad general con precio promocional hasta el 30 de noviembre"
+    }
+  ]
+}

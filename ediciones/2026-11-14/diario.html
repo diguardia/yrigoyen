@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>El Diario de Yrigoyen Nº 3</title>
+<style>:root{--papel-ancho:210mm;--papel-alto:297mm;--margen:10mm;}
+/* El Diario de Yrigoyen — hoja de estilos de impresión. Monocromo, A4 por defecto (variables desde render.js). */
+@page { size: var(--papel-ancho) var(--papel-alto); margin: 0; }
+
+:root {
+  --serif: Georgia, Cambria, 'Times New Roman', serif;
+  --sans: 'Segoe UI', Calibri, Arial, sans-serif;
+  --negro: #000;
+  --gris-texto: #333;
+  --gris-regla: #888;
+  --gris-fondo: #ececec;
+  --col-gap: 5mm;
+}
+
+html, body { margin: 0; padding: 0; background: #fff; color: var(--negro); }
+body { font-family: var(--serif); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+* { box-sizing: border-box; }
+
+.page {
+  width: var(--papel-ancho);
+  height: var(--papel-alto);
+  padding: var(--margen);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  font-size: var(--cuerpo);
+  line-height: 1.24;
+  page-break-after: always;
+  break-after: page;
+}
+.page:last-child { page-break-after: auto; break-after: auto; }
+@media screen { .page { margin: 6mm auto; box-shadow: 0 0 0 1px #bbb; } body { background: #ddd; } }
+
+/* Encabezado y pie */
+.ph { flex: 0 0 auto; display: flex; justify-content: space-between; align-items: baseline; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1mm; margin-bottom: 2.5mm; font-family: var(--sans); font-size: 7pt; letter-spacing: 0.06em; text-transform: uppercase; }
+.ph .ph-seccion { font-weight: 700; }
+.pf { flex: 0 0 auto; display: flex; justify-content: space-between; border-top: 0.5pt solid var(--negro); padding-top: 1mm; margin-top: 2mm; font-family: var(--sans); font-size: 7pt; color: var(--gris-texto); }
+.pb { flex: 1 1 auto; min-height: 0; position: relative; display: flex; flex-direction: column; }
+.pb > * { flex: 1 1 auto; min-height: 0; }
+
+/* Flujo en columnas */
+.flow { height: 100%; column-count: var(--columnas, 3); column-gap: var(--col-gap); column-fill: auto; column-rule: 0.3pt solid #bbb; }
+.flow.c2 { column-count: 2; }
+.flow > * { break-inside: avoid-column; }
+.flow > .art { break-inside: auto; }
+
+/* Artículos */
+p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: auto; orphans: 2; widows: 2; }
+.art { margin-bottom: 1.8mm; }
+.art + .art { border-top: 0.3pt solid #bbb; padding-top: 1.3mm; }
+.kicker { font-family: var(--sans); font-size: 0.72em; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris-texto); margin: 0 0 0.6mm; break-after: avoid; }
+.tit { font-family: var(--serif); font-weight: 700; line-height: 1.08; margin: 0 0 1mm; letter-spacing: -0.01em; break-after: avoid; break-inside: avoid; }
+.art .tit { font-size: 1.32em; }
+.art.lead .tit { font-size: 1.8em; column-span: all; margin-bottom: 1mm; }
+.art.lead .kicker { column-span: all; }
+.bajada { font-style: italic; font-size: 1em; line-height: 1.2; margin: 0 0 1.1mm; color: #111; break-after: avoid; }
+.art.lead .bajada { column-span: all; font-size: 1.05em; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.2mm; margin-bottom: 1.5mm; }
+.cuerpo p:first-child::first-letter { font-weight: 700; }
+.fuente { font-family: var(--sans); font-size: 0.74em; color: var(--gris-texto); margin: 0.4mm 0 0; text-align: left; }
+.fuente::before { content: 'Fuente: '; }
+.datos { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); margin: 0 0 0.6mm; }
+.tipo-analisis .kicker::after { content: ' · análisis'; }
+
+/* Breves */
+.breves { break-inside: avoid; margin-bottom: 2mm; }
+.breves h3 { font-family: var(--sans); font-size: 0.8em; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1mm; border-bottom: 1.2pt solid var(--negro); padding-bottom: 0.5mm; }
+.breve { margin: 0 0 1.1mm; text-align: left; font-size: 0.95em; }
+.breve b { font-weight: 700; }
+.breve .f { font-family: var(--sans); font-size: 0.72em; color: var(--gris-texto); }
+
+/* Dato no disponible */
+.nd { border: 0.6pt dashed var(--gris-regla); padding: 1.2mm 1.8mm; margin: 1mm 0 2mm; font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); break-inside: avoid; }
+.nd b { color: var(--negro); }
+
+/* Portada */
+.ph.masthead { display: block; border: 0; border-bottom: 1.8pt solid var(--negro); padding-bottom: 1.5mm; margin-bottom: 2mm; text-transform: none; letter-spacing: 0; }
+.masthead h1 { font-family: var(--serif); font-size: 36pt; font-weight: 700; margin: 0; text-align: center; letter-spacing: -0.015em; line-height: 1; }
+.masthead .sub { display: flex; justify-content: space-between; font-family: var(--sans); font-size: 7.5pt; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 1.5mm; border-top: 0.5pt solid var(--negro); padding-top: 1mm; }
+.strip { flex: 0 0 auto !important; display: grid; grid-template-columns: 1.15fr 1.25fr 1.3fr; gap: 3mm; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.6mm; margin-bottom: 2.2mm; font-family: var(--sans); font-size: 7.4pt; }
+.strip h4 { margin: 0 0 0.7mm; font-size: 6.8pt; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gris-texto); }
+.strip-clima { display: flex; gap: 2.5mm; align-items: center; }
+.strip-clima .dia { display: flex; align-items: center; gap: 1.2mm; }
+.strip-clima .wicon { width: 8mm; height: 8mm; flex: 0 0 auto; }
+.strip-clima .t { line-height: 1.15; }
+.strip-clima .t b { font-size: 9pt; }
+.strip-cot table { border-collapse: collapse; width: 100%; }
+.strip-cot td { padding: 0 1mm 0 0; line-height: 1.25; white-space: nowrap; }
+.strip-cot td.v { text-align: right; font-variant-numeric: tabular-nums; }
+.strip-disco { font-family: var(--serif); font-size: 8.4pt; line-height: 1.2; }
+.strip-disco b { font-size: 9pt; }
+.strip-disco .just { font-style: italic; }
+.strip + .portada-main { }
+.portada-main { display: grid; grid-template-columns: 2fr 1fr; gap: var(--col-gap); }
+.principal { display: flex; flex-direction: column; min-height: 0; }
+.principal .kicker { font-size: 7.2pt; }
+.principal .tit { font-size: 25pt; line-height: 1.02; margin-bottom: 1.6mm; }
+.principal .bajada { font-size: 11pt; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.6mm; margin-bottom: 1.8mm; }
+.principal .cuerpo { flex: 0 1 auto; min-height: 0; column-count: 2; column-gap: var(--col-gap); column-fill: balance; column-rule: 0.3pt solid #bbb; font-size: 9.6pt; }
+.secundarias { border-left: 0.5pt solid var(--negro); padding-left: 3mm; min-height: 0; overflow: hidden; }
+.secundarias h3 { font-family: var(--sans); font-size: 7pt; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1.4mm; color: var(--gris-texto); }
+.sec { margin-bottom: 2.2mm; break-inside: avoid; }
+.sec h4 { font-size: 10.6pt; line-height: 1.1; margin: 0 0 0.6mm; }
+.sec p { font-size: 8.6pt; text-align: left; margin: 0; hyphens: auto; }
+.sec .pg { font-family: var(--sans); font-size: 6.8pt; color: var(--gris-texto); }
+.llamadas { flex: 0 0 auto !important; display: grid; grid-template-columns: repeat(var(--n-llamadas, 4), 1fr); gap: 3mm; border-top: 1.2pt solid var(--negro); margin-top: 2mm; padding-top: 1.6mm; }
+.llamada { font-size: 8.4pt; line-height: 1.2; }
+.llamada .et { font-family: var(--sans); font-size: 6.6pt; letter-spacing: 0.1em; text-transform: uppercase; display: block; color: var(--gris-texto); }
+.llamada .pg { font-family: var(--sans); font-size: 6.6pt; color: var(--gris-texto); }
+
+/* Finanzas */
+.fin { display: flex; flex-direction: column; height: 100%; gap: 1.4mm; }
+.coin { border-top: 0.8pt solid var(--negro); padding-top: 1mm; break-inside: avoid; }
+.coin-head { display: flex; align-items: baseline; gap: 3mm; font-family: var(--sans); margin-bottom: 0.6mm; }
+.coin-head .sym { font-size: 12pt; font-weight: 700; }
+.coin-head .nom { font-size: 7.5pt; color: var(--gris-texto); }
+.coin-head .px { font-size: 12pt; font-weight: 700; margin-left: auto; font-variant-numeric: tabular-nums; }
+.coin-head .vars { display: flex; gap: 2mm; font-size: 7.2pt; }
+.coin-head .vars span { border: 0.4pt solid var(--gris-regla); padding: 0 1.2mm; border-radius: 1mm; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.coin-head .vars span.neg { background: var(--gris-fondo); }
+.charts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3mm; }
+.chart { width: 100%; height: auto; display: block; font-family: var(--sans); }
+.coin .com { font-size: 0.82em; line-height: 1.18; margin: 0.8mm 0 0; text-align: left; }
+.fin-bottom { display: grid; grid-template-columns: 1fr 1.25fr; gap: var(--col-gap); border-top: 0.8pt solid var(--negro); padding-top: 1.5mm; flex: 1 1 auto; min-height: 0; }
+.tabla { border-collapse: collapse; width: 100%; font-family: var(--sans); font-size: 7.4pt; }
+.tabla th, .tabla td { padding: 0.45mm 1mm; border-bottom: 0.3pt solid #bbb; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tabla th { border-bottom: 0.8pt solid var(--negro); font-weight: 700; font-size: 6.8pt; text-transform: uppercase; letter-spacing: 0.04em; }
+.tabla td.l, .tabla th.l { text-align: left; }
+.tabla tr.destacado td { font-weight: 700; background: var(--gris-fondo); }
+.tabla caption { caption-side: top; text-align: left; font-weight: 700; font-size: 7.6pt; padding: 0 0 0.8mm; }
+.aviso { font-family: var(--sans); font-size: 6.8pt; color: var(--gris-texto); margin-top: 1mm; text-align: left; }
+.h3 { font-family: var(--sans); font-size: 0.8em; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1mm; border-bottom: 1.2pt solid var(--negro); padding-bottom: 0.5mm; break-after: avoid; }
+.glos dt { font-weight: 700; margin-top: 1mm; }
+.glos dd { margin: 0 0 0.6mm; font-size: 0.92em; text-align: justify; hyphens: auto; }
+.glos dd .ej { color: var(--gris-texto); }
+.glos dd .rel { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); }
+
+/* Boca */
+.boca { display: grid; grid-template-columns: 1.05fr 1fr; gap: var(--col-gap); height: 100%; }
+.boca .col { min-height: 0; display: flex; flex-direction: column; gap: 1.6mm; }
+.bloque { break-inside: avoid; }
+.bloque p { text-align: left; }
+.proximo { border: 1.4pt solid var(--negro); padding: 1.6mm 2.2mm; }
+.proximo .et { font-family: var(--sans); font-size: 6.8pt; letter-spacing: 0.1em; text-transform: uppercase; }
+.proximo .rival { font-size: 1.55em; font-weight: 700; line-height: 1.08; margin: 0.4mm 0; }
+.proximo .cuando { font-size: 1.05em; font-weight: 700; }
+.proximo .det { font-family: var(--sans); font-size: 0.8em; color: var(--gris-texto); margin: 0.4mm 0 0; }
+.proximo.hoy { background: var(--gris-fondo); }
+.resultado { font-size: 1.5em; font-weight: 700; line-height: 1.1; margin: 0 0 0.6mm; }
+.goles { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); margin: 0 0 0.8mm; }
+.lista { margin: 0; padding-left: 3.2mm; font-size: 0.92em; }
+.lista li { margin-bottom: 0.3mm; text-align: left; }
+.lista.sans { font-family: var(--sans); font-size: 0.8em; }
+.formacion { font-size: 0.95em; margin: 0 0 0.6mm; text-align: left; }
+.formacion b { font-family: var(--sans); font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.06em; }
+.boca .tabla { font-size: 7.1pt; }
+.boca .tabla th, .boca .tabla td { padding: 0.35mm 0.8mm; }
+.sello { font-family: var(--sans); font-size: 6.8pt; color: var(--gris-texto); margin-top: auto; text-align: left; }
+
+/* Contratapa */
+.contra { display: grid; grid-template-columns: 1.15fr 1fr; gap: var(--col-gap); height: 100%; }
+.contra .col { min-height: 0; display: flex; flex-direction: column; gap: 2mm; }
+.contra .art.lit { margin-bottom: 0; } .contra .art.lit .art { margin: 0; border: 0; padding: 0; } .contra .art.lit .tit { font-size: 1.35em; } .contra .art.lit p { font-size: 1em; line-height: 1.24; text-align: justify; }
+.disco .tit { font-size: 1.5em; }
+.disco .ficha { font-family: var(--sans); font-size: 0.8em; color: var(--gris-texto); margin-bottom: 1mm; }
+.lit { border-top: 0.8pt solid var(--negro); padding-top: 1.2mm; }
+.lit .tit { font-size: 1.35em; }
+.lit .autor { font-family: var(--sans); font-size: 0.78em; color: var(--gris-texto); margin: 0 0 1.2mm; }
+.lit p { text-align: left; font-size: 1.02em; line-height: 1.32; }
+.verso { margin: 0; text-align: left; line-height: 1.32; font-size: 1.02em; }
+.verso.blanco { height: 0.6em; }
+.lit .nota { font-family: var(--sans); font-size: 0.74em; color: var(--gris-texto); margin-top: 1mm; }
+.clima .dias { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2mm; margin-bottom: 1.2mm; }
+.clima .dia { text-align: center; border: 0.4pt solid var(--gris-regla); padding: 1mm 0.5mm; font-family: var(--sans); font-size: 7.2pt; }
+.clima .dia .wicon { width: 10mm; height: 10mm; display: block; margin: 0.5mm auto; }
+.clima .dia .d { font-weight: 700; text-transform: capitalize; }
+.clima .dia .tt b { font-size: 10pt; }
+.clima .dia .tt { line-height: 1.2; }
+.clima .tabla { font-size: 7pt; }
+.clima .obs { font-size: 0.9em; text-align: left; margin: 0.8mm 0 0; }
+.erratas p { text-align: left; font-size: 0.92em; }
+.fuentes-ed { font-family: var(--sans); font-size: 6.6pt; color: var(--gris-texto); text-align: left; line-height: 1.3; }
+.fuentes-ed b { color: var(--negro); }
+.pie-legal { font-family: var(--sans); font-size: 6.4pt; color: var(--gris-texto); margin-top: auto; text-align: left; }
+.wicon { display: inline-block; vertical-align: middle; }
+
+.chart-infl { margin: 1.5mm 0 1mm; } .chart-infl .chart { width: 100%; }
+.clima .tabla tr.obs td { color: var(--gris-texto); font-style: italic; }
+.contra .art.lit p.fuente { font-size: 0.74em; text-align: left; }
+/* Segunda nota de portada, bajo la principal */
+.col-principal { display: flex; flex-direction: column; min-height: 0; }
+.segunda { border-top: 1.2pt solid var(--negro); margin-top: 2.5mm; padding-top: 1.5mm; }
+.segunda .tit { font-size: 15pt; line-height: 1.08; margin-bottom: 1mm; }
+.segunda .bajada { font-size: 10pt; margin-bottom: 1.2mm; }
+.segunda .cuerpo { column-count: 2; column-gap: var(--col-gap); column-fill: balance; column-rule: 0.3pt solid #bbb; font-size: 9.4pt; }
+.fuente.sin-prefijo::before { content: ''; }
+.col-principal > .principal { flex: 0 0 auto; }
+.col-principal > .principal .cuerpo { flex: none; }
+.col-principal > .segunda { flex: 0 1 auto; min-height: 0; }
+</style></head><body><section class="page" data-pagina="1" data-nombre="portada" style="--cuerpo:9.25pt; --columnas:3">
+      <header class="ph masthead"><h1>El Diario de Yrigoyen</h1>
+    <div class="sub"><span>Nº 3</span><span>Sábado, 14 de noviembre de 2026</span><span>Los Cocos, Córdoba</span></div></header>
+      <div class="pb">
+  <div class="strip">
+    <div><h4>Clima en Los Cocos</h4><div class="strip-clima"><div class="dia"><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 38h26a10 10 0 0 0 1.5-19.9A15 15 0 0 0 18.5 22 8 8 0 0 0 20 38z"/><path d="M34 40l-7 11h8l-5 11" fill="#000"/><path d="M20 46l-2 6M46 46l-2 6"/></svg>
+<div class="t"><div><b>22°</b> / 17°</div><div>Sábado · Tormenta</div></div></div><div class="dia"><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 40h26a10 10 0 0 0 1.5-19.9A15 15 0 0 0 18.5 24 8 8 0 0 0 20 40z"/><path d="M22 47v1M30 50v1M38 47v1M26 55v1M34 56v1M42 54v1"/></svg>
+<div class="t"><div><b>26°</b> / 15°</div><div>Domingo · Llovizna</div></div></div></div></div>
+    <div class="strip-cot"><h4>Cotizaciones al cierre</h4><table><tr><td>Dólar oficial</td><td class="v">$ 1.570</td></tr><tr><td>Dólar MEP</td><td class="v">$ 1.581</td></tr><tr><td>Dólar blue</td><td class="v">$ 1.575</td></tr><tr><td>Riesgo país</td><td class="v">830 pb</td></tr><tr><td>Bitcoin</td><td class="v">US$ 67.226</td></tr></table></div>
+    <div class="strip-disco"><h4>Disco de la semana</h4><b>Glenn Gould</b>, <i>Bach: Variaciones Goldberg (1981)</i> (1982, música clásica, piano solo). <span class="just">Para una mañana de tormenta: la obra que lo hizo famoso en 1955, vuelta a grabar 26 años después, más lenta y más honda.</span></div>
+  </div>
+  <div class="portada-main">
+    <div class="col-principal">
+    <article class="principal art tipo-hecho">
+      <div class="kicker">Argentina · 11 nov</div>
+      <h2 class="tit">León XIV se despidió en Luján tras cuatro días en el país: «Argentina, levántate y camina»</h2>
+      <p class="bajada">La primera visita papal desde 1987 combinó misas multitudinarias con un mensaje directo a la dirigencia sobre economía, jóvenes y límites del poder.</p>
+      <div class="cuerpo"><p>El papa León XIV llegó el domingo 8 desde Uruguay, fue recibido por Javier Milei en la Casa Rosada y habló ante gobernadores, legisladores y funcionarios en el Palacio Libertad. Allí sostuvo que «la economía debe estar al servicio de la persona y no la persona al servicio de la economía», se preguntó en qué falla una nación cuyos jóvenes deben emigrar y pidió reconocer los límites del poder.</p><p>El lunes 9, feriado nacional, celebró misa en el Monumento de los Españoles; el martes 10 estuvo en Córdoba, donde dio misa en la Escuela de Aviación y recordó al Cura Brochero (página 3), y a la noche encabezó una vigilia con jóvenes en Palermo. El miércoles 11 visitó el penal de Devoto y cerró con una misa en Luján, donde llamó a reconciliarse con la historia.</p><p>La agenda dejó dos días sin actividad: el lunes 9 fue feriado nacional por decreto y el martes 10 rigió feriado en Córdoba y en la Ciudad de Buenos Aires, lo que acortó la semana bancaria y cambiaria (página 2). Fue la primera visita de un papa a la Argentina desde la de Juan Pablo II en 1987.</p><p>Las cifras de asistencia difieren: el Vaticano habló de 2 millones en Luján y otras estimaciones llegan a 3 millones en toda la visita. Milei lo despidió en Ezeiza y el Papa siguió viaje a Lima.</p><p class="fuente">Infobae, 11 nov · iProfesional, 11 nov · Forbes Argentina, 8 nov</p></div>
+    </article>
+    <article class="segunda art tipo-hecho">
+      <div class="kicker">Boca Juniors · hoy, 19:00 · 14 nov</div>
+      <h2 class="tit">Boca, ante dos definiciones en ocho días: hoy Banfield y el 21 Atlético Mineiro</h2>
+      <p class="bajada">Ya campeón de la tabla anual, juega a las 19 en Mendoza la semifinal de Copa Argentina, con penales directos si empata.</p>
+      <div class="cuerpo"><p>El partido con Banfield se juega en el estadio Malvinas Argentinas, con arbitraje de Nazareno Arasa y televisión de TyC Sports; el ganador enfrenta a Platense en la final del 2 de diciembre.</p><p>El sábado 21 a las 19:30 Boca juega en Barranquilla la final de la Sudamericana con Atlético Mineiro, tras eliminar a Vasco con un 3-1 en el Maracaná. Llega sin Lautaro Blanco y con Bareiro de vuelta en el banco.</p><p class="fuente">Canal 26, 14 nov · Diario Mendoza, 14 nov</p> <p class="fuente sin-prefijo">Más en página 7.</p></div>
+    </article>
+    </div>
+    <aside class="secundarias"><h3>En esta edición</h3><div class="sec"><h4>La inflación de octubre fue 2,2%, la más alta desde abril</h4><p>El núcleo bajó a 1,5%. En Córdoba, 2,7%. <span class="pg">Pág. 2</span></p></div><div class="sec"><h4>Riesgo país: rozó 940 y cerró la semana en 830</h4><p>Vencimientos de 2027, política y tasas de Estados Unidos. <span class="pg">Pág. 2</span></p></div><div class="sec"><h4>León XIV en Córdoba: misa en la Escuela de Aviación ante una multitud</h4><p>Entre 400.000 y un millón de personas según quién cuente. <span class="pg">Pág. 3</span></p></div><div class="sec"><h4>Crimen en La Cumbre: uno de los detenidos fue apresado en Los Cocos</h4><p>Juan Pablo Dentesano murió tras una agresión a la salida de un bar. <span class="pg">Pág. 3</span></p></div><div class="sec"><h4>.NET 11 y C# 15, con tipos unión y EF Core 11</h4><p>Además: Fable 5.2, un zero-day en Outlook y Gemini 4 Carbon. <span class="pg">Pág. 4</span></p></div><div class="sec"><h4>Estados Unidos: los demócratas ganaron las dos cámaras</h4><p>Trump tendrá un Congreso opositor desde enero. <span class="pg">Pág. 3</span></p></div><div class="sec"><h4>El agro superó los 100 millones de toneladas exportadas en diez meses</h4><p>Récord según la Bolsa de Comercio de Rosario. <span class="pg">Pág. 3</span></p></div></aside>
+  </div>
+  <div class="llamadas" style="--n-llamadas:4"><div class="llamada"><span class="et">UPC</span>Horas vacantes en Capilla del Monte, con Programación Full Stack: inscripción del 18 al 20. <span class="pg">Pág. 5</span></div><div class="llamada"><span class="et">Ciencia</span>Hera llegó al asteroide que golpeó DART y Euclid publicó 900 millones de galaxias. <span class="pg">Pág. 5</span></div><div class="llamada"><span class="et">Clima en las sierras</span>Alerta naranja hasta esta mañana; el lunes vuelven las tormentas, con 29 mm previstos. <span class="pg">Pág. 8</span></div><div class="llamada"><span class="et">Literatura</span>El sueño de la mariposa de Zhuangzi, en traducción propia, y Antonio Machado. <span class="pg">Pág. 8</span></div></div></div>
+      <footer class="pf"><span>Nº 3 · Los Cocos, Córdoba</span><span>Página <b class="pf-num">1</b> de 8</span></footer>
+    </section>
+<section class="page" data-pagina="2" data-nombre="actualidad" style="--cuerpo:9.25pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">El Diario de Yrigoyen</span> · Actualidad</span><span>sábado, 14 de noviembre de 2026 · <b class="ph-num">2</b></span></header>
+      <div class="pb"><div class="flow"><article class="art lead tipo-hecho" data-id="inflacion-octubre" data-recorte="">
+    <div class="kicker">Economía · 12 nov</div>
+    <h2 class="tit">La inflación de octubre fue 2,2%, la más alta desde abril, pero el núcleo bajó a 1,5%</h2>
+    <p class="bajada">Gas, combustibles y verduras empujaron el índice. La interanual quedó en 33,1% y el acumulado del año llega a 26,3%.</p>
+    <div class="cuerpo"><p>El INDEC informó el jueves 12 que el índice de precios al consumidor subió 2,2% en octubre, contra 1,9% en septiembre y 1,7% en agosto, por encima del 1,8% que esperaba la mediana del relevamiento de expectativas del Banco Central. La suba vino de los precios regulados (2,9%, por gas y combustibles) y de los estacionales (5,5%, por verduras); la división Vivienda, agua, electricidad y gas fue la de mayor alza, con 4,2%.</p><p>La inflación núcleo, en cambio, bajó a 1,5%, la menor desde julio de 2025 según destacó Luis Caputo, que atribuyó parte del salto general a los cambios en el régimen de Zona Fría. En Córdoba la estadística provincial midió 2,7%, medio punto más que el dato nacional, también por gas y alquileres (página 3).</p><p>Para un hogar, el dato confirma que las tarifas pesan más que el resto de la canasta en este fin de año. Para una pyme de servicios, el 1,5% del núcleo y el 33,1% interanual son la referencia más limpia para actualizar precios y salarios.</p></div>
+    <p class="fuente">INDEC, 12 nov · Infobae, 12 nov</p>
+  </article><article class="art  tipo-hecho" data-id="riesgo-pais" data-recorte="">
+    <div class="kicker">Economía · 13 nov</div>
+    <h2 class="tit">Riesgo país: de 589 a casi 940 en un mes, y una semana de alivio que lo dejó en 830</h2>
+    <p class="bajada">El índice de JP Morgan acumula su peor racha desde 2025 por dudas sobre los vencimientos de 2027, la política y las tasas de Estados Unidos.</p>
+    <div class="cuerpo"><p>El riesgo país estaba en 589 puntos el 9 de octubre, cuando salió la edición anterior, y cerró octubre en torno a 787. En la primera semana de noviembre superó los 800 y los 900, con un pico cercano a 938 el viernes 6, el nivel más alto desde las legislativas de octubre de 2025. Los analistas citan causas locales, como las dudas sobre cómo se pagarán los vencimientos de 2027 y 2028, reservas que no crecen al ritmo esperado y la incertidumbre por las presidenciales, y externas: tasas altas en Estados Unidos, el petróleo por la guerra con Irán y los resultados electorales en Brasil y Estados Unidos.</p><p>En la semana corta del 10 al 13 los bonos rebotaron y el índice bajó 107 puntos, hasta 830 el viernes; ninguna fuente atribuye la baja a una causa única. Para una pyme la consecuencia es crédito más caro: el Bonar 2029 llegó a rendir 17% en dólares y la TAMAR subió a 24,31%.</p></div>
+    <p class="fuente">Forbes Argentina, 5 nov · C5N, 13 nov · Forbes Argentina, 13 nov</p>
+  </article><article class="art  tipo-hecho" data-id="paso-senado" data-recorte="">
+    <div class="kicker">Argentina · 13 nov</div>
+    <h2 class="tit">El Gobierno apura la suspensión de las PASO 2027 y choca con Bullrich en el Senado</h2>
+    <p class="bajada">Asuntos Constitucionales se reúne el martes 17 y el oficialismo apunta a votar el 26, pero necesita 37 senadores que todavía no tiene asegurados.</p>
+    <div class="cuerpo"><p>Tras la visita papal, el Congreso entra en la recta final de las sesiones ordinarias, que vencen el 30 de noviembre. La prioridad de la Casa Rosada es suspender las primarias de 2027: la comisión del Senado fue convocada para el martes 17 a las 15 y la idea es llevar el proyecto al recinto el jueves 26. Al ser reforma electoral requiere 37 votos; el peronismo, con 21 bancas, la rechaza en bloque, y PRO y UCR proponen que las PASO dejen de ser obligatorias en lugar de suspenderlas. El jefe de Gabinete, Diego Santilli, asegura tener los votos; Patricia Bullrich, jefa del bloque libertario, lo pone en duda, y Karina Milei volvió a convocar la mesa política tras un mes sin reuniones. El Presupuesto 2027 busca dictamen en Diputados el martes 17 (página 5).</p></div>
+    <p class="fuente">Perfil, 13 nov · Infobae, 13 nov · Ámbito, 11 nov</p>
+  </article><article class="art  tipo-hecho" data-id="dolar-bcra" data-recorte="">
+    <div class="kicker">Economía · 13 nov</div>
+    <h2 class="tit">Dólar quieto, blue en máximo nominal y el BCRA compró US$ 223 millones en noviembre</h2>
+    <p class="bajada">En una semana cortada por los feriados papales, el mayorista cerró en $ 1.543,50 y las reservas rozaron los US$ 49.600 millones.</p>
+    <div class="cuerpo"><p>El oficial del Banco Nación cerró el viernes 13 en $ 1.570, sin cambios en la semana, y el mayorista en $ 1.543,50, su primera baja semanal en un mes. El blue subió a $ 1.575, un máximo nominal según Ámbito, el MEP quedó cerca de $ 1.580 y el contado con liquidación en torno a $ 1.672. El Banco Central compró US$ 172 millones en la semana (103 millones el jueves, la mayor compra en casi un mes), lleva US$ 223 millones en noviembre y US$ 16.191 millones en el año; las reservas brutas cerraron en US$ 49.597 millones. Con el oficial quieto y la inflación en 2,2%, los costos en dólares de una empresa que factura en pesos siguen subiendo.</p></div>
+    <p class="fuente">Ámbito, 13 nov · El Cronista, 13 nov · Perfil, 12 nov</p>
+  </article><article class="art  tipo-hecho" data-id="corte-pagni" data-recorte="">
+    <div class="kicker">Argentina · 12 nov</div>
+    <h2 class="tit">La Corte cerró la querella de Milei contra Carlos Pagni</h2>
+    <p class="bajada">El tribunal rechazó la queja del Presidente y dejó firme la desestimación por inexistencia de delito. Fuente única.</p>
+    <div class="cuerpo"><p>El jueves 12 la Corte Suprema rechazó la queja que el abogado de Javier Milei había presentado para reabrir la querella por calumnias e injurias contra el periodista. Rosatti, Rosenkrantz y Lorenzetti aplicaron el artículo 280 del Código Procesal, que permite rechazar un recurso sin mayor fundamentación; Lorenzetti aclaró en voto propio que eso no implica avalar lo resuelto antes. La causa nació de una columna de Pagni de abril de 2025 que Milei interpretó como una comparación con Hitler; el juez Rafecas la había desestimado y la Cámara y Casación confirmaron ese criterio.</p></div>
+    <p class="fuente">La Nación, 12 nov</p>
+  </article><div class="breves"><h3>Breves</h3><p class="breve"><b>Brasil: Lula, reelecto para un cuarto mandato.</b> Le ganó el balotaje del 25 de octubre a Flávio Bolsonaro, el candidato que había apoyado Milei, con 51,76% contra 48,24%, y asume el 5 de enero de 2027. <span class="f">Forbes Argentina, 25 oct</span></p><p class="breve"><b>Fin de semana largo del 21 al 23.</b> El feriado del Día de la Soberanía Nacional (viernes 20) se traslada al lunes 23. Es el segundo del mes, después de los feriados por la visita papal. <span class="f">La Nación, 23 nov</span></p></div></div></div>
+      <footer class="pf"><span>Nº 3 · Los Cocos, Córdoba</span><span>Página <b class="pf-num">2</b> de 8</span></footer>
+    </section>
+<section class="page" data-pagina="3" data-nombre="cordoba_mundo" style="--cuerpo:8.75pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">El Diario de Yrigoyen</span> · Córdoba y mundo</span><span>sábado, 14 de noviembre de 2026 · <b class="ph-num">3</b></span></header>
+      <div class="pb"><div class="flow"><article class="art lead tipo-hecho" data-id="papa-cordoba" data-recorte="">
+    <div class="kicker">Córdoba · 10 nov</div>
+    <h2 class="tit">León XIV dio misa en la Escuela de Aviación ante una multitud y recordó a Brochero</h2>
+    <p class="bajada">La visita del martes 10 movilizó entre 400.000 y un millón de personas según quién cuente, sin incidentes graves.</p>
+    <div class="cuerpo"><p>El Papa aterrizó en Córdoba el martes 10 a las 8:57, fue recibido por Martín Llaryora, Daniel Passerini y el cardenal Ángel Rossi y celebró misa en la explanada de la Escuela de Aviación Militar, en el predio de FAdeA. En la homilía llamó a Córdoba «tierra de santos» y pidió hacer memoria agradecida del Cura Brochero; por la tarde saludó desde el balcón del Arzobispado, habló en la Catedral, donde mencionó a Francisco y a Mama Antula, y a las 16:56 volvió a Buenos Aires.</p><p>Las cifras no coinciden: el ministro de Seguridad, Juan Pablo Quinteros, habló de más de 400.000 personas en FAdeA; la Municipalidad estimó más de 550.000 en el predio y más de un millón en todo el recorrido, ambas preliminares, y Llaryora mencionó cerca de un millón. Hubo unas 60 asistencias sanitarias y 12 derivaciones; el regreso en colectivos se adelantó y hubo demoras por la salida simultánea. La visita se hizo con feriado nacional el lunes 9 y provincial el martes 10.</p></div>
+    <p class="fuente">Perfil Córdoba, 10 nov · Cadena 3, 10 nov</p>
+  </article><article class="art  tipo-hecho" data-id="temporal-13" data-recorte="">
+    <div class="kicker">Córdoba · 13 nov</div>
+    <h2 class="tit">Tras 37 grados, un temporal dejó evacuados, granizo y calles anegadas</h2>
+    <p class="bajada">La tormenta del viernes golpeó sobre todo el sur y el este cordobés; Punilla quedó bajo alerta naranja hasta esta mañana.</p>
+    <div class="cuerpo"><p>El viernes 13 la ciudad de Córdoba llegó a 37 °C, con sensación térmica de 42,7 °C, y por la tarde el SMN emitió avisos a muy corto plazo por tormentas severas. Según el ministro de Desarrollo Social, Marcos Torres, en General Roca hubo 12 familias evacuadas, en Almafuerte dos jóvenes en moto fueron arrastradas unos 300 metros y en Río Tercero cayeron 95 mm en unos 40 minutos. En la Capital hubo 122 llamados a Defensa Civil y ráfagas de 78 km/h. Para Punilla el SMN elevó a naranja la alerta para la madrugada de hoy, con 50 a 90 mm y ráfagas de más de 90 km/h. No hubo reportes de daños en el valle en las fuentes consultadas.</p></div>
+    <p class="fuente">ElDoce, 13 nov · Cadena 3, 13 nov</p>
+  </article><article class="art  tipo-hecho" data-id="dentesano" data-recorte="">
+    <div class="kicker">Punilla · 8 nov</div>
+    <h2 class="tit">Crimen en La Cumbre: uno de los dos detenidos fue apresado en Los Cocos</h2>
+    <p class="bajada">Juan Pablo Dentesano, de 30 años, murió tras ser golpeado a la salida de un bar; el pueblo marchó en silencio.</p>
+    <div class="cuerpo"><p>Dentesano, nacido en La Cumbre y radicado en Italia, murió tras una agresión cerca de las 6 del domingo 8 en la puerta del bar Felipe Costa: según el Ministerio Público Fiscal, un hombre le impidió volver a entrar y lo golpeó, cayó de espaldas por dos escalones y otro lo pateó en la cabeza. La autopsia preliminar indicó hemorragia cerebral por traumatismo de cráneo. La fiscal Silvana Pen, de Cosquín, ordenó allanamientos: dos hombres de 31 y 32 años quedaron imputados por homicidio simple; uno fue detenido en su casa de Los Cocos y el otro se entregó. El martes 10 vecinos y familiares marcharon en silencio por La Cumbre. El parte fiscal ubica el hecho el día 6; los medios, el 8.</p></div>
+    <p class="fuente">Cadena 3, 8 nov · La Nación, 9 nov · La Estafeta Online, 10 nov</p>
+  </article><article class="art  tipo-hecho" data-id="santa-maria" data-recorte="">
+    <div class="kicker">Punilla · 7 nov</div>
+    <h2 class="tit">Hallaron sin vida a una madre y a su hijo en el río Cosquín</h2>
+    
+    <div class="cuerpo"><p>Noelia Rocío Sánchez, de 39 años, fue encontrada muerta el viernes 6 junto al río, en el balneario La Pasarela de Villa Caeiro, Santa María de Punilla; su hijo Benicio, de 6, apareció el sábado 7 a unos 50 metros. Eran de Roldán (Santa Fe) y estaban de visita. La autopsia de la mujer indicó asfixia por inmersión; investiga la Fiscalía de Cosquín y no se informaron las circunstancias.</p></div>
+    <p class="fuente">ElDoce, 7 nov · El Diario de Carlos Paz, 7 nov</p>
+  </article><article class="art  tipo-hecho" data-id="eeuu-legislativas" data-recorte="">
+    <div class="kicker">Mundo · 3 nov</div>
+    <h2 class="tit">Estados Unidos: los demócratas ganaron las dos cámaras y Trump tendrá un Congreso opositor</h2>
+    <p class="bajada">A una semana de las legislativas del 3 de noviembre, el recuento consolida la mayor ventaja demócrata en Diputados desde 1990.</p>
+    <div class="cuerpo"><p>Según el recuento del Council on Foreign Relations al 10 de noviembre, los demócratas tenían 254 bancas contra 165 en la Cámara, con 16 por definir, y 54 contra 44 en el Senado, con dos estados pendientes. No alcanzan para superar vetos ni el filibusterismo, pero desde el 3 de enero podrán bloquear leyes y nombramientos y abrir investigaciones. Trump minimizó la derrota y prometió vetar iniciativas demócratas. Para la Argentina, analistas señalan que el Congreso podría revisar la asistencia del Tesoro al país; es análisis, no un hecho. Los totales no están certificados.</p></div>
+    <p class="fuente">Council on Foreign Relations, 10 nov · Chequeado, 4 nov</p>
+  </article><article class="art  tipo-hecho" data-id="ormuz" data-recorte="">
+    <div class="kicker">Mundo · 14 nov</div>
+    <h2 class="tit">Ormuz sigue minado: cinco petroleros incendiados en dos días</h2>
+    <p class="bajada">La guerra con Irán, iniciada el 28 de febrero, mantiene bloqueada la vía de una quinta parte del petróleo mundial. Los incendios los informa sólo Irán.</p>
+    <div class="cuerpo"><p>Las fuerzas iraníes informaron el viernes 13 y hoy que cinco petroleros se incendiaron al chocar con minas en el estrecho, en rutas que Teherán considera no autorizadas; no hay confirmación independiente. Según la Organización Marítima Internacional hubo 134 incidentes desde el inicio de la guerra. Las negociaciones con Estados Unidos están estancadas y el Brent cerró el miércoles 11 en US$ 92,76.</p></div>
+    <p class="fuente">Infobae (EFE), 14 nov · Ámbito, 11 nov</p>
+  </article><article class="art  tipo-hecho" data-id="agro-record" data-recorte="">
+    <div class="kicker">Buena noticia · 13 nov</div>
+    <h2 class="tit">El agro superó por primera vez los 100 millones de toneladas exportadas en diez meses</h2>
+    
+    <div class="cuerpo"><p>Según el Informativo Semanal de la Bolsa de Comercio de Rosario del viernes 13, entre enero y octubre se embarcaron más de 101 millones de toneladas de granos y subproductos, 10 millones más que el récord previo para ese período y 13% más que en 2025. El maíz aportó 37,1 millones, el trigo 14,5 millones (45% más) y el complejo girasol más de 6,7 millones. La edición del 12 de octubre había informado 88,9 millones hasta septiembre. Es volumen, no dólares.</p></div>
+    <p class="fuente">Bolsa de Comercio de Rosario, 13 nov</p>
+  </article><div class="breves"><h3>Breves</h3><p class="breve"><b>Inflación cordobesa de 2,7% en octubre.</b> La Dirección de Estadística y Censos de la Provincia midió 2,7%, la más alta desde abril, con 32,2% interanual, por vivienda, gas y alquileres. Fuente única. <span class="f">La Estafeta Online, 13 nov</span></p><p class="breve"><b>Presupuesto provincial, postergado.</b> El ministro Guillermo Acosta iba a presentarlo el viernes 13 en la Legislatura, con alivio fiscal para pymes; según Puntal pasó para el lunes. Fuente única. <span class="f">Puntal (Río Cuarto), 13 nov</span></p><p class="breve"><b>Los Cocos.</b> Sin novedades municipales verificables en la semana: el sitio del municipio no tiene notas fechadas en noviembre. La localidad aparece en las noticias por el caso Dentesano y no figura en la grilla del Mes del Astroturismo (página 8). <span class="f">Municipalidad de Los Cocos, 13 nov</span></p></div></div></div>
+      <footer class="pf"><span>Nº 3 · Los Cocos, Córdoba</span><span>Página <b class="pf-num">3</b> de 8</span></footer>
+    </section>
+<section class="page" data-pagina="4" data-nombre="tecnologia" style="--cuerpo:9.25pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">El Diario de Yrigoyen</span> · Tecnología, programación e IA</span><span>sábado, 14 de noviembre de 2026 · <b class="ph-num">4</b></span></header>
+      <div class="pb"><div class="flow"><article class="art lead tipo-hecho" data-id="dotnet-11" data-recorte="">
+    <div class="kicker">Tecnología · 10 nov</div>
+    <h2 class="tit">.NET 11 y C# 15: tipos unión, Runtime Async y un EF Core que poda joins</h2>
+    <p class="bajada">Microsoft liberó el 10 de noviembre, en la apertura de .NET Conf, una versión STS con dos años de soporte. .NET 8 y .NET 9 quedaron sin soporte ese mismo día.</p>
+    <div class="cuerpo"><p>.NET 11 trae C# 15 por defecto; .NET 10 sigue siendo la versión LTS. La novedad de lenguaje es el tipo unión: un valor declarado como uno de un conjunto cerrado de tipos, con chequeo de exhaustividad en los switch. Lo acompañan las jerarquías cerradas (clases que sólo se derivan dentro de su ensamblado), indexadores de extensión y break y continue con etiqueta. En el runtime, Runtime Async traslada la suspensión de los métodos async del compilador al runtime, con pilas más legibles y menos overhead; las fuentes de Microsoft no coinciden en si ya es estable para código de aplicación.</p><p>Para un ERP sobre Azure SQL lo más tangible está en EF Core 11: poda de joins innecesarios en split queries (29% de mejora en un benchmark del propio equipo), traducción de FullJoin, VECTOR_SEARCH experimental y columnas vectoriales que ya no se cargan por defecto. Dos cambios de comportamiento a revisar antes de migrar: UseSqlServer pasa a nivel de compatibilidad 160 (SQL Server 2022) y la CLI arranca con un host Native AOT. El SDK incluye la plantilla dotnet new mcpserver. El lanzamiento sólo está confirmado en fuentes de Microsoft.</p></div>
+    <p class="fuente">.NET Blog (Microsoft), 10 nov · Microsoft Learn, 10 nov</p>
+  </article><article class="art  tipo-hecho" data-id="fable-5-2" data-recorte="">
+    <div class="kicker">Tecnología · 9 nov</div>
+    <h2 class="tit">Claude Fable 5.2 y Mythos 5.2: 20% más baratos y hasta 30% más rápidos</h2>
+    <p class="bajada">Anthropic actualizó el 9 de noviembre sus modelos tope de gama; un día después Cisco e IBM anunciaron que integran Mythos en herramientas de seguridad.</p>
+    <div class="cuerpo"><p>Fable y Mythos 5.2 son el mismo modelo base: Fable lleva salvaguardas de ciberseguridad y biología y está disponible para todos; Mythos queda restringido a organizaciones verificadas. El precio baja de US$ 10/50 a 8/40 por millón de tokens de entrada y salida, y la salida es hasta 30% más rápida que en 5.1. En benchmarks de la propia empresa marca 49,1% en FrontierCode 2.0 contra 45,5% de Opus 5.5, pero pierde contra Gemini 4 Carbon en AutomationBench (51,4% contra 53,9%). Anthropic recomienda seguir usando Opus 5.5 para la mayoría del trabajo de código y reservar Fable para tareas largas y abiertas. Todos los números son autoinformados.</p></div>
+    <p class="fuente">Anthropic, 9 nov · The Register, 10 nov</p>
+  </article><article class="art  tipo-hecho" data-id="patch-tuesday" data-recorte="">
+    <div class="kicker">Tecnología · 10 nov</div>
+    <h2 class="tit">Patch Tuesday de noviembre: 1.094 fallas, un zero-day en Outlook y un año con más de 100.000 CVE</h2>
+    <p class="bajada">Microsoft corrigió el 10 de noviembre una falla explotada que filtra hashes NTLMv2 y tres de CVSS 9,8 sin interacción.</p>
+    <div class="cuerpo"><p>Es el segundo mes seguido con más de mil vulnerabilidades. La única explotada es CVE-2026-124194, de Outlook (CVSS 6,5): un mensaje manipulado hace que el cliente se conecte a un servidor del atacante sin la advertencia de contenido externo y filtra el hash NTLMv2 del usuario; CISA la sumó a su catálogo de explotación activa. Dustin Childs, de Zero Day Initiative, pidió priorizar Exchange y controladores de dominio por tres fallas de CVSS 9,8 sin clic: Windows Search (se dispara cuando Exchange indexa un adjunto), LDAP y el servicio de red de Xbox Live. VulnCheck contó 100.222 CVE publicados en 2026, más del doble que en 2025, y atribuye el salto a la búsqueda de fallas con IA. Las versiones afectadas del zero-day no pudieron verificarse en el sitio de Microsoft.</p></div>
+    <p class="fuente">The Register, 10 nov · The Register, 13 nov</p>
+  </article><article class="art  tipo-hecho" data-id="gemini-4-carbon" data-recorte="">
+    <div class="kicker">Tecnología · 10 nov</div>
+    <h2 class="tit">Gemini 4 Carbon, disponible para todos con precio promocional hasta el 30</h2>
+    
+    <div class="cuerpo"><p>Google abrió el 10 de noviembre su modelo más fuerte en la API paga, tras dos semanas restringido a equipos de ciberseguridad. Cuesta US$ 2/10 por millón de tokens hasta el 30 de noviembre y luego 4/20, igual que Opus 5.5. Google informa el primer puesto en el índice de Artificial Analysis y en pruebas de seguridad; The Register señaló que en rankings de desarrollo web y agentes queda detrás de Opus 5.5. La propia Google admite que gasta más tokens y que Gemini 4 Argon sigue siendo mejor opción para la mayoría del trabajo de software.</p></div>
+    <p class="fuente">Google (blog oficial), 10 nov · The Register, 29 oct</p>
+  </article><article class="art  tipo-hecho" data-id="azure-sql-pass" data-recorte="">
+    <div class="kicker">Tecnología · 11 nov</div>
+    <h2 class="tit">Azure SQL antes de Ignite: DiskANN en GA, Hyperscale más grande y agentes en preview</h2>
+    
+    <div class="cuerpo"><p>En el balance anual de PASS Summit, publicado el 11, Microsoft lista en GA los índices vectoriales DiskANN, AI_GENERATE_EMBEDDINGS y la inmutabilidad automática de siete días de backups sin costo; en preview, elastic pools Hyperscale de hasta 50 bases y 128 TB y «Database Agents» que investigan rendimiento dentro de los permisos existentes. Esas funciones de IA todavía no llegaron a SQL Server ni a Managed Instance. Los anuncios nuevos quedan para Ignite, del 17 al 20. Sólo fuentes de Microsoft.</p></div>
+    <p class="fuente">Azure SQL Dev Corner (Microsoft), 11 nov · Microsoft Tech Community, 13 nov</p>
+  </article><div class="breves"><h3>Breves</h3><p class="breve"><b>Jensen Huang dejó Nvidia.</b> Renunció el jueves 12 como presidente, CEO y director, con efecto inmediato; la directora financiera Colette Kress quedó como CEO interina. El comunicado no da motivos; la prensa lo vincula con su relación con una ejecutiva señalada como espía china. La acción cayó 4,3%. <span class="f">Nvidia (comunicado oficial), 12 nov</span></p></div></div></div>
+      <footer class="pf"><span>Nº 3 · Los Cocos, Córdoba</span><span>Página <b class="pf-num">4</b> de 8</span></footer>
+    </section>
+<section class="page" data-pagina="5" data-nombre="educacion_ciencia" style="--cuerpo:9.75pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">El Diario de Yrigoyen</span> · Educación y ciencia</span><span>sábado, 14 de noviembre de 2026 · <b class="ph-num">5</b></span></header>
+      <div class="pb"><div class="flow"><article class="art lead tipo-hecho" data-id="presupuesto-universidades" data-recorte="">
+    <div class="kicker">Educación · 13 nov</div>
+    <h2 class="tit">Presupuesto 2027: dictamen el martes 17 sin cerrar la brecha con las universidades</h2>
+    <p class="bajada">Las universidades piden $ 11 billones para cumplir la ley de financiamiento y el Gobierno ofrece unos $ 7,5 billones.</p>
+    <div class="cuerpo"><p>La Comisión de Presupuesto de Diputados fue citada para el martes 17 a las 16 con la intención oficialista de firmar dictamen ese día; la sesión apunta al miércoles 25. Según Ámbito, los bloques provincialistas reclaman, entre otros puntos, $ 11 billones para universidades, lo que permitiría cumplir la Ley de Financiamiento Universitario, frente a unos $ 7,5 billones que ofrece el Gobierno (otras notas dan 7,3 o 7,7). El reglamento obliga a dictaminar antes del 20 para tratarlo en sesiones ordinarias; la aprobación final en el Senado requerirá extraordinarias. No hubo novedades judiciales verificadas esta semana sobre la ley 27.795.</p></div>
+    <p class="fuente">Ámbito, 13 nov · Infobae, 14 nov</p>
+  </article><article class="art  tipo-hecho" data-id="upc-capilla" data-recorte="">
+    <div class="kicker">UPC · 13 nov</div>
+    <h2 class="tit">La UPC abre horas vacantes en Capilla del Monte, con la Tecnicatura en Programación Full Stack</h2>
+    <p class="bajada">La inscripción es del 18 al 20 de noviembre; también hay convocatoria en Villa Dolores del 16 al 18.</p>
+    <div class="cuerpo"><p>La Universidad Provincial publicó el viernes 13 la convocatoria para su Sede Regional Capilla del Monte, con espacios del Profesorado de Biología, la Tecnicatura en Prótesis Dental, Marketing y Negocios Digitales, Programación Full Stack, la Licenciatura en Diseño y Diseño Gráfico. Los postulantes cargan el CV en el formulario en línea, envían la documentación como enlace de Drive al correo de la sede con nombre de sede y DNI en el asunto y, si corresponde, presentan propuesta curricular en el formato oficial; el detalle de horas está en el PDF de la convocatoria. Fuente: sitio oficial de la UPC.</p></div>
+    <p class="fuente">UPC (sitio oficial), 13 nov</p>
+  </article><article class="art  tipo-hecho" data-id="hera-didymos" data-recorte="">
+    <div class="kicker">Ciencia · 11 nov</div>
+    <h2 class="tit">Hera llegó a Didymos: empieza la autopsia del primer impacto de defensa planetaria</h2>
+    <p class="bajada">La sonda de la ESA orbita el sistema binario que la NASA golpeó con DART en 2022, con apoyo de una antena de espacio profundo en Argentina.</p>
+    <div class="cuerpo"><p>La ESA informó el 11 de noviembre que Hera llegó a Didymos y empezó su caracterización temprana a 25 o 30 km de los dos asteroides; al día siguiente difundió una imagen con la luna Dimorphos parcialmente oculta. Como la gravedad es ínfima (Didymos mide unos 780 m y Dimorphos 151 m), Hera no describe una órbita clásica sino un rectángulo alrededor del centro de masa, a unos 12 cm/s, con giros de 90 grados que, si falla un propulsor, la alejan en lugar de acercarla.</p><p>El objetivo es medir qué dejó el impacto de DART del 26 de septiembre de 2022, que acortó la órbita de Dimorphos unos 33 minutos: si hubo cráter o deformación, su masa y su estructura interna, para calibrar los modelos de desvío de asteroides. La ESA aclara que todavía no hay resultados. La sonda se comunica a 196,5 millones de km mediante antenas de 35 m, entre ellas la que la agencia tiene en Malargüe, Mendoza. Fuente única: ESA.</p></div>
+    <p class="fuente">ESA, 11 nov · ESA, 12 nov</p>
+  </article><article class="art  tipo-hecho" data-id="euclid-dr1" data-recorte="">
+    <div class="kicker">Ciencia · 12 nov</div>
+    <h2 class="tit">Euclid publica su primer gran catálogo: 900 millones de galaxias para mapear la materia oscura</h2>
+    
+    <div class="cuerpo"><p>La ESA liberó el 12 de noviembre DR1-Foundation, la primera gran entrega del telescopio Euclid: 13 meses de observación sobre unos 1.900 grados cuadrados de cielo, más de 900 millones de galaxias, unos 15.000 candidatos a lentes gravitacionales fuertes, más de 60 millones de candidatos a cuásares y 1,7 petabytes de datos abiertos. El límite está declarado: cubre cerca del 14% del área planificada y todavía no incluye el análisis de lente débil ni las mediciones cosmológicas, que llegarán a mediados de 2027. Euclid busca restringir la naturaleza de la energía oscura y la materia oscura midiendo la forma y la distancia de las galaxias para reconstruir en tres dimensiones la red cósmica. Los datos quedan abiertos en la plataforma Euclid Data Space. Fuente única: ESA.</p></div>
+    <p class="fuente">ESA, 12 nov</p>
+  </article><div class="breves"><h3>Breves</h3><p class="breve"><b>Cuarteto, ESI y revista.</b> La UPC y la Municipalidad presentan el miércoles 18 a las 19:30, en el Teatro Ciudad de las Artes, un ciclo de formación en cuarteto cordobés que empieza en 2027. El 11 la FES hizo las jornadas por los 20 años de la ESI. <i>Sostenible y Circular</i> recibe trabajos hasta el 30. <span class="f">UPC (sitio oficial), 13 nov</span></p><p class="breve"><b>Voyager 1, a un día-luz.</b> La NASA confirmó que el miércoles 18 la sonda lanzada en 1977, el objeto humano más lejano, estará a más de 25.900 millones de km: una orden enviada desde la Tierra tardará un día en llegar y otro en volver la confirmación. La agencia invita el martes 17 a hacer destellos con el código Morse de «VGR» tras la puesta del sol. <span class="f">NASA, 18 nov</span></p><p class="breve"><b>Sismo débil en Punilla.</b> El Instituto Nacional de Prevención Sísmica registró el lunes 9 a las 6:36 un sismo de magnitud 2,6, a 14 km de profundidad y 24 km al noroeste de La Falda. Vecinos lo percibieron en Capilla del Monte, La Cumbre y La Falda; no hubo daños. Fuente única: La Estafeta Online. <span class="f">La Estafeta Online, 9 nov</span></p></div></div></div>
+      <footer class="pf"><span>Nº 3 · Los Cocos, Córdoba</span><span>Página <b class="pf-num">5</b> de 8</span></footer>
+    </section>
+<section class="page" data-pagina="6" data-nombre="finanzas" style="--cuerpo:8.75pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">El Diario de Yrigoyen</span> · Finanzas y criptomonedas</span><span>sábado, 14 de noviembre de 2026 · <b class="ph-num">6</b></span></header>
+      <div class="pb"><div class="fin">
+    <div class="coin">
+      <div class="coin-head"><span class="sym">BTC</span><span class="nom">Bitcoin</span>
+        <span class="vars"><span class="neg">24 h −3,0%</span><span class="neg">7 d −11,5%</span><span class="neg">30 d −17,2%</span><span class="neg">12 m −30,6%</span></span>
+        <span class="px">US$ 67.226</span></div>
+      <div class="charts">
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 7 días, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 7 días</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 76,0k · mín 66,7k</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">67,0k</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">71,3k</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">75,7k</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,20.5 35.2,21.0 36.4,20.8 37.6,20.7 38.8,21.8 40.0,21.8 41.1,21.2 42.3,21.4 43.5,21.5 44.7,22.1 45.9,21.9 47.1,21.8 48.3,21.3 49.5,21.7 50.7,21.9 51.9,21.8 53.1,21.0 54.2,21.3 55.4,21.6 56.6,21.5 57.8,20.7 59.0,20.9 60.2,20.9 61.4,21.1 62.6,20.6 63.8,20.7 65.0,20.9 66.2,20.3 67.3,20.1 68.5,21.8 69.7,21.8 70.9,20.8 72.1,20.9 73.3,21.8 74.5,31.3 75.7,28.9 76.9,27.1 78.1,24.6 79.3,25.1 80.4,24.5 81.6,26.8 82.8,27.1 84.0,28.9 85.2,29.8 86.4,32.1 87.6,28.5 88.8,30.0 90.0,30.7 91.2,29.4 92.4,26.5 93.5,27.5 94.7,26.7 95.9,23.0 97.1,25.6 98.3,27.1 99.5,27.8 100.7,26.7 101.9,26.7 103.1,25.9 104.3,24.6 105.5,24.1 106.6,25.6 107.8,25.6 109.0,26.8 110.2,28.5 111.4,27.4 112.6,27.1 113.8,28.0 115.0,26.9 116.2,27.7 117.4,28.7 118.6,30.3 119.7,29.3 120.9,29.5 122.1,32.8 123.3,29.4 124.5,35.6 125.7,37.6 126.9,35.6 128.1,34.4 129.3,34.6 130.5,32.8 131.7,32.3 132.8,33.3 134.0,32.7 135.2,34.2 136.4,33.8 137.6,33.6 138.8,32.9 140.0,33.1 141.2,32.0 142.4,33.7 143.6,31.2 144.8,33.1 145.9,32.8 147.1,31.3 148.3,31.5 149.5,32.2 150.7,32.6 151.9,34.0 153.1,31.5 154.3,30.0 155.5,28.7 156.7,28.7 157.9,29.3 159.0,27.8 160.2,29.4 161.4,32.0 162.6,31.3 163.8,31.2 165.0,33.3 166.2,32.7 167.4,32.7 168.6,33.1 169.8,33.9 171.0,34.3 172.1,33.6 173.3,33.9 174.5,34.4 175.7,34.6 176.9,37.6 178.1,37.7 179.3,39.9 180.5,44.8 181.7,44.5 182.9,44.0 184.1,43.2 185.2,44.0 186.4,44.4 187.6,45.7 188.8,45.2 190.0,46.0 191.2,45.8 192.4,47.6 193.6,48.5 194.8,52.4 196.0,59.6 197.2,61.6 198.3,64.2 199.5,58.8 200.7,61.6 201.9,60.9 203.1,58.8 204.3,57.4 205.5,57.4 206.7,58.2 207.9,56.2 209.1,59.5 210.3,60.1 211.4,61.0 212.6,59.7 213.8,59.4 215.0,59.0 216.2,60.0 217.4,62.7 218.6,63.4 219.8,62.8 221.0,63.1 222.2,63.3 223.4,66.7 224.5,71.9 225.7,69.8 226.9,69.2 228.1,68.3 229.3,69.4 230.5,70.5 231.7,68.1 232.9,68.8 234.0,68.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="67.3" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="224.5" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">7 nov</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">10 nov</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 30 días, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 30 días</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 84,1k · mín 67,2k</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">67,8k</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">75,7k</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">83,5k</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,26.0 40.8,28.0 47.6,28.3 54.3,26.5 61.1,26.9 67.9,23.6 74.7,20.1 81.5,28.6 88.2,29.3 95.0,30.2 101.8,32.5 108.6,32.6 115.4,30.2 122.1,28.8 128.9,39.3 135.7,41.0 142.5,40.3 149.3,37.9 156.0,42.8 162.8,40.7 169.6,31.3 176.4,44.9 183.2,45.6 189.9,45.6 196.7,48.8 203.5,47.2 210.3,51.9 217.1,51.1 223.8,59.1 230.6,68.5 234.0,71.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="74.7" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="234.0" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">15 oct</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">30 oct</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 12 meses, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 12 meses</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 96,9k · mín 58,6k</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">59,9k</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">77,7k</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">95,5k</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,23.0 34.5,22.2 35.1,23.8 35.6,26.6 36.2,25.5 36.7,27.5 37.3,34.0 37.8,36.1 38.4,36.6 38.9,33.8 39.5,31.8 40.0,33.1 40.6,28.8 41.1,27.7 41.7,28.2 42.2,28.3 42.8,29.0 43.3,34.4 43.9,27.7 44.4,24.8 45.0,26.6 45.5,30.4 46.1,30.5 46.6,28.9 47.2,28.6 47.7,25.8 48.3,26.8 48.8,26.0 49.4,29.1 49.9,29.1 50.5,31.9 51.0,34.3 51.6,32.5 52.1,34.6 52.7,35.6 53.2,32.0 53.8,31.7 54.3,31.2 54.9,31.5 55.4,32.8 55.9,32.7 56.5,33.2 57.0,33.1 57.6,32.3 58.1,32.3 58.7,33.3 59.2,31.7 59.8,32.7 60.3,31.1 60.9,29.5 61.4,28.6 62.0,26.9 62.5,24.2 63.1,24.5 63.6,27.7 64.2,28.1 64.7,28.7 65.3,28.9 65.8,28.3 66.4,27.8 66.9,22.1 67.5,20.1 68.0,21.9 68.6,22.0 69.1,23.0 69.7,24.9 70.2,26.0 70.8,31.6 71.3,30.2 71.9,30.1 72.4,30.1 73.0,30.6 73.5,34.0 74.1,31.8 74.6,30.6 75.2,30.5 75.7,36.7 76.2,37.4 76.8,44.8 77.3,47.1 77.9,44.7 78.4,48.8 79.0,52.3 79.5,66.2 80.1,56.1 80.6,57.5 81.2,55.9 81.7,56.2 82.3,58.0 82.8,60.4 83.4,61.5 83.9,58.0 84.5,56.7 85.0,58.1 85.6,58.0 86.1,59.7 86.7,61.3 87.2,60.5 87.8,59.1 88.3,59.1 88.9,62.9 89.4,63.5 90.0,64.4 90.5,59.3 91.1,59.8 91.6,62.0 92.2,60.5 92.7,62.1 93.3,58.0 93.8,58.7 94.4,52.7 94.9,55.3 95.5,58.9 96.0,60.0 96.6,61.8 97.1,58.6 97.6,56.6 98.2,56.4 98.7,55.9 99.3,55.3 99.8,54.9 100.4,52.5 100.9,50.1 101.5,51.0 102.0,54.8 102.6,56.5 103.1,55.7 103.7,58.6 104.2,59.2 104.8,55.1 105.3,55.7 105.9,54.7 106.4,58.2 107.0,61.4 107.5,61.3 108.1,61.9 108.6,60.9 109.2,59.0 109.7,59.2 110.3,60.6 110.8,60.7 111.4,60.4 111.9,57.8 112.5,58.2 113.0,54.2 113.6,55.6 114.1,54.6 114.7,52.5 115.2,52.4 115.8,55.5 116.3,50.4 116.9,50.6 117.4,49.9 118.0,49.5 118.5,46.8 119.0,48.7 119.6,51.3 120.1,48.5 120.7,47.9 121.2,45.3 121.8,45.3 122.3,46.4 122.9,46.1 123.4,44.8 124.0,46.5 124.5,47.9 125.1,48.6 125.6,47.9 126.2,45.4 126.7,44.7 127.3,44.9 127.8,43.2 128.4,41.7 128.9,41.0 129.5,42.9 130.0,42.7 130.6,42.0 131.1,40.2 131.7,40.7 132.2,42.3 132.8,43.9 133.3,41.5 133.9,44.2 134.4,45.5 135.0,46.4 135.5,47.0 136.1,47.3 136.6,46.4 137.2,46.2 137.7,49.0 138.3,47.4 138.8,47.0 139.4,46.6 139.9,48.5 140.4,50.6 141.0,51.5 141.5,51.7 142.1,51.3 142.6,51.6 143.2,54.7 143.7,60.8 144.3,64.5 144.8,64.8 145.4,68.6 145.9,68.8 146.5,65.5 147.0,65.8 147.6,67.7 148.1,67.9 148.7,65.1 149.2,65.2 149.8,64.0 150.3,62.2 150.9,61.4 151.4,62.3 152.0,63.9 152.5,66.0 153.1,65.2 153.6,64.2 154.2,65.5 154.7,64.6 155.3,66.3 155.8,68.6 156.4,70.3 156.9,69.9 157.5,70.0 158.0,70.6 158.6,69.7 159.1,71.9 159.7,70.0 160.2,67.9 160.7,66.5 161.3,65.8 161.8,65.1 162.4,64.5 162.9,65.4 163.5,66.9 164.0,65.6 164.6,64.4 165.1,64.8 165.7,64.9 166.2,66.9 166.8,63.2 167.3,63.6 167.9,64.8 168.4,64.7 169.0,63.5 169.5,63.6 170.1,62.9 170.6,61.1 171.2,61.7 171.7,63.1 172.3,64.4 172.8,64.1 173.4,62.7 173.9,64.9 174.5,64.7 175.0,64.6 175.6,63.5 176.1,66.1 176.7,66.2 177.2,65.2 177.8,65.3 178.3,64.4 178.9,63.7 179.4,64.2 180.0,63.3 180.5,63.3 181.1,63.4 181.6,64.6 182.1,65.2 182.7,65.3 183.2,65.3 183.8,65.9 184.3,65.8 184.9,66.1 185.4,63.9 186.0,63.6 186.5,57.4 187.1,52.4 187.6,45.2 188.2,46.9 188.7,46.0 189.3,44.3 189.8,44.9 190.4,44.3 190.9,42.6 191.5,45.9 192.0,45.3 192.6,46.1 193.1,44.9 193.7,46.4 194.2,46.6 194.8,41.2 195.3,43.4 195.9,43.2 196.4,42.5 197.0,44.2 197.5,45.0 198.1,45.3 198.6,47.6 199.2,46.7 199.7,46.6 200.3,47.2 200.8,45.4 201.4,48.9 201.9,48.1 202.5,47.8 203.0,41.8 203.5,41.3 204.1,41.4 204.6,34.0 205.2,34.6 205.7,37.0 206.3,37.0 206.8,37.4 207.4,37.0 207.9,36.9 208.5,38.2 209.0,38.0 209.6,38.1 210.1,36.4 210.7,36.9 211.2,36.5 211.8,34.2 212.3,35.2 212.9,35.5 213.4,38.5 214.0,40.7 214.5,39.5 215.1,39.0 215.6,38.0 216.2,40.5 216.7,38.7 217.3,40.8 217.8,40.0 218.4,40.9 218.9,41.0 219.5,40.2 220.0,40.4 220.6,39.0 221.1,37.4 221.7,41.1 222.2,41.5 222.8,41.8 223.3,42.9 223.9,42.9 224.4,41.9 224.9,41.2 225.5,45.9 226.0,46.6 226.6,46.3 227.1,45.2 227.7,47.4 228.2,46.5 228.8,42.3 229.3,48.3 229.9,48.6 230.4,48.6 231.0,50.0 231.5,49.3 232.1,51.4 232.6,51.1 233.2,54.6 233.7,58.7 234.0,60.2" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="67.5" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="159.1" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">14 nov</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">16 may</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+      </div>
+      <p class="com">Perdió 11,5% en la semana: arrancó en US$ 75.900 y tocó un mínimo de US$ 66.700. En treinta días cae 17%, desde los US$ 84.100 de mediados de octubre, y a doce meses 30,6%, lejos del máximo de US$ 96.900 de enero.</p>
+    </div><div class="coin">
+      <div class="coin-head"><span class="sym">ETH</span><span class="nom">Ethereum</span>
+        <span class="vars"><span class="neg">24 h −2,5%</span><span class="neg">7 d −15,0%</span><span class="neg">30 d −19,6%</span><span class="neg">12 m −39,6%</span></span>
+        <span class="px">US$ 1.909</span></div>
+      <div class="charts">
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 7 días, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 7 días</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 2.245 · mín 1.882</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">1.895</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">2.063</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">2.232</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,20.3 35.2,20.8 36.4,20.3 37.6,20.1 38.8,21.5 40.0,21.9 41.1,21.6 42.3,21.4 43.5,21.8 44.7,22.7 45.9,22.2 47.1,21.9 48.3,21.2 49.5,21.6 50.7,22.0 51.9,21.8 53.1,21.4 54.2,21.8 55.4,21.9 56.6,22.0 57.8,21.0 59.0,21.3 60.2,21.6 61.4,21.7 62.6,21.1 63.8,21.2 65.0,21.6 66.2,21.0 67.3,20.9 68.5,22.5 69.7,22.4 70.9,21.7 72.1,22.2 73.3,22.9 74.5,37.6 75.7,36.9 76.9,37.3 78.1,34.6 79.3,34.9 80.4,34.4 81.6,35.3 82.8,35.6 84.0,36.9 85.2,39.0 86.4,41.9 87.6,37.8 88.8,39.8 90.0,39.9 91.2,39.1 92.4,37.8 93.5,37.4 94.7,37.0 95.9,34.2 97.1,36.2 98.3,37.3 99.5,37.4 100.7,36.9 101.9,36.7 103.1,36.9 104.3,36.1 105.5,36.2 106.6,37.4 107.8,37.3 109.0,37.8 110.2,39.0 111.4,38.1 112.6,37.4 113.8,38.6 115.0,38.7 116.2,38.5 117.4,40.4 118.6,42.3 119.7,41.9 120.9,41.2 122.1,45.8 123.3,43.5 124.5,51.5 125.7,52.7 126.9,51.2 128.1,49.0 129.3,49.0 130.5,46.9 131.7,47.1 132.8,48.5 134.0,47.9 135.2,48.2 136.4,47.6 137.6,47.0 138.8,46.4 140.0,46.2 141.2,45.2 142.4,47.3 143.6,45.5 144.8,47.0 145.9,47.0 147.1,46.8 148.3,47.1 149.5,47.7 150.7,47.1 151.9,47.5 153.1,44.5 154.3,44.2 155.5,42.3 156.7,43.4 157.9,44.1 159.0,43.6 160.2,45.2 161.4,47.3 162.6,47.2 163.8,46.5 165.0,48.1 166.2,47.1 167.4,47.5 168.6,48.2 169.8,48.7 171.0,48.9 172.1,48.1 173.3,48.2 174.5,48.7 175.7,49.0 176.9,52.2 178.1,52.1 179.3,53.6 180.5,54.6 181.7,54.1 182.9,54.2 184.1,52.9 185.2,52.9 186.4,52.8 187.6,53.0 188.8,52.9 190.0,53.3 191.2,52.6 192.4,53.7 193.6,53.6 194.8,56.6 196.0,64.6 197.2,65.9 198.3,68.0 199.5,63.9 200.7,64.6 201.9,65.0 203.1,63.6 204.3,62.2 205.5,61.0 206.7,61.1 207.9,59.9 209.1,62.4 210.3,64.7 211.4,65.6 212.6,64.1 213.8,63.2 215.0,62.0 216.2,62.8 217.4,65.5 218.6,66.1 219.8,64.7 221.0,65.0 222.2,65.6 223.4,67.8 224.5,71.9 225.7,69.6 226.9,68.8 228.1,68.8 229.3,69.7 230.5,70.2 231.7,67.6 232.9,68.3 234.0,68.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="37.6" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="224.5" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">7 nov</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">10 nov</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 30 días, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 30 días</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 2.473 · mín 1.908</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">1.929</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">2.190</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">2.452</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,23.1 40.8,24.9 47.6,26.8 54.3,26.1 61.1,26.3 67.9,22.5 74.7,20.1 81.5,28.0 88.2,28.2 95.0,30.8 101.8,33.5 108.6,34.1 115.4,31.6 122.1,30.7 128.9,40.6 135.7,41.2 142.5,40.2 149.3,38.4 156.0,40.5 162.8,38.4 169.6,24.7 176.4,41.8 183.2,41.8 189.9,41.7 196.7,52.1 203.5,51.3 210.3,58.8 217.1,58.4 223.8,61.9 230.6,69.7 234.0,71.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="74.7" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="234.0" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">15 oct</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">30 oct</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 12 meses, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 12 meses</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 3.352 · mín 1.566</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">1.630</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">2.459</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">3.288</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,26.9 34.5,25.4 35.1,27.7 35.6,29.6 36.2,26.8 36.7,29.7 37.3,35.2 37.8,37.2 38.4,37.0 38.9,36.2 39.5,31.7 40.0,31.5 40.6,29.6 41.1,29.9 41.7,29.4 42.2,30.6 42.8,30.6 43.3,36.2 43.9,30.4 44.4,24.9 45.0,26.4 45.5,29.8 46.1,29.3 46.6,28.6 47.2,26.7 47.7,21.1 48.3,21.0 48.8,23.4 49.4,27.8 49.9,27.0 50.5,28.5 51.0,31.4 51.6,31.5 52.1,35.2 52.7,35.3 53.2,31.0 53.8,31.0 54.3,30.2 54.9,30.2 55.4,31.3 55.9,31.9 56.5,33.2 57.0,32.5 57.6,31.8 58.1,31.8 58.7,32.2 59.2,31.3 59.8,31.2 60.3,30.2 60.9,26.6 61.4,26.7 62.0,25.9 62.5,23.7 63.1,21.9 63.6,25.5 64.2,27.3 64.7,27.9 65.3,27.8 65.8,27.0 66.4,27.7 66.9,20.8 67.5,20.1 68.0,21.1 68.6,21.8 69.1,21.4 69.7,22.6 70.2,24.9 70.8,32.0 71.3,30.8 71.9,31.8 72.4,31.6 73.0,31.8 73.5,35.7 74.1,32.5 74.6,29.7 75.2,30.1 75.7,35.5 76.2,38.9 76.8,46.2 77.3,51.6 77.9,49.3 78.4,52.7 79.0,55.1 79.5,64.4 80.1,57.7 80.6,56.7 81.2,56.6 81.7,56.2 82.3,58.7 82.8,60.9 83.4,60.8 83.9,57.9 84.5,56.8 85.0,60.2 85.6,59.3 86.1,59.5 86.7,60.6 87.2,60.8 87.8,60.2 88.3,60.0 88.9,63.0 89.4,63.4 90.0,63.6 90.5,57.8 91.1,58.5 91.6,61.3 92.2,60.3 92.7,61.0 93.3,58.5 93.8,59.8 94.4,55.6 94.9,57.2 95.5,59.9 96.0,60.1 96.6,61.0 97.1,59.5 97.6,58.3 98.2,57.8 98.7,57.2 99.3,56.7 99.8,56.5 100.4,54.0 100.9,49.3 101.5,50.0 102.0,53.4 102.6,55.3 103.1,55.0 103.7,57.4 104.2,57.7 104.8,54.9 105.3,54.8 105.9,54.4 106.4,57.6 107.0,59.5 107.5,59.5 108.1,59.8 108.6,58.6 109.2,56.5 109.7,55.5 110.3,57.8 110.8,57.8 111.4,57.8 111.9,55.7 112.5,56.4 113.0,52.5 113.6,54.1 114.1,54.1 114.7,52.2 115.2,51.1 115.8,53.8 116.3,48.5 116.9,49.8 117.4,48.9 118.0,49.2 118.5,47.1 119.0,49.1 119.6,51.6 120.1,50.2 120.7,49.8 121.2,48.4 121.8,49.7 122.3,50.2 122.9,50.0 123.4,48.6 124.0,50.5 124.5,50.9 125.1,51.9 125.6,51.8 126.2,50.7 126.7,50.1 127.3,50.0 127.8,49.3 128.4,48.8 128.9,49.1 129.5,50.9 130.0,50.4 130.6,49.8 131.1,48.6 131.7,49.5 132.2,51.3 132.8,51.8 133.3,51.1 133.9,52.8 134.4,54.1 135.0,55.5 135.5,55.6 136.1,56.1 136.6,55.6 137.2,55.5 137.7,57.4 138.3,55.9 138.8,56.5 139.4,56.1 139.9,57.2 140.4,58.6 141.0,59.1 141.5,58.9 142.1,58.7 142.6,59.1 143.2,59.2 143.7,63.4 144.3,64.7 144.8,66.0 145.4,71.4 145.9,71.8 146.5,68.3 147.0,68.3 147.6,69.8 148.1,70.3 148.7,68.8 149.2,69.0 149.8,68.6 150.3,67.2 150.9,65.2 151.4,65.3 152.0,66.6 152.5,67.7 153.1,67.7 153.6,66.8 154.2,67.8 154.7,67.3 155.3,69.0 155.8,70.3 156.4,71.9 156.9,71.5 157.5,71.7 158.0,71.7 158.6,70.6 159.1,71.8 159.7,70.6 160.2,68.0 160.7,66.3 161.3,65.7 161.8,65.5 162.4,65.1 162.9,65.9 163.5,66.8 164.0,66.7 164.6,65.2 165.1,65.4 165.7,64.9 166.2,65.8 166.8,62.5 167.3,61.7 167.9,63.3 168.4,63.9 169.0,63.3 169.5,63.0 170.1,62.1 170.6,61.4 171.2,61.2 171.7,62.8 172.3,63.3 172.8,62.9 173.4,60.7 173.9,62.5 174.5,61.6 175.0,61.9 175.6,61.7 176.1,63.3 176.7,63.8 177.2,62.7 177.8,63.4 178.3,63.1 178.9,62.0 179.4,62.1 180.0,61.8 180.5,61.7 181.1,61.9 181.6,63.0 182.1,62.8 182.7,62.8 183.2,62.6 183.8,62.8 184.3,62.7 184.9,62.9 185.4,61.8 186.0,61.7 186.5,52.0 187.1,49.8 187.6,44.4 188.2,47.0 188.7,45.9 189.3,45.3 189.8,46.5 190.4,44.6 190.9,44.5 191.5,46.5 192.0,46.1 192.6,47.2 193.1,45.8 193.7,47.2 194.2,48.0 194.8,44.6 195.3,46.1 195.9,45.4 196.4,44.4 197.0,45.1 197.5,45.2 198.1,45.8 198.6,46.6 199.2,44.4 199.7,44.1 200.3,45.5 200.8,44.4 201.4,47.8 201.9,47.2 202.5,46.4 203.0,41.6 203.5,41.0 204.1,40.6 204.6,36.8 205.2,37.5 205.7,39.5 206.3,39.4 206.8,39.3 207.4,39.1 207.9,39.4 208.5,39.4 209.0,39.7 209.6,39.5 210.1,38.9 210.7,39.9 211.2,39.4 211.8,38.3 212.3,38.7 212.9,39.1 213.4,42.7 214.0,45.6 214.5,45.2 215.1,44.7 215.6,43.8 216.2,46.4 216.7,44.9 217.3,47.1 217.8,46.5 218.4,47.1 218.9,47.7 219.5,47.5 220.0,47.5 220.6,46.4 221.1,45.6 221.7,48.1 222.2,48.1 222.8,49.0 223.3,49.8 223.9,50.0 224.4,49.2 224.9,48.9 225.5,52.1 226.0,52.3 226.6,51.9 227.1,51.4 227.7,52.0 228.2,51.4 228.8,47.0 229.3,52.5 229.9,52.4 230.4,52.4 231.0,55.7 231.5,55.5 232.1,57.8 232.6,57.7 233.2,58.8 233.7,61.3 234.0,61.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="67.5" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="156.4" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">14 nov</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">16 may</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+      </div>
+      <p class="com">El peor de los cuatro en la semana (−15%) y en el año (−39,6%). Cotiza en la zona de US$ 1.900, todavía por encima del mínimo de doce meses de US$ 1.566, marcado el 26 de junio.</p>
+    </div><div class="coin">
+      <div class="coin-head"><span class="sym">BNB</span><span class="nom">BNB</span>
+        <span class="vars"><span class="neg">24 h −3,5%</span><span class="neg">7 d −11,0%</span><span class="neg">30 d −14,5%</span><span class="neg">12 m −32,2%</span></span>
+        <span class="px">US$ 616,4</span></div>
+      <div class="charts">
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 7 días, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 7 días</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 699 · mín 614</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">617</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">657</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">696</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,23.4 35.2,23.5 36.4,23.1 37.6,23.3 38.8,23.8 40.0,23.7 41.1,23.0 42.3,22.2 43.5,22.1 44.7,23.0 45.9,22.8 47.1,22.9 48.3,22.6 49.5,22.6 50.7,23.1 51.9,23.2 53.0,22.6 54.2,22.6 55.4,22.4 56.6,21.4 57.8,20.1 59.0,21.2 60.2,21.4 61.4,22.0 62.6,21.1 63.8,21.1 65.0,22.1 66.1,21.9 67.3,21.4 68.5,22.4 69.7,22.4 70.9,21.5 72.1,21.7 73.3,22.1 74.5,32.3 75.7,30.0 76.9,29.5 78.1,26.8 79.2,27.2 80.4,26.4 81.6,27.6 82.8,27.5 84.0,29.3 85.2,31.4 86.4,34.7 87.6,30.3 88.8,31.5 90.0,31.4 91.1,30.1 92.3,28.0 93.5,29.1 94.7,28.2 95.9,25.6 97.1,27.0 98.3,27.9 99.5,27.9 100.7,27.4 101.9,26.4 103.1,26.0 104.2,25.8 105.4,25.5 106.6,26.3 107.8,26.1 109.0,26.7 110.2,26.8 111.4,26.5 112.6,25.6 113.8,26.4 115.0,25.6 116.2,25.8 117.3,25.7 118.5,27.2 119.7,27.0 120.9,27.7 122.1,29.7 123.3,26.8 124.5,33.6 125.7,37.5 126.9,35.7 128.1,35.1 129.2,35.2 130.4,34.3 131.6,33.5 132.8,33.4 134.0,32.0 135.2,32.4 136.4,31.6 137.6,31.3 138.8,30.4 140.0,31.5 141.2,31.0 142.3,33.7 143.5,31.3 144.7,32.0 145.9,32.1 147.1,31.0 148.3,31.2 149.5,31.5 150.7,30.9 151.9,31.8 153.1,29.7 154.3,28.4 155.4,27.5 156.6,27.8 157.8,28.4 159.0,27.9 160.2,28.9 161.4,31.7 162.6,32.3 163.8,31.2 165.0,33.3 166.2,32.2 167.3,33.2 168.5,34.3 169.7,35.7 170.9,36.7 172.1,35.8 173.3,36.7 174.5,37.3 175.7,37.6 176.9,41.8 178.1,44.5 179.3,46.8 180.4,48.5 181.6,47.8 182.8,46.4 184.0,46.3 185.2,47.4 186.4,46.8 187.6,47.7 188.8,47.6 190.0,47.9 191.2,46.2 192.3,46.4 193.5,47.7 194.7,52.5 195.9,60.2 197.1,61.0 198.3,64.8 199.5,60.0 200.7,62.3 201.9,61.7 203.1,57.9 204.3,56.6 205.4,56.5 206.6,56.0 207.8,54.0 209.0,57.3 210.2,60.1 211.4,61.8 212.6,60.2 213.8,58.3 215.0,57.2 216.2,57.7 217.4,61.6 218.5,62.4 219.7,61.6 220.9,61.9 222.1,61.9 223.3,64.8 224.5,71.0 225.7,70.1 226.9,67.9 228.1,68.9 229.3,70.8 230.4,71.9 231.6,68.8 232.8,69.4 234.0,70.2" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="57.8" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="230.4" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">7 nov</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">10 nov</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 30 días, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 30 días</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 759 · mín 617</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">622</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">688</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">754</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,31.1 40.8,34.0 47.6,35.3 54.3,33.4 61.1,30.2 67.9,26.8 74.7,24.9 81.5,30.5 88.2,27.5 95.0,27.4 101.8,27.9 108.6,26.4 115.4,25.6 122.1,20.1 128.9,42.6 135.7,40.3 142.5,40.5 149.3,37.3 156.0,42.3 162.8,42.5 169.6,34.5 176.4,45.6 183.2,44.3 189.9,43.3 196.7,47.4 203.5,45.0 210.3,48.9 217.1,49.1 223.8,57.5 230.6,66.8 234.0,71.9" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="122.1" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="234.0" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">15 oct</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">30 oct</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 12 meses, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 12 meses</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 948 · mín 546</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">560</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">747</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">933</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,24.2 34.5,22.1 35.1,22.9 35.6,25.5 36.2,22.3 36.7,26.8 37.3,30.7 37.8,35.3 38.4,34.9 38.9,33.6 39.5,30.8 40.0,31.1 40.6,27.3 41.1,26.8 41.7,27.9 42.2,29.7 42.8,29.4 43.3,35.8 43.9,29.2 44.4,23.6 45.0,26.2 45.5,28.4 46.1,27.5 46.6,27.0 47.2,26.6 47.7,26.6 48.3,27.2 48.8,28.1 49.4,28.6 49.9,26.7 50.5,29.2 51.0,31.6 51.6,29.5 52.1,33.6 52.7,35.3 53.2,32.0 53.8,32.2 54.3,31.6 54.9,31.7 55.4,33.4 55.9,33.2 56.5,35.4 57.0,34.7 57.6,33.4 58.1,31.6 58.7,32.5 59.2,31.3 59.8,31.1 60.3,31.0 60.9,28.7 61.4,29.1 62.0,26.8 62.5,25.0 63.1,24.1 63.6,26.5 64.2,27.3 64.7,26.7 65.3,25.4 65.8,25.9 66.4,25.7 66.9,20.7 67.5,20.1 68.0,22.4 68.6,21.5 69.1,20.3 69.7,22.8 70.2,23.3 70.8,28.6 71.3,28.5 71.9,27.9 72.4,27.5 73.0,28.2 73.5,30.9 74.1,29.1 74.6,26.6 75.2,26.0 75.7,30.5 76.2,31.8 76.8,41.8 77.3,44.6 77.9,42.7 78.4,45.3 79.0,52.5 79.5,64.0 80.1,57.9 80.6,58.9 81.2,59.7 81.7,60.1 82.3,62.4 82.8,63.8 83.4,63.1 83.9,62.5 84.5,60.7 85.0,63.1 85.6,61.4 86.1,62.6 86.7,64.4 87.2,64.0 87.8,61.5 88.3,61.6 88.9,66.2 89.4,65.3 90.0,67.0 90.5,61.2 91.1,61.6 91.6,63.2 92.2,62.6 92.7,62.5 93.3,60.1 93.8,60.6 94.4,57.4 94.9,58.7 95.5,61.4 96.0,62.2 96.6,63.4 97.1,60.4 97.6,59.5 98.2,58.3 98.7,58.4 99.3,57.8 99.8,57.5 100.4,55.1 100.9,54.8 101.5,56.0 102.0,58.3 102.6,59.9 103.1,59.5 103.7,61.7 104.2,61.5 104.8,59.8 105.3,60.0 105.9,58.7 106.4,61.3 107.0,63.3 107.5,63.5 108.1,64.2 108.6,63.8 109.2,62.8 109.7,63.5 110.3,66.9 110.8,66.4 111.4,65.7 111.9,64.0 112.5,64.8 113.0,62.2 113.6,64.8 114.1,64.5 114.7,64.1 115.2,64.0 115.8,65.9 116.3,62.8 116.9,63.0 117.4,61.9 118.0,60.2 118.5,59.3 119.0,61.0 119.6,62.8 120.1,61.1 120.7,60.8 121.2,60.0 121.8,59.9 122.3,60.2 122.9,61.2 123.4,60.3 124.0,61.4 124.5,61.8 125.1,62.7 125.6,62.9 126.2,62.9 126.7,62.6 127.3,62.7 127.8,62.0 128.4,61.0 128.9,58.7 129.5,60.1 130.0,58.6 130.6,58.5 131.1,56.7 131.7,55.8 132.2,56.6 132.8,55.7 133.3,54.9 133.9,55.6 134.4,57.7 135.0,58.6 135.5,59.4 136.1,59.8 136.6,58.6 137.2,57.5 137.7,58.5 138.3,57.7 138.8,57.6 139.3,56.8 139.9,57.7 140.4,58.7 141.0,60.1 141.5,59.4 142.1,49.5 142.6,50.8 143.2,53.0 143.7,58.4 144.3,62.3 144.8,64.4 145.4,68.5 145.9,68.2 146.5,64.4 147.0,64.7 147.6,65.8 148.1,66.7 148.7,64.2 149.2,64.4 149.8,63.7 150.3,62.8 150.9,62.7 151.4,64.3 152.0,64.8 152.5,67.7 153.1,67.4 153.6,66.5 154.2,67.0 154.7,66.3 155.3,67.8 155.8,69.5 156.4,70.0 156.9,69.1 157.5,70.5 158.0,71.3 158.6,70.2 159.1,71.9 159.7,71.3 160.2,70.3 160.7,68.3 161.3,68.1 161.8,66.3 162.4,66.8 162.9,67.9 163.5,69.0 164.0,69.0 164.6,68.1 165.1,68.2 165.7,68.3 166.2,69.2 166.8,67.3 167.3,67.5 167.9,68.5 168.4,69.0 169.0,68.7 169.5,68.7 170.1,68.7 170.6,68.3 171.2,68.7 171.7,69.1 172.3,69.5 172.8,68.9 173.4,68.1 173.9,69.3 174.5,68.7 175.0,68.6 175.6,66.0 176.1,66.6 176.7,68.1 177.2,66.5 177.8,66.3 178.3,65.8 178.9,65.8 179.4,66.0 180.0,65.9 180.5,64.9 181.1,64.7 181.6,65.1 182.1,62.8 182.7,63.6 183.2,63.6 183.8,63.9 184.3,64.0 184.9,64.6 185.4,64.2 186.0,64.4 186.5,61.4 187.1,57.9 187.6,53.7 188.2,52.6 188.7,51.7 189.3,51.5 189.8,52.8 190.4,51.1 190.9,50.5 191.5,53.1 192.0,53.0 192.6,54.0 193.1,53.2 193.7,54.3 194.2,53.5 194.8,48.8 195.3,49.3 195.9,43.5 196.4,45.2 197.0,46.9 197.5,45.3 198.1,49.1 198.6,50.9 199.2,48.6 199.7,48.5 200.3,49.9 200.8,49.4 201.4,50.5 201.9,48.8 202.5,47.2 203.0,44.2 203.5,44.1 204.1,42.7 204.6,39.3 205.2,40.7 205.7,43.4 206.3,42.2 206.8,42.1 207.4,42.6 207.9,41.9 208.5,43.8 209.0,44.5 209.6,43.2 210.1,42.8 210.7,43.3 211.2,40.8 211.8,39.8 212.3,40.9 212.9,41.8 213.4,42.7 214.0,47.5 214.5,46.6 215.1,45.6 215.6,45.1 216.2,47.9 216.7,46.7 217.3,48.2 217.8,48.3 218.4,49.3 218.9,49.8 219.5,49.1 220.0,48.0 220.6,46.8 221.1,46.1 221.7,48.1 222.2,47.0 222.8,47.0 223.3,47.2 223.8,46.7 224.4,46.4 224.9,44.4 225.5,52.4 226.0,51.6 226.6,51.6 227.1,50.5 227.7,52.3 228.2,52.4 228.8,49.5 229.3,53.5 229.9,53.0 230.4,52.6 231.0,54.1 231.5,53.2 232.1,54.6 232.6,54.7 233.2,57.6 233.7,60.9 234.0,62.8" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="67.5" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="159.1" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">14 nov</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">16 may</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+      </div>
+      <p class="com">Cayó 11% en siete días y 14,5% en el mes; cotiza en US$ 616, cerca del piso del período (US$ 614). Hace un año valía US$ 916.</p>
+    </div><div class="coin">
+      <div class="coin-head"><span class="sym">0G</span><span class="nom">0G</span>
+        <span class="vars"><span class="neg">24 h −3,7%</span><span class="">7 d +3,2%</span><span class="neg">30 d −35,5%</span><span class="neg">12 m −87,4%</span></span>
+        <span class="px">US$ 0,154</span></div>
+      <div class="charts">
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 7 días, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 7 días</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 0,161 · mín 0,136</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">0,137</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">0,148</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">0,160</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,48.0 35.2,47.4 36.4,48.6 37.6,49.3 38.8,47.7 40.0,46.9 41.2,46.8 42.4,46.8 43.6,49.3 44.8,50.2 46.0,48.7 47.2,48.5 48.4,49.5 49.6,52.5 50.8,53.6 52.0,52.2 53.2,53.0 54.4,53.0 55.6,53.7 56.8,52.9 58.0,53.2 59.1,54.9 60.3,55.3 61.5,55.0 62.7,56.1 63.9,57.8 65.1,56.1 66.3,55.4 67.5,57.7 68.7,58.2 69.9,56.9 71.1,57.2 72.3,58.4 73.5,71.9 74.7,66.3 75.9,63.9 77.1,60.1 78.3,61.0 79.5,59.7 80.7,60.3 81.9,60.4 83.1,62.0 84.3,63.2 85.5,67.5 86.7,60.2 87.9,58.8 89.1,59.7 90.3,57.1 91.5,50.0 92.7,52.3 93.9,51.9 95.1,50.4 96.3,53.8 97.5,55.4 98.7,57.8 99.9,58.4 101.1,59.4 102.3,59.8 103.5,59.4 104.7,59.9 105.9,60.4 107.1,60.6 108.2,60.1 109.4,59.9 110.6,57.0 111.8,55.2 113.0,56.3 114.2,56.6 115.4,57.0 116.6,54.3 117.8,55.1 119.0,54.4 120.2,56.6 121.4,56.2 122.6,50.9 123.8,57.1 125.0,59.2 126.2,57.3 127.4,54.8 128.6,55.7 129.8,49.3 131.0,50.6 132.2,49.6 133.4,48.5 134.6,49.6 135.8,49.1 137.0,49.3 138.2,44.4 139.4,45.1 140.6,46.4 141.8,49.9 143.0,51.1 144.2,48.9 145.4,48.8 146.6,44.1 147.8,45.4 149.0,43.8 150.2,36.0 151.4,34.7 152.6,25.8 153.8,26.6 155.0,34.1 156.2,33.4 157.3,37.0 158.5,38.3 159.7,39.6 160.9,44.7 162.1,41.3 163.3,44.2 164.5,46.0 165.7,41.4 166.9,35.9 168.1,35.1 169.3,36.3 170.5,29.2 171.7,29.7 172.9,40.4 174.1,38.3 175.3,39.3 176.5,40.2 177.7,42.3 178.9,48.0 180.1,43.7 181.3,41.6 182.5,40.8 183.7,38.1 184.9,36.4 186.1,36.0 187.3,37.8 188.5,35.9 189.7,31.8 190.9,33.0 192.1,36.2 193.3,28.8 194.5,37.8 195.7,42.6 196.9,43.9 198.1,40.3 199.3,32.5 200.5,28.4 201.7,26.4 202.9,26.7 204.1,23.2 205.3,21.1 206.4,26.0 207.6,21.3 208.8,27.9 210.0,29.7 211.2,30.8 212.4,28.4 213.6,26.4 214.8,27.2 216.0,25.3 217.2,23.4 218.4,20.8 219.6,20.1 220.8,21.4 222.0,22.1 223.2,27.8 224.4,29.8 225.6,26.1 226.8,24.2 228.0,32.1 229.2,34.8 230.4,34.0 231.6,27.6 232.8,34.6 234.0,34.1" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="219.6" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="73.5" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">7 nov</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">10 nov</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 30 días, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 30 días</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 0,257 · mín 0,140</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">0,144</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">0,198</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">0,252</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,20.1 40.8,24.5 47.6,29.1 54.3,33.8 61.1,33.0 67.9,29.4 74.7,27.7 81.5,34.7 88.2,32.7 95.0,38.5 101.8,42.9 108.6,44.6 115.4,45.1 122.1,46.9 128.9,57.8 135.7,58.6 142.5,58.2 149.3,59.7 156.0,63.8 162.8,64.5 169.6,63.4 176.4,70.9 183.2,67.2 189.9,68.6 196.7,71.9 203.5,71.0 210.3,68.6 217.1,67.1 223.8,65.4 230.6,62.7 234.0,65.6" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="34.0" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="196.7" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">15 oct</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">30 oct</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+        <svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Últimos 12 meses, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Últimos 12 meses</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 1,3 · mín 0,138</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">0,181</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">0,736</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">1,3</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,25.0 34.5,20.1 35.1,23.9 35.6,25.9 36.2,23.7 36.7,27.4 37.3,30.0 37.8,28.3 38.4,23.0 38.9,20.2 39.5,23.0 40.0,24.5 40.6,25.5 41.1,24.2 41.7,24.6 42.2,25.6 42.8,28.0 43.3,27.8 43.9,26.4 44.4,26.2 45.0,27.8 45.5,31.9 46.1,33.2 46.6,35.1 47.2,34.7 47.7,33.1 48.3,35.0 48.8,37.3 49.4,39.4 49.9,38.6 50.5,38.3 51.0,40.6 51.6,41.6 52.1,45.0 52.7,46.9 53.2,44.6 53.8,43.1 54.3,44.3 54.9,42.4 55.4,43.1 55.9,43.2 56.5,32.7 57.0,34.5 57.6,33.7 58.1,36.9 58.7,34.4 59.2,33.7 59.8,35.7 60.3,35.5 60.9,35.2 61.4,34.8 62.0,35.0 62.5,34.9 63.1,35.5 63.6,36.2 64.2,38.3 64.7,39.2 65.3,40.3 65.8,39.9 66.4,41.2 66.9,39.2 67.5,39.6 68.0,40.7 68.6,39.5 69.1,39.7 69.7,42.4 70.2,43.3 70.8,45.4 71.3,45.0 71.9,41.4 72.4,30.7 73.0,25.0 73.5,38.8 74.1,38.3 74.6,41.0 75.2,42.8 75.7,46.1 76.2,39.6 76.8,45.7 77.3,49.8 77.9,49.8 78.4,52.0 79.0,51.4 79.5,56.5 80.1,54.9 80.6,54.3 81.2,54.4 81.7,54.2 82.3,54.7 82.8,53.5 83.4,49.4 83.9,50.5 84.5,50.5 85.0,48.6 85.6,49.4 86.1,48.4 86.7,50.5 87.2,51.1 87.8,49.4 88.3,48.2 88.9,51.1 89.4,50.5 90.0,49.8 90.5,49.3 91.1,49.6 91.6,50.3 92.2,49.4 92.7,50.9 93.3,50.9 93.8,51.3 94.4,51.2 94.9,51.1 95.5,51.4 96.0,52.1 96.6,54.1 97.1,53.4 97.6,53.1 98.2,52.7 98.7,52.6 99.3,52.6 99.8,52.8 100.4,52.9 100.9,52.1 101.5,52.7 102.0,54.1 102.6,54.4 103.1,54.6 103.7,55.7 104.2,53.9 104.8,55.0 105.3,55.1 105.9,55.1 106.4,56.7 107.0,57.5 107.5,57.0 108.1,57.5 108.6,56.7 109.2,56.5 109.7,55.7 110.3,54.0 110.8,55.2 111.4,56.1 111.9,56.4 112.5,55.6 113.0,54.4 113.6,55.2 114.1,55.0 114.7,54.4 115.2,53.9 115.8,51.1 116.3,51.9 116.9,51.4 117.4,51.9 118.0,51.5 118.5,51.1 119.0,53.3 119.6,53.5 120.1,52.7 120.7,52.5 121.2,52.7 121.8,53.0 122.3,53.2 122.9,53.3 123.4,53.9 124.0,53.8 124.5,53.8 125.1,54.0 125.6,55.0 126.2,54.9 126.7,54.4 127.3,54.8 127.8,54.6 128.4,54.5 128.9,53.8 129.5,53.8 130.0,53.1 130.6,53.2 131.1,53.1 131.7,53.3 132.2,53.6 132.8,54.3 133.3,54.0 133.9,55.8 134.4,56.0 135.0,56.9 135.5,56.6 136.1,57.0 136.6,56.7 137.2,56.4 137.7,57.4 138.3,56.9 138.8,57.6 139.3,57.3 139.9,58.5 140.4,59.4 141.0,59.3 141.5,59.3 142.1,59.5 142.6,59.7 143.2,59.7 143.7,61.3 144.3,61.4 144.8,63.0 145.4,64.7 145.9,64.6 146.5,64.5 147.0,64.4 147.6,65.1 148.1,66.0 148.7,65.2 149.2,65.4 149.8,64.8 150.3,64.8 150.9,64.6 151.4,64.9 152.0,65.2 152.5,66.1 153.1,66.2 153.6,66.2 154.2,66.6 154.7,66.6 155.3,67.4 155.8,67.9 156.4,68.7 156.9,68.5 157.5,67.4 158.0,68.5 158.6,68.6 159.1,69.1 159.7,69.0 160.2,68.7 160.7,68.3 161.3,68.8 161.8,68.9 162.4,68.8 162.9,69.2 163.5,69.7 164.0,69.4 164.6,69.3 165.1,69.7 165.7,69.9 166.2,70.3 166.8,70.3 167.3,69.5 167.9,70.0 168.4,69.7 169.0,70.4 169.5,70.1 170.1,70.3 170.6,69.9 171.2,70.0 171.7,70.0 172.3,70.4 172.8,70.3 173.4,70.2 173.9,70.0 174.5,70.8 175.0,71.4 175.6,71.5 176.1,71.7 176.7,71.5 177.2,71.7 177.8,71.9 178.3,71.7 178.9,71.9 179.4,71.6 180.0,71.6 180.5,71.4 181.1,71.5 181.6,71.2 182.1,71.0 182.7,71.1 183.2,70.8 183.8,70.9 184.3,70.7 184.9,71.1 185.4,71.6 186.0,71.7 186.5,71.3 187.1,70.9 187.6,70.3 188.2,70.9 188.7,70.6 189.3,70.7 189.8,71.0 190.4,70.9 190.9,70.9 191.5,70.7 192.0,70.9 192.6,70.7 193.1,68.1 193.7,69.3 194.2,69.8 194.8,69.6 195.3,69.4 195.9,69.3 196.4,69.2 197.0,69.5 197.5,69.2 198.1,69.5 198.6,70.0 199.2,69.4 199.7,69.3 200.3,69.3 200.8,69.3 201.4,69.8 201.9,69.7 202.4,68.9 203.0,68.5 203.5,68.0 204.1,68.1 204.6,67.7 205.2,67.3 205.7,67.2 206.3,66.8 206.8,66.6 207.4,66.5 207.9,66.5 208.5,65.3 209.0,63.7 209.6,64.4 210.1,65.1 210.7,64.8 211.2,64.9 211.8,64.8 212.3,64.6 212.9,64.0 213.4,64.8 214.0,65.5 214.5,66.8 215.1,66.2 215.6,65.9 216.2,66.6 216.7,66.9 217.3,67.2 217.8,66.7 218.4,67.2 218.9,67.6 219.5,68.1 220.0,68.0 220.6,67.7 221.1,67.5 221.7,68.2 222.2,68.0 222.8,68.5 223.3,69.0 223.8,69.1 224.4,69.2 224.9,69.4 225.5,70.4 226.0,70.5 226.6,70.5 227.1,70.6 227.7,71.0 228.2,71.1 228.8,71.0 229.3,71.7 229.9,71.3 230.4,71.5 231.0,71.8 231.5,71.7 232.1,71.5 232.6,71.3 233.2,71.2 233.7,70.9 234.0,71.2" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="34.5" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="177.8" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">14 nov</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">16 may</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">14 nov</text>
+  </svg>
+      </div>
+      <p class="com">El único positivo de la semana (+3,2%), aunque en treinta días pierde 35% y a doce meses 87%. CoinGecko cuenta ahora unos 615 millones de tokens en circulación, contra 213 millones hace un mes, con la emisión total sin cambios en mil millones; no se encontró un anuncio que explique la diferencia.</p>
+    </div>
+    
+    <div class="fin-bottom">
+      <div>
+        <table class="tabla"><caption>Dólar en pesos (ARS) · compra / venta</caption>
+          <thead><tr><th class="l">Casa</th><th>Compra</th><th>Venta</th><th>Fecha</th></tr></thead>
+          <tbody><tr><td class="l">Oficial</td><td>1.520</td><td>1.570</td><td>13 nov</td></tr><tr><td class="l">Blue</td><td>1.555</td><td>1.575</td><td>13 nov</td></tr><tr><td class="l">MEP (bolsa)</td><td>1.576</td><td>1.581</td><td>13 nov</td></tr><tr><td class="l">Contado con liqui</td><td>1.668</td><td>1.672</td><td>13 nov</td></tr><tr><td class="l">Mayorista</td><td>1.535</td><td>1.544</td><td>13 nov</td></tr><tr><td class="l">Cripto</td><td>1.663</td><td>1.670</td><td>13 nov</td></tr><tr><td class="l">Tarjeta</td><td>1.976</td><td>2.041</td><td>13 nov</td></tr><tr><td class="l">Riesgo país (JP Morgan)</td><td colspan="3">830 pb · 13 nov</td></tr><tr><td class="l">Inflación mensual (octubre)</td><td colspan="3">2,2%</td></tr><tr><td class="l">Tasa TAMAR</td><td colspan="3">24,31% · 13 nov</td></tr></tbody></table>
+        <div class="chart-infl"><svg class="chart" viewBox="0 0 240 92" role="img" aria-label="Inflación mensual (%), 12 meses, US$">
+    <text x="34" y="10" font-size="8.5" font-weight="bold" fill="#000">Inflación mensual (%), 12 meses</text>
+    <text x="234" y="10" text-anchor="end" font-size="7.5" fill="#333">máx 3,4 · mín 1,7</text>
+    <line x1="34" x2="234" y1="70.0" y2="70.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="73.0" text-anchor="end" font-size="7.5" fill="#333">1,8</text><line x1="34" x2="234" y1="46.0" y2="46.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="49.0" text-anchor="end" font-size="7.5" fill="#333">2,6</text><line x1="34" x2="234" y1="22.0" y2="22.0" stroke="#cfcfcf" stroke-width="0.5"/>
+    <text x="31" y="25.0" text-anchor="end" font-size="7.5" fill="#333">3,3</text>
+    <line x1="34" x2="234" y1="76.0" y2="76.0" stroke="#000" stroke-width="0.6"/>
+    <polyline points="34.0,47.5 52.5,38.4 71.0,35.4 87.7,35.4 106.2,20.1 124.1,44.5 142.7,59.7 160.6,65.8 179.1,59.7 197.6,71.9 215.5,65.8 234.0,56.6" fill="none" stroke="#000" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round"/>
+    
+    <circle cx="106.2" cy="20.1" r="1.8" fill="#000"/>
+    <circle cx="197.6" cy="71.9" r="1.8" fill="#fff" stroke="#000" stroke-width="0.9"/>
+    <text x="34" y="88" font-size="7.5" fill="#333">30 nov</text>
+    <text x="134.0" y="88" text-anchor="middle" font-size="7.5" fill="#333">16 may</text>
+    <text x="234" y="88" text-anchor="end" font-size="7.5" fill="#333">31 oct</text>
+  </svg></div>
+        <p class="aviso">Dólar, riesgo país y tasas corresponden al cierre del viernes 13; cripto, al sábado 14 a las 08:56. El INDEC publicó el jueves 12 la inflación de octubre: 2,2%, con núcleo de 1,5%.</p>
+        <p class="aviso">Series y variaciones retrospectivas al cierre (14/11/2026 08:56 hora argentina). Fuente cripto: CoinGecko; dólar: DolarApi; riesgo país e inflación: ArgentinaDatos sobre datos de JP Morgan e INDEC. Máximo y mínimo marcados con puntos. No es recomendación de inversión.</p>
+      </div>
+      <div><h3 class="h3">Glosario técnico</h3><dl class="glos"><dt>Tipo unión</dt><dd>Tipo cuyo valor es exactamente uno de un conjunto cerrado de tipos declarados, sin que estos tengan que compartir una clase base; el compilador verifica que un switch contemple todos los casos. <span class="ej">Un resultado de facturación declarado como unión de Aprobada, Rechazada o Pendiente obliga a manejar los tres casos, en lugar de un objeto genérico o una excepción.</span> <span class="rel">Ver: .NET 11, página 4</span></dd><dt>Búsqueda de vecinos aproximada (ANN) con DiskANN</dt><dd>Búsqueda vectorial que usa un índice basado en grafos, diseñado para residir mayormente en disco, para devolver los k vectores más parecidos sin compararlos todos, a cambio de no garantizar el resultado exacto. <span class="ej">En Azure SQL, VECTOR_SEARCH con WITH APPROXIMATE recupera los 5 productos más similares a una consulta en milisegundos; sin el índice, se calcula la distancia contra toda la tabla (kNN exacto).</span> <span class="rel">Ver: Azure SQL, página 4</span></dd><dt>Filtración de hash NTLMv2</dt><dd>Ataque en el que se fuerza a Windows a autenticarse contra un servidor del atacante, que captura la respuesta NTLMv2 del usuario para crackearla o reenviarla (relay) a otro servicio. <span class="ej">Un mensaje de Outlook manipulado apunta a una ruta de red externa y, al abrirlo, el cliente envía el hash sin mostrar la advertencia habitual.</span> <span class="rel">Ver: Patch Tuesday, página 4</span></dd><dt>Inyección indirecta de prompt</dt><dd>Ataque en el que las instrucciones maliciosas no las escribe el usuario sino que llegan dentro de contenido que el modelo procesa (una web, un correo, un documento) e intentan desviar a un agente de su tarea. <span class="ej">Un PDF de proveedor con texto oculto que le ordena al agente de cuentas a pagar cambiar el CBU de destino; el benchmark de Gray Swan mide cuántas veces el modelo obedece.</span> <span class="rel">Ver: Gemini 4 Carbon, página 4</span></dd></dl></div>
+    </div>
+  </div></div>
+      <footer class="pf"><span>Nº 3 · Los Cocos, Córdoba</span><span>Página <b class="pf-num">6</b> de 8</span></footer>
+    </section>
+<section class="page" data-pagina="7" data-nombre="boca" style="--cuerpo:9.5pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">El Diario de Yrigoyen</span> · Boca Juniors</span><span>sábado, 14 de noviembre de 2026 · <b class="ph-num">7</b></span></header>
+      <div class="pb"><div class="boca">
+    <div class="col">
+      <div class="bloque">
+        <div class="kicker">Último partido · Clausura 2026, Zona A, última fecha · 7 nov, 17:30</div>
+        <p class="resultado">Boca 1 - 0 Defensa y Justicia</p>
+        <p class="goles">Goles: 90+6' Valencia (Boca). Árbitro: Sebastián Zunino. La Bombonera.</p>
+        <p>Fue un partido parejo y con pocas situaciones; el VAR le anuló un gol a Merentiel y Defensa avisó con dos cabezazos de David Martínez. Cuando Rosario Central le ganaba a Estudiantes de Río Cuarto y tenía la tabla anual en la mano, Enner Valencia empujó un rebote del arquero en el descuento.</p><p>El gol le dio a Boca el título de campeón de la tabla anual 2026, con 63 puntos contra 62 de Central, y la clasificación a la fase de grupos de la Libertadores 2027. El minuto exacto difiere según la fuente.</p>
+      </div>
+      <div class="proximo hoy">
+        <div class="et">Próximo partido · Copa Argentina · semifinal</div>
+        <div class="rival">Boca vs. Banfield</div>
+        <div class="cuando">HOY, Sábado 14/11/2026 · 19:00 hora argentina</div>
+        <p class="det">Estadio Malvinas Argentinas, Mendoza · si empatan, penales directos · Árbitro: Nazareno Arasa; VAR Lucas Novelli · TV: TyC Sports · Verificado en 3 fuentes al cierre.</p>
+      </div>
+      <div class="bloque"><h3 class="h3">Siguientes partidos</h3><ul class="lista sans"><li>Sábado 21/11/2026, 19:30 · Atlético Mineiro (neutral) · Sudamericana, FINAL · Metropolitano de Barranquilla</li><li>Miércoles 25/11/2026, 21:00 · Independiente Rivadavia (local) · Clausura, octavos · Bombonera · ESPN Premium</li><li>Miércoles 02/12/2026 · Platense (neutral) · Copa Argentina, final · si gana hoy · sede a confirmar</li></ul></div>
+      <div class="bloque">
+        <table class="tabla"><caption>Torneo Clausura 2026 · Zona A · tabla final</caption>
+          <thead><tr><th>#</th><th class="l">Equipo</th><th>PJ</th><th>G</th><th>E</th><th>P</th><th>GF</th><th>GC</th><th>Dif</th><th>Pts</th></tr></thead>
+          <tbody><tr class=""><td>1</td><td class="l">Instituto</td><td>16</td><td>10</td><td>4</td><td>2</td><td>26</td><td>15</td><td>+11</td><td><b>34</b></td></tr><tr class="destacado"><td>2</td><td class="l">Boca Juniors</td><td>16</td><td>9</td><td>6</td><td>1</td><td>24</td><td>14</td><td>+10</td><td><b>33</b></td></tr><tr class=""><td>3</td><td class="l">Vélez Sarsfield</td><td>16</td><td>7</td><td>7</td><td>2</td><td>25</td><td>17</td><td>+8</td><td><b>28</b></td></tr><tr class=""><td>4</td><td class="l">Defensa y Justicia</td><td>16</td><td>8</td><td>4</td><td>4</td><td>21</td><td>15</td><td>+6</td><td><b>28</b></td></tr><tr class=""><td>5</td><td class="l">Lanús</td><td>15</td><td>7</td><td>4</td><td>4</td><td>18</td><td>11</td><td>+7</td><td><b>25</b></td></tr><tr class=""><td>6</td><td class="l">Newell's</td><td>16</td><td>5</td><td>8</td><td>3</td><td>16</td><td>13</td><td>+3</td><td><b>23</b></td></tr><tr class=""><td>7</td><td class="l">Independiente</td><td>16</td><td>6</td><td>5</td><td>5</td><td>15</td><td>16</td><td>-1</td><td><b>23</b></td></tr><tr class=""><td>8</td><td class="l">Gimnasia (Mendoza)</td><td>16</td><td>6</td><td>4</td><td>6</td><td>18</td><td>17</td><td>+1</td><td><b>22</b></td></tr><tr class=""><td>9</td><td class="l">Unión</td><td>16</td><td>6</td><td>3</td><td>7</td><td>24</td><td>24</td><td>0</td><td><b>21</b></td></tr><tr class=""><td>10</td><td class="l">Platense</td><td>16</td><td>5</td><td>5</td><td>6</td><td>18</td><td>20</td><td>-2</td><td><b>20</b></td></tr><tr class=""><td>11</td><td class="l">San Lorenzo</td><td>16</td><td>5</td><td>4</td><td>7</td><td>9</td><td>16</td><td>-7</td><td><b>19</b></td></tr><tr class=""><td>12</td><td class="l">Estudiantes (LP)</td><td>16</td><td>4</td><td>4</td><td>8</td><td>21</td><td>22</td><td>-1</td><td><b>16</b></td></tr><tr class=""><td>13</td><td class="l">Talleres (Córdoba)</td><td>16</td><td>3</td><td>4</td><td>9</td><td>17</td><td>23</td><td>-6</td><td><b>13</b></td></tr><tr class=""><td>14</td><td class="l">Deportivo Riestra</td><td>16</td><td>2</td><td>6</td><td>8</td><td>11</td><td>19</td><td>-8</td><td><b>12</b></td></tr><tr class=""><td>15</td><td class="l">Central Córdoba (SdE)</td><td>15</td><td>2</td><td>4</td><td>9</td><td>11</td><td>25</td><td>-14</td><td><b>10</b></td></tr></tbody></table>
+        <p class="aviso">Pasan los ocho primeros de cada zona a octavos cruzados, a partido único en cancha del mejor ubicado. Boca, 2º, recibe a Independiente Rivadavia el miércoles 25 (postergado por la final de la Sudamericana). Final del torneo: sábado 12 de diciembre en La Plata. Lanús y Central Córdoba figuran con un partido menos. Fuente: ESPN, contrastada con los cruces de octavos de Infobae y Ámbito, actualizada 14/11/2026 08:57.</p>
+      </div>
+      <div class="bloque"><h3 class="h3">Tabla anual</h3><p>Boca es campeón de la tabla anual 2026 con 63 puntos, uno más que Rosario Central. El título le da la fase de grupos de la Libertadores 2027 y el derecho a jugar la Supercopa Internacional ante el ganador del Trofeo de Campeones (Belgrano contra el campeón del Clausura). Fue la definición más ajustada posible: el gol de Valencia llegó en el descuento de la última fecha, cuando Central ganaba su partido y tenía el título en la mano. La tabla anual reparte seis cupos a la Libertadores 2027 y seis a la Sudamericana, dato de una sola fuente.</p></div>
+    </div>
+    <div class="col">
+      <div class="bloque"><h3 class="h3">Copa Argentina</h3><p>Boca juega hoy la semifinal con Banfield en Mendoza. El ganador enfrenta a Platense, que eliminó a Atlético Tucumán por penales, en la final prevista para el miércoles 2 de diciembre, con sede y hora a confirmar. Recorrido de Boca: Gimnasia de Chivilcoy, Sarmiento, Vélez (por penales) y Racing (3-2, con tres goles de Valencia).</p><ul class="lista sans"><li>Semifinal: Boca - Banfield · hoy 19:00 · Mendoza</li><li>Semifinal: Platense - Atlético Tucumán · pasó Platense por penales</li><li>Final · 2/12 · sede a confirmar</li></ul></div>
+      <div class="bloque"><h3 class="h3">Copa Sudamericana</h3><p>Boca es finalista. En la semifinal perdió la ida 0-1 con Vasco da Gama en la Bombonera y ganó la vuelta 3-1 en el Maracaná el 20 de octubre (Di Lollo, Merentiel y Paredes), para un global de 3-2. La final, a partido único, es el sábado 21 a las 19:30 hora argentina en Barranquilla, contra Atlético Mineiro, que eliminó a Montevideo City Torque; Conmebol atrasó media hora el horario por el calor. Si hay empate, alargue y penales. Boca busca su tercera Sudamericana. Árbitro y TV, sin confirmar.</p><ul class="lista sans"><li>Playoffs: Boca - O'Higgins · pasó Boca</li><li>Octavos: Boca - Deportivo Recoleta · pasó Boca</li><li>Cuartos: Boca - São Paulo · pasó Boca</li><li>Semifinal: Boca 0-1 Vasco (ida) y Vasco 1-3 Boca (vuelta) · 13/10 y 20/10 · global 3-2</li><li>Semifinal: Atlético Mineiro - Montevideo City Torque · global 3-2</li><li>Final: Boca - Atlético Mineiro · 21/11 19:30 · Barranquilla</li></ul></div>
+      <div class="bloque"><h3 class="h3">Plantel · DT Rodolfo Arruabarrena</h3>
+        
+        <p class="formacion"><b>Probables (4-3-3, según Diario Mendoza y Canal 26):</b> Montero, Lozano, Di Lollo, Herrera, Braida, Paredes, Delgado, Ascacibar (en duda), Velasco, Merentiel, Villa.</p>
+        <p class="formacion"><b>Lesionados y en recuperación:</b> Lautaro Blanco (sobrecarga muscular desde el Maracaná; regreso sin fecha), Ascacibar (golpe en la rodilla ante Defensa; regreso se decide a último momento), Battaglia (molestia en el sóleo; regreso sin fecha).</p>
+        <p class="formacion"><b>Suspendidos:</b> ninguno.</p>
+        <p class="formacion"><b>Regresos:</b> Adam Bareiro vuelve a ser convocado tras más de seis meses.</p>
+        <p class="datos">Actualizado 14 nov.</p>
+      </div>
+      <div class="bloque"><h3 class="h3">Mercado de pases</h3>
+        <p class="formacion"><b>Oficial</b></p><p class="datos">Sin novedades registradas.</p>
+        <p class="formacion"><b>Negociaciones confirmadas</b></p><p class="datos">Sin novedades registradas.</p>
+        <p class="formacion"><b>Rumores</b></p><p class="datos">Sin novedades registradas.</p>
+        <p>El libro de pases está cerrado desde septiembre y no hubo altas ni bajas en la semana. Ningún medio aceptado informó negociaciones para 2027; sitios partidarios mencionan que Merentiel pidió renovar y que la charla quedó para después de las competencias. Williams Alarcón no está disponible por la convocatoria a la selección de Chile.</p>
+      </div>
+      
+      <p class="sello">Fuentes: Canal 26, Diario Mendoza, C5N, Emol, Diario Jornada. Última verificación 14/11/2026 09:10 hora argentina.</p>
+    </div>
+  </div></div>
+      <footer class="pf"><span>Nº 3 · Los Cocos, Córdoba</span><span>Página <b class="pf-num">7</b> de 8</span></footer>
+    </section>
+<section class="page" data-pagina="8" data-nombre="contratapa" style="--cuerpo:9.75pt; --columnas:3">
+      <header class="ph"><span><span class="ph-seccion">El Diario de Yrigoyen</span> · Cultura y clima</span><span>sábado, 14 de noviembre de 2026 · <b class="ph-num">8</b></span></header>
+      <div class="pb"><div class="contra">
+    <div class="col">
+      <div class="disco">
+        <div class="kicker">Disco de la semana</div>
+        <h2 class="tit">Glenn Gould: <i>Bach: Variaciones Goldberg (1981)</i></h2>
+        <p class="ficha">1982 · música clásica, piano solo</p>
+        <p>Glenn Gould debutó en disco en 1956 con las Variaciones Goldberg de Bach, en una versión veloz y luminosa de unos 38 minutos que lo convirtió en celebridad. En 1981 volvió a grabarlas para Columbia y el resultado, editado en 1982, dura unos 51 minutos: el aria inicial pasa de ser una introducción a un umbral meditativo, y las variaciones quedan unidas por una misma pulsación de fondo. Gould murió en octubre de 1982, a los 50 años, poco después de la edición.</p><p>Qué escuchar: el aria del principio y su repetición al final, para notar cómo cambia el sentido de la misma música después del viaje; las variaciones en canon, donde cada voz es perfectamente audible; y el murmullo del propio Gould tarareando, que los ingenieros nunca lograron eliminar. Escuchar después la versión de 1955 es la mejor clase sobre interpretación que se puede tomar en una hora.</p>
+      </div>
+      <div class="lit">
+        <div class="kicker">Microrelato</div>
+        <h2 class="tit">El sueño de la mariposa</h2>
+        <p class="autor">Zhuangzi · <i>Zhuangzi, capítulo 2 («Sobre la igualdad de las cosas»)</i>, siglo IV a. C. · Traducción: propia, del chino clásico</p>
+        <p>Una vez Zhuang Zhou soñó que era una mariposa: una mariposa que revoloteaba contenta de sí misma, a sus anchas, sin saber que era Zhou. De pronto despertó, y ahí estaba, sin duda, Zhou. Y no supo si era Zhou que había soñado ser mariposa o una mariposa que soñaba ser Zhou. Entre Zhou y la mariposa tiene que haber alguna diferencia. A esto se le llama la transformación de las cosas.</p>
+        <p class="nota">Uno de los textos más breves y citados de la tradición taoísta, atribuido al filósofo Zhuang Zhou. Dominio público.</p>
+      </div>
+      <div class="art lit"><article class="art  tipo-hecho" data-id="agenda-punilla" data-recorte="">
+    <div class="kicker">Cultura · 12 nov</div>
+    <h2 class="tit">Agenda del valle: cielo, pizza y presupuesto</h2>
+    
+    <div class="cuerpo"><p>El Mes del Astroturismo sigue hasta el viernes 27 con más de 15 actividades de observación del cielo en Capilla del Monte (Reserva Villa Cielo, dique El Cajón, base del Uritorco), La Cumbre (Sala Aúlica y Aeroclub), Carlos Paz, Mayu Sumaj y La Falda (cerro El Dragón); Los Cocos no figura en la grilla. Huerta Grande hace del viernes 20 al domingo 22 la tercera Fiesta Provincial de la Pizza y la Cerveza Artesanal sobre la avenida San Martín, con entrada libre. En La Falda, el Concejo aprobó en primera lectura un presupuesto 2027 de $ 24.999 millones y convocó a audiencia pública el martes 24 a las 19 en el salón Leopoldo Marechal. Fuente única: La Estafeta Online.</p></div>
+    <p class="fuente">La Estafeta Online, 5 nov · La Estafeta Online, 12 nov · La Estafeta Online, 14 nov</p>
+  </article></div>
+    </div>
+    <div class="col">
+      <div class="clima">
+        <h3 class="h3">Clima en Los Cocos</h3>
+        <div class="dias"><div class="dia"><div class="d">sáb 14 nov</div><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 38h26a10 10 0 0 0 1.5-19.9A15 15 0 0 0 18.5 22 8 8 0 0 0 20 38z"/><path d="M34 40l-7 11h8l-5 11" fill="#000"/><path d="M20 46l-2 6M46 46l-2 6"/></svg>
+<div class="tt"><b>22°</b> / 17°</div><div>Tormenta</div></div><div class="dia"><div class="d">dom 15 nov</div><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 40h26a10 10 0 0 0 1.5-19.9A15 15 0 0 0 18.5 24 8 8 0 0 0 20 40z"/><path d="M22 47v1M30 50v1M38 47v1M26 55v1M34 56v1M42 54v1"/></svg>
+<div class="tt"><b>26°</b> / 15°</div><div>Llovizna</div></div><div class="dia"><div class="d">lun 16 nov</div><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 38h26a10 10 0 0 0 1.5-19.9A15 15 0 0 0 18.5 22 8 8 0 0 0 20 38z"/><path d="M34 40l-7 11h8l-5 11" fill="#000"/><path d="M20 46l-2 6M46 46l-2 6"/></svg>
+<div class="tt"><b>22°</b> / 16°</div><div>Tormenta con granizo</div></div><div class="dia"><div class="d">mar 17 nov</div><svg class="wicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 40h26a10 10 0 0 0 1.5-19.9A15 15 0 0 0 18.5 24 8 8 0 0 0 20 40z"/><path d="M22 47v1M30 50v1M38 47v1M26 55v1M34 56v1M42 54v1"/></svg>
+<div class="tt"><b>22°</b> / 14°</div><div>Llovizna</div></div></div>
+        <table class="tabla"><thead><tr><th class="l">Día</th><th>Máx</th><th>Mín</th><th>Lluvia</th><th>Prob.</th><th>Viento km/h (ráfagas)</th></tr></thead><tbody><tr class="obs"><td class="l">Miércoles 11 nov (previo)</td><td>25°</td><td>13°</td><td>0,0 mm</td><td>0%</td><td>15 (32)</td></tr><tr class="obs"><td class="l">Jueves 12 nov (previo)</td><td>27°</td><td>14°</td><td>2,9 mm</td><td>88%</td><td>13 (28)</td></tr><tr class="obs"><td class="l">Viernes 13 nov (previo)</td><td>30°</td><td>18°</td><td>11,1 mm</td><td>94%</td><td>25 (53)</td></tr><tr class=""><td class="l">Sábado 14 nov</td><td>22°</td><td>17°</td><td>11,8 mm</td><td>81%</td><td>14 (39)</td></tr><tr class=""><td class="l">Domingo 15 nov</td><td>26°</td><td>15°</td><td>1,9 mm</td><td>36%</td><td>14 (31)</td></tr><tr class=""><td class="l">Lunes 16 nov</td><td>22°</td><td>16°</td><td>29,1 mm</td><td>91%</td><td>15 (33)</td></tr><tr class=""><td class="l">Martes 17 nov</td><td>22°</td><td>14°</td><td>2,9 mm</td><td>91%</td><td>22 (46)</td></tr></tbody></table>
+        <p class="obs"><b>Cambio de temperatura:</b> la máxima cae de 29,7° el viernes a 21,7° hoy, después de un viernes con 37° en la ciudad de Córdoba; el lunes vuelven las tormentas, con 29 mm previstos.</p>
+        <p class="obs"><b>Alertas:</b> El SMN elevó a naranja la alerta por tormentas para Punilla durante la madrugada de hoy, con 50 a 90 mm y ráfagas que podían superar los 90 km/h; los pronósticos dan mejora hacia la tarde. El texto del aviso oficial no pudo abrirse en el sitio del SMN; fuentes: La Estafeta Online, La Nación y El Doce (13 y 14/11).</p>
+        <p class="aviso">Fuente: Open-Meteo (modelo best_match), pronóstico consultado 14/11/2026 08:59 hora argentina. Iconos según código WMO.</p>
+      </div>
+      <div class="lit">
+        <div class="kicker">Poesía</div>
+        <h2 class="tit">Proverbios y cantares, XXIX</h2>
+        <p class="autor">Antonio Machado (†1939) · <i>Campos de Castilla</i>, 1917</p>
+        <p class="verso">Caminante, son tus huellas</p><p class="verso">el camino y nada más;</p><p class="verso">caminante, no hay camino,</p><p class="verso">se hace camino al andar.</p><p class="verso">Al andar se hace camino,</p><p class="verso">y al volver la vista atrás</p><p class="verso">se ve la senda que nunca</p><p class="verso">se ha de volver a pisar.</p><p class="verso">Caminante, no hay camino,</p><p class="verso">sino estelas en la mar.</p>
+        <p class="nota">Poema completo. Machado murió en el exilio, en Collioure, en febrero de 1939. Dominio público.</p>
+      </div>
+      <div class="erratas"><h3 class="h3">Fe de erratas</h3><p>Las ediciones de los sábados 17 y 24 de octubre y 7 de noviembre no se produjeron por una falla de la automatización, ya corregida. Esta edición retoma lo pendiente: el resultado de Boca con Vasco, la visita del Papa y la evolución del riesgo país.</p><p>Sin correcciones de contenido sobre la edición del 12 de octubre.</p></div>
+      <div><h3 class="h3">Fuentes de esta edición</h3><p class="fuentes-ed"><b>Medios consultados:</b> La Estafeta Online (7), Infobae (4), Forbes Argentina (4), Ámbito (4), The Register (4), UPC (sitio oficial) (4), Perfil (3), La Nación (3), Cadena 3 (3), ElDoce (3), ESA (3), iProfesional, INDEC, C5N, El Cronista, Noticias (Perfil), Perfil Córdoba, El Diario de Carlos Paz, Council on Foreign Relations, Chequeado, Infobae (EFE), Bolsa de Comercio de Rosario, Puntal (Río Cuarto), Municipalidad de Los Cocos, .NET Blog (Microsoft), Microsoft Learn, Anthropic, Google (blog oficial), Azure SQL Dev Corner (Microsoft), Microsoft Tech Community, Nvidia (comunicado oficial), CNBC, NASA. <b>Datos:</b> Open-Meteo, CoinGecko, DolarApi, ArgentinaDatos, ESPN y fuentes deportivas citadas en página 7. Cada nota indica su fuente y fecha al pie.</p></div>
+      <p class="pie-legal">El Diario de Yrigoyen es una publicación de uso estrictamente personal, generada con asistencia de IA y verificada al cierre (14/11/2026 09:45 hora argentina). No se distribuye.</p>
+    </div>
+  </div></div>
+      <footer class="pf"><span>Nº 3 · Los Cocos, Córdoba</span><span>Página <b class="pf-num">8</b> de 8</span></footer>
+    </section></body></html>

@@ -1,0 +1,15 @@
+{
+  "cripto": {
+    "BTC": "Perdió 11,5% en la semana: arrancó en US$ 75.900 y tocó un mínimo de US$ 66.700. En treinta días cae 17%, desde los US$ 84.100 de mediados de octubre, y a doce meses 30,6%, lejos del máximo de US$ 96.900 de enero.",
+    "ETH": "El peor de los cuatro en la semana (−15%) y en el año (−39,6%). Cotiza en la zona de US$ 1.900, todavía por encima del mínimo de doce meses de US$ 1.566, marcado el 26 de junio.",
+    "BNB": "Cayó 11% en siete días y 14,5% en el mes; cotiza en US$ 616, cerca del piso del período (US$ 614). Hace un año valía US$ 916.",
+    "0G": "El único positivo de la semana (+3,2%), aunque en treinta días pierde 35% y a doce meses 87%. CoinGecko cuenta ahora unos 615 millones de tokens en circulación, contra 213 millones hace un mes, con la emisión total sin cambios en mil millones; no se encontró un anuncio que explique la diferencia."
+  },
+  "finanzas": "Dólar, riesgo país y tasas corresponden al cierre del viernes 13; cripto, al sábado 14 a las 08:56. El INDEC publicó el jueves 12 la inflación de octubre: 2,2%, con núcleo de 1,5%.",
+  "clima_alertas": "El SMN elevó a naranja la alerta por tormentas para Punilla durante la madrugada de hoy, con 50 a 90 mm y ráfagas que podían superar los 90 km/h; los pronósticos dan mejora hacia la tarde. El texto del aviso oficial no pudo abrirse en el sitio del SMN; fuentes: La Estafeta Online, La Nación y El Doce (13 y 14/11).",
+  "clima_cambio_brusco": "la máxima cae de 29,7° el viernes a 21,7° hoy, después de un viernes con 37° en la ciudad de Córdoba; el lunes vuelven las tormentas, con 29 mm previstos.",
+  "ocultar_aviso_horaria": true,
+  "filas_extra": [
+    { "casa": "Tasa TAMAR", "texto": "24,31% · 13 nov" }
+  ]
+}

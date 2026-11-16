@@ -18,7 +18,7 @@ export function verificarContenido(contenido, config) {
   const avisos = [];
   const cierre = new Date(contenido.edicion.cierre).getTime();
   const ventanaMs = config.ventana_frescura_horas * 3600 * 1000;
-  const notas = [contenido.portada.principal, ...contenido.notas];
+  const notas = [contenido.portada.principal, ...(contenido.portada.segunda ? [contenido.portada.segunda] : []), ...contenido.notas];
 
   for (const n of notas) {
     if (!n.fuentes || !n.fuentes.some(f => f.url && /^https?:\/\//.test(f.url))) errores.push({ tipo: 'sin_fuente_url', nota: n.id });

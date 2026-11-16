@@ -1,0 +1,163 @@
+{
+  "generado": "2026-11-14T12:33:51.987Z",
+  "edicion": {
+    "numero": 3,
+    "fecha": "2026-11-14",
+    "cierre": "2026-11-14T09:45:00-03:00",
+    "lugar": "Los Cocos, Córdoba",
+    "papel": "A4"
+  },
+  "ok": true,
+  "pasos": {
+    "esquema": {
+      "ok": true,
+      "errores": []
+    },
+    "contenido": {
+      "ok": true,
+      "errores": [],
+      "avisos": []
+    },
+    "ajuste": {
+      "cuerpos": [
+        9.25,
+        9.25,
+        8.75,
+        9.25,
+        9.75,
+        8.75,
+        9.5,
+        9.75
+      ],
+      "iteraciones": 3
+    },
+    "geometria": {
+      "paginas": 8,
+      "errores": [],
+      "avisos": []
+    },
+    "densidad": [
+      {
+        "pagina": 1,
+        "ocupacion": 0.807,
+        "mayor_rectangulo_vacio": 0.053,
+        "hueco_mm": {
+          "x": 129,
+          "y": 200,
+          "ancho": 57,
+          "alto": 48
+        },
+        "ok": true
+      },
+      {
+        "pagina": 2,
+        "ocupacion": 0.856,
+        "mayor_rectangulo_vacio": 0.064,
+        "hueco_mm": {
+          "x": 129,
+          "y": 214,
+          "ancho": 57,
+          "alto": 57
+        },
+        "ok": true
+      },
+      {
+        "pagina": 3,
+        "ocupacion": 0.893,
+        "mayor_rectangulo_vacio": 0.016,
+        "hueco_mm": {
+          "x": 129,
+          "y": 257,
+          "ancho": 57,
+          "alto": 14
+        },
+        "ok": true
+      },
+      {
+        "pagina": 4,
+        "ocupacion": 0.821,
+        "mayor_rectangulo_vacio": 0.101,
+        "hueco_mm": {
+          "x": 129,
+          "y": 181,
+          "ancho": 57,
+          "alto": 90
+        },
+        "ok": true
+      },
+      {
+        "pagina": 5,
+        "ocupacion": 0.817,
+        "mayor_rectangulo_vacio": 0.074,
+        "hueco_mm": {
+          "x": 129,
+          "y": 205,
+          "ancho": 57,
+          "alto": 67
+        },
+        "ok": true
+      },
+      {
+        "pagina": 6,
+        "ocupacion": 0.773,
+        "mayor_rectangulo_vacio": 0.013,
+        "hueco_mm": {
+          "x": 114,
+          "y": 262,
+          "ancho": 71,
+          "alto": 10
+        },
+        "ok": true
+      },
+      {
+        "pagina": 7,
+        "ocupacion": 0.8,
+        "mayor_rectangulo_vacio": 0.05,
+        "hueco_mm": {
+          "x": 95,
+          "y": 233,
+          "ancho": 90,
+          "alto": 29
+        },
+        "ok": true
+      },
+      {
+        "pagina": 8,
+        "ocupacion": 0.814,
+        "mayor_rectangulo_vacio": 0.04,
+        "hueco_mm": {
+          "x": 138,
+          "y": 133,
+          "ancho": 48,
+          "alto": 43
+        },
+        "ok": true
+      }
+    ],
+    "paginas": {
+      "esperadas": 8,
+      "renderizadas": 8,
+      "en_rango": true
+    },
+    "revision_visual": {
+      "estado": "aprobada",
+      "revisor": "modelo generador (Claude Opus 5.5)",
+      "fecha": "2026-11-14T09:35:46-03:00",
+      "rubrica": "EL_DIARIO_DE_YRIGOYEN.md §7.6",
+      "hallazgos_corregidos": [
+        "Portada: cuerpo de la nota principal en una sola columna (column-fill auto); pasó a balance",
+        "Portada: hueco bajo la principal; se agregó soporte para una segunda nota de portada",
+        "Portada: la segunda nota se montaba sobre las llamadas; el preflight no lo detectaba y se amplió (contenedores de portada, bloques fuera del cuerpo, intersecciones con llamadas)",
+        "Páginas 5, 7 y 8: densidad baja; se agregaron agenda de Punilla, sismo y recorrido en la Sudamericana"
+      ],
+      "observaciones": [
+        "Página 4: aire al pie de la tercera columna, dentro del umbral.",
+        "Página 7: aire al pie de ambas columnas, dentro del umbral."
+      ]
+    },
+    "texto_pdf": {
+      "estado": "no_implementado"
+    }
+  },
+  "pdf": "C:\\Users\\cguar\\repos\\yrigoyen\\ediciones\\2026-11-14\\El-Diario-de-Yrigoyen-N3-2026-11-14.pdf"
+}

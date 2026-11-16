@@ -1,4 +1,4 @@
-# Imprime el PDF de una edición en la HP Laser wifi (A4, monocromo).
+﻿# Imprime el PDF de una edición en la HP Laser wifi (A4, monocromo).
 # Uso: powershell -ExecutionPolicy Bypass -File scripts\imprimir.ps1 -Pdf "ediciones\2026-10-12\El-Diario-de-Yrigoyen-N2-2026-10-12.pdf"
 # Pasos: 1) reasigna el puerto de la impresora si cambió de IP (ensure-hp107w-wifi.ps1);
 #        2) verifica que responda en el puerto 9100; 3) imprime con Acrobat (/t) y cierra Acrobat.
@@ -17,8 +17,9 @@ $printer = Get-Printer -Name $Impresora
 $host_ = $printer.PortName
 $tcp = [System.Net.Sockets.TcpClient]::new()
 try {
-    $conn = $tcp.ConnectAsync($host_, 9100)
-    if (-not $conn.Wait(3000) -or -not $tcp.Connected) { throw "La impresora '$Impresora' no responde en $host_:9100. ¿Está encendida y en la misma red?" }
+    $responde = $false
+    try { $responde = $tcp.ConnectAsync($host_, 9100).Wait(3000) -and $tcp.Connected } catch { $responde = $false }
+    if (-not $responde) { throw "La impresora '$Impresora' no responde en ${host_}:9100. ¿Está encendida y en la misma red?" }
 } finally { $tcp.Dispose() }
 
 $acrobat = @('C:\Program Files\Adobe\Acrobat DC\Acrobat\Acrobat.exe', 'C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe') | Where-Object { Test-Path $_ } | Select-Object -First 1

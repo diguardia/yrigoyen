@@ -1,0 +1,167 @@
+{
+  "numero": 3,
+  "fecha": "2026-11-14",
+  "cierre": "2026-11-14T09:45:00-03:00",
+  "temas": [
+    {
+      "seccion": "nacional",
+      "titulo": "León XIV se despidió en Luján tras cuatro días en el país: «Argentina, levántate y camina»"
+    },
+    {
+      "seccion": "economia",
+      "titulo": "La inflación de octubre fue 2,2%, la más alta desde abril, pero el núcleo bajó a 1,5%"
+    },
+    {
+      "seccion": "economia",
+      "titulo": "Riesgo país: de 589 a casi 940 en un mes, y una semana de alivio que lo dejó en 830"
+    },
+    {
+      "seccion": "economia",
+      "titulo": "Dólar quieto, blue en máximo nominal y el BCRA compró US$ 223 millones en noviembre"
+    },
+    {
+      "seccion": "nacional",
+      "titulo": "El Gobierno apura la suspensión de las PASO 2027 y choca con Bullrich en el Senado"
+    },
+    {
+      "seccion": "nacional",
+      "titulo": "La Corte cerró la querella de Milei contra Carlos Pagni"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Brasil: Lula, reelecto para un cuarto mandato"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Fin de semana largo del 21 al 23"
+    },
+    {
+      "seccion": "cordoba",
+      "titulo": "León XIV dio misa en la Escuela de Aviación ante una multitud y recordó a Brochero"
+    },
+    {
+      "seccion": "cordoba",
+      "titulo": "Tras 37 grados, un temporal dejó evacuados, granizo y calles anegadas"
+    },
+    {
+      "seccion": "punilla",
+      "titulo": "Crimen en La Cumbre: uno de los dos detenidos fue apresado en Los Cocos"
+    },
+    {
+      "seccion": "punilla",
+      "titulo": "Hallaron sin vida a una madre y a su hijo en el río Cosquín"
+    },
+    {
+      "seccion": "mundo",
+      "titulo": "Estados Unidos: los demócratas ganaron las dos cámaras y Trump tendrá un Congreso opositor"
+    },
+    {
+      "seccion": "mundo",
+      "titulo": "Ormuz sigue minado: cinco petroleros incendiados en dos días"
+    },
+    {
+      "seccion": "buena_noticia",
+      "titulo": "El agro superó por primera vez los 100 millones de toneladas exportadas en diez meses"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Inflación cordobesa de 2,7% en octubre"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Presupuesto provincial, postergado"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Los Cocos"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": ".NET 11 y C# 15: tipos unión, Runtime Async y un EF Core que poda joins"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Claude Fable 5.2 y Mythos 5.2: 20% más baratos y hasta 30% más rápidos"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Patch Tuesday de noviembre: 1.094 fallas, un zero-day en Outlook y un año con más de 100.000 CVE"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Gemini 4 Carbon, disponible para todos con precio promocional hasta el 30"
+    },
+    {
+      "seccion": "tecnologia",
+      "titulo": "Azure SQL antes de Ignite: DiskANN en GA, Hyperscale más grande y agentes en preview"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Jensen Huang dejó Nvidia"
+    },
+    {
+      "seccion": "educacion",
+      "titulo": "Presupuesto 2027: dictamen el martes 17 sin cerrar la brecha con las universidades"
+    },
+    {
+      "seccion": "upc",
+      "titulo": "La UPC abre horas vacantes en Capilla del Monte, con la Tecnicatura en Programación Full Stack"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Cuarteto, ESI y revista"
+    },
+    {
+      "seccion": "ciencia",
+      "titulo": "Hera llegó a Didymos: empieza la autopsia del primer impacto de defensa planetaria"
+    },
+    {
+      "seccion": "ciencia",
+      "titulo": "Euclid publica su primer gran catálogo: 900 millones de galaxias para mapear la materia oscura"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Voyager 1, a un día-luz"
+    },
+    {
+      "seccion": "cultura",
+      "titulo": "Agenda del valle: cielo, pizza y presupuesto"
+    },
+    {
+      "seccion": "breve",
+      "titulo": "Sismo débil en Punilla"
+    }
+  ],
+  "microrelato": {
+    "autor": "Zhuangzi",
+    "obra": "Zhuangzi, capítulo 2 («Sobre la igualdad de las cosas»)",
+    "titulo": "El sueño de la mariposa"
+  },
+  "poesia": {
+    "autor": "Antonio Machado",
+    "obra": "Campos de Castilla",
+    "titulo": "Proverbios y cantares, XXIX"
+  },
+  "disco": {
+    "artista": "Glenn Gould",
+    "titulo": "Bach: Variaciones Goldberg (1981)"
+  },
+  "glosario": [
+    "Tipo unión",
+    "Búsqueda de vecinos aproximada (ANN) con DiskANN",
+    "Filtración de hash NTLMv2",
+    "Inyección indirecta de prompt"
+  ],
+  "fuentes_datos": [
+    "Open-Meteo",
+    "CoinGecko",
+    "DolarApi",
+    "ArgentinaDatos",
+    "ESPN"
+  ],
+  "preflight": {
+    "ok": true,
+    "generado": "2026-11-14T12:33:51.987Z",
+    "revision_visual": "aprobada"
+  }
+}

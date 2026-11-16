@@ -79,8 +79,32 @@ Qué costó más y qué se cambia para la próxima:
 7. **La impresora no estaba en la red.** Cambio: `imprimir.ps1` verifica el puerto 9100 antes de mandar y la tarea programada deja el PDF listo si no responde. Conviene fijar la IP de la impresora en el router o revisar a qué red se conecta.
 8. **Tiempo total:** unas dos horas y media, de las cuales la investigación en paralelo tomó 17 minutos y el resto fue pipeline (único) y redacción más recortes. Con el pipeline ya construido y el presupuesto de palabras, la próxima debería tomar entre 40 y 60 minutos.
 
+## Corridas automáticas fallidas — 17 y 24 de octubre, 7 y 14 de noviembre de 2026
+
+- La tarea programada corrió los cuatro sábados pero no produjo ninguna edición. Causa: `armar-edicion.ps1` resolvía `claude` con `Get-Command`, que devolvía `claude.ps1`; invocado desde `cmd.exe`, Windows lo abría con el editor en lugar de ejecutarlo, así que no había salida y la corrida terminaba al cerrarse la ventana o al vencer el tiempo. Además el script estaba guardado en UTF-8 sin BOM y PowerShell 5.1 leía mal las tildes del prompt.
+- Corrección (14/11/2026): el script usa `claude.cmd` explícitamente, registra versión, código de salida y una traza `armado.jsonl` (stream-json) por corrida, y los `.ps1` se guardan con BOM. `imprimir.ps1` ya no aborta con una excepción si la impresora rechaza la conexión.
+
+## Edición Nº 3 — sábado 14 de noviembre de 2026
+
+- Armada a mano siguiendo `pipeline/PROCEDIMIENTO.md`, de 08:57 a 09:38. Investigación en paralelo en unos 15 minutos. Preflight en verde, revisión visual aprobada e impresa en la HP (8 páginas, IP 10.254.254.108).
+- Portada: visita de León XIV; segunda nota de portada con Boca (semifinal de Copa Argentina hoy y final de la Sudamericana el 21).
+- Disco: Glenn Gould, Variaciones Goldberg de 1981. Microrelato: Zhuangzi, *El sueño de la mariposa* (traducción propia). Poesía: Machado. Glosario: tipo unión, ANN con DiskANN, filtración de hash NTLMv2, inyección indirecta de prompt.
+- Sin verificar en dos fuentes: .NET 11 (sólo Microsoft), Hera y Euclid (sólo ESA), inflación cordobesa y presupuesto provincial (fuente única), incendios en Ormuz (sólo Irán).
+- El presupuesto de 1.250 palabras por página funcionó: la primera maquetación salió sin ningún desborde.
+
+### Retrospectiva de la edición Nº 3
+
+1. **El preflight tenía un agujero.** Una nota de portada se montó sobre las llamadas y la geometría dio verde porque no revisaba los contenedores de la portada ni el texto de las llamadas. Lo detectó la revisión visual. Se amplió el preflight (contenedores de portada, regla general de bloques fuera del cuerpo, intersecciones con llamadas) y se comprobó que ahora lo detecta.
+2. **La portada necesita más material que las páginas interiores.** Con una sola nota principal queda un hueco; se agregó a la plantilla `portada.segunda` y conviene usarla siempre (Boca cuando juega, o la segunda nota más importante).
+3. **Los agentes inventan la hora de consulta.** Dos investigadores anotaron horas posteriores al reloj real. El armado normaliza esas horas; conviene pedirles en el brief que usen la hora real del sistema.
+4. **Densidad baja en páginas con notas largas pocas.** Ciencia y Boca quedaron cortas; se completaron con material ya investigado (agenda de Punilla, sismo, llave de la Sudamericana) sin relleno.
+
 ## Fe de erratas
 
-### Pendientes para la edición Nº 3
+### Pendientes para la edición Nº 4
+
+- Sin correcciones de contenido registradas sobre la edición Nº 3 al cierre.
+
+### Edición Nº 3 (14 de noviembre de 2026)
 
 - Sin correcciones de contenido registradas sobre la edición Nº 2 al cierre. Anotar aquí lo que el lector señale.

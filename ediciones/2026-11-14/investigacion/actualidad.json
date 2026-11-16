@@ -1,0 +1,276 @@
+{
+  "tema": "actualidad",
+  "consultado_el": "2026-11-14T12:12:00-03:00",
+  "portada_sugerida": {
+    "titulo": "León XIV cerró en Luján una visita histórica: «Argentina, levántate y camina»",
+    "por_que": "Es el acontecimiento nacional de la semana por escala y simbolismo: primera visita de un papa en 39 años, cuatro días de agenda en Buenos Aires, Córdoba y Luján, feriado nacional el lunes 9 y asistencias estimadas en millones. Además tuvo lectura política directa (discurso ante Milei y toda la dirigencia sobre economía y límites del poder). La economía (inflación 2,2% y riesgo país) queda como segunda y tercera nota de portada."
+  },
+  "notas": [
+    {
+      "seccion": "nacional",
+      "titulo_sugerido": "León XIV se despidió tras cuatro días en el país: «Este país desde ahora tiene dos Papas»",
+      "bajada": "La primera visita papal desde 1987 combinó misas multitudinarias con un mensaje directo a la dirigencia sobre economía, jóvenes y límites del poder.",
+      "cuerpo": "El papa León XIV llegó el domingo 8 de noviembre desde Uruguay, fue recibido por Javier Milei en la Casa Rosada y habló ante gobernadores, legisladores y funcionarios en el Palacio Libertad. Allí sostuvo que «la economía debe estar al servicio de la persona y no la persona al servicio de la economía», se preguntó en qué falla una nación cuyos jóvenes deben emigrar y pidió reconocer los límites del poder. El lunes 9, feriado nacional por decreto, celebró misa en el Monumento de los Españoles; el martes 10 estuvo en Córdoba y por la noche encabezó una vigilia con jóvenes en Palermo. El miércoles 11 visitó el penal de Devoto y cerró con una misa en Luján, donde llamó a reconciliarse con la historia: «Argentina, levántate y camina». Milei lo despidió emocionado en Ezeiza y el Papa siguió viaje a Lima.",
+      "fecha_acontecimiento": "2026-11-11",
+      "importancia": 5,
+      "datos_clave": [
+        "Visita del 8 al 11 de noviembre de 2026: Buenos Aires, Córdoba y Luján",
+        "Primera visita papal desde Juan Pablo II en abril de 1987 (39 años)",
+        "Feriado nacional el lunes 9 (Decreto 1103/2026); martes 10 en Córdoba y CABA; miércoles 11 en provincia de Buenos Aires",
+        "Asistencia en Luján: unos 2 millones según cifras del Vaticano citadas por iProfesional; Infobae estimó unos 3 millones en total entre las ciudades visitadas",
+        "Despedida en Ezeiza con Javier Milei, Karina Milei y el canciller Pablo Quirno; destino Lima"
+      ],
+      "fuentes": [
+        {"url": "https://www.infobae.com/sociedad/2026/11/11/ultimo-dia-del-papa-leon-xiv-en-la-argentina-noche-de-vigilia-en-lujan-y-una-misa-que-espera-reunir-a-mas-de-un-millon-de-fieles/", "medio": "Infobae", "titulo": "El papa León XIV se despidió de la Argentina tras una histórica visita: «Este país desde ahora tiene dos Papas…»", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T11:47:00-03:00"},
+        {"url": "https://www.iprofesional.com/actualidad/468814-el-papa-leon-xiv-se-despidio-de-la-argentina-y-ya-viaja-a-peru", "medio": "iProfesional", "titulo": "El papa León XIV se despidió de la Argentina: «Este país ahora tiene dos Papas»", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T11:49:00-03:00"},
+        {"url": "https://www.forbesargentina.com/today/leon-xiv-argentina-la-economia-debe-estar-servicio-persona-persona-servicio-economia-n102050/amp", "medio": "Forbes Argentina", "titulo": "León XIV en Argentina: «La economía debe estar al servicio de la persona y no la persona al servicio de la economía»", "fecha_publicacion": "2026-11-08", "consultado": "2026-11-14T11:49:00-03:00"},
+        {"url": "https://www.lanacion.com.ar/feriados/2026/noviembre/", "medio": "La Nación", "titulo": "Feriados en noviembre de 2026", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T12:10:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Las cifras de asistencia difieren: 2 millones en Luján (Vaticano, vía iProfesional), 2,5 millones (Policía bonaerense, según resultados de búsqueda no abiertos) y 3 millones en total (estimación del periodista de Infobae). Forbes no fecha la nota del discurso; su fecha_publicacion (8/11) es la del acto, inferida del resto de la cobertura. El detalle de feriados por jurisdicción (10 en Córdoba y CABA, 11 en provincia de Buenos Aires, Decreto 1103/2026) viene de resultados de búsqueda coincidentes (Chequeado, Forbes, El Economista) no abiertos; La Nación sólo confirma el lunes 9. El contenido de la reunión a solas con Milei no trascendió. La parte cordobesa de la visita la cubre otro investigador."
+    },
+    {
+      "seccion": "nacional",
+      "titulo_sugerido": "El Gobierno apura la suspensión de las PASO 2027 y choca con Bullrich en el Senado",
+      "bajada": "Asuntos Constitucionales se reúne el martes 17 para dictaminar y el oficialismo apunta a votar el 26, pero necesita 37 senadores que todavía no tiene asegurados.",
+      "cuerpo": "Tras la visita papal, el Congreso retomó la recta final de las sesiones ordinarias, que vencen el 30 de noviembre. La prioridad política de la Casa Rosada es suspender las primarias de 2027: la comisión de Asuntos Constitucionales del Senado fue convocada para el martes 17 a las 15 y la idea es llevar el proyecto al recinto el jueves 26. Al ser reforma electoral requiere 37 votos; el peronismo, con 21 bancas, la rechaza en bloque, y PRO y UCR proponen que las PASO dejen de ser obligatorias en lugar de suspenderlas. El jefe de Gabinete, Diego Santilli, asegura tener los votos; Patricia Bullrich, jefa del bloque libertario, lo pone en duda, y la tensión llevó a Karina Milei a reconvocar la mesa política tras un mes sin reuniones. El Presupuesto 2027 sigue sin dictamen en Diputados, donde el oficialismo negocia cambios con PRO y UCR.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 4,
+      "datos_clave": [
+        "Comisión de Asuntos Constitucionales del Senado: martes 17 de noviembre, 15 h",
+        "Sesión prevista en el Senado: jueves 26 de noviembre",
+        "Mayoría necesaria: 37 senadores (129 en Diputados)",
+        "El peronismo suma 21 bancas y rechaza la suspensión",
+        "Sesiones ordinarias terminan el 30 de noviembre; después, sólo extraordinarias",
+        "Presupuesto 2027: sin dictamen en Diputados al 11/11"
+      ],
+      "fuentes": [
+        {"url": "https://www.perfil.com/politica/senado-el-gobierno-presiona-a-bullrich-para-suspender-las-paso-pero-dudan-de-que-esten-los-votos-necesarios-aU3cY9t0fwE8", "medio": "Perfil", "titulo": "Senado: el Gobierno presiona a Bullrich para suspender las PASO, pero dudan de que estén los votos necesarios", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T12:00:00-03:00"},
+        {"url": "https://www.infobae.com/politica/2026/11/13/karina-milei-vuelve-a-convocar-a-la-mesa-politica-tras-un-mes-sin-reuniones-y-en-plena-tension-con-bullrich/", "medio": "Infobae", "titulo": "Karina Milei vuelve a convocar a la mesa política tras un mes sin reuniones y en plena tensión con Bullrich", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T11:53:00-03:00"},
+        {"url": "https://www.ambito.com/politica/tras-la-visita-papal-el-congreso-retoma-la-actividad-avanzar-leyes-clave-javier-milei-n6343973", "medio": "Ámbito", "titulo": "Tras la visita papal, el Congreso retoma la actividad para avanzar con leyes clave para Javier Milei", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T11:53:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El conteo de votos es disputado: Noticias Argentinas (no abierta, sólo en buscador) dice que el oficialismo ya tiene la mayoría para dictaminar; Perfil e Infobae reportan dudas. La fecha del 26 no está confirmada. No hay hechos nuevos verificados sobre Ley de Tierras/DNU 70 en la ventana: Ámbito sólo recuerda que el restablecimiento de la ley de tierras rurales espera sanción definitiva en el Senado."
+    },
+    {
+      "seccion": "nacional",
+      "titulo_sugerido": "La Corte cerró la querella de Milei contra Carlos Pagni",
+      "bajada": "El tribunal rechazó la queja del Presidente y dejó firme la desestimación por inexistencia de delito.",
+      "cuerpo": "El jueves 12, la Corte Suprema rechazó la queja que el abogado de Javier Milei, Francisco Oneto, había presentado para reabrir la querella por calumnias e injurias contra el periodista Carlos Pagni. Firmaron Horacio Rosatti, Carlos Rosenkrantz y Ricardo Lorenzetti, que aplicaron el artículo 280 del Código Procesal, que permite rechazar un recurso sin mayor fundamentación; Lorenzetti aclaró en voto propio que eso no implica avalar lo resuelto antes. La causa se originó en una columna de Pagni del 28 de abril de 2025 en LN+, que Milei interpretó como una comparación con Hitler. El juez Daniel Rafecas la había desestimado en junio de 2025 y la Cámara Federal y Casación confirmaron ese criterio. La Corte además intimó a Milei a hacer el depósito que corresponde a las quejas rechazadas.",
+      "fecha_acontecimiento": "2026-11-12",
+      "importancia": 3,
+      "datos_clave": [
+        "Fallo del 12/11/2026: firmas de Rosatti, Rosenkrantz y Lorenzetti",
+        "Rechazo por artículo 280 del CPCCN",
+        "Desestimación original: juez Rafecas, junio de 2025, por inexistencia de delito",
+        "Plazo de cinco días para el depósito del artículo 286"
+      ],
+      "fuentes": [
+        {"url": "https://www.lanacion.com.ar/politica/la-corte-suprema-rechazo-un-recurso-de-milei-y-cerro-la-demanda-que-le-hizo-al-periodista-carlos-nid12112026/", "medio": "La Nación", "titulo": "La Corte Suprema rechazó un recurso de Milei y cerró la demanda que le hizo al periodista Carlos Pagni", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T11:57:00-03:00"}      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Abierta sólo la nota de La Nación (que es parte interesada: Pagni trabaja en LN+). El Intransigente y Examedia coinciden según el buscador, pero no fueron abiertas y no están en la lista de medios aceptados. No se consultó el texto del fallo en el sitio de la Corte."
+    },
+    {
+      "seccion": "economia",
+      "titulo_sugerido": "La inflación de octubre fue 2,2%, la más alta desde abril, pero el núcleo bajó a 1,5%",
+      "bajada": "Gas, combustibles y verduras empujaron el índice; la interanual bajó a 33,1% y el acumulado del año llega a 26,3%.",
+      "cuerpo": "El INDEC informó el jueves 12 que el IPC subió 2,2% en octubre, contra 1,9% en septiembre y 1,7% en agosto, por encima del 1,8% que esperaba la mediana del REM del Banco Central. La suba vino de los precios regulados (2,9%, por gas y combustibles) y de los estacionales (5,5%, por verduras); la división Vivienda, agua, electricidad y gas fue la de mayor alza, con 4,2%. La inflación núcleo, en cambio, bajó a 1,5%, que Luis Caputo destacó como la menor desde julio de 2025, y atribuyó parte del salto general a los cambios en el régimen de Zona Fría. Para un hogar, el dato confirma que las tarifas de gas pesan más que el resto de la canasta este fin de año. Para una pyme de servicios, el 1,5% del núcleo y el 33,1% interanual son la referencia más limpia para actualizar precios y salarios.",
+      "fecha_acontecimiento": "2026-11-12",
+      "importancia": 5,
+      "datos_clave": [
+        "IPC octubre 2026: 2,2% mensual (septiembre 1,9%; agosto 1,7%)",
+        "Interanual: 33,1% (septiembre 33,4%); acumulado enero-octubre: 26,3%",
+        "Núcleo 1,5% (septiembre 1,7%); regulados 2,9%; estacionales 5,5%",
+        "Mayor suba por división: Vivienda, agua, electricidad, gas y otros combustibles, 4,2%; Recreación y cultura 3,3%",
+        "Menores: Bebidas alcohólicas y tabaco 0,8%; Educación 1,3%",
+        "REM del BCRA esperaba 1,8% general y 1,7% núcleo; proyecta 1,7% para noviembre",
+        "Resolución 299/2026 redujo el alcance del subsidio de Zona Fría"
+      ],
+      "fuentes": [
+        {"url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipc_11_269335F5BA6B.pdf", "medio": "INDEC", "titulo": "Índice de precios al consumidor (IPC). Octubre de 2026", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T11:42:00-03:00"},
+        {"url": "https://www.infobae.com/economia/2026/11/12/la-inflacion-en-octubre-fue-de-22-y-acumulo-331-en-los-ultimos-doce-meses/", "medio": "Infobae", "titulo": "La inflación en octubre fue de 2,2% y acumuló 33,1% en los últimos doce meses", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T11:42:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Del PDF del INDEC se extrajo el resumen ejecutivo (2,2 / 33,1 / 26,3, núcleo 1,5, estacionales 5,5, regulados 2,9 y el gráfico por divisiones); las cifras de interanual de septiembre, REM y Zona Fría vienen de Infobae. No se revisó el dato de la región Noreste ni de la Pampeana (donde está Córdoba). La relación con Zona Fría es la explicación oficial; su incidencia exacta no está cuantificada en lo leído."
+    },
+    {
+      "seccion": "economia",
+      "titulo_sugerido": "Riesgo país: de 589 a casi 940 en un mes, y una semana de alivio que lo dejó en 830",
+      "bajada": "El índice de JP Morgan acumula su peor racha desde 2025 por dudas sobre los vencimientos de 2027, la política y las tasas de Estados Unidos.",
+      "cuerpo": "El riesgo país, que a mediados de julio había tocado 403 puntos, estaba en 589 el 9 de octubre y cerró octubre en torno a 787, con una suba de 181 puntos en el mes. En la primera semana de noviembre superó los 800 (805 el lunes 2) y los 900, con un pico cercano a 938 el viernes 6, el nivel más alto desde las legislativas de octubre de 2025. Los analistas citan causas locales —dudas sobre cómo se pagarán los vencimientos de 2027 y 2028, reservas que no crecen al ritmo esperado y la incertidumbre por las presidenciales de 2027— y externas: tasas altas del Tesoro de Estados Unidos, el petróleo por la guerra con Irán y los resultados electorales en Brasil y Estados Unidos. En la semana corta del 10 al 13 de noviembre los bonos rebotaron y el índice bajó 107 puntos, hasta unos 830 el viernes 13. Para una pyme, la consecuencia práctica es crédito más caro: el Bonar 2029 llegó a rendir 17% en dólares y la TAMAR subió a 24,31%.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 4,
+      "datos_clave": [
+        "Riesgo país JP Morgan: 830 puntos al 13/11/2026 (ArgentinaDatos); 589 al 9/10",
+        "Mínimo de ocho años: 403 puntos a mediados de julio",
+        "Octubre: +181 puntos, cierre en torno a 787",
+        "2/11: 805; pico de la racha cerca de 938 el 6/11 (C5N) / 939 (El Ancasti, 7/11)",
+        "Semana 10-13/11: baja de 107 puntos (Ámbito)",
+        "Bonar 2029 (AO29): rendimiento cercano a 17%, cotiza unos US$ 77 por cada 100, con pérdida de 23% desde julio",
+        "TAMAR 24,31% y BADLAR 22,13% al 13/11"
+      ],
+      "fuentes": [
+        {"url": "https://www.forbesargentina.com/money/vuela-riesgo-pais-encima-900-puntos-dispara-mas-100-cuatro-meses-pasa-n101849", "medio": "Forbes Argentina", "titulo": "Vuela el riesgo país por encima de los 900 puntos y se dispara más de 100% en cuatro meses: qué pasa", "fecha_publicacion": "2026-11-05", "consultado": "2026-11-14T11:40:00-03:00"},
+        {"url": "https://www.forbesargentina.com/money/lunes-rojo-riesgo-pais-supero-800-puntos-alcanzo-su-nivel-mas-alto-ano-n101615", "medio": "Forbes Argentina", "titulo": "Lunes rojo: el riesgo país superó los 800 puntos y alcanzó su nivel más alto en un año", "fecha_publicacion": "2026-11-02", "consultado": "2026-11-14T11:40:00-03:00"},
+        {"url": "https://elancasti.com.ar/politica-y-economia/el-riesgo-pais-llego-939-puntos-solo-detras-venezuela-n625617", "medio": "El Ancasti", "titulo": "El riesgo país llegó a 939 puntos, sólo detrás de Venezuela", "fecha_publicacion": "2026-11-07", "consultado": "2026-11-14T11:44:00-03:00"},
+        {"url": "https://www.c5n.com/economia/riesgo-pais-acciones-bonos-argentinos-wall-street-viernes-13-noviembre-2026", "medio": "C5N", "titulo": "Tras encontrar su nuevo piso, el riesgo país roza nuevamente los 830 puntos", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T11:45:00-03:00"},
+        {"url": "https://ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-13-noviembre-n6344766", "medio": "Ámbito", "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este viernes 13 de noviembre", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T12:02:00-03:00"},
+        {"url": "https://www.forbesargentina.com/money/el-nuevo-piso-riesgo-pais-complica-plan-financiero-caputo-suma-dudas-inversores-n102501", "medio": "Forbes Argentina", "titulo": "El nuevo piso del riesgo país complica el plan financiero de Caputo y suma dudas entre los inversores", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T11:46:00-03:00"},
+        {"url": "https://api.argentinadatos.com/v1/finanzas/indices/riesgo-pais/ultimo", "medio": "ArgentinaDatos (API)", "titulo": "Riesgo país, último valor", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T08:57:59-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Los valores diarios difieren entre medios: Canal 26 informó 927 el 5/11 y 895 el 6/11, mientras C5N da 938 al cierre del 6/11; Perfil da 829 el 12/11 y C5N 867 en algún momento de esa jornada. Ninguna fuente abierta explica con precisión por qué el índice bajó esta semana más allá del rebote de los bonos y de mejores compras del BCRA; no se atribuye una causa única. El 589 del 9/10 proviene de la serie de la API, no de una nota abierta. El reparto de causas (unos 300 de 400 puntos por factores locales) es análisis de Eric Ritondale (Puente) citado por Forbes."
+    },
+    {
+      "seccion": "economia",
+      "titulo_sugerido": "Dólar quieto, blue en máximo nominal y el BCRA compró US$ 223 millones en noviembre",
+      "bajada": "En una semana cortada por feriados, el mayorista cerró en $1.543,50 y las reservas volvieron a rozar los US$ 49.600 millones.",
+      "cuerpo": "El dólar oficial del Banco Nación cerró el viernes 13 en $1.570 para la venta, sin cambios en la semana, y el mayorista terminó en $1.543,50, su primera baja semanal en un mes. El blue subió a $1.575, un máximo nominal según Ámbito, mientras el MEP quedó cerca de $1.580 y el contado con liquidación en torno a $1.672. El Banco Central compró US$ 172 millones en la semana corta (103 millones el jueves, la mayor compra en casi un mes) y lleva US$ 223 millones en noviembre y US$ 16.191 millones en el año; las reservas brutas cerraron en US$ 49.597 millones. Para un hogar, la brecha mínima entre oficial y blue indica que no hay corrida, aunque el dólar tarjeta ronda $2.041. Para una pyme que factura en pesos, la estabilidad cambiaria con inflación de 2,2% implica que sus costos en dólares siguen subiendo.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 3,
+      "datos_clave": [
+        "13/11: oficial BNA $1.520/$1.570; mayorista $1.543,50; blue $1.555/$1.575",
+        "MEP $1.580,90 y CCL $1.671,90 (DolarApi); El Cronista: MEP $1.576,20 y CCL $1.673,30",
+        "Dólar tarjeta $2.041 (DolarApi)",
+        "Compras BCRA: US$ 40 M viernes, US$ 103 M jueves; US$ 172 M en la semana, US$ 223 M en noviembre, US$ 16.191 M en 2026",
+        "Reservas brutas: US$ 49.597 millones (+US$ 524 M el viernes)",
+        "Mayorista a más de 27% del techo de la banda, según Ámbito"
+      ],
+      "fuentes": [
+        {"url": "https://www.ambito.com/finanzas/el-bcra-sostuvo-las-compras-dolares-la-semana-y-ya-acumulo-mas-us200-millones-noviembre-n6345123", "medio": "Ámbito", "titulo": "El BCRA sostuvo las compras de dólares durante la semana y ya acumuló más de u$s200 millones en noviembre", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T12:04:00-03:00"},
+        {"url": "https://www.cronista.com/finanzas-mercados/dolar-blue-hoy-a-cuanto-cotiza-el-viernes-13-de-noviembre-con-el-mep-y-el-ccl/", "medio": "El Cronista", "titulo": "El dólar blue subió en el cierre de la semana: a cuánto cerró este viernes con el MEP y el CCL", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T12:04:00-03:00"},
+        {"url": "https://www.perfil.com/economia/el-riesgo-pais-retrocede-hasta-el-nivel-de-840-puntos-ante-el-avance-de-los-bonos-aIJJQ9e39SDr", "medio": "Perfil", "titulo": "El riesgo país retrocede hasta el nivel de 840 puntos ante el avance de los bonos", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T11:46:00-03:00"},
+        {"url": "https://dolarapi.com/v1/dolares", "medio": "DolarApi", "titulo": "Cotizaciones del dólar", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T08:57:59-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "MEP y CCL difieren levemente entre DolarApi y El Cronista por hora de corte. El carácter de «máximo nominal» del blue lo afirma Ámbito; no se contrastó con serie histórica. Perfil dice que el oficial no operó cinco días por feriados, pero no queda claro qué días cerró el mercado cambiario (lunes 9 feriado nacional, martes 10 feriado bancario según el BCRA); por eso se habla sólo de «semana corta». El nivel exacto de la banda cambiaria no figura en lo leído."
+    },
+    {
+      "seccion": "mundo",
+      "titulo_sugerido": "Estados Unidos: los demócratas ganaron las dos cámaras y Trump tendrá un Congreso opositor",
+      "bajada": "A una semana de las legislativas del 3 de noviembre, el recuento consolida la mayor ventaja demócrata en la Cámara desde 1990.",
+      "cuerpo": "En las elecciones de medio término del martes 3 de noviembre, los demócratas recuperaron la Cámara de Representantes y el Senado. Según el recuento del Council on Foreign Relations al 10 de noviembre, tenían 254 bancas contra 165 en la Cámara, con 16 por definir, y 54 contra 44 en el Senado, con Alaska y Misisipi pendientes; también sumarían al menos 28 gobernaciones. No alcanzan para superar vetos (290 diputados) ni el filibusterismo (60 senadores), pero podrán bloquear leyes y nombramientos y abrir investigaciones desde el 3 de enero de 2027. Trump minimizó la derrota y prometió vetar iniciativas demócratas. Para la Argentina, analistas señalan que el Congreso podría revisar la asistencia del Tesoro estadounidense al país, mientras Caputo afirmó que la relación bilateral no cambia.",
+      "fecha_acontecimiento": "2026-11-03",
+      "importancia": 4,
+      "datos_clave": [
+        "Cámara: 254 D / 165 R, 16 sin definir (CFR, 10/11)",
+        "Senado: 54 D / 44 R, Alaska y Misisipi sin definir",
+        "Al menos 28 gobernaciones demócratas, la primera mayoría en 16 años",
+        "El nuevo Congreso asume el 3 de enero de 2027",
+        "Encuestas a boca de urna citadas por AP: costo de vida, guerra con Irán y corrupción"
+      ],
+      "fuentes": [
+        {"url": "https://www.cfr.org/articles/2026-election-by-the-numbers", "medio": "Council on Foreign Relations", "titulo": "The 2026 Election by the Numbers", "fecha_publicacion": "2026-11-10", "consultado": "2026-11-14T11:51:00-03:00"},
+        {"url": "https://chequeado.com/el-explicador/elecciones-de-medio-termino-en-estados-unidos-2026-5-claves-de-la-victoria-democrata-y-que-puede-cambiar-para-trump-y-argentina/", "medio": "Chequeado", "titulo": "Elecciones de medio término en Estados Unidos 2026: 5 claves de la victoria demócrata y qué puede cambiar para Trump y Argentina", "fecha_publicacion": "2026-11-04", "consultado": "2026-11-14T11:52:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El hecho es del 3/11, fuera de la ventana, pero se incluye porque el diario no salió desde el 12/10 y el recuento sigue abierto. Los totales finales no están certificados y varían entre medios (NBC proyecta 259-176). La frase de Caputo proviene de iProUP vía buscador (no abierta). El efecto sobre el swap/apoyo financiero a la Argentina es análisis, no hecho."
+    },
+    {
+      "seccion": "mundo",
+      "titulo_sugerido": "Ormuz sigue minado: cinco petroleros incendiados en dos días y sin negociación con Irán",
+      "bajada": "La guerra que empezó el 28 de febrero mantiene bloqueada la vía por la que pasaba el 20% del petróleo mundial.",
+      "cuerpo": "Las fuerzas iraníes informaron el viernes 13 y el sábado 14 que cinco petroleros se incendiaron al chocar con minas en el estrecho de Ormuz mientras navegaban por rutas que Teherán considera «no autorizadas»; no se informaron banderas ni víctimas. Según datos de la Organización Marítima Internacional citados por la ONU, hubo 134 incidentes marítimos desde el inicio de la guerra, el 28 de febrero, y octubre fue el peor mes, con 37 barcos atacados. Las negociaciones con Estados Unidos están estancadas: Irán condiciona la reapertura a siete exigencias y Washington pide incluir el programa nuclear. El Brent cerró el miércoles 11 en US$ 92,76, tras tocar mínimos de dos meses. El petróleo caro es uno de los factores externos que los analistas citan para la suba del riesgo país argentino.",
+      "fecha_acontecimiento": "2026-11-14",
+      "importancia": 3,
+      "datos_clave": [
+        "Cinco petroleros incendiados por minas entre el 13 y el 14 de noviembre (según Irán)",
+        "134 incidentes marítimos del 28/2 al 11/11 (OMI vía ONU)",
+        "37 barcos atacados en octubre, récord mensual (Instituto Washington)",
+        "Brent US$ 92,76 y WTI US$ 86,53 al cierre del 11/11"
+      ],
+      "fuentes": [
+        {"url": "https://infobae.com/america/agencias/2026/11/14/las-fuerzas-iranies-informan-de-otros-tres-petroleros-incendiados-por-minas-en-ormuz", "medio": "Infobae (EFE)", "titulo": "Las fuerzas iraníes informan de otros tres petroleros incendiados por minas en Ormuz", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T12:05:00-03:00"},
+        {"url": "https://www.ambito.com/uruguay/el-petroleo-subio-14-la-incertidumbre-las-negociaciones-estados-unidos-e-iran-n6343835", "medio": "Ámbito", "titulo": "El petróleo subió 1,4% ante la incertidumbre por las negociaciones entre Estados Unidos e Irán", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T12:07:00-03:00"},
+        {"url": "https://www.infobae.com/america/mundo/2026/11/11/el-petroleo-volvio-a-subir-tras-varios-dias-de-caidas-por-el-estancamiento-de-las-negociaciones-entre-estados-unidos-e-iran/", "medio": "Infobae", "titulo": "El petróleo volvió a subir tras varios días de caídas por el estancamiento de las negociaciones entre Estados Unidos e Irán", "fecha_publicacion": "2026-11-11", "consultado": "2026-11-14T12:05:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Los incendios de petroleros son informados por las fuerzas iraníes; no hay confirmación independiente en lo leído. La fecha del primer reporte (dos buques) figura como 12/11 en el buscador y como «horas antes» del 14/11 en EFE: se resume como «13 y 14». El ataque iraní a un radar en Baréin (13/11) aparece sólo en un medio no aceptado y no se incluye."
+    },
+    {
+      "seccion": "buena_noticia",
+      "titulo_sugerido": "El agro superó por primera vez los 100 millones de toneladas exportadas en diez meses",
+      "bajada": "Entre enero y octubre salieron más de 101 millones de toneladas de granos y subproductos, un récord histórico.",
+      "cuerpo": "Según el Informativo Semanal de la Bolsa de Comercio de Rosario publicado el viernes 13, entre enero y octubre de 2026 se embarcaron más de 101 millones de toneladas de los principales granos y subproductos. Es unas 10 millones más que el récord previo para ese período y 13% más que en 2025. El maíz aportó unos 37,1 millones de toneladas, el trigo 14,5 millones (45% más, tras una cosecha cercana a 28,5 millones) y el complejo girasol más de 6,7 millones, más del doble del promedio reciente. La edición del 12 de octubre había informado los 88,9 millones de enero a septiembre: octubre sumó otros 12.",
+      "fecha_acontecimiento": "2026-11-13",
+      "importancia": 3,
+      "datos_clave": [
+        "Más de 101 Mt exportadas en enero-octubre de 2026, récord de la serie",
+        "+13% interanual; unos 10 Mt sobre el récord anterior",
+        "Maíz 37,1 Mt; trigo 14,5 Mt (+45%); girasol más de 6,7 Mt; aceite de soja más de 5,1 Mt"
+      ],
+      "fuentes": [
+        {"url": "https://www.bcr.com.ar/es/mercados/investigacion-y-desarrollo/informativo-semanal/noticias-informativo-semanal/rompiendo-la", "medio": "Bolsa de Comercio de Rosario", "titulo": "Rompiendo la barrera de las 100 Mt: las exportaciones agro argentinas hacen historia", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T12:08:00-03:00"},
+        {"url": "https://campodirecto.com.ar/las-exportaciones-agro-argentinas-superaron-los-100-mt-y-marcaron-un-record-historico/", "medio": "Campo Directo", "titulo": "Las exportaciones agro argentinas superaron los 100 Mt y marcaron un récord histórico", "fecha_publicacion": "2026-11-13", "consultado": "2026-11-14T12:09:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Fuente primaria: BCR (no figura en la lista de medios, pero es la institución que produce el dato). Campo Directo sólo replica a la BCR y no es medio aceptado, así que no cuenta como contraste independiente. El informe no da el valor en dólares. El volumen embarcado no equivale a divisas liquidadas."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "Jensen Huang dejó Nvidia",
+      "bajada": "",
+      "cuerpo": "Jensen Huang renunció el jueves 12 como presidente, CEO y director de Nvidia, con efecto inmediato, tras la polémica por su relación con una ejecutiva que la inteligencia estadounidense considera espía china; la directora financiera Colette Kress quedó como CEO interina. La acción cayó 4,34% ese día y arrastró a los papeles ligados a la inteligencia artificial.",
+      "fecha_acontecimiento": "2026-11-12",
+      "importancia": 3,
+      "datos_clave": [
+        "Comunicado oficial de Nvidia del 12/11/2026",
+        "Colette Kress, CEO interina; Harvey C. Jones, primer presidente del directorio",
+        "Acción: -4,34% el 12/11 (CNBC)"
+      ],
+      "fuentes": [
+        {"url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition", "medio": "Nvidia (comunicado oficial)", "titulo": "NVIDIA Announces CEO Transition", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T11:59:00-03:00"},
+        {"url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html", "medio": "CNBC", "titulo": "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation", "fecha_publicacion": "2026-11-12", "consultado": "2026-11-14T12:00:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "El comunicado de Nvidia no da motivos; la relación con la presunta espía viene de la prensa (FT, NYT, Reuters vía CNBC). China negó las acusaciones según otras coberturas no abiertas. CNBC cita una fuente que dice que el directorio lo desplazó, en contraste con la palabra «renuncia». Posible superposición con el investigador de tecnología."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "Brasil: Lula, reelecto para un cuarto mandato",
+      "bajada": "",
+      "cuerpo": "Lula da Silva le ganó el balotaje del 25 de octubre a Flávio Bolsonaro, el candidato que había apoyado Milei, con 51,76% contra 48,24%, y asumirá el 5 de enero de 2027. Analistas citados por Forbes señalan que tras el resultado los bonos argentinos rindieron peor que los de otros emergentes.",
+      "fecha_acontecimiento": "2026-10-25",
+      "importancia": 2,
+      "datos_clave": [
+        "Lula 51,76% (64,1 millones de votos) - Flávio Bolsonaro 48,24% (TSE)",
+        "Primera vuelta del 4/10: Flávio 47,03%, Lula 45,16%",
+        "Intercambio bilateral enero-septiembre 2026: US$ 21.794 millones (INDEC vía Forbes)"
+      ],
+      "fuentes": [
+        {"url": "https://www.forbesargentina.com/today/lula-vencio-flavio-bolsonaro-asumira-su-cuarto-mandato-presidencial-significa-argentina-n101068/amp", "medio": "Forbes Argentina", "titulo": "Lula venció a Flávio Bolsonaro y asumirá su cuarto mandato presidencial: qué significa para la Argentina", "fecha_publicacion": "2026-10-26", "consultado": "2026-11-14T12:01:00-03:00"},
+        {"url": "https://noticias.perfil.com/noticias/internacionales/el-batacazo-de-lula-por-que-gano-y-que-significa-para-milei.phtml", "medio": "Noticias (Perfil)", "titulo": "El batacazo de Lula: por qué ganó y qué significa para Milei", "fecha_publicacion": "2026-10-26", "consultado": "2026-11-14T12:02:00-03:00"}
+      ],
+      "verificado_en_dos_fuentes": true,
+      "tipo": "hecho",
+      "incertidumbres": "Fuera de la ventana; ya no es noticia dominante, se incluye como cierre del tema anticipado en la edición del 12/10. Flávio anunció que pediría la anulación, pero no se encontró novedad judicial verificable en noviembre. El dato sobre bonos argentinos es análisis de Criteria citado por Forbes (5/11)."
+    },
+    {
+      "seccion": "breve",
+      "titulo_sugerido": "Se viene otro fin de semana largo",
+      "bajada": "",
+      "cuerpo": "El feriado por el Día de la Soberanía Nacional (viernes 20) se traslada al lunes 23 de noviembre, lo que arma un fin de semana largo del sábado 21 al lunes 23. Es el segundo del mes, después del de la visita papal.",
+      "fecha_acontecimiento": "2026-11-23",
+      "importancia": 2,
+      "datos_clave": [
+        "Feriado trasladable: 20/11 pasa al lunes 23/11",
+        "Fin de semana largo del 21 al 23 de noviembre"
+      ],
+      "fuentes": [
+        {"url": "https://www.lanacion.com.ar/feriados/2026/noviembre/", "medio": "La Nación", "titulo": "Feriados en noviembre de 2026", "fecha_publicacion": "2026-11-14", "consultado": "2026-11-14T12:10:00-03:00"}      ],
+      "verificado_en_dos_fuentes": false,
+      "tipo": "hecho",
+      "incertidumbres": "Abierta sólo la página de La Nación (página de servicio sin fecha visible; se usa la fecha de consulta). Perfil, C5N y otros coinciden según el buscador, pero no se abrieron. No se consultó el decreto de feriados 2026 en el Boletín Oficial."
+    }
+  ]
+}

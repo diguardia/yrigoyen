@@ -96,7 +96,7 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
 .principal .kicker { font-size: 7.2pt; }
 .principal .tit { font-size: 25pt; line-height: 1.02; margin-bottom: 1.6mm; }
 .principal .bajada { font-size: 11pt; border-bottom: 0.5pt solid var(--negro); padding-bottom: 1.6mm; margin-bottom: 1.8mm; }
-.principal .cuerpo { flex: 1 1 auto; min-height: 0; column-count: 2; column-gap: var(--col-gap); column-fill: auto; column-rule: 0.3pt solid #bbb; font-size: 9.6pt; }
+.principal .cuerpo { flex: 0 1 auto; min-height: 0; column-count: 2; column-gap: var(--col-gap); column-fill: balance; column-rule: 0.3pt solid #bbb; font-size: 9.6pt; }
 .secundarias { border-left: 0.5pt solid var(--negro); padding-left: 3mm; min-height: 0; overflow: hidden; }
 .secundarias h3 { font-family: var(--sans); font-size: 7pt; letter-spacing: 0.1em; text-transform: uppercase; margin: 0 0 1.4mm; color: var(--gris-texto); }
 .sec { margin-bottom: 2.2mm; break-inside: avoid; }
@@ -187,3 +187,13 @@ p { margin: 0 0 0.55em; text-align: justify; hyphens: auto; -webkit-hyphens: aut
 .chart-infl { margin: 1.5mm 0 1mm; } .chart-infl .chart { width: 100%; }
 .clima .tabla tr.obs td { color: var(--gris-texto); font-style: italic; }
 .contra .art.lit p.fuente { font-size: 0.74em; text-align: left; }
+/* Segunda nota de portada, bajo la principal */
+.col-principal { display: flex; flex-direction: column; min-height: 0; }
+.segunda { border-top: 1.2pt solid var(--negro); margin-top: 2.5mm; padding-top: 1.5mm; }
+.segunda .tit { font-size: 15pt; line-height: 1.08; margin-bottom: 1mm; }
+.segunda .bajada { font-size: 10pt; margin-bottom: 1.2mm; }
+.segunda .cuerpo { column-count: 2; column-gap: var(--col-gap); column-fill: balance; column-rule: 0.3pt solid #bbb; font-size: 9.4pt; }
+.fuente.sin-prefijo::before { content: ''; }
+.col-principal > .principal { flex: 0 0 auto; }
+.col-principal > .principal .cuerpo { flex: none; }
+.col-principal > .segunda { flex: 0 1 auto; min-height: 0; }
